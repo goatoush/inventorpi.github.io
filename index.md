@@ -1,1 +1,4 @@
-# Index
+---
+layout: default
+---
+Inventor Pi is a student-led STEM initiative focused on making hands-on invention more accessible for teachers and students. The goal is to help students move from simply learning about technology to actually building technology that can solve real problems.
