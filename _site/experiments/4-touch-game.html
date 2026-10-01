@@ -1,0 +1,638 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+
+    .site-nav > ul.nav-list:first-child > li > a,
+    
+    .site-nav > ul.nav-list:first-child > li > ul > li:not(:nth-child(4)) > a,
+    .site-nav > ul.nav-list:first-child > li > ul > li > ul > li a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:not(:first-child) a,
+    .site-nav li.external a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:first-child > li:nth-child(2) > ul > li:nth-child(4) > a {
+      font-weight: 600;
+      text-decoration: none;
+    }.site-nav > ul.nav-list:first-child > li:nth-child(2) > button svg,
+    .site-nav > ul.nav-list:first-child > li:nth-child(2) > ul > li:nth-child(4) > button svg {
+      transform: rotate(-90deg);
+    }.site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(2) > ul.nav-list,
+    .site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(2) > ul.nav-list > li.nav-list-item:nth-child(4) > ul.nav-list {
+      display: block;
+    }
+  </style>
+
+  
+
+  
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Touch Game | Inventor Pi</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Touch Game" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Making hands-on invention more accessible for teachers and students" />
+<meta property="og:description" content="Making hands-on invention more accessible for teachers and students" />
+<link rel="canonical" href="http://localhost:4000/experiments/4-touch-game.html" />
+<meta property="og:url" content="http://localhost:4000/experiments/4-touch-game.html" />
+<meta property="og:site_name" content="Inventor Pi" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Touch Game" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Making hands-on invention more accessible for teachers and students","headline":"Touch Game","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/inventor-pi-logo.png"}},"url":"http://localhost:4000/experiments/4-touch-game.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <meta name="author" content="Utshaho Gupta">
+<meta property="og:title" content="Touch Game">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <header class="side-bar">
+  <div class="site-header">
+    <a href="/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Inventor Pi"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Getting Started submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/getting-started/" class="nav-list-link">Getting Started</a><ul class="nav-list"><li class="nav-list-item"><a href="/getting-started/install-thonny-app.html" class="nav-list-link">Install Thonny App</a></li><li class="nav-list-item"><a href="/getting-started/kit-contents.html" class="nav-list-link">Kit Contents</a></li><li class="nav-list-item"><a href="/getting-started/additional-sensors.html" class="nav-list-link">Additional Sensors</a></li><li class="nav-list-item"><a href="/getting-started/breadboard-wiring-basics.html" class="nav-list-link">Breadboard Wiring Basics</a></li><li class="nav-list-item"><a href="/getting-started/breadboard-wiring.html" class="nav-list-link">Breadboard Wiring</a></li><li class="nav-list-item"><a href="/getting-started/gpio-pinout.html" class="nav-list-link">GPIO Pinout</a></li><li class="nav-list-item"><a href="/getting-started/important-dos-and-donts.html" class="nav-list-link">Important Do’s and Don’ts</a></li><li class="nav-list-item"><a href="/getting-started/connect-pico.html" class="nav-list-link">Connect Pico</a></li><li class="nav-list-item"><a href="/getting-started/reading-code.html" class="nav-list-link">Reading Code</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="Experiments submenu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/experiments/" class="nav-list-link">Experiments</a><ul class="nav-list"><li class="nav-list-item"><a href="/experiments/1-blink.html" class="nav-list-link">Blink</a></li><li class="nav-list-item"><a href="/experiments/2-humidity-temp-sensor.html" class="nav-list-link">Humidity Temp Sensor</a></li><li class="nav-list-item"><a href="/experiments/3-melody.html" class="nav-list-link">Melody</a></li><li class="nav-list-item"><a href="/experiments/4-touch-game.html" class="nav-list-link">Touch Game</a></li><li class="nav-list-item"><a href="/experiments/5-distance-sensor.html" class="nav-list-link">Distance Sensor</a></li><li class="nav-list-item"><a href="/experiments/6-piano.html" class="nav-list-link">Piano</a></li><li class="nav-list-item"><a href="/experiments/7-joystick-and-servos.html" class="nav-list-link">Joystick and Servos</a></li><li class="nav-list-item"><a href="/experiments/8-microphone-sensor.html" class="nav-list-link">Microphone Sensor</a></li><li class="nav-list-item"><a href="/experiments/9-accelerometer.html" class="nav-list-link">Accelerometer</a></li><li class="nav-list-item"><a href="/experiments/10-crash-sensor.html" class="nav-list-link">Crash Sensor</a></li><li class="nav-list-item"><a href="/experiments/11-knock-sensor.html" class="nav-list-link">Knock Sensor</a></li><li class="nav-list-item"><a href="/experiments/12-motion-sensor.html" class="nav-list-link">Motion Sensor</a></li><li class="nav-list-item"><a href="/experiments/13-photo-interrupter.html" class="nav-list-link">Photo Interrupter</a></li><li class="nav-list-item"><a href="/experiments/14-photoresistor.html" class="nav-list-link">Photoresistor</a></li><li class="nav-list-item"><a href="/experiments/15-potentiometer-and-servo.html" class="nav-list-link">Potentiometer and Servo</a></li><li class="nav-list-item"><a href="/experiments/16-bluetooth-advertise.html" class="nav-list-link">Bluetooth Advertise</a></li><li class="nav-list-item"><a href="/experiments/17-mix-and-match.html" class="nav-list-link">Mix and Match</a></li></ul></li><li class="nav-list-item"><a href="/lesson-plan-for-teachers/" class="nav-list-link">Lesson Plan for Teachers</a></li><li class="nav-list-item"><a href="/contact.html" class="nav-list-link">Contact Us</a></li></ul>
+  <ul class="nav-list"><li class="nav-list-item external">
+          <a href="https://github.com/goatoush/inventor-pi" class="nav-list-link external"
+            
+              target="_blank" rel="noopener noreferrer"
+            
+          >
+            Inventor Pi on GitHub
+            <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>
+          </a>
+        </li></ul>
+</nav>
+
+
+<div class="d-md-block d-none site-footer">
+  
+  
+    Making hands-on invention more accessible for teachers and students
+  
+  </div>
+</header>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Inventor Pi" autocomplete="off">
+    <label for="search-input" class="search-label">
+      <span class="sr-only">Search Inventor Pi</span>
+      <svg viewBox="0 0 24 24" class="search-icon" aria-hidden="true"><use xlink:href="#svg-search"></use></svg>
+    </label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/experiments/">Experiments</a></li>
+    <li class="breadcrumb-nav-list-item"><span>Touch Game</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 id="touch-game">
+  
+  
+    <a href="#touch-game" class="anchor-heading" aria-labelledby="touch-game"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Touch Game
+  
+  
+</h1>
+    
+
+<p><img src="/assets/images/circuits/Touch%20Game%20Circuit.jpg" alt="Touch Game" /></p>
+
+<p>A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close. Humans are full of water and salt, making the body a natural conductor of electricity. It is used in smartphones for multi-touch navigation and gesture detection. In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen.</p>
+
+<p>To read the sensor, we run:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
+
+<span class="n">touch_sensor</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">28</span><span class="p">,</span> <span class="n">Pin</span><span class="p">.</span><span class="n">IN</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">touch_sensor</span><span class="p">.</span><span class="n">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Touch Detected"</span><span class="p">)</span>
+        <span class="k">while</span> <span class="n">touch_sensor</span><span class="p">.</span><span class="n">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> <span class="k">pass</span> <span class="c1"># wait until touch is not detected
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"No Touch"</span><span class="p">)</span>
+</pre></td></tr></tbody></table></div></code></pre></div></div>
+
+<p>For this game, we learn to draw on the OLED screen, using oled.display.ellipse to draw a circle, and oled.display.fill_rect to draw a rectangle. The function below draws happy or sad face based on the parameters passed to it.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">draw_face</span><span class="p">(</span><span class="n">text_line_1</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="n">text_line_2</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="n">happy</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">sad</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">inverted</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span>
+    <span class="n">center_x</span> <span class="o">=</span> <span class="mi">64</span>
+    <span class="n">center_y</span> <span class="o">=</span> <span class="mi">42</span>
+    <span class="n">face_radius</span> <span class="o">=</span> <span class="mi">20</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">inverted</span> <span class="k">else</span> <span class="mi">1</span> <span class="c1"># default white color, black if inverted == True
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">fill</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="n">text_line_1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># line 1 text
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="n">text_line_2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">56</span><span class="p">)</span> <span class="c1"># line 2 text
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span><span class="p">,</span> <span class="n">center_y</span><span class="p">,</span> <span class="n">face_radius</span><span class="p">,</span> <span class="n">face_radius</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># face circle
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">7</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">-</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span> <span class="c1"># left eye
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span> <span class="o">+</span> <span class="mi">7</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">-</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span> <span class="c1"># right eye
+</span>    <span class="k">if</span> <span class="n">happy</span><span class="p">:</span>
+        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span><span class="p">,</span> <span class="n">center_y</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="mh">0x4</span> <span class="o">|</span> <span class="mh">0x8</span><span class="p">)</span> <span class="c1"># happy face semi-circle
+</span>        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">fill_rect</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">11</span><span class="p">,</span> <span class="n">center_y</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">color</span><span class="p">)</span> <span class="c1"># erase part of semi-circle
+</span>    <span class="k">elif</span> <span class="n">sad</span><span class="p">:</span>
+        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">+</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="mh">0x1</span> <span class="o">|</span> <span class="mh">0x2</span><span class="p">)</span> <span class="c1"># sad face semi-circle
+</span>        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">fill_rect</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">11</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">+</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">color</span><span class="p">)</span> <span class="c1"># erase part of semi-circle
+</span>    <span class="k">else</span><span class="p">:</span>
+        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">hline</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">10</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">+</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="p">)</span> <span class="c1"># flat face line
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</pre></td></tr></tbody></table></div></code></pre></div></div>
+
+<p>The main loop of our game is easy to follow because it calls easy to understand function names.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td><td class="rouge-code"><pre>    <span class="n">oled</span><span class="p">.</span><span class="k">print</span><span class="p">(</span><span class="s">"Touch when you"</span><span class="p">,</span> <span class="s">"see happy face"</span><span class="p">)</span> <span class="c1"># show instructions at start
+</span>    <span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+
+        <span class="c1"># Step 1: Start game
+</span>        <span class="n">start_game</span><span class="p">()</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="n">uniform</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">7.0</span><span class="p">))</span> <span class="c1"># wait for random time between 2 and 7 seconds
+</span>
+        <span class="c1"># Step 2: After a random time from 2 to 7 sec, switch to happy face with label Touch Now
+</span>        <span class="n">draw_face</span><span class="p">(</span><span class="n">happy</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">text_line_1</span><span class="o">=</span><span class="s">"Touch now"</span><span class="p">)</span>
+        <span class="n">start_time</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
+
+        <span class="c1"># Step 3: Wait for touch and show result or false start
+</span>        <span class="n">wait_for_touch</span><span class="p">()</span>
+
+        <span class="c1"># Step 6: Wait 3 seconds, then show touch to play again
+</span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+        <span class="n">show_touch_to_play_again</span><span class="p">()</span>
+</pre></td></tr></tbody></table></div></code></pre></div></div>
+
+<p>Create a new file in Thonny, with file name touch_game.py. Copy and paste the code below into the file you created.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+</pre></td><td class="rouge-code"><pre><span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Touch Game"</span><span class="p">)</span>
+
+<span class="c1"># DESCRIPTION
+</span>
+<span class="c1"># A capacitive touch sensor detects a touch by measuring changes in electrical charge 
+# when a human finger comes close. Humans are full of water and salt, making the body 
+# a natural conductor of electricity. It is used in smartphones for multi-touch 
+# navigation and gesture detection. In this script, we create a short game to test 
+# your reaction time, while also learning how to draw shapes on the OLED screen.
+</span>
+<span class="c1"># CONNECTIONS REQUIRED
+</span>
+<span class="c1"># Connect Touch Sensor module (blue board with concentric circles)
+#   Pins: GND =&gt; GND, VCC =&gt; VCC, SIG =&gt; GP28
+</span>
+<span class="kn">from</span> <span class="nn">buzzer</span> <span class="kn">import</span> <span class="n">Buzzer</span>
+<span class="kn">from</span> <span class="nn">oled</span> <span class="kn">import</span> <span class="n">OLED</span>
+<span class="kn">from</span> <span class="nn">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
+<span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span><span class="p">,</span> <span class="n">ticks_ms</span><span class="p">,</span> <span class="n">ticks_diff</span>
+<span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">uniform</span><span class="p">,</span> <span class="n">choice</span>
+
+<span class="n">buzzer</span> <span class="o">=</span> <span class="n">Buzzer</span><span class="p">(</span><span class="n">pwm_pin</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
+<span class="n">oled</span> <span class="o">=</span> <span class="n">OLED</span><span class="p">(</span><span class="n">scl_pin</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">sda_pin</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">touch_sensor</span> <span class="o">=</span> <span class="n">Pin</span><span class="p">(</span><span class="mi">28</span><span class="p">,</span> <span class="n">Pin</span><span class="p">.</span><span class="n">IN</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">draw_face</span><span class="p">(</span><span class="n">text_line_1</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="n">text_line_2</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="n">happy</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">sad</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">inverted</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span>
+    <span class="n">center_x</span> <span class="o">=</span> <span class="mi">64</span>
+    <span class="n">center_y</span> <span class="o">=</span> <span class="mi">42</span>
+    <span class="n">face_radius</span> <span class="o">=</span> <span class="mi">20</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">inverted</span> <span class="k">else</span> <span class="mi">1</span> <span class="c1"># default white color, black if inverted == True
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">fill</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="n">text_line_1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># line 1 text
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">text</span><span class="p">(</span><span class="n">text_line_2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">56</span><span class="p">)</span> <span class="c1"># line 2 text
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span><span class="p">,</span> <span class="n">center_y</span><span class="p">,</span> <span class="n">face_radius</span><span class="p">,</span> <span class="n">face_radius</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># face circle
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">7</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">-</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span> <span class="c1"># left eye
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span> <span class="o">+</span> <span class="mi">7</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">-</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span> <span class="c1"># right eye
+</span>    <span class="k">if</span> <span class="n">happy</span><span class="p">:</span>
+        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span><span class="p">,</span> <span class="n">center_y</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="mh">0x4</span> <span class="o">|</span> <span class="mh">0x8</span><span class="p">)</span> <span class="c1"># happy face semi-circle
+</span>        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">fill_rect</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">11</span><span class="p">,</span> <span class="n">center_y</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">color</span><span class="p">)</span> <span class="c1"># erase part of semi-circle
+</span>    <span class="k">elif</span> <span class="n">sad</span><span class="p">:</span>
+        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">ellipse</span><span class="p">(</span><span class="n">center_x</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">+</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="mh">0x1</span> <span class="o">|</span> <span class="mh">0x2</span><span class="p">)</span> <span class="c1"># sad face semi-circle
+</span>        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">fill_rect</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">11</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">+</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">color</span><span class="p">)</span> <span class="c1"># erase part of semi-circle
+</span>    <span class="k">else</span><span class="p">:</span>
+        <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">hline</span><span class="p">(</span><span class="n">center_x</span> <span class="o">-</span> <span class="mi">10</span><span class="p">,</span> <span class="n">center_y</span> <span class="o">+</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">color</span><span class="p">)</span> <span class="c1"># flat face line
+</span>    <span class="n">oled</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">show_false_start</span><span class="p">():</span>
+    <span class="n">oled</span><span class="p">.</span><span class="k">print</span><span class="p">(</span><span class="s">"Touched"</span><span class="p">,</span> <span class="s">"too early"</span><span class="p">,</span> <span class="s">""</span><span class="p">,</span> <span class="s">"Try again"</span><span class="p">)</span>
+    <span class="n">buzzer</span><span class="p">.</span><span class="n">play_tone</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">show_result</span><span class="p">(</span><span class="n">reaction_time</span><span class="p">):</span>
+    <span class="c1"># Show result if ended before timeout
+</span>    <span class="k">if</span> <span class="n">reaction_time</span> <span class="o">&lt;</span> <span class="mi">2000</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">reaction_time</span> <span class="o">&lt;</span> <span class="mi">200</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">choice</span><span class="p">([</span><span class="s">"Impossible"</span><span class="p">,</span> <span class="s">"Lightning"</span><span class="p">,</span> <span class="s">"Aced it"</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">reaction_time</span> <span class="o">&lt;</span> <span class="mi">400</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">choice</span><span class="p">([</span><span class="s">"Super"</span><span class="p">,</span> <span class="s">"Amazing"</span><span class="p">,</span> <span class="s">"Not bad"</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">reaction_time</span> <span class="o">&lt;</span> <span class="mi">1000</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">choice</span><span class="p">([</span><span class="s">"Do better"</span><span class="p">,</span> <span class="s">"Step it up"</span><span class="p">,</span> <span class="s">"Try harder"</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">choice</span><span class="p">([</span><span class="s">"Zzzzzzzz"</span><span class="p">,</span> <span class="s">"Snail speed"</span><span class="p">,</span> <span class="s">"Too slow"</span><span class="p">])</span>
+        <span class="n">draw_face</span><span class="p">(</span><span class="n">happy</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">inverted</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">text_line_1</span><span class="o">=</span><span class="n">result</span><span class="p">,</span> <span class="n">text_line_2</span><span class="o">=</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">reaction_time</span><span class="o">/</span><span class="mi">1000</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="s">s"</span><span class="p">)</span>
+        <span class="n">buzzer</span><span class="p">.</span><span class="n">play_melody</span><span class="p">(</span><span class="s">"E4 0.1"</span><span class="p">,</span> <span class="s">"F4 0.1"</span><span class="p">,</span> <span class="s">"A4 0.3"</span><span class="p">)</span>
+
+    <span class="c1"># Show sad face if timed out
+</span>    <span class="k">else</span><span class="p">:</span>
+        <span class="n">draw_face</span><span class="p">(</span><span class="n">sad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">inverted</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">text_line_1</span><span class="o">=</span><span class="s">"Too late"</span><span class="p">)</span>
+        <span class="n">buzzer</span><span class="p">.</span><span class="n">play_melody</span><span class="p">(</span><span class="s">"F4 0.3"</span><span class="p">,</span> <span class="s">"E4 0.3"</span><span class="p">,</span> <span class="s">"C4 0.8"</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">start_game</span><span class="p">():</span>
+    <span class="n">buzzer</span><span class="p">.</span><span class="n">play_tone</span><span class="p">(</span><span class="mi">600</span><span class="p">)</span>
+    <span class="n">draw_face</span><span class="p">(</span><span class="n">text_line_1</span><span class="o">=</span><span class="s">"Get ready"</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">wait_for_touch</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">start_time</span>
+    <span class="n">draw_face</span><span class="p">(</span><span class="n">happy</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">text_line_1</span><span class="o">=</span><span class="s">"Touch now"</span><span class="p">)</span>
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
+    <span class="c1"># If already touching at the start, show false start
+</span>    <span class="k">if</span> <span class="n">touch_sensor</span><span class="p">.</span><span class="n">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> <span class="n">show_false_start</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># Loop until either touched or 2 seconds have passed
+</span>        <span class="k">while</span> <span class="n">touch_sensor</span><span class="p">.</span><span class="n">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">ticks_diff</span><span class="p">(</span><span class="n">ticks_ms</span><span class="p">(),</span> <span class="n">start_time</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2000</span><span class="p">:</span> <span class="k">pass</span>
+
+        <span class="c1"># Measure time elapsed as reaction time and show result
+</span>        <span class="n">end_time</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
+        <span class="n">reaction_time</span> <span class="o">=</span> <span class="n">ticks_diff</span><span class="p">(</span><span class="n">end_time</span><span class="p">,</span> <span class="n">start_time</span><span class="p">)</span>
+        <span class="n">show_result</span><span class="p">(</span><span class="n">reaction_time</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">show_touch_to_play_again</span><span class="p">():</span>
+    <span class="n">oled</span><span class="p">.</span><span class="k">print</span><span class="p">(</span><span class="s">"Touch to"</span><span class="p">,</span> <span class="s">"play again"</span><span class="p">)</span>
+    <span class="k">while</span> <span class="n">touch_sensor</span><span class="p">.</span><span class="n">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="k">pass</span> <span class="c1"># wait until touched, which completes the loop cycle and the loop will repeat indefinitely
+</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">oled</span><span class="p">.</span><span class="k">print</span><span class="p">(</span><span class="s">"Touch when you"</span><span class="p">,</span> <span class="s">"see happy face"</span><span class="p">)</span> <span class="c1"># show instructions at start
+</span>    <span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+
+        <span class="c1"># Step 1: Start game
+</span>        <span class="n">start_game</span><span class="p">()</span>
+        <span class="n">sleep</span><span class="p">(</span><span class="n">uniform</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">7.0</span><span class="p">))</span> <span class="c1"># wait for random time between 2 and 7 seconds
+</span>
+        <span class="c1"># Step 2: After a random time from 2 to 7 sec, switch to happy face with label Touch Now
+</span>        <span class="n">draw_face</span><span class="p">(</span><span class="n">happy</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">text_line_1</span><span class="o">=</span><span class="s">"Touch now"</span><span class="p">)</span>
+        <span class="n">start_time</span> <span class="o">=</span> <span class="n">ticks_ms</span><span class="p">()</span>
+
+        <span class="c1"># Step 3: Wait for touch and show result or false start
+</span>        <span class="n">wait_for_touch</span><span class="p">()</span>
+
+        <span class="c1"># Step 6: Wait 3 seconds, then show touch to play again
+</span>        <span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+        <span class="n">show_touch_to_play_again</span><span class="p">()</span>
+
+<span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Interrupted by user!"</span><span class="p">)</span>
+
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">oled</span><span class="p">.</span><span class="n">reset</span><span class="p">()</span>
+    <span class="n">buzzer</span><span class="p">.</span><span class="n">reset</span><span class="p">()</span>
+</pre></td></tr></tbody></table></div></code></pre></div></div>
+
+          
+
+          
+            
+          
+        </main>
+        
+<hr>
+<footer>
+  
+    <p><a href="#top" id="back-to-top">Back to top</a></p>
+  
+
+  
+
+<div class="nav-pagination" style="display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+  <div><a href="/experiments/3-melody.html" class="btn btn-outline" style="text-align: left;">
+        <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">← Previous</span>
+        <strong>Melody</strong>
+      </a></div>
+  <div><a href="/experiments/5-distance-sensor.html" class="btn btn-outline" style="text-align: right;">
+        <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Next →</span>
+        <strong>Distance Sensor</strong>
+      </a></div>
+</div>
+
+<script src="/assets/js/main.js"></script>
+
+  <div class="d-md-none mt-4 fs-2">
+    
+    
+      Making hands-on invention more accessible for teachers and students
+    
+  </div>
+</footer>
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+</body>
+</html>
+
+
