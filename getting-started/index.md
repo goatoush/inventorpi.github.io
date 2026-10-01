@@ -28,7 +28,7 @@ You can streamline the process by installing Thonny app on all computers before 
 1. Connect the components as described before connecting Pico to power supply
 1. Verify all the connections are to the correct Pins, especially the VCC and GND connections
 1. Connect the Raspberry Pi Pico to the battery pack with the provided USB cable
-1. Toggle the switch on the battery pack to ON
+1. Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty)
 1. On the breadboard, press the blue button 🔵 once to launch the menu on the OLED screen
 1. Use the yellow button 🟡 to move forward to the next experiment and green 🟢 to move back
 1. Once you reach the experiment you are trying to run, press the blue button 🔵 to launch it

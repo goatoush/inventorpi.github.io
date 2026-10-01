@@ -146,12 +146,12 @@
     
     "relUrl": "/about.html"
   },"21": {
-    "doc": "Additional Sensors",
-    "title": "Additional Sensors",
+    "doc": "Additional Sensors Kit",
+    "title": "Additional Sensors Kit",
     "content": ". ",
-    "url": "/getting-started/additional-sensors.html",
+    "url": "/getting-started/additional-sensors-kit.html",
     
-    "relUrl": "/getting-started/additional-sensors.html"
+    "relUrl": "/getting-started/additional-sensors-kit.html"
   },"22": {
     "doc": "Breadboard Wiring Basics",
     "title": "Breadboard Wiring Basics",
@@ -162,17 +162,17 @@
   },"23": {
     "doc": "Breadboard Wiring",
     "title": "Breadboard Wiring",
-    "content": ". ",
+    "content": ". There is now a resettable fuse on the breadboard (not included in the image above, see below) which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. But incorrectly wiring a sensor can cause it to heat up, destroying sensitive electronics. The Do’s and Don’ts section covers important points to keep in mind. A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard + rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard + rail) to GND (breadboard - rail), it trips, preventing damage to the electronics. A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself. The students should verify all the connections and resume the experiment. ",
     "url": "/getting-started/breadboard-wiring.html",
     
     "relUrl": "/getting-started/breadboard-wiring.html"
   },"24": {
-    "doc": "Connect Pico",
-    "title": "Connect Pico",
-    "content": ". Make sure your Pico is connected to the computer via the USB cable. Every time you connect the Pico, expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico. If the connection is established successfully, you should see “»&gt;” as the last line in the shell window at the bottom. ",
-    "url": "/getting-started/connect-pico.html",
+    "doc": "Connect Pico to Computer",
+    "title": "Connect Pico to Computer",
+    "content": ". Connect the Pico to the computer by connecting the USB cable to the Micro USB port on the Pico and any USB-C or USB-A port on the computer. You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports. Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico) from the menu. When connected successfully, the shell window at the bottom ends with the &gt;&gt;&gt; prompt. ",
+    "url": "/getting-started/connect-pico-to-computer.html",
     
-    "relUrl": "/getting-started/connect-pico.html"
+    "relUrl": "/getting-started/connect-pico-to-computer.html"
   },"25": {
     "doc": "Contact",
     "title": "Contact",
@@ -181,12 +181,12 @@
     
     "relUrl": "/contact.html"
   },"26": {
-    "doc": "GPIO Pinout",
-    "title": "GPIO Pinout",
+    "doc": "Guide to Reading Code",
+    "title": "Guide to Reading Code",
     "content": ". ",
-    "url": "/getting-started/gpio-pinout.html",
+    "url": "/getting-started/guide-to-reading-code.html",
     
-    "relUrl": "/getting-started/gpio-pinout.html"
+    "relUrl": "/getting-started/guide-to-reading-code.html"
   },"27": {
     "doc": "Important Do’s and Don’ts",
     "title": "Important Do’s and Don’ts",
@@ -195,67 +195,74 @@
     
     "relUrl": "/getting-started/important-dos-and-donts.html"
   },"28": {
-    "doc": "Lesson Plan for Teachers",
-    "title": "Lesson Plan for Teachers",
-    "content": ". ",
-    "url": "/lesson-plan-for-teachers/",
-    
-    "relUrl": "/lesson-plan-for-teachers/"
-  },"29": {
-    "doc": "Lesson Plan for Teachers",
-    "title": "Table of Contents",
-    "content": ". | Reference Slides for the Workshop | Safety | Lesson Plan Outline | Some Additional Notes | . Teachers can run a one hour workshop with middle school students interested in STEM. Each class experiments kit includes 5 identical invention kits and one additional sensors kit. There is also a “Getting started with Micropython on Raspberry Pi Pico” book included, which is not essential to running the workshop. It is available for optional extra reading, if desired. Class Experiments Kit. Each class experiments kit includes 5 identical invention kits and one additional sensors kit. Reference Slides for the Workshop . Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation. Download Slides ↓ . Please familiarize yourself with the contents of the invention kit and the additional sensors kit. You can use the kits and the Getting Started section of this website to try out the different experiments yourself before the class. The additional sensors kit includes reward stickers that you can distribute for the best creative ideas, active participation, etc. There are also some tiny NFC nail stickers that light up when brought near a smartphone with NFC (often at the back near the top center). The first step is installing the Thonny app. Please share these instructions with the students ahead of time, so they can install the app on their laptops before the class. Safety . It is important for the students to learn how breadboard connections work and to be safe. The additional sensors kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. But incorrectly wiring a sensor can cause it to heat up, destroying sensitive electronics. The Do’s and Don’ts slide covers important points to keep in mind. When setting up the connectors, students should disconnect the USB cable from Pico, and have multiple students verify the connections before connecting the USB cable. It is useful to count the pin distance from other used pins on the board. Safety Procedure . Power Off ➔ Connect Components ➔ Verify Each Connection ➔ Power On . Lesson Plan Outline . | Introduction - Learn about electronics, breadboards, safety (10-20 min) | Divide class into 5 teams (one per invention kit) (3-5 min) | Students familiarize themselves with the invention kit components (3-5 min) | Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min) | Run random experiments from the list, and present to other teams (20-30 min) | Clean up and pack the kits (5-7 min) | . Some Additional Notes . | To facilitate running additional workshops in future, students should pack the contents back into the boxes the way they found them. | If teams have more than 3 students, they can take turns reading about an experiment and running an experiment. | When students borrow sensors from the additional sensors kit, they should return the sensors after their experiment so other teams can borrow them. | Some experiments work in pairs, requiring 2 teams to collaborate using two Picos at the same time (Microphone sensor and melody, and bluetooth advertise and scan). | Bluetooth advertise and scan should be a fun experiment for the entire class, where all the devices synchronize their LED colors to match one advertising device. You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out. | . ",
-    "url": "/lesson-plan-for-teachers/#table-of-contents",
-    
-    "relUrl": "/lesson-plan-for-teachers/#table-of-contents"
-  },"30": {
     "doc": "Getting Started",
     "title": "Getting Started",
     "content": "This is a companion guide to the class experiments kit shown below. You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller. This is a fun hands-on way to get introduced to electronics, programming and engineering. Check your class experiments kit. It includes 5 identical invention kits and one additional sensors kit. Before we can start the experiments, we need a way to write and deploy the code to Pico. To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it. If that is not feasible, we install it on at least one computer per team. If Thonny cannot be installed at all, we can use the alternate method below to run the experiments. You can streamline the process by installing Thonny app on all computers before the workshop. ",
     "url": "/getting-started/",
     
     "relUrl": "/getting-started/"
-  },"31": {
+  },"29": {
     "doc": "Getting Started",
     "title": "How to Run Experiments with Thonny",
     "content": ". | Launch Thonny App on your computer, if it is not already running | Read the guide and the code for the experiment on this website and create a new file as described | Connect the components as described before connecting Pico to power supply | Verify all the connections are to the correct Pins, especially the VCC and GND connections | Connect the Raspberry Pi Pico to the computer with the provided USB cable | Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico | Save the file and run the script using the green ‘Current Run Script’ button | To end the experiment, disconnect the USB cable from Pico | To select another experiment, repeat the steps above | . ",
     "url": "/getting-started/#how-to-run-experiments-with-thonny",
     
     "relUrl": "/getting-started/#how-to-run-experiments-with-thonny"
-  },"32": {
+  },"30": {
     "doc": "Getting Started",
     "title": "Alternate Method to Run Experiments without Thonny",
-    "content": ". | Read the guide and the code for the experiment on this website but skip creating a file | Connect the components as described before connecting Pico to power supply | Verify all the connections are to the correct Pins, especially the VCC and GND connections | Connect the Raspberry Pi Pico to the battery pack with the provided USB cable | Toggle the switch on the battery pack to ON | On the breadboard, press the blue button 🔵 once to launch the menu on the OLED screen | Use the yellow button 🟡 to move forward to the next experiment and green 🟢 to move back | Once you reach the experiment you are trying to run, press the blue button 🔵 to launch it | To end the experiment, disconnect the USB cable from Pico | To select another experiment, repeat the steps above | . ",
+    "content": ". | Read the guide and the code for the experiment on this website but skip creating a file | Connect the components as described before connecting Pico to power supply | Verify all the connections are to the correct Pins, especially the VCC and GND connections | Connect the Raspberry Pi Pico to the battery pack with the provided USB cable | Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty) | On the breadboard, press the blue button 🔵 once to launch the menu on the OLED screen | Use the yellow button 🟡 to move forward to the next experiment and green 🟢 to move back | Once you reach the experiment you are trying to run, press the blue button 🔵 to launch it | To end the experiment, disconnect the USB cable from Pico | To select another experiment, repeat the steps above | . ",
     "url": "/getting-started/#alternate-method-to-run-experiments-without-thonny",
     
     "relUrl": "/getting-started/#alternate-method-to-run-experiments-without-thonny"
-  },"33": {
+  },"31": {
     "doc": "Experiments",
     "title": "Experiments",
     "content": "Write your first script “blink.py” by following the instructions below. Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment. After that, try random experiments from the list below. Some experiments need additional sensors from the common additional sensors kit to be shared by all teams. The complete code for all the experiments is also available on GitHub. ",
     "url": "/experiments/",
     
     "relUrl": "/experiments/"
-  },"34": {
+  },"32": {
     "doc": "Install Thonny App",
     "title": "Install Thonny App",
-    "content": ". ",
+    "content": ". Installation Steps . | Download and Install Thonny (with Python) from thonny.org | Choose the Installer with Python for your Operating System and Processor (the best option should already be highlighted as recommended for you) | If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway | To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from the drop down and click OK | . ",
     "url": "/getting-started/install-thonny-app.html",
     
     "relUrl": "/getting-started/install-thonny-app.html"
+  },"33": {
+    "doc": "Invention Kit Contents",
+    "title": "Invention Kit Contents",
+    "content": ". ",
+    "url": "/getting-started/invention-kit-contents.html",
+    
+    "relUrl": "/getting-started/invention-kit-contents.html"
+  },"34": {
+    "doc": "Lesson Plan for Teachers",
+    "title": "Lesson Plan for Teachers",
+    "content": ". ",
+    "url": "/lesson-plan-for-teachers.html",
+    
+    "relUrl": "/lesson-plan-for-teachers.html"
   },"35": {
-    "doc": "Kit Contents",
-    "title": "Kit Contents",
-    "content": ". ",
-    "url": "/getting-started/kit-contents.html",
+    "doc": "Lesson Plan for Teachers",
+    "title": "Table of Contents",
+    "content": ". | Reference Slides for the Workshop | Safety | Lesson Plan Outline | Some Additional Notes | Class Experiments Kit Contents | . Teachers can run a one hour workshop with middle school students interested in STEM. Each class experiments kit includes 5 identical invention kits and one additional sensors kit. There is also a “Getting started with Micropython on Raspberry Pi Pico” book included, which is not essential to running the workshop. It is available for optional extra reading, if desired. Class Experiments Kit. Each class experiments kit includes 5 identical invention kits and one additional sensors kit. Reference Slides for the Workshop . Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation. Download Slides ↓ . Please familiarize yourself with the contents of the invention kit and the additional sensors kit. You can use the kits and the Getting Started section of this website to try out the different experiments yourself before the class. The additional sensors kit includes reward stickers that you can distribute for the best creative ideas, active participation, etc. There are also some tiny NFC nail stickers that light up when brought near a smartphone with NFC (often at the back near the top center). The first step is installing the Thonny app. Please share these instructions with the students ahead of time, so they can install the app on their laptops before the class. Safety . It is important for the students to learn how breadboard connections work and to be safe. The additional sensors kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. But incorrectly wiring a sensor can cause it to heat up, destroying sensitive electronics. The Do’s and Don’ts section covers important points to keep in mind. A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard + rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard + rail) to GND (breadboard - rail), it trips, preventing damage to the electronics. A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself. The students should verify all the connections and resume the experiment. When setting up the connectors, students should disconnect the USB cable from Pico, and have multiple students verify the connections before connecting the USB cable. It is useful to count the pin distance from other used pins on the board. Safety Procedure . Power Off ➔ Connect Components ➔ Verify Each Connection ➔ Power On . Lesson Plan Outline . | Introduction - Learn about electronics, breadboards, safety (10-20 min) | Divide class into 5 teams (one per invention kit) (3-5 min) | Students familiarize themselves with the invention kit components (3-5 min) | Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min) | Run random experiments from the list, and present to other teams (20-30 min) | Clean up and pack the kits (5-7 min) | . Some Additional Notes . | To facilitate running additional workshops in future, students should pack the contents back into the boxes the way they found them. | If teams have more than 3 students, they can take turns reading about an experiment and running an experiment. | When students borrow sensors from the additional sensors kit, they should return the sensors after their experiment so other teams can borrow them. | Some experiments work in pairs, requiring 2 teams to collaborate using two Picos at the same time (Microphone sensor and melody, and bluetooth advertise and scan). | Bluetooth advertise and scan should be a fun experiment for the entire class, where all the devices synchronize their LED colors to match one advertising device. You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out. | . Class Experiments Kit Contents . | Kit | Item Description | Quantity Per Kit | Total Quantity | . | 5x Invention Kit | Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen module, RGB LED Module, resettable PPTC fuse, preset connectors | 1 | 5 | . | 5x Invention Kit | Empty Battery Pack with USB-C to USB-A Adapter | 1 | 5 | . | 5x Invention Kit | AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping | 3 | 18 | . | 5x Invention Kit | Micro USB to USB-C Cable | 1 | 5 | . | 5x Invention Kit | Micro Servo Motor | 2 | 10 | . | 5x Invention Kit | Capacitive Touch Sensor | 1 | 5 | . | 5x Invention Kit | Temp &amp; Humidity Sensor | 1 | 5 | . | 5x Invention Kit | Ultrasonic Distance Sensor | 1 | 5 | . | 5x Invention Kit | Joystick Module | 1 | 5 | . | 5x Invention Kit | 10cm Jumper Wires | 20 | 100 | . | 1x Additional Sensors Kit | PIR Motion Sensor Module | 1 | 1 | . | 1x Additional Sensors Kit | Knock Sensor Module | 1 | 1 | . | 1x Additional Sensors Kit | Potentiometer Module | 1 | 1 | . | 1x Additional Sensors Kit | Microphone Sensor | 1 | 1 | . | 1x Additional Sensors Kit | Accelerometer Module | 1 | 1 | . | 1x Additional Sensors Kit | Photo Interrupter Module | 1 | 1 | . | 1x Additional Sensors Kit | Crash Sensor Module | 1 | 1 | . | 1x Additional Sensors Kit | Photoresistor Module | 1 | 1 | . | 1x Additional Sensors Kit | Rotation Encoder Module | 1 | 1 | . | 1x Additional Sensors Kit | NFC Nail Reward Stickers | 5 | 5 | . | 1x Additional Sensors Kit | Assorted Reward Stickers | 4 | 4 | . | 1x Additional Sensors Kit | Breadboard without Backing | 1 | 1 | . | 1x Book | Getting started with Micropython on Raspberry Pi Pico Book | 1 | 1 | . ",
+    "url": "/lesson-plan-for-teachers.html#table-of-contents",
     
-    "relUrl": "/getting-started/kit-contents.html"
+    "relUrl": "/lesson-plan-for-teachers.html#table-of-contents"
   },"36": {
-    "doc": "Reading Code",
-    "title": "Reading Code",
+    "doc": "Pico 2 W GPIO Pinout",
+    "title": "Raspberry Pi Pico 2 W GPIO Pinout",
     "content": ". ",
-    "url": "/getting-started/reading-code.html",
+    "url": "/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
-    "relUrl": "/getting-started/reading-code.html"
+    "relUrl": "/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"
+  },"37": {
+    "doc": "Pico 2 W GPIO Pinout",
+    "title": "Pico 2 W GPIO Pinout",
+    "content": " ",
+    "url": "/getting-started/pico-2w-gpio-pinout.html",
+    
+    "relUrl": "/getting-started/pico-2w-gpio-pinout.html"
   }
 }
