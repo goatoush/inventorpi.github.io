@@ -30,7 +30,7 @@ Please familiarize yourself with the contents of the invention kit and the addit
 {: .important }
 The first step is installing the Thonny app. Please share these [instructions](/getting-started/install-thonny-app.html) with the students ahead of time, so they can install the app on their laptops before the class.
 
-### Safety
+### Breadboard Connections and Safety
 
 It is important for the students to learn how breadboard connections work and to be safe. The additional sensors kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. But incorrectly wiring a sensor can cause it to heat up, destroying sensitive electronics. The [Do's and Don'ts section](/getting-started/important-dos-and-donts.html) covers important points to keep in mind.
 
