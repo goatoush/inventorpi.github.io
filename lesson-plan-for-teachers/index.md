@@ -14,9 +14,9 @@ nav_order: 3
 <br>
 Teachers can run a one hour workshop with middle school students interested in STEM. Each class experiments kit includes 5 identical invention kits and one additional sensors kit. There is also a "Getting started with Micropython on Raspberry Pi Pico" book included, which is not essential to running the workshop. It is available for optional extra reading, if desired.
 
-![Class Experiments Kit](/assets/images/kit.jpg)
+![Class Experiments Kit](/assets/images/class-experiments-kit.jpg)
 *Class Experiments Kit. Each class experiments kit includes 5 identical invention kits and one additional sensors kit.*
-{: .fs-2.grey-dk-100 }
+{: .fs-2.grey-dk-100.text-center }
 
 ### Reference Slides for the Workshop
 

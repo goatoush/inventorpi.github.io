@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-
+    
     // Select all links inside the main content area
     var links = document.querySelectorAll('.main-content a');
     
