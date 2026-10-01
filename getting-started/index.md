@@ -5,7 +5,7 @@ nav_order: 1
 
 This is a companion guide to the class experiments kit shown below. You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller. This is a fun hands-on way to get introduced to electronics, programming and engineering.
 
-Check your class experiments kit. It includes 5 identical invention kits and one additional sensors kit. Before we can start the experiments, we need a way to write and deploy the code to Pico. To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it. If that is not feasible, we install it on at least one computer per team. If Thonny cannot be installed at all, we can use the alternate method below to run the experiments. 
+Check your class experiments kit. It includes 5 identical inventor kits and one additional sensors kit. Before we can start the experiments, we need a way to write and deploy the code to Pico. To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it. If that is not feasible, we install it on at least one computer per team. If Thonny cannot be installed at all, we can use the alternate method below to run the experiments. 
 
 {: .note }
 You can streamline the process by installing Thonny app on all computers before the workshop.

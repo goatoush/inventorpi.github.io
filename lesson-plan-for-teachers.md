@@ -12,10 +12,10 @@ nav_order: 3
 {:toc}
 
 <br>
-Teachers can run a one hour workshop with middle school students interested in STEM. Each class experiments kit includes 5 identical invention kits and one additional sensors kit. There is also a "Getting started with Micropython on Raspberry Pi Pico" book included, which is not essential to running the workshop. It is available for optional extra reading, if desired.
+Teachers can run a one hour workshop with middle school students interested in STEM. Each class experiments kit includes 5 identical inventor kits and one additional sensors kit. There is also a "Getting started with Micropython on Raspberry Pi Pico" book included, which is not essential to running the workshop. It is available for optional extra reading, if desired.
 
 ![Class Experiments Kit](/assets/images/class-experiments-kit.jpg)
-*Class Experiments Kit. Each class experiments kit includes 5 identical invention kits and one additional sensors kit.*
+*Class Experiments Kit. Each class experiments kit includes 5 identical inventor kits and one additional sensors kit.*
 {: .fs-2.grey-dk-100.text-center }
 
 ### Reference Slides for the Workshop
@@ -25,7 +25,7 @@ Reference slides from our first workshop are included below, which you can use a
 <a title="Download Slides" href="/assets/Inventor%20Pi%20-%20Introduction%20to%20Electronics.pdf" download="Inventor Pi - Introduction to Electronics.pdf"><img style="border: solid 1px black; border-radius: 5px; overflow: hidden" width="300" src="/assets/images/slides/Inventor%20Pi%20-%20Introduction%20to%20Electronics.jpg"/>
 <br>Download Slides ↓</a>
 
-Please familiarize yourself with the contents of the invention kit and the additional sensors kit. You can use the kits and the [Getting Started](/getting-started/) section of this website to try out the different experiments yourself before the class. The additional sensors kit includes reward stickers that you can distribute for the best creative ideas, active participation, etc. There are also some tiny NFC nail stickers that light up when brought near a smartphone with NFC (often at the back near the top center).
+Please familiarize yourself with the contents of the inventor kit and the additional sensors kit. You can use the kits and the [Getting Started](/getting-started/) section of this website to try out the different experiments yourself before the class. The additional sensors kit includes reward stickers that you can distribute for the best creative ideas, active participation, etc. There are also some tiny NFC nail stickers that light up when brought near a smartphone with NFC (often at the back near the top center).
 
 {: .important }
 The first step is installing the Thonny app. Please share these [instructions](/getting-started/install-thonny-app.html) with the students ahead of time, so they can install the app on their laptops before the class.
@@ -48,8 +48,8 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 ### Lesson Plan Outline
 
 1. Introduction - Learn about electronics, breadboards, safety (10-20 min)
-1. Divide class into 5 teams (one per invention kit) (3-5 min)
-1. Students familiarize themselves with the invention kit components (3-5 min)
+1. Divide class into 5 teams (one per inventor kit) (3-5 min)
+1. Students familiarize themselves with the inventor kit components (3-5 min)
 1. Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min)
 1. Run random experiments from the list, and present to other teams (20-30 min)
 1. Clean up and pack the kits (5-7 min)
@@ -65,16 +65,16 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 
 | Kit                       | Item Description                                                                                                                                | Quantity Per Kit | Total Quantity |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------- |
-| 5x Invention Kit          | Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen module, RGB LED Module, resettable PPTC fuse, preset connectors | 1                | 5              |
-| 5x Invention Kit          | Empty Battery Pack with USB-C to USB-A Adapter                                                                                                  | 1                | 5              |
-| 5x Invention Kit          | AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping                                                                    | 3                | 18             |
-| 5x Invention Kit          | Micro USB to USB-C Cable                                                                                                                        | 1                | 5              |
-| 5x Invention Kit          | Micro Servo Motor                                                                                                                               | 2                | 10             |
-| 5x Invention Kit          | Capacitive Touch Sensor                                                                                                                         | 1                | 5              |
-| 5x Invention Kit          | Temp & Humidity Sensor                                                                                                                          | 1                | 5              |
-| 5x Invention Kit          | Ultrasonic Distance Sensor                                                                                                                      | 1                | 5              |
-| 5x Invention Kit          | Joystick Module                                                                                                                                 | 1                | 5              |
-| 5x Invention Kit          | 10cm Jumper Wires                                                                                                                               | 20               | 100            |
+| 5x Inventor Kit           | Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen module, RGB LED Module, resettable PPTC fuse, preset connectors | 1                | 5              |
+| 5x Inventor Kit           | Empty Battery Pack with USB-C to USB-A Adapter                                                                                                  | 1                | 5              |
+| 5x Inventor Kit           | AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping                                                                    | 3                | 18             |
+| 5x Inventor Kit           | Micro USB to USB-C Cable                                                                                                                        | 1                | 5              |
+| 5x Inventor Kit           | Micro Servo Motor                                                                                                                               | 2                | 10             |
+| 5x Inventor Kit           | Capacitive Touch Sensor                                                                                                                         | 1                | 5              |
+| 5x Inventor Kit           | Temp & Humidity Sensor                                                                                                                          | 1                | 5              |
+| 5x Inventor Kit           | Ultrasonic Distance Sensor                                                                                                                      | 1                | 5              |
+| 5x Inventor Kit           | Joystick Module                                                                                                                                 | 1                | 5              |
+| 5x Inventor Kit           | 10cm Jumper Wires                                                                                                                               | 20               | 100            |
 | 1x Additional Sensors Kit | PIR Motion Sensor Module                                                                                                                        | 1                | 1              |
 | 1x Additional Sensors Kit | Knock Sensor Module                                                                                                                             | 1                | 1              |
 | 1x Additional Sensors Kit | Potentiometer Module                                                                                                                            | 1                | 1              |
