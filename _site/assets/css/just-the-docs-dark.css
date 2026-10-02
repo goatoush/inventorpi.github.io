@@ -7,8 +7,9 @@ html { font-size: 1rem !important; -webkit-text-size-adjust: 100%; text-size-adj
 
 @keyframes header-shadow { from { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   to { box-shadow: 0 18px 15px -16px rgba(0, 0, 0, 0.2); } }
+.site-header { background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px); }
+
 @media (width < 50rem) { footer .d-md-none { margin-top: 1.5rem !important; padding-top: 0.25rem !important; border-top: 1px solid #eeebee !important; text-align: center !important; }
-  .site-header { background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px); }
   .side-bar + .main .main-header { display: block !important; }
   .side-bar + .main .main-header .search { display: none; }
   .side-bar + .main .main-header.nav-open .search { display: block; }
@@ -26,8 +27,9 @@ html { font-size: 1rem !important; -webkit-text-size-adjust: 100%; text-size-adj
   .site-title:hover { background-image: linear-gradient(-90deg, rgba(243, 22, 96, 0) 0%, rgba(243, 22, 96, 0.2) 50%) !important; } }
 .side-bar { background: radial-gradient(circle at bottom right, rgba(243, 22, 96, 0.25) 0%, rgba(243, 22, 96, 0) 50%), url("/assets/images/breadboard-bg.png"); }
 
-@media (min-width: 50rem) { .site-header, .main-header { border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important; }
-  .main-header { position: fixed; top: 0; z-index: 99 !important; width: 100%; max-width: 50rem; /* Link animation to the document scrolling root */ animation: header-shadow linear both; animation-timeline: scroll(root); /* The shadow fades in quickly within the first 50px of scrolling */ animation-range: 0px 50px; }
+@media (min-width: 50rem) { .search { border: solid 1px transparent; }
+  .site-header, .main-header { border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important; }
+  .main-header { background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px); height: 3.75rem !important; position: fixed; top: 0; z-index: 99 !important; width: 100%; max-width: 50rem; /* Link animation to the document scrolling root */ animation: header-shadow linear both; animation-timeline: scroll(root); /* The shadow fades in quickly within the first 50px of scrolling */ animation-range: 0px 50px; }
   .main { padding-top: 3.75rem; }
   .side-bar { border-right: 1px solid rgba(0, 0, 0, 0.3) !important; background: radial-gradient(circle at bottom right, rgba(243, 22, 96, 0.25) 0%, rgba(243, 22, 96, 0) 50%), url("/assets/images/breadboard-bg.png"); } }
 /*

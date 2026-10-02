@@ -24,6 +24,10 @@ html {
   }
 }
 
+.site-header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px);
+}
+
 @media (width < 50rem) {
 
   footer .d-md-none {
@@ -31,10 +35,6 @@ html {
     padding-top: 0.25rem !important;
     border-top: 1px solid #eeebee !important;
     text-align: center !important;
-  }
-
-  .site-header {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px);
   }
 
   .side-bar + .main .main-header {
@@ -132,10 +132,15 @@ html {
 
 
 @media (min-width: 50rem) {
+  .search {
+    border: solid 1px transparent;
+  }
   .site-header, .main-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
   }
   .main-header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px);
+    height: 3.75rem !important;
     position: fixed;
     top: 0;
     z-index: 99 !important;
