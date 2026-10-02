@@ -1,9 +1,14 @@
 $brand-color: #F31660;
 
 html {
+  font-size: 1rem !important;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   --brand-color: #F31660;
+}
+
+:root {
+  font-size: 1rem !important;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
@@ -20,8 +25,45 @@ html {
 }
 
 @media (width < 50rem) {
-  .aux-nav {
+
+  .side-bar + .main .main-header {
+    display: block !important;
+  }
+
+  .side-bar + .main .main-header .search {
     display: none;
+  }
+
+  .side-bar + .main .main-header.nav-open .search {
+    display: block;
+  }
+
+  .aux-nav {
+    position: fixed !important;
+    top: 0px;
+    height: 60px !important;
+    right: 56px;
+    z-index: 100 !important;
+  }
+
+  .aux-nav .site-button {
+    width: 60px;
+    overflow: hidden;
+    color: transparent;
+  }
+
+  .aux-nav .site-button:before {
+    content: "Start" !important;
+    font-size: 1rem;
+    color: $brand-color !important;
+  }
+
+  .main-header {
+    border-bottom: none !important;
+  }
+
+  .site-nav .nav-list .nav-list-item {
+    font-size: 1rem !important;
   }
 
   .search {
