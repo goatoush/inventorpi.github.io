@@ -7,7 +7,9 @@ html { font-size: 1rem !important; -webkit-text-size-adjust: 100%; text-size-adj
 
 @keyframes header-shadow { from { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   to { box-shadow: 0 18px 15px -16px rgba(0, 0, 0, 0.2); } }
-@media (width < 50rem) { .side-bar + .main .main-header { display: block !important; }
+@media (width < 50rem) { footer .d-md-none { margin-top: 1.5rem !important; padding-top: 0.25rem !important; border-top: 1px solid #eeebee !important; text-align: center !important; }
+  .site-header { background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px); }
+  .side-bar + .main .main-header { display: block !important; }
   .side-bar + .main .main-header .search { display: none; }
   .side-bar + .main .main-header.nav-open .search { display: block; }
   .aux-nav { position: fixed !important; top: 0px; height: 60px !important; right: 56px; z-index: 100 !important; }

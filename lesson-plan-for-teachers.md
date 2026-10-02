@@ -87,4 +87,4 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 | 1x Additional Sensors Kit | NFC Nail Reward Stickers                                                                                                                        | 5                | 5              |
 | 1x Additional Sensors Kit | Assorted Reward Stickers                                                                                                                        | 4                | 4              |
 | 1x Additional Sensors Kit | Breadboard without Backing                                                                                                                      | 1                | 1              |
-| 1x Book                   | Getting started with Micropython on Raspberry Pi Pico Book                                                                                      | 1                | 1              |
+| 1x Book                   | Get started with MicroPython on Raspberry Pi Pico Book                                                                                          | 1                | 1              |

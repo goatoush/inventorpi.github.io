@@ -26,6 +26,17 @@ html {
 
 @media (width < 50rem) {
 
+  footer .d-md-none {
+    margin-top: 1.5rem !important;
+    padding-top: 0.25rem !important;
+    border-top: 1px solid #eeebee !important;
+    text-align: center !important;
+  }
+
+  .site-header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px);
+  }
+
   .side-bar + .main .main-header {
     display: block !important;
   }
