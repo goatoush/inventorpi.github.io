@@ -25,14 +25,19 @@ html {
   }
 
   .search {
+    border-top: 1px solid rgba(0, 0, 0, 0.3) !important;
     position: fixed !important;
-    top: 48px;
+    top: 60px;
     width: 100%;
     z-index: 100 !important;
   }
 
   .site-nav {
-    margin-top: 50px;
+    margin-top: 66px;
+  }
+
+  .site-nav.nav-open {
+    box-shadow: 0 18px 15px -16px rgba(0, 0, 0, 0.2);
   }
 
   .side-bar {
