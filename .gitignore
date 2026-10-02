@@ -1,0 +1,13 @@
+# Jekyll build and cache artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler dependencies and local gems
+.bundle/
+vendor/
+Gemfile.lock
+
+# RubyGems distribution packages
+*.gem

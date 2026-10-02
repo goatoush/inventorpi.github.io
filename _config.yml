@@ -1,6 +1,9 @@
 theme: just-the-docs
 title: Inventor Pi
 description: Making hands-on invention more accessible for teachers and students
+url: "https://inventorpi.com"
+plugins:
+  - jekyll-sitemap
 logo: "/assets/images/inventor-pi-logo.png"
 favicon_ico: "/assets/images/favicon.ico"
 back_to_top: true
@@ -9,6 +12,9 @@ nav_external_links_new_tab: true
 nav_external_links:
   - title: Inventor Pi on GitHub
     url: https://github.com/goatoush/inventor-pi
+aux_links:
+  Get Started ▶:
+    - /getting-started/
 callouts:
   highlight:
     color: yellow
