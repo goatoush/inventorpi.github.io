@@ -1,0 +1,166 @@
+<!-- _includes/globe.html -->
+<div style="width: 100%; height: 0; padding-top: 100%; position: relative;">
+<div id="{{ include.id | default: 'globeViz' }}" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/globe.gl"></script>
+<script>
+/*
+  (function() {
+    const container = document.getElementById("{{ include.id | default: 'globeViz' }}");
+    const globe = Globe()(container)
+      .globeImageUrl('//://unpkg.com')
+      .atmosphereColor('lightskyblue')
+      .showAtmosphere(true);
+
+    // Optional: Pass data from Jekyll front matter if available
+    {% if include.data %}
+      const data = {{ include.data | jsonify }};
+      globe.pointsData(data);
+    {% endif %}
+  })();*/
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // Define dummy data or replace with your Jekyll data collections
+    const sampleData = [
+      { name: "Atlanta", lat: 33.7490, lng: -84.3879, size: 0.5, color: '#F31660' },
+      { name: "Mexico City", lat: 19.4326, lng: -99.1332, size: 0.5, color: '#F31660' },
+      { name: "Monaco", lat: 43.7333, lng: 7.4167, size: 0.5, color: '#F31660' },
+      { name: "New Delhi", lat: 28.6139, lng: 77.2090, size: 0.5, color: '#F31660' },
+      { name: "Montreal", lat: 45.508888, lng: -73.561668, size: 0.5, color: '#F31660' },
+      { name: "Esbjerg", lat: 55.4733, lng: 8.4321, size: 0.5, color: '#F31660' },
+      { name: "Conakry", lat: 9.509167, lng: -13.712222, size: 0.5, color: '#F31660' },
+    ];
+
+    // Select the DOM container
+    const element = document.getElementById('globeViz');
+
+const colorInterpolator = t => `rgba(243,22,96,${Math.sqrt(1-t)})`;
+const randomColor = () => `#${Math.round(Math.random() * Math.pow(2, 24)).toString(16).padStart(6, '0')}`;
+// Converts RGB to HSL, adjusts lightness, and returns RGB
+const adjustLightness = (r, g, b, percent) => {
+  // 1. Convert RGB to fractions of 1
+  r /= 255; g /= 255; b /= 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h, s, l = (max + min) / 2;
+
+  if (max === min) {
+    h = s = 0; // achromatic (gray)
+  } else {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    switch (max) {
+      case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+      case g: h = (b - r) / d + 2; break;
+      case b: h = (r - g) / d + 4; break;
+    }
+    h /= 6;
+  }
+
+  // 2. Adjust Lightness (percent can be positive or negative, e.g., 0.1 or -0.15)
+  l = Math.min(1, Math.max(0, l + percent));
+
+  // 3. Convert HSL back to RGB
+  const hue2rgb = (p, q, t) => {
+    if (t < 0) t += 1;
+    if (t > 1) t -= 1;
+    if (t < 1/6) return p + (q - p) * 6 * t;
+    if (t < 1/2) return q;
+    if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+    return p;
+  };
+
+  let rOut, gOut, bOut;
+  if (s === 0) {
+    rOut = gOut = bOut = l; // gray
+  } else {
+    const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+    rOut = hue2rgb(p, q, h + 1/3);
+    gOut = hue2rgb(p, q, h);
+    bOut = hue2rgb(p, q, h - 1/3);
+  }
+
+  return [Math.round(rOut * 255), Math.round(gOut * 255), Math.round(bOut * 255)];
+}
+const brandColors = () => `rgb(${adjustLightness(243, 22, 96, Math.random() * 0.35 + 0.1).join(', ')})`;
+
+let prevCoords = { lat: 33.7490, lng: -84.3879 }; // Starting point (Atlanta)
+const FLIGHT_TIME = 2000; // Duration of the flight in milliseconds
+
+    // Initialize Globe.gl
+    fetch('/assets/datasets/ne_110m_admin_0_countries.geojson').then(res => res.json()).then(countries =>
+    {
+      const emitArc2 = (polygon, event, latLong) => emitArc(latLong);
+    const emitArc = ({ lat: endLat, lng: endLng }) => {
+      const { lat: startLat, lng: startLng } = prevCoords;
+      // setTimeout(() => { prevCoords = { lat: endLat, lng: endLng }}, FLIGHT_TIME);
+
+      // add and remove arc after 1 cycle
+      const arc = { startLat, startLng, endLat, endLng, color: '#00ff6a', endColor: '#00f7ff', arcStroke: 1 };
+      globe.arcsData([...globe.arcsData(), arc]);
+      setTimeout(() => globe.arcsData(globe.arcsData().filter(d => d !== arc)), FLIGHT_TIME * 2);
+
+      // add and remove start rings
+      // const srcRing = { lat: startLat, lng: startLng };
+      // globe.ringsData([...globe.ringsData(), srcRing]);
+      // setTimeout(() => globe.ringsData(globe.ringsData().filter(r => r !== srcRing)), FLIGHT_TIME * 4);
+
+      // add and remove target rings
+      setTimeout(() => {
+        const targetRing = { lat: endLat, lng: endLng, color: '#00e5ff' };
+        globe.ringsData([...globe.ringsData(), targetRing]);
+        setTimeout(() => globe.ringsData(globe.ringsData().filter(r => r !== targetRing)), FLIGHT_TIME * 2);
+      }, 0);
+    }
+  
+    const globe = new Globe(element)
+      .globeImageUrl('/assets/images/earth-white.jpg') // Standard equirectangular texture
+      .backgroundColor('rgba(0,0,0,0)')
+      .width(element.clientWidth)
+    .height(element.clientHeight)
+    .showAtmosphere(false)
+    .showGlobe(true)
+    .onGlobeClick(emitArc)
+    .onHexPolygonClick(emitArc2)
+      .pointsData(sampleData)
+      .pointLat('lat')
+      .pointLng('lng')
+      .pointColor('#000000')
+      .pointAltitude(0.05)
+      .pointOfView({ lat: 28.144144802491304, lng: -52.05401752671609, altitude: 2 })
+      .labelsData(sampleData)
+      .labelText(d => d.name)
+      .labelSize(3)
+      .labelDotRadius(1.25)
+      .labelColor(() => '#000000')
+        .ringsData(sampleData)
+        //.ringColor(d => t => '#000000')
+      .ringColor(d => t => {
+return `${d.color}${Math.round(Math.sqrt(1-t) * 255).toString(16).padStart(2, '0')}`.toUpperCase();
+      })  
+      .ringMaxRadius(10)
+      .ringAltitude(0.01)
+      .ringPropagationSpeed(2)
+      .ringRepeatPeriod(500)
+      .arcsData(sampleData.map(d => ({ name: d.name, startLat: 33.7490, startLng: -84.3879, endLat: d.lat, endLng: d.lng, color: '#F31660', endColor: '#000000' })))
+      .arcColor(d => ([d.color, d.endColor]))
+      .arcDashLength(() => 2)
+      .arcDashGap(() => 0.25)
+      .arcDashInitialGap(1)
+      .arcStroke(d => d.arcStroke || 0.5)
+      .arcAltitudeAutoScale(0.35)
+      .arcsTransitionDuration(500)
+      .arcDashAnimateTime(() => Math.random() * 4000 + 500)
+    .hexPolygonsData(countries.features)
+        .hexPolygonResolution(3)
+        .hexPolygonMargin(0.1)
+        .hexPolygonUseDots(true)
+        .hexPolygonColor(() => brandColors())
+        .hexPolygonLabel(({ properties: d }) => `
+          <b>${d.ADMIN} (${d.ISO_A2})</b>
+        `);
+
+      });
+  });
+</script>

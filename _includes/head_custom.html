@@ -1,5 +1,8 @@
 <meta name="author" content="Utshaho Gupta">
 <meta property="og:title" content="{{ page.title | default: site.title }}">
+{% if page.noindex %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
 <script>

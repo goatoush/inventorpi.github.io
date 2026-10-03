@@ -5,9 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     links.forEach(function(link) {
     // Check if the link is external (starts with http/https)
-    if (link.hostname !== window.location.hostname) {
+    if (link.hostname !== window.location.hostname || link.href.includes(".pdf")) {
         link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer'); // Security best practice
     }
     });
 
