@@ -63,7 +63,7 @@ html {
   }
 
   .aux-nav .site-button {
-    width: 60px;
+    width: 66px;
     overflow: hidden;
     color: transparent;
   }
@@ -125,7 +125,7 @@ html {
   }
 
   .site-button:hover {
-    background-image: linear-gradient(-90deg, rgba($brand-color, 0.3) 0%, rgba($brand-color, 0.3) 80%) !important;
+    background-image: linear-gradient(-90deg, rgba($brand-color, 0.15) 0%, rgba($brand-color, 0.15) 80%) !important;
   }
 
   .site-title:hover {
