@@ -7,3 +7,5 @@ nav_order: 6
 
 <br>
 ![GPIO Pinout](/assets/images/slides/6_GPIO_Pinout.jpg)
+
+[Full Raspberry Pi Pico 2 W Pinout →](https://pico2w.pinout.xyz/)
