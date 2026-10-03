@@ -100,6 +100,7 @@ html {
     overflow-x: hidden;
     overscroll-behavior: contain; 
     max-height: calc(100vh - 127px);
+    max-height: calc(100dvh - 127px);
   }
 
   .side-bar {
