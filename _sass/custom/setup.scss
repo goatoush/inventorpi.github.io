@@ -98,6 +98,7 @@ html {
     box-shadow: 0 18px 15px -16px rgba(0, 0, 0, 0.2);
     overflow-y: auto;
     overflow-x: hidden;
+    overscroll-behavior: contain; 
     max-height: calc(100vh - 127px);
   }
 
