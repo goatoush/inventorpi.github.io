@@ -18,12 +18,12 @@ Utshaho's work on creating the *Affordable Smart Glasses for the Blind and Visua
 
 <br>
 [![Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District](/assets/images/utshaho-congressional-app-challenge.jpg)](https://www.congressionalappchallenge.us/25-ga06/)
-*Won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District*
+*Won the 2025 Congressional App Challenge in Georgia's 6th District*
 {: .fs-2.grey-dk-100.text-center }
 
 <br>
 [![Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry Pi Foundation's Worldwide Coolest Projects Online Showcase](/assets/images/coolest-projects.jpg)](https://online.coolestprojects.org/projects/23016)
-*Featured in Raspberry Pi Foundation's Worldwide Coolest Projects Online Showcase*
+*Featured in Raspberry Pi Foundation's Worldwide Coolest Projects*
 {: .fs-2.grey-dk-100.text-center }
 
 <div style="position: relative; height: 0; padding-top: 56.25%; margin-top: 2rem;">
