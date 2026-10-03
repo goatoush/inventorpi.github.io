@@ -83,7 +83,7 @@ const adjustLightness = (r, g, b, percent) => {
 
   return [Math.round(rOut * 255), Math.round(gOut * 255), Math.round(bOut * 255)];
 }
-const brandColors = () => `rgb(${adjustLightness(243, 22, 96, Math.random() * 0.35 + 0.1).join(', ')})`;
+const brandColors = (d) => `rgb(${adjustLightness(243, 22, 96, (1 - (d.properties.ADMIN.charCodeAt(0) - 65)/25) * 0.3 + 0.1).join(', ')})`;
 
 let prevCoords = { lat: 33.7490, lng: -84.3879 }; // Starting point (Atlanta)
 const FLIGHT_TIME = 2000; // Duration of the flight in milliseconds
@@ -123,12 +123,14 @@ const FLIGHT_TIME = 2000; // Duration of the flight in milliseconds
     .showGlobe(true)
     .onGlobeClick(emitArc)
     .onHexPolygonClick(emitArc2)
+      .pointOfView({ lat: 28.144144802491304, lng: -52.05401752671609, altitude: 2 })
       .pointsData(sampleData)
       .pointLat('lat')
       .pointLng('lng')
-      .pointColor('#000000')
-      .pointAltitude(0.05)
-      .pointOfView({ lat: 28.144144802491304, lng: -52.05401752671609, altitude: 2 })
+      .pointRadius(0.5)
+      .pointColor('color')
+      .pointAltitude(0.1)
+      .pointsTransitionDuration(3000)
       .labelsData(sampleData)
       .labelText(d => d.name)
       .labelSize(3)
@@ -156,7 +158,7 @@ return `${d.color}${Math.round(Math.sqrt(1-t) * 255).toString(16).padStart(2, '0
         .hexPolygonResolution(3)
         .hexPolygonMargin(0.1)
         .hexPolygonUseDots(true)
-        .hexPolygonColor(() => brandColors())
+        .hexPolygonColor(d => brandColors(d))
         .hexPolygonLabel(({ properties: d }) => `
           <b>${d.ADMIN} (${d.ISO_A2})</b>
         `);
