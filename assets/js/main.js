@@ -22,9 +22,17 @@ document.addEventListener("DOMContentLoaded", function () {
         link.className = "glightbox";
         img.parentNode.insertBefore(link, img);
         link.appendChild(img);
+        if (link.nextElementSibling && link.nextElementSibling.tagName === "EM" && link.nextElementSibling.innerHTML.trim() !== "") {
+            link.setAttribute("data-title", link.nextElementSibling.innerHTML);
+        }
     }
     });
 
     // Initialize GLightbox
-    GLightbox({ selector: '.glightbox' });
+    const lightbox = GLightbox({ selector: '.glightbox' });
+    lightbox.on('open', () => {
+    if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+    }
+});
 });

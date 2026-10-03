@@ -9,6 +9,8 @@ logo: "/assets/images/inventor-pi-logo.png"
 favicon_ico: "/assets/images/favicon.ico"
 back_to_top: true
 back_to_top_text: "Back to top"
+mermaid:
+  version: "12.1.0"
 nav_external_links_new_tab: true
 nav_external_links:
   - title: Inventor Pi on GitHub

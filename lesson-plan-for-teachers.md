@@ -16,7 +16,7 @@ Teachers can run a one hour workshop with middle school students interested in S
 
 ![Class Experiments Kit](/assets/images/class-experiments-kit.jpg)
 *Class Experiments Kit. Each class experiments kit includes 5 identical invention kits and one additional sensors kit.*
-{: .fs-2.grey-dk-100.text-center }
+{: .caption }
 
 ### Reference Slides for the Workshop
 
@@ -32,11 +32,11 @@ The first step is installing the Thonny app. Please share these [instructions](/
 
 ### Breadboard Connections and Safety
 
-It is important for the students to learn how breadboard connections work and to be safe. The additional sensors kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. But incorrectly wiring a sensor can cause it to heat up, destroying sensitive electronics. The [Do's and Don'ts section](/getting-started/important-dos-and-donts.html) covers important points to keep in mind.
+It is important for the students to learn how breadboard connections work and to be safe. The additional sensors kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. The students still need to verify all connections before powering on the circuit, because incorrect connections to the sensors can cause permanent damage to their sensitive electronics, rendering them useless. The [Do's and Don'ts section](/getting-started/important-dos-and-donts.html) covers important points to keep in mind.
 
 ![Resettable Fuse](/assets/images/resettable-fuse.jpg)
 *A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard **+**{: .text-red-000} rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard **+**{: .text-red-000} rail) to GND  (breadboard **-**{: .text-blue-000} rail), it trips, preventing damage to the electronics. A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself. The students should verify all the connections and resume the experiment.*
-{: .fs-2.grey-dk-100.text-center }
+{: .caption }
 
 When setting up the connectors, students should disconnect the USB cable from Pico, and have multiple students verify the connections before connecting the USB cable. It is useful to count the pin distance from other used pins on the board.
 

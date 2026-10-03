@@ -8,7 +8,7 @@ Inventor Pi is a student-led STEM initiative focused on making hands-on inventio
 
 ![Introduction to Electronics Workshop at Atlanta International School](/assets/images/class-in-action.jpg)
 *Introduction to Electronics Workshop at Atlanta International School*
-{: .fs-2.grey-dk-100.text-center }
+{: .caption }
 
 Inventor Pi gives teachers and students a clear starting point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics kits, lesson plan that teachers can use to create virtual and in-person workshops. It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM. 
 

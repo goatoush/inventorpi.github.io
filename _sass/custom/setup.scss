@@ -33,6 +33,38 @@ html {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 1px, transparent 1px);
 }
 
+.center-flowchart .language-mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.caption {
+  margin-top: 0.5rem;
+}
+.caption em {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Center the rendered mermaid diagram wrapper */
+div.mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Ensure the inner SVG scales or centers properly */
+div.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (width < 50rem) {
 
   footer .d-md-none {

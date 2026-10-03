@@ -1,4 +1,5 @@
 ---
+title: Do's and Don'ts
 parent: Getting Started
 nav_order: 7
 ---
