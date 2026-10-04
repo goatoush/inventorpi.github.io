@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Atlanta",
+        "lat": 33.749,
+        "lng": -84.3879,
+        "type": "Base, Active"
+    },
+    {
+        "name": "Mexico City",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "type": "Active"
+    },
+    {
+        "name": "Monaco",
+        "lat": 43.7333,
+        "lng": 7.4167,
+        "type": "Active"
+    },
+    {
+        "name": "Conakry",
+        "lat": 9.509167,
+        "lng": -13.712222,
+        "type": "Active"
+    },
+    {
+        "name": "New Delhi",
+        "lat": 28.6139,
+        "lng": 77.209,
+        "type": "Planned"
+    },
+    {
+        "name": "Montreal",
+        "lat": 45.508888,
+        "lng": -73.561668,
+        "type": "Planned"
+    },
+    {
+        "name": "Esbjerg",
+        "lat": 55.4733,
+        "lng": 8.4321,
+        "type": "Planned"
+    }
+]

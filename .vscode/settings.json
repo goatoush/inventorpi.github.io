@@ -1,0 +1,31 @@
+{
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "html.validate.styles": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "cSpell.words": [
+        "IHOT",
+        "microcontroller",
+        "MicroPython",
+        "OLED",
+        "Ossoff",
+        "Photoresistor",
+        "Pico",
+        "Picos",
+        "Pinout",
+        "polyfuse",
+        "PPTC",
+        "Thonny",
+        "Utshaho"
+    ],
+    "cSpell.allowWordsToBeAddTo": {
+        "user": false
+    },
+    "cSpell.enabledFileTypes": {
+        "*": false
+    }
+}
