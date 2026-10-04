@@ -214,11 +214,15 @@ const countryColor = (polygon) => {
         });
     }
 
+    let autoRotateTimeout;
+
     const autoRotateGlobe = () => {
         globe.controls().autoRotate = true;
         globe.controls().autoRotateSpeed = -0.5;
         globe.controls().addEventListener('start', () => {
             globe.controls().autoRotate = false;
+            clearTimeout(autoRotateTimeout);
+            autoRotateTimeout = setTimeout(() => globe.controls().autoRotate = true, 5000);
         });
     }
 
