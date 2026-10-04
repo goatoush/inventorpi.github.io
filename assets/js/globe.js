@@ -4,11 +4,11 @@ colors = {
     'Base, Active': '#000000',
     Active: BRAND_COLOR,
     Planned: BRAND_COLOR + '44',
-    Proposed: '#00f7ff',
+    Suggested: '#00f7ff',
     'Base, Active Label': '#000000',
     'Active Label': '#000000',
     'Planned Label': '#888888',
-    'Proposed Label': '#00b18e',
+    'Suggested Label': '#00478e',
 };
 
 const fetchJson = async (url) => await (await fetch(url)).json();
@@ -117,10 +117,11 @@ const adjustLightness = (hex, percent) => {
     return `rgb(${Math.round(rOut * 255)}, ${Math.round(gOut * 255)}, ${Math.round(bOut * 255)})`;
 };
 
-const countryColor = (countryName) => {
-    if (!countryName) return '#e2fbff';
-    const countryNameFraction = (countryName.charCodeAt(0) - 65) / 25;
-    const lightnessAdjustment = (1 - countryNameFraction) * 0.3 + 0.1; // Adjust lightness based on country name
+const countryName = polygon => [polygon.properties.NAME, polygon.properties.NAME_LONG].sort((a, b) => a.length - b.length)[0];
+
+const countryColor = (polygon) => {
+    const countryNameFraction = (countryName(polygon).charCodeAt(0) - 65) / 25;
+    const lightnessAdjustment = (1 - countryNameFraction) * 0.2 + 0.2; // Adjust lightness based on country name
     return adjustLightness(BRAND_COLOR, lightnessAdjustment);
 };
 
@@ -135,7 +136,7 @@ const countryColor = (countryName) => {
             .hexPolygonsData(countries.features)
             .hexPolygonResolution(3)
             .hexPolygonMargin(0.1)
-            .hexPolygonColor((feature) => countryColor(feature.properties.NAME_LONG));
+            .hexPolygonColor((polygon) => countryColor(polygon));
     };
 
     const addLabels = () => {
@@ -151,9 +152,7 @@ const countryColor = (countryName) => {
         globe
             .pointsData(cities)
             .pointRadius(0.5)
-            .pointLabel((city) =>
-                city.name ? `<b>${city.name}</b><br><small>${city.type}</small>` : `<small>${city.type}</small>`
-            )
+            .pointLabel((city) => city.type !== "Suggested" && `<b>${city.name}</b><br><small>${city.type}</small>` || '')
             .pointColor((city) => colors[city.type])
             .pointAltitude(0.15)
             .pointsTransitionDuration(2000);
@@ -187,16 +186,16 @@ const countryColor = (countryName) => {
             .arcColor((city) => [colors[city.type], colors[city.type + ' Label']])
             .arcDashInitialGap(1)
             .arcDashLength(1)
-            .arcDashGap((city) => (city.type === 'Proposed' ? 1 : 0.5))
+            .arcDashGap((city) => (city.type === 'Suggested' ? 1 : 0.5))
             .arcAltitudeAutoScale(0.35)
             .arcsTransitionDuration(500)
             .arcDashAnimateTime((city) => city.flightTime)
-            .arcStroke((city) => (city.type === 'Proposed' ? 2 : 0.5));
+            .arcStroke((city) => (city.type === 'Suggested' ? 2 : 0.5));
     };
 
-    const addInteractiveProposedLocations = () => {
-        const proposeLocation = (lat, lng, name = '') => {
-            const location = { lat, lng, name, type: 'Proposed' };
+    const addInteractiveSuggestedLocations = () => {
+        const suggestLocation = (lat, lng, name = '') => {
+            const location = { lat, lng, name, type: 'Suggested' };
             location.flightTime = flightTime(base, location);
             globe.arcsData([...globe.arcsData(), location]);
             globe.ringsData([...globe.ringsData(), location]);
@@ -209,9 +208,9 @@ const countryColor = (countryName) => {
                 globe.pointsData(globe.pointsData().filter((city) => city !== location));
             }, location.flightTime * 2);
         };
-        globe.onGlobeClick(({ lat, lng }) => proposeLocation(lat, lng));
+        globe.onGlobeClick(({ lat, lng }) => suggestLocation(lat, lng, "Here?"));
         globe.onHexPolygonClick((polygon, event, { lat, lng }) => {
-            proposeLocation(lat, lng, polygon.properties.NAME_LONG);
+            suggestLocation(lat, lng, countryName(polygon) + "?");
         });
     }
 
@@ -240,7 +239,7 @@ const countryColor = (countryName) => {
     addBars();
     addRings();
     addArcs();
-    addInteractiveProposedLocations();
+    addInteractiveSuggestedLocations();
     autoRotateGlobe();
 
 })();
