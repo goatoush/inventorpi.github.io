@@ -29,6 +29,10 @@ html {
   color: $brand-color !important;
 }
 
+main+hr {
+  background-color: transparent;
+}
+
 @keyframes header-shadow {
   from {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -98,9 +102,12 @@ div.mermaid {
 @media (width < 50rem) {
   footer .d-md-none {
     margin-top: 1.5rem !important;
-    padding-top: 0.25rem !important;
-    border-top: 1px solid #eeebee !important;
+    padding-top: 0.5rem !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.3) !important;
     text-align: center !important;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), transparent);
   }
 
   .side-bar+.main .main-header {

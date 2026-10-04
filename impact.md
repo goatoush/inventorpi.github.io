@@ -1,5 +1,5 @@
 ---
-title: Global Impact
+title: Impact
 has_toc: false
 nav_order: 3.5
 sitemap: false
@@ -7,8 +7,8 @@ nav_exclude: true
 search_exclude: true
 noindex: true
 ---
-# Reaching Students across the Globe
+# Reaching Teachers and Students Worldwide
 
 {% include globe.html %}
-*We are in active contact with schools in multiple countries*
+*Showing cities with active workshops/outreach, as well as planned cities*
 {: .caption }

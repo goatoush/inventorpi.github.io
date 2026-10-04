@@ -238,6 +238,12 @@ const countryColor = (polygon) => {
         .showAtmosphere(false)
         .pointOfView(pointOfView);
 
+    window.addEventListener('resize', (event) => {
+        const element = document.getElementById('globeViz');
+        globe.width(element.clientWidth);
+        globe.height(element.clientHeight);
+    });
+
     addCountries();
     addLabels();
     addBars();
