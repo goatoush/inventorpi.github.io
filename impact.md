@@ -17,6 +17,7 @@ noindex: true
 >It was truly great to have Utshaho in class. He was fantastic with the kids, coming prepared with all the necessary materials. He provided clear instructions and offered support to the students throughout their activities. The students were engaged and enjoyed what they were doing. They were really interested in building different sensors.
 >
 >Ms. Irem Nekay\
+>MYP Science Teacher\
 >Atlanta International School
 
 ![Introduction to Electronics Workshop at Atlanta International School](/assets/images/inventor-pi-workshop-in-atlanta.jpg)
