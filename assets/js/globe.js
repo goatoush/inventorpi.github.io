@@ -119,9 +119,15 @@ const adjustLightness = (hex, percent) => {
 
 const countryName = polygon => [polygon.properties.NAME, polygon.properties.NAME_LONG].sort((a, b) => a.length - b.length)[0];
 
+const charFraction = (string, position) => Math.min(1, Math.max(0, (string.toUpperCase().charCodeAt(position) - 65) / 25));
+
 const countryColor = (polygon) => {
-    const countryNameFraction = (countryName(polygon).charCodeAt(0) - 65) / 25;
-    const lightnessAdjustment = (1 - countryNameFraction) * 0.2 + 0.2; // Adjust lightness based on country name
+    const country = countryName(polygon);
+    const weightedFraction = (20 * charFraction(country, 0) + 80 * charFraction(country, 1)) / 100;
+    const lightnessRangeMin = 0.2;
+    const lightnessRangeMax = 0.4;
+    console.log(country, weightedFraction);
+    const lightnessAdjustment = weightedFraction * (lightnessRangeMax - lightnessRangeMin) + lightnessRangeMin;
     return adjustLightness(BRAND_COLOR, lightnessAdjustment);
 };
 
