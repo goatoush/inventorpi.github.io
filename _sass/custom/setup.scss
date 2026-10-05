@@ -106,7 +106,69 @@ div.mermaid {
   }
 }
 
+.slider-container {
+  --slide-width: 320px;
+  --slide-count: 15;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    height: 100%;
+    width: 64px;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .slider-track {
+    display: flex;
+    width: calc(var(--slide-width) * var(--slide-count) * 2);
+    animation: scrollContinuous 150s linear infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+
+    .slide {
+      width: var(--slide-width);
+      height: auto;
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
 @media (width < 50rem) {
+  .slider-container {
+    --slide-width: 240px;
+    --slide-count: 15;
+
+    .slider-track {
+      animation: scrollContinuousSmall 150s linear infinite;
+    }
+  }
+
   footer .d-md-none {
     margin-top: 1.5rem !important;
     padding-top: 0.5rem !important;
@@ -331,65 +393,23 @@ blockquote.highlight.quote {
   }
 }
 
-.slider-container {
-  --slide-width: 384px;
-  --slide-count: 15;
-  overflow: hidden;
-  width: 100%;
-  margin: 0 auto;
-  background: #fff;
-  position: relative;
 
-  &::before,
-  &::after {
-    content: "";
-    height: 100%;
-    width: 100px;
-    position: absolute;
-    z-index: 2;
-    pointer-events: none;
+@keyframes scrollContinuousSmall {
+  0% {
+    transform: translateX(0)2
   }
 
-  &::before {
-    left: 0;
-    top: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-  }
-
-  &::after {
-    right: 0;
-    top: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-  }
-
-  .slider-track {
-    display: flex;
-    width: calc(var(--slide-width) * var(--slide-count) * 2);
-    animation: scrollContinuous 100s linear infinite;
-
-    &:hover {
-      animation-play-state: paused;
-    }
-
-    .slide {
-      width: var(--slide-width);
-      height: auto;
-      box-sizing: border-box;
-
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
+  100% {
+    transform: translateX(calc(-240px * 15));
   }
 }
 
 @keyframes scrollContinuous {
   0% {
-    transform: translateX(0);
+    transform: translateX(0)2
   }
 
   100% {
-    transform: translateX(calc(-384px * 15));
+    transform: translateX(calc(-320px * 15));
   }
 }
