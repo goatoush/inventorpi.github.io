@@ -3,10 +3,10 @@ title: About
 has_toc: false
 nav_order: 4
 ---
-**Utshaho Gupta**
-{: .fs-6.text-center.mb-0 } 
+Utshaho Gupta
+{: .fs-7.text-center.mb-0 } 
 FOUNDER
-{: .fs-3.text-center.mt-0 }
+{: .fs-4.text-center.mt-0 }
 
 ![Utshaho Gupta](/assets/images/utshaho.jpg)
 {: .circle-img.text-center }

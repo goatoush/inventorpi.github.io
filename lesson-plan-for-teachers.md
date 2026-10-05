@@ -77,10 +77,10 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 ### Class Experiments Kit Contents
 
 | Category                         | Item Description                                                                                                                                | Quantity per Box | Total Quantity |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------- |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | :----------------: | :--------------: |
 | Invention Kit (5x)          | Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen module, RGB LED Module, resettable PPTC fuse, preset connectors | 1                | 5              |
 | Invention Kit (5x)          | Empty Battery Pack with USB-C to USB-A Adapter                                                                                                  | 1                | 5              |
-| Invention Kit (5x)          | AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping                                                                    | 3                | 18             |
+| Invention Kit (5x)          | AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping                                                                    | 3                | 15             |
 | Invention Kit (5x)          | Micro USB to USB-C Cable                                                                                                                        | 1                | 5              |
 | Invention Kit (5x)          | Micro Servo Motor                                                                                                                               | 2                | 10             |
 | Invention Kit (5x)          | Capacitive Touch Sensor                                                                                                                         | 1                | 5              |
