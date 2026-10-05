@@ -1,4 +1,4 @@
-const pointOfView = { lat: 29.02441, lng: -69.44080, altitude: 2 };
+const pointOfView = { lat: 29.02441, lng: -69.44080, altitude: 1.6 };
 
 colors = {
     'Base, Active': '#000000',
