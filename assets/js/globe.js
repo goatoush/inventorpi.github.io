@@ -121,12 +121,11 @@ const countryName = polygon => [polygon.properties.NAME, polygon.properties.NAME
 
 const charFraction = (string, position) => Math.min(1, Math.max(0, (string.toUpperCase().charCodeAt(position) - 65) / 25));
 
+const lightnessRangeMin = 0.05;
+const lightnessRangeMax = 0.55;
 const countryColor = (polygon) => {
     const country = countryName(polygon);
-    const weightedFraction = (20 * charFraction(country, 0) + 80 * charFraction(country, 1)) / 100;
-    const lightnessRangeMin = 0.2;
-    const lightnessRangeMax = 0.4;
-    console.log(country, weightedFraction);
+    const weightedFraction = (3 * charFraction(country, 0) + charFraction(country, 1) + charFraction(country, 2)) / 5;
     const lightnessAdjustment = weightedFraction * (lightnessRangeMax - lightnessRangeMin) + lightnessRangeMin;
     return adjustLightness(BRAND_COLOR, lightnessAdjustment);
 };
@@ -141,7 +140,7 @@ const countryColor = (polygon) => {
         globe
             .hexPolygonsData(countries.features)
             .hexPolygonResolution(3)
-            .hexPolygonMargin(0)
+            .hexPolygonMargin(0.15)
             .hexPolygonUseDots(true)
             .hexPolygonColor((polygon) => countryColor(polygon));
     };
@@ -150,7 +149,7 @@ const countryColor = (polygon) => {
         globe
             .labelsData(cities)
             .labelText((city) => city.name)
-            .labelSize(3)
+            .labelSize(2.5)
             .labelDotRadius(1.25)
             .labelColor((city) => colors[city.type + ' Label']);
     };
@@ -202,6 +201,13 @@ const countryColor = (polygon) => {
 
     const addInteractiveSuggestedLocations = () => {
         const suggestLocation = (lat, lng, name) => {
+            if (name === "Here?") {
+                const clickedPoint = [lng, lat]; // Note: d3-geo expects [lon, lat]
+                const clickedPolygon = countries.features.find(feature =>
+                    d3.geoContains(feature, clickedPoint)
+                );
+                if (clickedPolygon) name = countryName(clickedPolygon) + "?"
+            }
             const location = { lat, lng, name, type: 'Suggested' };
             location.flightTime = flightTime(base, location);
             globe.arcsData([...globe.arcsData(), location]);
