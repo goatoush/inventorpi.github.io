@@ -141,7 +141,8 @@ const countryColor = (polygon) => {
         globe
             .hexPolygonsData(countries.features)
             .hexPolygonResolution(3)
-            .hexPolygonMargin(0.1)
+            .hexPolygonMargin(0)
+            .hexPolygonUseDots(true)
             .hexPolygonColor((polygon) => countryColor(polygon));
     };
 
@@ -184,8 +185,8 @@ const countryColor = (polygon) => {
     const addArcs = () => {
         globe
             .arcsData(cities.filter((city) => city !== base))
-            .arcStartLat((city) => base.lat)
-            .arcStartLng((city) => base.lng)
+            .arcStartLat(() => base.lat)
+            .arcStartLng(() => base.lng)
             .arcEndLat((city) => city.lat)
             .arcEndLng((city) => city.lng)
             .arcLabel('')
@@ -200,7 +201,7 @@ const countryColor = (polygon) => {
     };
 
     const addInteractiveSuggestedLocations = () => {
-        const suggestLocation = (lat, lng, name = '') => {
+        const suggestLocation = (lat, lng, name) => {
             const location = { lat, lng, name, type: 'Suggested' };
             location.flightTime = flightTime(base, location);
             globe.arcsData([...globe.arcsData(), location]);
