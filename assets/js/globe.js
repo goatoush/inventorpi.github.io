@@ -126,7 +126,7 @@ const countryColor = (polygon) => {
 };
 
 (async function () {
-    const cities = await fetchJson('/assets/data/cities.json');
+    const cities = (await fetchJson('/assets/data/cities.json')).filter(city => ['Base', 'Active', 'Planned'].some(type => city.type.includes(type)));
     const base = cities.find((city) => city.type.includes('Base'));
     cities.map((city) => (city.flightTime = flightTime(base, city)));
     const countries = await fetchJson('/assets/datasets/ne_110m_admin_0_countries.geojson');

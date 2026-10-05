@@ -1,102 +1,78 @@
 {% comment %}
-  Just the Docs: Top-level pages ONLY link to first child.
-  Children navigate only within their sibling scope.
+Just the Docs: Top-level pages ONLY link to first child.
+Children navigate only within their sibling scope.
 {% endcomment %}
 
 {% if page.collection %}
-  {% assign nodes = site[page.collection] | sort: "nav_order" %}
+{% assign nodes = site[page.collection] | sort: "nav_order" %}
 {% else %}
-  {% assign nodes = site.html_pages | sort: "nav_order" %}
+{% assign nodes = site.html_pages | sort: "nav_order" %}
 {% endif %}
 
 {%- assign pages_list = "" | split: "," -%}
 {%- assign current_has_parent = false -%}
 {%- if page.parent and page.parent != "" -%}
-  {%- assign current_has_parent = true -%}
+{%- assign current_has_parent = true -%}
 {%- endif -%}
 
 {%- if current_has_parent == false -%}
-  {% comment %} 
-    --- TOP LEVEL PAGE (PARENT IS BLANK) ---
-    Strict Requirement: Only navigate down to the first child.
-    Do not navigate horizontally to other top-level pages.
-  {% endcomment %}
-  {%- for node in nodes -%}
-    {%- if node.nav_exclude != true and node.title and node.parent == page.title -%}
-      {%- assign next_page = node -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
+{% comment %}
+--- TOP LEVEL PAGE (PARENT IS BLANK) ---
+Strict Requirement: Only navigate down to the first child.
+Do not navigate horizontally to other top-level pages.
+{% endcomment %}
+{%- for node in nodes -%}
+{%- if node.nav_exclude != true and node.title and node.parent == page.title -%}
+{%- assign next_page = node -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
 {%- else -%}
-  {% comment %} 
-    --- CHILD PAGE CONTEXT ---
-    Build a list consisting strictly of sibling pages sharing this parent
-  {% endcomment %}
-  {%- for node in nodes -%}
-    {%- if node.nav_exclude != true and node.title and node.parent == page.parent -%}
-      {%- assign pages_list = pages_list | push: node -%}
-    {%- endif -%}
-  {%- endfor -%}
+{% comment %}
+--- CHILD PAGE CONTEXT ---
+Build a list consisting strictly of sibling pages sharing this parent
+{% endcomment %}
+{%- for node in nodes -%}
+{%- if node.nav_exclude != true and node.title and node.parent == page.parent -%}
+{%- assign pages_list = pages_list | push: node -%}
+{%- endif -%}
+{%- endfor -%}
 
-  {% comment %} Find adjacent sibling pages {% endcomment %}
-  {%- for node in pages_list -%}
-    {%- if node.url == page.url -%}
-      {%- assign current_index = forloop.index0 -%}
-      {%- assign prev_index = current_index | minus: 1 -%}
-      {%- assign next_index = current_index | plus: 1 -%}
-      
-      {%- if prev_index >= 0 -%}
-        {%- assign prev_page = pages_list[prev_index] -%}
-      {%- endif -%}
-      
-      {%- if next_index < pages_list.size -%}
-        {%- assign next_page = pages_list[next_index] -%}
-      {%- endif -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-  
-  {% comment %} 
-    If this is the FIRST child page, set its "Previous" link 
-    back to the top-level parent landing page 
-  {% endcomment %}
-  {%- if prev_page == nil -%}
-    {%- for node in nodes -%}
-      {%- if node.title == page.parent and node.parent == nil -%}
-        {%- assign prev_page = node -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
+{% comment %} Find adjacent sibling pages {% endcomment %}
+{%- for node in pages_list -%}
+{%- if node.url == page.url -%}
+{%- assign current_index = forloop.index0 -%}
+{%- assign prev_index = current_index | minus: 1 -%}
+{%- assign next_index = current_index | plus: 1 -%}
+
+{%- if prev_index >= 0 -%}
+{%- assign prev_page = pages_list[prev_index] -%}
 {%- endif -%}
 
-{%- if next_page == nil and page.parent == "Getting Started" -%}
-  {%- for node in nodes -%}
-    {%- if node.title == "Experiments" -%}
-      {%- assign next_page = node -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endif -%}
-
-{% comment %} Render the Pagination UI Component {% endcomment %}
-{%- if prev_page or next_page -%}
-<div class="nav-pagination" style="display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+{%- if next_index < pages_list.size -%} {%- assign next_page=pages_list[next_index] -%} {%- endif -%} {%- break -%} {%-
+  endif -%} {%- endfor -%} {% comment %} If this is the FIRST child page, set its "Previous" link back to the top-level
+  parent landing page {% endcomment %} {%- if prev_page==nil -%} {%- for node in nodes -%} {%- if
+  node.title==page.parent and node.parent==nil -%} {%- assign prev_page=node -%} {%- break -%} {%- endif -%} {%- endfor
+  -%} {%- endif -%} {%- endif -%} {%- if next_page==nil and page.parent=="Getting Started" -%} {%- for node in nodes -%}
+  {%- if node.title=="Experiments" -%} {%- assign next_page=node -%} {%- break -%} {%- endif -%} {%- endfor -%} {%-
+  endif -%} {% comment %} Render the Pagination UI Component {% endcomment %} {%- if prev_page or next_page -%} <div
+  class="nav-pagination"
+  style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
   <div>
     {%- if prev_page -%}
-      <a href="{{ prev_page.url | relative_url }}" class="btn btn-outline" style="text-align: left;">
-        <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">← Previous</span>
-        <strong>{{ prev_page.title }}</strong>
-      </a>
+    <a href="{{ prev_page.url | relative_url }}" class="btn btn-outline" style="text-align: left;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">← Previous</span>
+      <strong>{{ prev_page.title }}</strong>
+    </a>
     {%- endif -%}
   </div>
   <div>
     {%- if next_page -%}
-      <a href="{{ next_page.url | relative_url }}" class="btn btn-outline" style="text-align: right;">
-        <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Next →</span>
-        <strong>{{ next_page.title }}</strong>
-      </a>
+    <a href="{{ next_page.url | relative_url }}" class="btn btn-outline" style="text-align: right;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Next →</span>
+      <strong>{{ next_page.title }}</strong>
+    </a>
     {%- endif -%}
   </div>
-</div>
-{%- endif -%}
+  </div>
+  {%- endif -%}

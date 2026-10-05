@@ -1,4 +1,7 @@
+@use "sass:color";
+
 $brand-color: #f31660;
+$brand-color-lighter: adjust-color($brand-color, $lightness: 30%);
 
 html {
   font-size: 1rem !important;
@@ -27,6 +30,10 @@ html {
 .nav-list .nav-list-item .nav-list-expander,
 .site-header .icon {
   color: $brand-color !important;
+
+  &:hover {
+    background-image: none !important;
+  }
 }
 
 main+hr {
@@ -200,15 +207,67 @@ div.mermaid {
   }
 
   .site-button:hover {
-    background-image: linear-gradient(-90deg,
-        rgba($brand-color, 0.15) 0%,
-        rgba($brand-color, 0.15) 80%) !important;
+    background-image: none !important;
   }
 
   .site-title:hover {
     background-image: linear-gradient(-90deg,
         rgba($brand-color, 0) 0%,
         rgba($brand-color, 0.2) 50%) !important;
+  }
+}
+
+p.highlight.quote,
+blockquote.highlight.quote {
+  border: 1px $brand-color-lighter solid;
+  border-left: 4px solid $brand-color;
+
+  &:before {
+    content: "“";
+    font-style: italic;
+    font-size: 5rem;
+    text-align: left;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.25;
+    display: block;
+    height: 2rem;
+  }
+
+  p {
+    padding-left: 2.5rem;
+
+    &:last-of-type:not(:first-of-type) {
+      font-style: italic;
+      font-size: 0.8em;
+      text-align: right;
+    }
+  }
+
+  &.anonymous {
+    font-style: italic;
+
+    &:before {
+      height: 0;
+    }
+
+    &:after {
+      content: "Anonymous";
+      font-style: italic;
+      font-size: 0.8em;
+      line-height: 1;
+      text-align: right;
+      display: block;
+      height: 1rem;
+      margin-top: -1rem;
+    }
+
+    p:first-of-type {
+      padding-left: 3rem;
+      padding-right: 6rem;
+      font-size: 1.5em;
+      text-align: center;
+    }
   }
 }
 
