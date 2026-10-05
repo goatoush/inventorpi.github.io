@@ -262,11 +262,16 @@ blockquote.highlight.quote {
 }
 
 .no-select {
-  -webkit-touch-callout: none; /* Disables iOS Safari long-press popup menu */
-  -webkit-user-select: none;   /* Disables text selection on Safari/Chrome */
-  -moz-user-select: none;      /* Disables text selection on older Firefox */
-  -ms-user-select: none;       /* Disables text selection on IE/Edge */
-  user-select: none;           /* Standard property */
+  -webkit-touch-callout: none;
+  /* Disables iOS Safari long-press popup menu */
+  -webkit-user-select: none;
+  /* Disables text selection on Safari/Chrome */
+  -moz-user-select: none;
+  /* Disables text selection on older Firefox */
+  -ms-user-select: none;
+  /* Disables text selection on IE/Edge */
+  user-select: none;
+  /* Standard property */
 }
 
 .side-bar {
@@ -323,5 +328,68 @@ blockquote.highlight.quote {
         rgba($brand-color, 0.25) 0%,
         rgba($brand-color, 0) 50%),
       url("/assets/images/breadboard-bg.png");
+  }
+}
+
+.slider-container {
+  --slide-width: 384px;
+  --slide-count: 15;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .slider-track {
+    display: flex;
+    width: calc(var(--slide-width) * var(--slide-count) * 2);
+    animation: scrollContinuous 100s linear infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+
+    .slide {
+      width: var(--slide-width);
+      height: auto;
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@keyframes scrollContinuous {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-384px * 15));
   }
 }

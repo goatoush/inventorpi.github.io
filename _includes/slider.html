@@ -1,0 +1,14 @@
+<div class="slider-container">
+    <div class="slider-track">
+        {% for file in site.static_files %}
+        {% if file.path contains "/assets/images/circuits/small" %}
+        <div class="slide"><img src="{{ file.path | relative_url }}"></div>
+        {% endif %}
+        {% endfor %}
+        {% for file in site.static_files %}
+        {% if file.path contains "/assets/images/circuits/small" %}
+        <div class="slide"><img src="{{ file.path | relative_url }}"></div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
