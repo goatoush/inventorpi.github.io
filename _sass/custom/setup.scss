@@ -261,6 +261,14 @@ blockquote.highlight.quote {
   }
 }
 
+.no-select {
+  -webkit-touch-callout: none; /* Disables iOS Safari long-press popup menu */
+  -webkit-user-select: none;   /* Disables text selection on Safari/Chrome */
+  -moz-user-select: none;      /* Disables text selection on older Firefox */
+  -ms-user-select: none;       /* Disables text selection on IE/Edge */
+  user-select: none;           /* Standard property */
+}
+
 .side-bar {
   background:
     radial-gradient(circle at bottom right,

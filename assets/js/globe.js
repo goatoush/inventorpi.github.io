@@ -241,6 +241,7 @@ const countryColor = (polygon) => {
 
     // Select the DOM container
     const element = document.getElementById('globeViz');
+    element.addEventListener("contextmenu", e => e.preventDefault());
 
     // Initialize Globe.gl
     const globe = new Globe(element)
