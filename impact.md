@@ -23,5 +23,8 @@ noindex: true
 *Introduction to Electronics Workshop at Atlanta International School*
 {: .caption.mt-6 }
 
-{: .highlight.quote.anonymous.mt-6 }
+{: .highlight.quote.short.mt-6 }
 >. . . loved this lesson
+>
+>Grade 7 Student\
+>Atlanta International School

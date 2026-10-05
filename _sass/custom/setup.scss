@@ -244,29 +244,19 @@ blockquote.highlight.quote {
     }
   }
 
-  &.anonymous {
+  &.short {
     font-style: italic;
 
     &:before {
       height: 0;
     }
 
-    &:after {
-      content: "Anonymous";
-      font-style: italic;
-      font-size: 0.8em;
-      line-height: 1;
-      text-align: right;
-      display: block;
-      height: 1rem;
-      margin-top: -1rem;
-    }
-
     p:first-of-type {
       padding-left: 3rem;
-      padding-right: 6rem;
+      padding-right: 3rem;
       font-size: 1.5em;
       text-align: center;
+      margin-bottom: 0;
     }
   }
 }
