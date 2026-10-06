@@ -7,6 +7,9 @@ nav_order: 16
 
 ![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.jpg)
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard to individually control the red, green and blue channels of the LED to create any color, display the color hex value and RGB components on the OLED display, broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data, and use bluetooth scanning on nearby Raspberry Pi Pico devices to read and show the synchronized color on connected LEDs to create a cluster of synced Pico devices
+
 We use a rotary encoder to change red, green and blue color of the LED, then broadcast that color to nearby devices, which set their LEDs to the same color. When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py, we can create a network of synced devices. This is how a cluster of robots can communicate and work together.
 
 Create a new file in Thonny, with file name bluetooth_advertise.py. Copy and paste the code below into the file you created.
@@ -56,7 +59,7 @@ def set_color():
 
 def advertise_color():
     # Bluetooth advertise broadcasts a message with service UUID (unique id) to any nearby devices listening
-    # We will emmbed the color values inside the service UUID, which a listening device can then extract
+    # We will embed the color values inside the service UUID, which a listening device can then extract
     # UUID is a random hexadecimal string with format XXXXXXXX-RR00-GG01-BB02-XXXXXXXXXXXX
     uuid = UUID(f"F62BA79A-{rgb[0]:02X}00-{rgb[1]:02X}01-{rgb[2]:02X}02-FF3591B2FA74") #02X changes number to 2 character hex
 

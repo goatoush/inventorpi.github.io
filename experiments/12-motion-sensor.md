@@ -6,6 +6,9 @@ nav_order: 12
 
 ![Motion Sensor](/assets/images/circuits/Motion%20Sensor%20Circuit.jpg)
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED color and show the status on the display when motion is detected
+
 A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects. When a warm body (like a human or animal) moves across the field, it intercepts one half of the sensor first and then the other, creating a differential voltage pulse that signals motion. It is used in security alarms and smart home automation.
 
 When running this script in a classroom, cover the sensor completely with a book or folded sheets of paper, then wait for sensor to reset and display "No motion". Then remove the book and wait for the sensor to detect motion.

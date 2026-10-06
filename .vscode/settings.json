@@ -13,6 +13,7 @@
         "MicroPython",
         "OLED",
         "Ossoff",
+        "photoresister",
         "Photoresistor",
         "Pico",
         "Picos",
