@@ -31,5 +31,4 @@ Students learn basic electronic skills about using a breadboard, connecting sens
 {: .highlight.quote.short.mt-6 }
 >. . . loved this lesson
 >
->Grade 7 Student\
->Atlanta International School
+>Grade 7 Student
