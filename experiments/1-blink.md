@@ -4,6 +4,9 @@ nav_order: 1
 ---
 # Blink
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller to blink an onboard LED repeatedly
+
 Let's start with a simple micropython script to control the onboard LED on the Pico microcontroller. We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library. The onboard LED can be accessed at GP25, or the name "LED" as Pin("LED") or Pin(25). We use Pin.OUT to set it as an output pin. We will use input pins later with sensors.
 
 Create a new file in Thonny, with file name blink.py. Copy and paste the code below into the file you created.

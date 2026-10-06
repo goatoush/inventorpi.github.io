@@ -19,7 +19,7 @@ Teachers can run a one hour workshop with middle school students interested in S
 
 [Back to top](#top)
 
-### Reference Slides for the Workshop
+## Reference Slides for the Workshop
 
 Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation.
 
@@ -28,7 +28,7 @@ Download Slides ↓](/assets/Inventor%20Pi%20-%20Introduction%20to%20Electronics
 
 [Back to top](#top)
 
-### Class Experiments Kit
+## Class Experiments Kit
 
 Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit. You should use the [Getting Started](/getting-started/) section of this website to try out the different experiments yourself before the class. The Additional Sensors Kit includes reward stickers that you can distribute for the best creative ideas, active participation, etc. There are also some tiny NFC nail stickers that light up when brought near a smartphone with NFC (often at the back near the top center).
 
@@ -37,7 +37,7 @@ The first step is installing the Thonny app. Please share these [instructions](/
 
 [Back to top](#top)
 
-### Breadboard Connections and Safety
+## Breadboard Connections and Safety
 
 It is important for the students to learn how breadboard connections work and to be safe. The Additional Sensors Kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. The students still need to verify all connections before powering on the circuit, because incorrect connections to the sensors can cause permanent damage to their sensitive electronics, rendering them useless. The [Do's and Don'ts](/getting-started/important-dos-and-donts.html) section covers important points to keep in mind.
 
@@ -54,7 +54,7 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 
 [Back to top](#top)
 
-### Lesson Plan Outline
+## Lesson Plan Outline
 
 1. Introduction - Learn about electronics, breadboards, safety (10-20 min)
 1. Divide class into 5 teams (one per invention kit) (3-5 min)
@@ -65,7 +65,7 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 
 [Back to top](#top)
 
-### Some Additional Notes
+## Some Additional Notes
 - To facilitate running additional workshops in future, students should pack the contents back into the boxes the way they found them.
 - If teams have more than 3 students, they can take turns reading about an experiment and running an experiment.
 - When students borrow sensors from the Additional Sensors Kit, they should return the sensors after their experiment so other teams can borrow them.
@@ -74,7 +74,7 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 
 [Back to top](#top)
 
-### Class Experiments Kit Contents
+## Class Experiments Kit Contents
 
 | Category                         | Item Description                                                                                                                                | Quantity per Box | Total Quantity |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | :----------------: | :--------------: |

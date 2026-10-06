@@ -159,6 +159,31 @@ div.mermaid {
   }
 }
 
+.main-content h3.summary {
+  &::before {
+    content: "Summary";
+    color: #444;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: .35rem;
+  }
+
+
+  font-size: 0.75rem !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+  margin-top: 1em;
+  line-height: 1.65;
+  border: 1px solid #a8a8a8;
+  border-left: 4px solid #6d6d6d;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
 @media (width < 50rem) {
   .slider-container {
     --slide-width: 240px;
@@ -199,7 +224,7 @@ div.mermaid {
     z-index: 100 !important;
 
     .site-button {
-      &:before {
+      &::before {
         content: "Start" !important;
         font-size: 1rem;
         color: $brand-color !important;
@@ -284,7 +309,7 @@ blockquote.highlight.quote {
   border: 1px $brand-color-lighter solid;
   border-left: 4px solid $brand-color;
 
-  &:before {
+  &::before {
     content: "“";
     font-style: italic;
     font-size: 5rem;
@@ -309,7 +334,7 @@ blockquote.highlight.quote {
   &.short {
     font-style: italic;
 
-    &:before {
+    &::before {
       height: 0;
     }
 
@@ -345,6 +370,14 @@ blockquote.highlight.quote {
 }
 
 @media (min-width: 50rem) {
+
+  p.highlight.quote.short,
+  blockquote.highlight.quote.short {
+    p:last-of-type:not(:first-of-type) {
+      margin-top: -1.5rem;
+    }
+  }
+
   .search {
     border: solid 1px transparent;
   }

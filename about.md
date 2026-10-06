@@ -3,8 +3,8 @@ title: About
 has_toc: false
 nav_order: 4
 ---
-Utshaho Gupta
-{: .fs-7.text-center.mb-0 } 
+# Utshaho Gupta
+{: .text-center.mb-0 } 
 FOUNDER
 {: .fs-4.text-center.mt-0 }
 
@@ -13,7 +13,7 @@ FOUNDER
 
 Utshaho is a high school senior who has spent over 3 years designing affordable AI-powered smart glasses for the visually impaired and has won multiple grants to fund his innovation. Utshaho revels in the intersection of math and science with language and international relations. He is the captain of the IHOT robotics team and math club, and has also co-founded the school newspaper and the French MUN program. He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate.
 
-### Inspiration Behind the Initiative
+## Inspiration Behind the Initiative
 
 Utshaho's work on creating the *Affordable Smart Glasses for the Blind and Visually Impaired* is what inspired him to create Inventor Pi. It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District, and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff. It was also featured in Raspberry Pi Foundation's Worldwide Coolest Projects Online Showcase and won the Judges' Pick award in Georgia.
 

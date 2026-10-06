@@ -6,6 +6,9 @@ nav_order: 9
 
 ![Accelerometer](/assets/images/circuits/Accelerometer%20Circuit.jpg)
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard to draw a 3D shape on the display, and control its rotation about X and Y axes using the accelerometer
+
 An accelerometer measures acceleration around the x, y and z axis. In robotics, it is essential in determining the robot position and movement. In this script, we draw a 3D shape, and control its rotation using the accelerometer.
 
 Create a new file in Thonny, with file name accelerometer.py. Copy and paste the code below into the file you created.

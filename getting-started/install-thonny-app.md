@@ -7,7 +7,7 @@ nav_order: 1
 ![Install Thonny App](/assets/images/slides/1_Install_Thonny_App.jpg)
 {: .mt-6 }
 
-### Installation Steps
+## Installation Steps
 
 1. Download and Install Thonny (with Python) from [thonny.org](https://thonny.org)
 1. Choose the Installer with Python for your Operating System and Processor (the best option should already be highlighted as recommended for you)

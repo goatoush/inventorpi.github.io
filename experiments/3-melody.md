@@ -6,6 +6,9 @@ nav_order: 3
 
 ![Melody](/assets/images/circuits/Melody%20Circuit.jpg)
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard to play a simple melody of notes on the buzzer with lyrics displayed on the display
+
 A piezo buzzer works by using the piezoelectric effect to turn electrical signals into fast mechanical vibrations that create sound waves. In this script, we send different frequencies to a piezo buzzer to play different musical notes.
 
 To play a note at an interval, we run:

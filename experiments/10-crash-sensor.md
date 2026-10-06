@@ -6,6 +6,9 @@ nav_order: 10
 
 ![Crash Sensor](/assets/images/circuits/Crash%20Sensor%20Circuit.jpg)
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED color and show the status on the display when crash is detected
+
 A crash sensor uses a limit switch. This can be used with a hard stop to detect when a mechanism, such as a robotic arm, reaches the limit of its motion and trigger a limit switch. It is also used in oven and refrigerator doors to turn on the internal light when the door is opened.
 
 Create a new file in Thonny, with file name crash_sensor.py. Copy and paste the code below into the file you created.

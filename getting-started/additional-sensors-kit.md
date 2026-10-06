@@ -7,7 +7,7 @@ nav_order: 3
 ![Additional Sensors](/assets/images/slides/3_Additional_Sensors.jpg)
 {: .mt-6 }
 
-### Additional Sensors for Sharing Amongst Teams
+## Additional Sensors for Sharing Amongst Teams
 1. Motion sensor
 1. Knock sensor
 1. Potentiometer

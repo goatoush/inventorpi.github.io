@@ -6,6 +6,9 @@ nav_order: 6
 
 ![Piano](/assets/images/circuits/Piano%20Circuit.jpg)
 
+{: .summary }
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard to play different musical notes on the buzzer, draw the notes on musical staff lines on the display and replay as a recording after a pause
+
 We use the buttons to play different musical notes. We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines. Finally, we save the notes in a list along with their duration played. And when user input pauses, we replay the notes to create a fun musical instrument.
 
 We read 6 different inputs for the 6 buttons. For this, we use a list as shown below:
