@@ -7,7 +7,7 @@ nav_order: 16
 
 ![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.jpg)
 
-{: .summary }
+{: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard to individually control the red, green and blue channels of the LED to create any color, display the color hex value and RGB components on the OLED display, broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data, and use bluetooth scanning on nearby Raspberry Pi Pico devices to read and show the synchronized color on connected LEDs to create a cluster of synced Pico devices
 
 We use a rotary encoder to change red, green and blue color of the LED, then broadcast that color to nearby devices, which set their LEDs to the same color. When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py, we can create a network of synced devices. This is how a cluster of robots can communicate and work together.

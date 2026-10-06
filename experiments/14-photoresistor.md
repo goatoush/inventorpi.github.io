@@ -6,7 +6,7 @@ nav_order: 14
 
 ![Photoresistor](/assets/images/circuits/Photoresistor%20Circuit.jpg)
 
-{: .summary }
+{: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED brightness in response to the amount of light detected by the photoresister
 
 A photoresister allows more electricity to flow when more light hits its surface, and less electricity to flow when less light hits its surface. It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight. Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art. Line tracking robots use it to distinguish between a dark line and a light surface.

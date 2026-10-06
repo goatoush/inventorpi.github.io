@@ -7,7 +7,7 @@ nav_order: 8
 
 ![Microphone Sensor](/assets/images/circuits/Microphone%20Sensor%20Circuit.jpg)
 
-{: .summary }
+{: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard to replay the sound frequencies measured on the buzzer and display the measured frequency on the display
 
 A microphone sound sensor converts environmental sound waves into electrical signals using a built-in microphone and an onboard processing circuit. Sound waves move through the air and hit a tiny flexible diaphragm inside the module's microphone. The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume. Run this script, and simultaneously run melody.py on a different device. Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody. If the room is not very noisy, it should pick up at least some of the notes.

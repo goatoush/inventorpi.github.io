@@ -1,3 +1,18 @@
+
+// Format all summary sections
+const summaries = document.querySelectorAll("h3#summary");
+
+summaries.forEach(summary => {
+    let html = summary.innerHTML;
+    console.log({ html }, html.includes("microcontrller connected"))
+    if (html.includes("microcontroller connected")) {
+        html = html
+            .replace("microcontroller connected", "microcontrller <br><ul><li>connected")
+            .replace("on a breadboard ", "on a breadboard <li>");
+        summary.innerHTML = html;
+    }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
 
     // Select all links inside the main content area

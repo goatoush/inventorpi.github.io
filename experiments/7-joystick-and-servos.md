@@ -6,7 +6,7 @@ nav_order: 7
 
 ![Joystick and Servos](/assets/images/circuits/Joystick%20and%20Servos%20Circuit.jpg)
 
-{: .summary }
+{: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard to control the angle of two servos using the joystick and display the angles on the OLED display
 
 A joystick is often used for navigation in robots, drones, cruise ships and planes. In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller. Each joystick includes independent X and Y axis control. Which  gives us a total of 8 independent axes to control the robot.

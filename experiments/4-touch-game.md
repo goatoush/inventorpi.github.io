@@ -6,7 +6,7 @@ nav_order: 4
 
 ![Touch Game](/assets/images/circuits/Touch%20Game%20Circuit.jpg)
 
-{: .summary }
+{: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard to create a reaction time testing game, and to learn to draw shapes on the OLED display
 
 A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close. Humans are full of water and salt, making the body a natural conductor of electricity. It is used in smartphones for multi-touch navigation and gesture detection. In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen.

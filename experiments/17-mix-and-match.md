@@ -10,7 +10,7 @@ nav_order: 16
 | ![Motion Sensor](/assets/images/circuits/Motion%20Sensor%20Circuit.jpg) | ![Photo Interrupter](/assets/images/circuits/Photo%20Interrupter%20Circuit.jpg) | ![Photoresistor](/assets/images/circuits/Photoresistor%20Circuit.jpg) |
 | ![Potentiometer and Servo](/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.jpg) | ![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.jpg) | ![Touch Game](/assets/images/circuits/Touch%20Game%20Circuit.jpg) |
 
-{: .summary }
+{: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to one of different input devices (such as an accelerometer, push button, motion sensor, photoresistor, joystick, microphone, rotary encoder, or another sensor), a micro servo motor, an RGB LED, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard to use the selected input device measurement to change the buzzer sound, LED color and servo angle, and show the values on the display
 
 This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs. The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen. Refer to the relevant circuit diagrams above based on the input you choose.
