@@ -4,11 +4,12 @@ const summaries = document.querySelectorAll("h3#summary");
 
 summaries.forEach(summary => {
     let html = summary.innerHTML;
-    console.log({ html }, html.includes("microcontrller connected"))
     if (html.includes("microcontroller connected")) {
         html = html
             .replace("microcontroller connected", "microcontrller <br><ul><li>connected")
-            .replace("on a breadboard ", "on a breadboard <li>");
+            .replace("on a breadboard ", "on a breadboard <li>")
+            .replace("display, broadcast", "display, <li>broadcast")
+            .replace("advertising data, and use", "advertising data, <li>and use");
         summary.innerHTML = html;
     }
 });
