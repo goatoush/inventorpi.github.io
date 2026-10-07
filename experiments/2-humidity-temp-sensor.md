@@ -7,7 +7,7 @@ nav_order: 2
 ![Humidity Temp Sensor Circuit](/assets/images/circuits/Humidity%20Temp%20Sensor%20Circuit.jpg)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard to measure and display the relative humidity and ambient temperature in celsius and fahrenheit
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit
 
 A humidity and temperature sensor measures the ambient temperature and air humidity. In robotics, temperature sensors are built into most electronic components. They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits. Did you know that a smartphone has about 8 different temperature sensors in it, measuring screen temperature, back temperature, battery temperature, CPU temperature, etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch.
 

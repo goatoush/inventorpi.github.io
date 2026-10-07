@@ -7,7 +7,7 @@ nav_order: 13
 ![Photo Interrupter](/assets/images/circuits/Photo%20Interrupter%20Circuit.jpg)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to update and show the count on the display each time the photo interrupter light beam is obstructed
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to increment the count on the display each time the photo interrupter light beam is interrupted
 
 A photo interrupter module sends infrared light beam from an emitter to a receiver (the two black blocks on the module), and detects when this beam is blocked. It is used to detect end-of-travel in 3D printers, CNC machines and robots. It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars. In a printer, it detects when a paper is present.
 

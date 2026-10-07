@@ -4,13 +4,11 @@ const summaries = document.querySelectorAll("h3#summary");
 
 summaries.forEach(summary => {
     let html = summary.innerHTML;
-    if (html.includes("microcontroller connected")) {
-        html = html
-            .replace("microcontroller connected", "microcontrller <br><ul><li>connected")
-            .replace("on a breadboard ", "on a breadboard <li>")
-            .replace("display, broadcast", "display, <li>broadcast")
-            .replace("advertising data, and use", "advertising data, <li>and use");
-        summary.innerHTML = html;
+    if (html.includes("A MicroPython code example")) {
+        summary.innerHTML = html
+            .replace(/(?<=code example|Pico 2 W microcontroller|on a breadboard) /g, "&nbsp;")
+            .replace(/&nbsp;/, " <ul><li>")
+            .replace(/&nbsp;/g, " <li>");
     }
 });
 

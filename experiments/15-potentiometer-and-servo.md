@@ -7,7 +7,7 @@ nav_order: 15
 ![Potentiometer and Servo](/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.jpg)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard to control the angle of the servo by rotating the potentiometer knob and display the angle on the OLED display
+### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard to control the angle of the servo by rotating the potentiometer knob and display it on the display
 
 Potentiometers are the dials we turn to control things like temperature or volume. They work by varying the electrical resistance, which we read as varying voltage at a microcontroller's input pin. In this script, we use this input to control a servo angle.
 
