@@ -1,8 +1,8 @@
 ---
 has_toc: false
 ---
-{: .fs-7.fw-300.brand-color }
-Inventor Pi is a student-led STEM initiative focused on making hands-on invention more accessible for teachers and students. The goal is to help students move from simply learning about technology to actually building technology that solve real problems.
+{: .fs-7.fw-300.mt-6,.mb-6.brand-color }
+# Inventor Pi is a student-led STEM initiative focused on making hands-on invention more accessible for teachers and students. The goal is to help students move from simply learning about technology to actually building technology that solve real problems.
 
 ![Introduction to Electronics Workshop at Atlanta International School](/assets/images/class-in-action.jpg)
 *Introduction to Electronics Workshop at Atlanta International School*
