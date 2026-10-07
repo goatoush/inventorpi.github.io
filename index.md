@@ -28,6 +28,11 @@ Students learn basic electronic skills about using a breadboard, connecting sens
 *Introduction to Electronics Workshop at Atlanta International School*
 {: .caption.mt-6 }
 
+{: .highlight.quote.mt-6 }
+>I liked how many different things we could do, there was lot's of variety.
+>
+>Grade 7 Student
+
 {: .highlight.quote.short.mt-6 }
 >. . . loved this lesson
 >
