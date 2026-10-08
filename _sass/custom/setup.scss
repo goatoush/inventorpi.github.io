@@ -189,6 +189,10 @@ div.mermaid {
   margin-bottom: 1em;
 }
 
+.search-active .aux-nav {
+  display: none;
+}
+
 @media (width < 50rem) {
   .slider-container {
     --slide-width: 240px;
@@ -290,6 +294,29 @@ div.mermaid {
 
     /* The shadow fades in quickly within the first 50px of scrolling */
     animation-range: 0px 50px;
+  }
+
+  html.translated-ltr,
+  html.translated-rtl {
+
+    // for Google translate bar
+    .side-bar {
+      margin-top: inherit;
+    }
+
+    .side-bar+.main {
+      margin-top: inherit !important;
+
+      .main-header {
+        margin-top: inherit;
+
+        .search,
+        .aux-nav {
+          margin-top: inherit;
+        }
+      }
+    }
+
   }
 
   // Add top padding to the main content so it doesn't get hidden under the fixed header
@@ -410,6 +437,19 @@ blockquote.highlight.quote {
 
     /* The shadow fades in quickly within the first 50px of scrolling */
     animation-range: 0px 50px;
+  }
+
+  html.translated-ltr,
+  html.translated-rtl {
+
+    // for Google translate bar
+    .main {
+      margin-top: inherit !important;
+
+      .main-header {
+        margin-top: inherit;
+      }
+    }
   }
 
   .main {
