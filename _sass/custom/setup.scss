@@ -515,4 +515,9 @@ blockquote.highlight.quote {
     padding-top: 0 !important;
   }
 
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
 }
