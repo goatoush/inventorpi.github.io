@@ -474,7 +474,7 @@ blockquote.highlight.quote {
 
 @keyframes scrollContinuousSmall {
   0% {
-    transform: translateX(0)2
+    transform: translateX(0);
   }
 
   100% {
@@ -484,10 +484,34 @@ blockquote.highlight.quote {
 
 @keyframes scrollContinuous {
   0% {
-    transform: translateX(0)2
+    transform: translateX(0);
   }
 
   100% {
     transform: translateX(calc(-320px * 15));
   }
+}
+
+@media print {
+
+  .side-bar,
+  .main-header,
+  footer,
+  main+hr,
+  p:has(a.back-to-top),
+  #table-of-contents,
+  #markdown-toc,
+  hr:has(+ h2.text-delta),
+  hr+h2.text-delta,
+  hr+h2.text-delta+ul,
+  .youtube-embed,
+  .youtube-embed+.caption,
+  .anchor-heading {
+    display: none !important;
+  }
+
+  .main {
+    padding-top: 0 !important;
+  }
+
 }

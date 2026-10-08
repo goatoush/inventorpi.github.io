@@ -17,7 +17,7 @@ Teachers can run a one hour workshop with middle school students interested in S
 *Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit.*
 {: .caption }
 
-[Back to top](#top)
+[Back to top](#top){: .back-to-top }
 
 ## Reference Slides for the Workshop
 
@@ -26,7 +26,7 @@ Reference slides from our first workshop are included below, which you can use a
 [![Inventor Pi - Introduction to Electronics.pdf](/assets/images/slides/Inventor%20Pi%20-%20Introduction%20to%20Electronics.jpg)
 Download Slides ↓](/assets/Inventor%20Pi%20-%20Introduction%20to%20Electronics.pdf)
 
-[Back to top](#top)
+[Back to top](#top){: .back-to-top }
 
 ## Class Experiments Kit
 
@@ -35,7 +35,7 @@ Please familiarize yourself with the contents of the invention kit and the Addit
 {: .important }
 The first step is installing the Thonny app. Please share these [instructions](/getting-started/install-thonny-app.html) with the students ahead of time, so they can install the app on their laptops before the class.
 
-[Back to top](#top)
+[Back to top](#top){: .back-to-top }
 
 ## Breadboard Connections and Safety
 
@@ -52,7 +52,7 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 >
 > Power Off ➔ Connect Components ➔ Verify Each Connection ➔ Power On
 
-[Back to top](#top)
+[Back to top](#top){: .back-to-top }
 
 ## Lesson Plan Outline
 
@@ -63,7 +63,7 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 1. Run random experiments from the list, and present to other teams (20-30 min)
 1. Clean up and pack the kits (5-7 min)
 
-[Back to top](#top)
+[Back to top](#top){: .back-to-top }
 
 ## Some Additional Notes
 - To facilitate running additional workshops in future, students should pack the contents back into the boxes the way they found them.
@@ -72,7 +72,7 @@ When setting up the connectors, students should disconnect the USB cable from Pi
 - Some experiments work in pairs, requiring 2 teams to collaborate using two Picos at the same time (Microphone sensor and melody, and bluetooth advertise and scan).
 - Bluetooth advertise and scan should be a fun experiment for the entire class, where all the devices synchronize their LED colors to match one advertising device. You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out.
 
-[Back to top](#top)
+[Back to top](#top){: .back-to-top }
 
 ## Class Experiments Kit Contents
 
