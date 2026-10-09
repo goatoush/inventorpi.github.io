@@ -11,3 +11,10 @@ Gemfile.lock
 
 # RubyGems distribution packages
 *.gem
+
+# Firebase local cache and build artifacts
+.firebase/
+*.cache
+hosting/.cache
+firebase-debug.log
+firebase-debug.*.log
