@@ -524,6 +524,14 @@ blockquote.highlight.quote {
     box-shadow: none !important;
   }
 
+  .main-content-wrap {
+    padding-top: 0;
+  }
+
+  .main-content h1:first-of-type {
+    margin-top: 0;
+  }
+
   .table-wrapper {
     border: 2px solid rgba(238, 235, 238, 0.5);
   }
