@@ -507,7 +507,8 @@ blockquote.highlight.quote {
   .youtube-embed,
   .youtube-embed+.caption,
   .anchor-heading,
-  .slider-container {
+  .slider-container,
+  .highlight .table-wrapper td.gl {
     display: none !important;
   }
 
@@ -545,4 +546,8 @@ blockquote.highlight.quote {
     print-color-adjust: exact;
   }
 
+  .highlight .table-wrapper .rouge-code pre {
+    white-space: pre-wrap;
+    font-size: .6rem !important;
+  }
 }
