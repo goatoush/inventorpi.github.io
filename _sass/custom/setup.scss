@@ -533,6 +533,13 @@ blockquote.highlight.quote {
     margin-top: 0;
   }
 
+  @page {
+    size: Letter;
+    /* Options: A4, Letter, 8.5in 11in, etc. */
+    margin: 0.75in, 0.6944in 1in;
+    /* Sets consistent margins around the content */
+  }
+
   .table-wrapper {
     border: 2px solid rgba(238, 235, 238, 0.5);
   }
