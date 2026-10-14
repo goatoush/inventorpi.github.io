@@ -492,6 +492,11 @@ blockquote.highlight.quote {
   }
 }
 
+@page {
+  size: Letter;
+  margin: 0.75in 0.6944in 1in 0.6944in;
+}
+
 @media print {
 
   .side-bar,
@@ -531,13 +536,6 @@ blockquote.highlight.quote {
 
   .main-content h1:first-of-type {
     margin-top: 0;
-  }
-
-  @page {
-    size: Letter;
-    /* Options: A4, Letter, 8.5in 11in, etc. */
-    margin: 0.75in, 0.6944in 1in;
-    /* Sets consistent margins around the content */
   }
 
   .table-wrapper {
