@@ -494,6 +494,12 @@ blockquote.highlight.quote {
 
 @media print {
 
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   .side-bar,
   .main-header,
   footer,
