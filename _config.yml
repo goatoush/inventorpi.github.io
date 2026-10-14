@@ -1,6 +1,6 @@
 theme: just-the-docs
 title: Inventor Pi
-description: Making hands-on invention more accessible for teachers and students
+description: Hands-on electronics workshops for schools
 url: "https://inventorpi.com"
 plugins:
   - jekyll-last-modified-at
