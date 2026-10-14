@@ -203,6 +203,12 @@ div.mermaid {
     }
   }
 
+  .search-active .search {
+    *:focus-visible {
+      outline-offset: -4px !important;
+    }
+  }
+
   footer .d-md-none {
     margin-top: 1.5rem !important;
     padding-top: 0.5rem !important;
@@ -401,6 +407,10 @@ blockquote.highlight.quote {
     url("/assets/images/breadboard-bg.png");
 }
 
+*:focus-visible {
+  outline-color: $brand-color;
+}
+
 @media (min-width: 50rem) {
 
   p.highlight.quote.short,
@@ -411,12 +421,23 @@ blockquote.highlight.quote {
   }
 
   .search {
-    border: solid 1px transparent;
+    border: solid 4px transparent;
   }
 
   .site-header,
   .main-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .site-button,
+  .site-title {
+    transition: 0.25s;
+
+    &:hover {
+      background-image: none !important;
+      color: $brand-color;
+      transform: scale(1.1);
+    }
   }
 
   .main-header {
@@ -428,7 +449,7 @@ blockquote.highlight.quote {
     position: fixed;
     top: 0;
     z-index: 99 !important;
-    width: 100%;
+    width: calc(100% - 15.5rem);
     max-width: 50rem;
 
     /* Link animation to the document scrolling root */
