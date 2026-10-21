@@ -1,6 +1,7 @@
 ---
 parent: Getting Started
 nav_order: 9
+mermaid: true
 ---
 # Guide to Reading Code
 

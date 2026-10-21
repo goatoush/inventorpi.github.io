@@ -2,12 +2,12 @@
     <div class="slider-track">
         {% for file in site.static_files %}
         {% if file.path contains "/assets/images/circuits/small" %}
-        <div class="slide"><img src="{{ file.path | relative_url }}"></div>
+        <div class="slide"><img src="{{ file.path | relative_url }}" alt="{{ file.basename }}"></div>
         {% endif %}
         {% endfor %}
         {% for file in site.static_files %}
         {% if file.path contains "/assets/images/circuits/small" %}
-        <div class="slide"><img src="{{ file.path | relative_url }}"></div>
+        <div class="slide"><img src="{{ file.path | relative_url }}" alt="{{ file.basename }}"></div>
         {% endif %}
         {% endfor %}
     </div>
