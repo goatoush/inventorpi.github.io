@@ -5,7 +5,7 @@ nav_order: 16
 ---
 # Bluetooth Advertise and Bluetooth Scan
 
-![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.jpg)
+![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard to individually control the red, green and blue channels of the LED to create any color,&nbsp;display the hex value and R, G, B values on the display,&nbsp;broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,&nbsp;use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,&nbsp; and show the received color on LEDs, creating a cluster of synced Pico devices

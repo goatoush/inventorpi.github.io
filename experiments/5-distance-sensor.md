@@ -4,7 +4,7 @@ nav_order: 5
 ---
 # Distance Sensor
 
-![Distance Sensor](/assets/images/circuits/Distance%20Sensor%20Circuit.jpg)
+![Distance Sensor](/assets/images/circuits/Distance%20Sensor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor, a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306) on a breadboard to create a gesture based sound instrument that converts the distance measured to different buzzer sound frequencies, servo angles and LED colors, and displays the distance measured on the OLED display

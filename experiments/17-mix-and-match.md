@@ -5,10 +5,10 @@ nav_order: 16
 ---
 # Mix and Match Inputs and Outputs
 
-| ![Accelerometer](/assets/images/circuits/Accelerometer%20Circuit.jpg) | ![Crash Sensor](/assets/images/circuits/Crash%20Sensor%20Circuit.jpg) | ![Distance Sensor](/assets/images/circuits/Distance%20Sensor%20Circuit.jpg) |
-| ![Joystick and Servos](/assets/images/circuits/Joystick%20and%20Servos%20Circuit.jpg) | ![Knock Sensor](/assets/images/circuits/Knock%20Sensor%20Circuit.jpg) | ![Microphone Sensor](/assets/images/circuits/Microphone%20Sensor%20Circuit.jpg) |
-| ![Motion Sensor](/assets/images/circuits/Motion%20Sensor%20Circuit.jpg) | ![Photo Interrupter](/assets/images/circuits/Photo%20Interrupter%20Circuit.jpg) | ![Photoresistor](/assets/images/circuits/Photoresistor%20Circuit.jpg) |
-| ![Potentiometer and Servo](/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.jpg) | ![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.jpg) | ![Touch Game](/assets/images/circuits/Touch%20Game%20Circuit.jpg) |
+| ![Accelerometer](/assets/images/circuits/Accelerometer%20Circuit.webp) | ![Crash Sensor](/assets/images/circuits/Crash%20Sensor%20Circuit.webp) | ![Distance Sensor](/assets/images/circuits/Distance%20Sensor%20Circuit.webp) |
+| ![Joystick and Servos](/assets/images/circuits/Joystick%20and%20Servos%20Circuit.webp) | ![Knock Sensor](/assets/images/circuits/Knock%20Sensor%20Circuit.webp) | ![Microphone Sensor](/assets/images/circuits/Microphone%20Sensor%20Circuit.webp) |
+| ![Motion Sensor](/assets/images/circuits/Motion%20Sensor%20Circuit.webp) | ![Photo Interrupter](/assets/images/circuits/Photo%20Interrupter%20Circuit.webp) | ![Photoresistor](/assets/images/circuits/Photoresistor%20Circuit.webp) |
+| ![Potentiometer and Servo](/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.webp) | ![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.webp) | ![Touch Game](/assets/images/circuits/Touch%20Game%20Circuit.webp) |
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306)&nbsp;and one of several input components - an accelerometer, push button, motion sensor, photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard to read the input data from the selected component and interpolate it to a buzzer frequency, an LED color and a servo angle, and display the values on the display

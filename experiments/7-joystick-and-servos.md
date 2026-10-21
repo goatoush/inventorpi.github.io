@@ -4,7 +4,7 @@ nav_order: 7
 ---
 # Joystick and Servos
 
-![Joystick and Servos](/assets/images/circuits/Joystick%20and%20Servos%20Circuit.jpg)
+![Joystick and Servos](/assets/images/circuits/Joystick%20and%20Servos%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard to control the angles of both servos using the joystick and display the angles on the OLED display

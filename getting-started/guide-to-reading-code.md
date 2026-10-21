@@ -5,7 +5,7 @@ mermaid: true
 ---
 # Guide to Reading Code
 
-![Guide to Reading Code](/assets/images/slides/9_Reading_Code.jpg)
+![Guide to Reading Code](/assets/images/slides/9_Reading_Code.webp)
 {: .mt-6 }
 
 {: .center-flowchart }

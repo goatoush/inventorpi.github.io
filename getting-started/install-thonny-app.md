@@ -4,7 +4,7 @@ nav_order: 1
 ---
 # Install Thonny App
 
-![Install Thonny App](/assets/images/slides/1_Install_Thonny_App.jpg)
+![Install Thonny App](/assets/images/slides/1_Install_Thonny_App.webp)
 {: .mt-6 }
 
 ## Installation Steps

@@ -13,7 +13,7 @@ nav_order: 3
 Teachers can run a one hour workshop with middle school students interested in STEM. Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit. There is also a "Get started with MicroPython on Raspberry Pi Pico" book included, which is not essential to running the workshop. It is available for optional extra reading, if desired.
 {: .mt-6 }
 
-![Class Experiments Kit](/assets/images/class-experiments-kit.jpg)
+![Class Experiments Kit](/assets/images/class-experiments-kit.webp)
 *Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit.*
 {: .caption }
 
@@ -23,7 +23,7 @@ Teachers can run a one hour workshop with middle school students interested in S
 
 Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation.
 
-[![Inventor Pi - Introduction to Electronics.pdf](/assets/images/slides/Inventor%20Pi%20-%20Introduction%20to%20Electronics.jpg)
+[![Inventor Pi - Introduction to Electronics.pdf](/assets/images/Inventor%20Pi%20-%20Introduction%20to%20Electronics.webp)
 Download Slides ↓](/assets/Inventor%20Pi%20-%20Introduction%20to%20Electronics.pdf)
 
 [Back to top](#top){: .back-to-top }
@@ -41,7 +41,7 @@ The first step is installing the Thonny app. Please share these [instructions](/
 
 It is important for the students to learn how breadboard connections work and to be safe. The Additional Sensors Kit includes a breadboard with no backing to show how it works. There is a resettable fuse on the breadboard which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. The students still need to verify all connections before powering on the circuit, because incorrect connections to the sensors can cause permanent damage to their sensitive electronics, rendering them useless. The [Do's and Don'ts](/getting-started/important-dos-and-donts.html) section covers important points to keep in mind.
 
-![Resettable Fuse](/assets/images/resettable-fuse.jpg)
+![Resettable Fuse](/assets/images/resettable-fuse.webp)
 *A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard **+**{: .text-red-000} rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard **+**{: .text-red-000} rail) to GND  (breadboard **-**{: .text-blue-000} rail), it trips, preventing damage to the electronics. A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself. The students should verify all the connections and resume the experiment.*
 {: .caption }
 

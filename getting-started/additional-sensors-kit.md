@@ -4,7 +4,7 @@ nav_order: 3
 ---
 # Additional Sensors Kit
 
-![Additional Sensors](/assets/images/slides/3_Additional_Sensors.jpg)
+![Additional Sensors](/assets/images/slides/3_Additional_Sensors.webp)
 {: .mt-6 }
 
 ## Additional Sensors for Sharing Amongst Teams

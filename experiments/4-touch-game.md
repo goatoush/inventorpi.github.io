@@ -4,7 +4,7 @@ nav_order: 4
 ---
 # Touch Game
 
-![Touch Game](/assets/images/circuits/Touch%20Game%20Circuit.jpg)
+![Touch Game](/assets/images/circuits/Touch%20Game%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard to create a reaction time testing game,&nbsp;and to learn to draw shapes on the OLED display

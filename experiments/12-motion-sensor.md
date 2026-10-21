@@ -4,7 +4,7 @@ nav_order: 12
 ---
 # Motion Sensor
 
-![Motion Sensor](/assets/images/circuits/Motion%20Sensor%20Circuit.jpg)
+![Motion Sensor](/assets/images/circuits/Motion%20Sensor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED color and show the status on the display when motion is detected

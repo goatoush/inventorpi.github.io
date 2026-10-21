@@ -5,7 +5,7 @@ nav_order: 6
 ---
 # Raspberry Pi Pico 2 W GPIO Pinout
 
-![Raspberry Pi Pico 2 W GPIO Pinout](/assets/images/slides/6_GPIO_Pinout.jpg)
+![Raspberry Pi Pico 2 W GPIO Pinout](/assets/images/slides/6_GPIO_Pinout.webp)
 {: .mt-6 }
 
 You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below.\

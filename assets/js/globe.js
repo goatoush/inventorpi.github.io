@@ -245,7 +245,7 @@ const countryColor = (polygon) => {
 
     // Initialize Globe.gl
     const globe = new Globe(element)
-        .globeImageUrl('/assets/images/earth-white.jpg')
+        .globeImageUrl('/assets/images/earth-white.webp')
         .backgroundColor('#ffffff')
         .width(element.clientWidth)
         .height(element.clientHeight)

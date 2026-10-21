@@ -4,7 +4,7 @@ nav_order: 2
 ---
 # Humidity Temp Sensor
 
-![Humidity Temp Sensor Circuit](/assets/images/circuits/Humidity%20Temp%20Sensor%20Circuit.jpg)
+![Humidity Temp Sensor Circuit](/assets/images/circuits/Humidity%20Temp%20Sensor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit

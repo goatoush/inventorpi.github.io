@@ -4,7 +4,7 @@ nav_order: 3
 ---
 # Melody
 
-![Melody](/assets/images/circuits/Melody%20Circuit.jpg)
+![Melody](/assets/images/circuits/Melody%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard to play a melody of musical notes on the buzzer with matching text displayed on the display

@@ -4,7 +4,7 @@ nav_order: 11
 ---
 # Knock Sensor
 
-![Knock Sensor](/assets/images/circuits/Knock%20Sensor%20Circuit.jpg)
+![Knock Sensor](/assets/images/circuits/Knock%20Sensor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED color and show the status on the display when a sudden shake is detected

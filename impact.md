@@ -20,7 +20,7 @@ noindex: true
 >MYP Science Teacher\
 >Atlanta International School
 
-![Introduction to Electronics Workshop at Atlanta International School](/assets/images/inventor-pi-workshop-in-atlanta.jpg)
+![Introduction to Electronics Workshop at Atlanta International School](/assets/images/inventor-pi-workshop-in-atlanta.webp)
 *Introduction to Electronics Workshop at Atlanta International School*
 {: .caption.mt-6 }
 

@@ -4,7 +4,7 @@ nav_order: 13
 ---
 # Photo Interrupter
 
-![Photo Interrupter](/assets/images/circuits/Photo%20Interrupter%20Circuit.jpg)
+![Photo Interrupter](/assets/images/circuits/Photo%20Interrupter%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to increment the count on the display each time the photo interrupter light beam is interrupted

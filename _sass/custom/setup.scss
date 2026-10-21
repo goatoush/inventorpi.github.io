@@ -406,7 +406,7 @@ blockquote.highlight.quote {
     radial-gradient(circle at bottom right,
       rgba($brand-color, 0.25) 0%,
       rgba($brand-color, 0) 50%),
-    url("/assets/images/breadboard-bg.png");
+    url("/assets/images/breadboard-bg.webp");
 }
 
 *:focus-visible {
@@ -490,7 +490,7 @@ blockquote.highlight.quote {
       radial-gradient(circle at bottom right,
         rgba($brand-color, 0.25) 0%,
         rgba($brand-color, 0) 50%),
-      url("/assets/images/breadboard-bg.png");
+      url("/assets/images/breadboard-bg.webp");
   }
 }
 

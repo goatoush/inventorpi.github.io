@@ -5,7 +5,7 @@ nav_order: 8
 ---
 # Microphone Sensor and Melody
 
-![Microphone Sensor](/assets/images/circuits/Microphone%20Sensor%20Circuit.jpg)
+![Microphone Sensor](/assets/images/circuits/Microphone%20Sensor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard to replay the sound frequencies measured by the microphone on the buzzer and display them on the display

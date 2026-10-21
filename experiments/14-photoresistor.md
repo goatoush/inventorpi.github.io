@@ -4,7 +4,7 @@ nav_order: 14
 ---
 # Photoresistor
 
-![Photoresistor](/assets/images/circuits/Photoresistor%20Circuit.jpg)
+![Photoresistor](/assets/images/circuits/Photoresistor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard to dim or brighten the LED to match the change in ambient light measured by the photoresister

@@ -4,7 +4,7 @@ nav_order: 6
 ---
 # Piano
 
-![Piano](/assets/images/circuits/Piano%20Circuit.jpg)
+![Piano](/assets/images/circuits/Piano%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard to play different musical notes on the buzzer,&nbsp;draw the notes and musical staff lines on the display,&nbsp;and replay as a recording after a pause

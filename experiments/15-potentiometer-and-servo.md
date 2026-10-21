@@ -4,7 +4,7 @@ nav_order: 15
 ---
 # Potentiometer and Servo
 
-![Potentiometer and Servo](/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.jpg)
+![Potentiometer and Servo](/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard to control the angle of the servo by rotating the potentiometer knob and display it on the display

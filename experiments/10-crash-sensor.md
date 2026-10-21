@@ -4,7 +4,7 @@ nav_order: 10
 ---
 # Crash Sensor
 
-![Crash Sensor](/assets/images/circuits/Crash%20Sensor%20Circuit.jpg)
+![Crash Sensor](/assets/images/circuits/Crash%20Sensor%20Circuit.webp)
 
 {: #summary }
 ### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED color and show the status on the display when crash is detected
