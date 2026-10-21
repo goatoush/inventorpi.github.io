@@ -53,7 +53,8 @@ div.mermaid {
         radial-gradient(circle at bottom right,
             rgba($brand-color, 0.25) 0%,
             rgba($brand-color, 0) 50%),
-        url("/assets/images/breadboard-bg.webp");
+        url("/assets/images/breadboard-bg.webp"),
+        linear-gradient( #f5f6fa, #f5f6fa);
 }
 
 *:focus-visible {
@@ -364,15 +365,6 @@ blockquote.highlight.quote {
             }
         }
     }
-
-    .side-bar {
-        background:
-            radial-gradient(circle at bottom right,
-                rgba($brand-color, 0.25) 0%,
-                rgba($brand-color, 0) 50%),
-            url("/assets/images/breadboard-bg.webp");
-    }
-
 
     .site-button,
     .site-title {
