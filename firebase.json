@@ -8,11 +8,11 @@
     ],
     "headers": [
       {
-        "source": "**/*.@(js|css|png|jpg|jpeg|webp|gif|ico|json|geojson)",
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|ico|json|geojson)",
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=86400"
+            "value": "max-age=2592000"
           }
         ]
       }
