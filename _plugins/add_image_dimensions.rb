@@ -26,6 +26,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
         if size
           img['width']  = size[0].to_s
           img['height'] = size[1].to_s
+          img['loading'] = "lazy"
           mutated = true
         end
       end
