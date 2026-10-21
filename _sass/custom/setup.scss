@@ -89,6 +89,7 @@ main+hr {
 
 .inline-img {
   display: inline-block;
+  width: auto;
   height: 1.8em;
   margin: -0.4em 0;
 }
@@ -140,6 +141,7 @@ div.mermaid {
   .slider-track {
     display: flex;
     width: calc(var(--slide-width) * var(--slide-count) * 2);
+    height: calc(var(--slide-width) * 9/16);
     animation: scrollContinuous 150s linear infinite;
 
     &:hover {

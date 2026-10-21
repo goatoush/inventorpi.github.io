@@ -1,13 +1,12 @@
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 title: Inventor Pi
 description: Hands-on electronics workshops for schools
 url: "https://inventorpi.com"
-plugins:
-  - jekyll-last-modified-at
-  - jekyll-sitemap
 logo: "/assets/images/inventor-pi-logo.png"
 favicon_ico: "/assets/images/favicon.ico"
 brand_color: "#F31660"
+plugins:
+  - jekyll-remote-theme
 back_to_top: true
 back_to_top_text: "Back to top"
 mermaid:
@@ -41,3 +40,6 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
+sass:
+  quiet_deps: true
+  silence_deprecations: ["import"]
