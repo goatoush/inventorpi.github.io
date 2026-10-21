@@ -1,17 +1,3 @@
-
-// Format all summary sections
-const summaries = document.querySelectorAll("h3#summary");
-
-summaries.forEach(summary => {
-    let html = summary.innerHTML;
-    if (html.includes("A MicroPython code example")) {
-        summary.innerHTML = html
-            .replace(/(?<=code example|Pico 2 W microcontroller|on a breadboard) /g, "&nbsp;")
-            .replace(/&nbsp;/, " <ul><li>")
-            .replace(/&nbsp;/g, " <li>");
-    }
-});
-
 document.addEventListener("DOMContentLoaded", function () {
 
     let glightboxLoaded = false;
