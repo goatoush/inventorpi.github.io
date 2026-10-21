@@ -1,0 +1,4 @@
+@use "sass:color";
+
+$brand-color: #f31660;
+$brand-color-lighter: adjust-color($brand-color, $lightness: 30%);

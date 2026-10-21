@@ -9,4 +9,34 @@
         }
     });
 </script>
+<style>
+    .main-content h3#summary::before {
+        content: "Summary";
+        font-style: normal;
+        color: #444;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: .35rem;
+    }
+
+    .main-content h3#summary ul {
+        margin-bottom: 0;
+    }
+
+    .main-content h3#summary {
+        font-size: 0.75rem !important;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        position: relative;
+        margin-top: 1em;
+        line-height: 1.65;
+        border: 1px solid #a8a8a8;
+        border-left: 4px solid #6d6d6d;
+        padding: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 1em;
+    }
+</style>
 {% include nav_pagination.html %}
