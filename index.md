@@ -13,7 +13,7 @@ Inventor Pi gives teachers and students a clear starting point to develop their 
 {: .highlight.fs-7.fw-300 }
 With the right guidance, everyone can learn electronics, AI, and computer vision through projects that connect to real-world impact.
 
-{% include slider.html %}
+{% include slider.html folder="/assets/images/circuits/small/" duration="10s" width="320px" %}
 
 Students learn basic electronic skills about using a breadboard, connecting sensors, motors and controllers, and programming on Raspberry Pi. With an early start, this can unlock their creativity and set them on their path to prototype new ideas, identify real world problems, and continue learning new skills, experimenting and inventing.
 

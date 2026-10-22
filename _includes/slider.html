@@ -1,14 +1,93 @@
-<div class="slider-container">
-    <div class="slider-track">
-        {% for file in site.static_files %}
-        {% if file.path contains "/assets/images/circuits/small" %}
-        <div class="slide"><img src="{{ file.path | relative_url }}" alt="{{ file.basename }}" loading="lazy"></div>
-        {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-        {% if file.path contains "/assets/images/circuits/small" %}
-        <div class="slide"><img src="{{ file.path | relative_url }}" alt="{{ file.basename }}" loading="lazy"></div>
-        {% endif %}
-        {% endfor %}
-    </div>
-</div>
+{% assign images = site.static_files | where_exp: "file", "file.path contains include.folder" |
+map: "basename"
+%}
+<div class="slider-container" data-images="{{ images | join: '|' }}"
+    data-duration="{{ include.duration | default: '10s' }}" data-width="{{ include.width | default: '320px' }}"></div>
+<style>
+    @keyframes scrollContinuous {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-1 * var(--slide-width) * var(--slide-count)));
+        }
+    }
+
+    .slider-container {
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+        background: #fff;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            height: 100%;
+            width: calc(var(--slide-width) / 5);
+            position: absolute;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        &::before {
+            left: 0;
+            top: 0;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        &::after {
+            right: 0;
+            top: 0;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .slider-track {
+            display: flex;
+            width: calc(var(--slide-width) * var(--slide-count) * 2);
+            height: calc(var(--slide-width) * 9/16);
+            animation: scrollContinuous calc(var(--slide-count) * var(--slide-duration)) linear infinite;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+
+            .slide {
+                width: var(--slide-width);
+                height: auto;
+                box-sizing: border-box;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+</style>
+<script>
+    const sliderContainer = document.querySelector(".slider-container");
+    const images = sliderContainer.getAttribute("data-images").split("|");
+    sliderContainer.style.setProperty('--slide-duration', sliderContainer.getAttribute("data-duration"));
+    sliderContainer.style.setProperty('--slide-width', sliderContainer.getAttribute("data-width"));
+    sliderContainer.style.setProperty('--slide-count', images.length);
+    document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+            const sliderTrack = document.createElement("div");
+            sliderTrack.style.width =
+                sliderTrack.className = "slider-track";
+            sliderContainer.appendChild(sliderTrack);
+            images.concat(images).forEach(image => {
+                const slide = document.createElement("div");
+                slide.className = "slide";
+                sliderTrack.appendChild(slide);
+                const img = document.createElement("img");
+                img.src = "/assets/images/circuits/small/" + image + ".webp";
+                img.alt = image;
+                img.loading = "lazy";
+                slide.appendChild(img);
+            })
+        }, 2000);
+    });
+</script>

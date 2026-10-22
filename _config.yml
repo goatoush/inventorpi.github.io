@@ -2,7 +2,7 @@ remote_theme: just-the-docs/just-the-docs
 title: Inventor Pi
 description: Hands-on electronics workshops for schools
 url: "https://inventorpi.com"
-logo: "/assets/images/inventor-pi-logo.webp"
+logo: "/assets/images/inventor-pi-logo.svg"
 favicon_ico: "/assets/images/favicon.ico"
 brand_color: "#F31660"
 plugins:
