@@ -140,14 +140,6 @@ We add a 1 second delay with the sleep(1) statement: ہم نیند (1) بیان 
   True:</code></span> کوڈ بلاک
 Copy and paste the code below to the end of the blink.py file: نیچے دیئے گئے کوڈ کو
   کاپی اور blink.py فائل کے آخر میں پیسٹ کریں۔
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: فائل کو محفوظ کریں اور گرین کا استعمال کرتے ہوئے اسکرپٹ کو چلائیں۔ <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp" alt="موجودہ اسکرپٹ چلائیں۔" class="inline-img"
-  width="24" height="24" fetchpriority="high"></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>
 If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: اگر
   سب کچھ توقع کے مطابق کام کرتا ہے، تو آپ کو Raspberry Pi Pico پر ایک LED بار بار
   آن اور آف نظر آنی چاہیے۔
@@ -605,14 +597,6 @@ The students should verify all the connections and resume the experiment: طلب
   تمام رابطوں کی تصدیق کرنی چاہئے اور تجربہ دوبارہ شروع کرنا چاہئے۔
 Resettable Fuse: ری سیٹ ایبل فیوز
 Connect Pico to Computer: پیکو کو کمپیوٹر سے جوڑیں۔
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: پیکو پر USB کیبل کو مائیکرو USB پورٹ سے جوڑ کر پیکو کو کمپیوٹر سے جوڑیں۔ <span translate="no"><img
-  src="/assets/images/micro-usb-port.webp" alt="پیکو پر مائیکرو USB پورٹ" class="inline-img"
-  width="202" height="205" fetchpriority="high"></span> اور کمپیوٹر پر کوئی بھی USB-C
-  یا USB-A پورٹ
 You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: اگر
   آپ کے کمپیوٹر میں USB-C پورٹس نہیں ہیں تو آپ بیٹری پیک سے USB-C سے USB-A اڈاپٹر
   استعمال کر سکتے ہیں۔
@@ -1003,3 +987,17 @@ Ground: گراؤنڈ
 : براہ کرم ان <a href="/getting-started/install-thonny-app.html">ہدایات کو</a> طلباء
   کے ساتھ وقت سے پہلے شیئر کریں، تاکہ وہ کلاس سے پہلے اپنے لیپ ٹاپ پر ایپ انسٹال کر
   سکیں
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: فائل کو محفوظ کریں اور گرین کا استعمال کرتے ہوئے اسکرپٹ کو چلائیں۔ <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="موجودہ اسکرپٹ چلائیں۔"
+  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: پیکو پر USB کیبل کو مائیکرو USB پورٹ سے جوڑ کر پیکو کو کمپیوٹر سے جوڑیں۔ <span translate="no"><img
+  src="/assets/images/micro-usb-port.webp?v=urm18c" alt="پیکو پر مائیکرو USB پورٹ"
+  class="inline-img" /></span> اور کمپیوٹر پر کوئی بھی USB-C یا USB-A پورٹ

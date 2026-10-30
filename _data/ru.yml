@@ -948,22 +948,6 @@ Introduction to Electronics Slides: Введение в электронику (
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : Работа Утшахо над созданием «доступных умных очков для слепых и слабовидящих» вдохновила
   его на создание <span translate="no">Inventor Pi</span>
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Подключите Pico к компьютеру, соединив USB-кабель с портом Micro USB на Pico. <span
-  translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Порт Micro USB
-  на Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  и любой порт USB-C или USB-A на компьютере
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: Сохраните файл и запустите скрипт, используя зеленую кнопку. <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp" alt="Запустить текущий скрипт" class="inline-img"
-  width="24" height="24" fetchpriority="high"></span> Кнопка <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span>
 Run current script: Запустить текущий скрипт
 English: Английский
 French: Французский
@@ -1034,3 +1018,18 @@ Ground: Земля
 : Пожалуйста, заранее поделитесь этими <a href="/getting-started/install-thonny-app.html">инструкциями</a>
   со студентами, чтобы они могли установить приложение на свои ноутбуки до начала
   занятия
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: Сохраните файл и запустите скрипт, используя зеленую кнопку. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Запустить текущий скрипт"
+  class="inline-img" /></span> Кнопка <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Подключите Pico к компьютеру, соединив USB-кабель с портом Micro USB на Pico. <span
+  translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Порт
+  Micro USB на Pico" class="inline-img" /></span> и любой порт USB-C или USB-A на
+  компьютере

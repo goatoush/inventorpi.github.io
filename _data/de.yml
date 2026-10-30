@@ -966,14 +966,6 @@ Introduction to Electronics Slides: Einführung in die Elektronik (Folien)
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : Utshahos Arbeit an der Entwicklung der „Erschwinglichen Smart Glasses für Blinde
   und Sehbehinderte“ inspirierte ihn zur Gründung <span translate="no">Inventor Pi</span>
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Verbinden Sie den Pico mit dem Computer, indem Sie das USB-Kabel an den Micro-USB-Anschluss
-  des Pico anschließen. <span translate="no"><img src="/assets/images/micro-usb-port.webp"
-  alt="Micro-USB-Anschluss am Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  und jeder USB-C- oder USB-A-Anschluss am Computer
 English: Englisch
 French: Französisch
 Spanish: Spanisch
@@ -991,15 +983,6 @@ Italian: Italienisch
 Dutch: Niederländisch
 Danish: dänisch
 Russian: Russisch
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: Speichern Sie die Datei und führen Sie das Skript mit dem grünen Menü aus. <span
-  translate="no"><img src="/assets/images/thonny-run-button.webp" alt="Führe das aktuelle
-  Skript aus" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  Schaltfläche <span translate="no"><code class="language-plaintext highlighter-rouge">Run
-  current script</code></span>
 Run current script: Führe das aktuelle Skript aus
 Contact Form: Kontaktformular
 Please fill out the form below to get in touch: Bitte füllen Sie das untenstehende
@@ -1052,3 +1035,18 @@ Ground: Boden
 : Bitte teilen Sie diese <a href="/getting-started/install-thonny-app.html">Anweisungen</a>
   den Schülern im Voraus mit, damit sie die App vor dem Unterricht auf ihren Laptops
   installieren können
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: Speichern Sie die Datei und führen Sie das Skript mit dem grünen Menü aus. <span
+  translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Führe
+  das aktuelle Skript aus" class="inline-img" /></span> Schaltfläche <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Verbinden Sie den Pico mit dem Computer, indem Sie das USB-Kabel an den Micro-USB-Anschluss
+  des Pico anschließen. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro-USB-Anschluss am Pico" class="inline-img" /></span> und jeder USB-C-
+  oder USB-A-Anschluss am Computer

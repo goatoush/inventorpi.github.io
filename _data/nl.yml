@@ -963,22 +963,6 @@ Introduction to Electronics Slides: Inleiding tot elektronica (dia&#39;s)
 : Het werk van Utshaho aan de ontwikkeling van &quot;betaalbare slimme brillen voor
   blinden en slechtzienden&quot; inspireerde hem tot het creëren <span translate="no">Inventor
   Pi</span>
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Sluit de Pico aan op de computer door de USB-kabel aan te sluiten op de Micro USB-poort
-  van de Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp"
-  alt="Micro-USB-poort op Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  en elke USB-C- of USB-A-poort op de computer
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: Sla het bestand op en voer het script uit met behulp van de groene knop. <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp" alt="Voer het huidige script uit" class="inline-img"
-  width="24" height="24" fetchpriority="high"></span> Knop &#39; <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span>
 Run current script: Voer het huidige script uit
 English: Engels
 French: Frans
@@ -1050,3 +1034,18 @@ Ground: Grond
   the class
 : Deel deze <a href="/getting-started/install-thonny-app.html">instructies</a> van
   tevoren met de leerlingen, zodat ze de app vóór de les op hun laptops kunnen installeren
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: Sla het bestand op en voer het script uit met behulp van de groene knop. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Voer het huidige script
+  uit" class="inline-img" /></span> Knop &#39; <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Sluit de Pico aan op de computer door de USB-kabel aan te sluiten op de Micro USB-poort
+  van de Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro-USB-poort op Pico" class="inline-img" /></span> en elke USB-C- of USB-A-poort
+  op de computer

@@ -204,7 +204,7 @@
   },"29": {
     "doc": "Contact",
     "title": "Contact Form",
-    "content": "Please fill out the form below to get in touch . Name Email Role School Name School Address Question / Feedback / Interest / Message Send Message Thank you! Your message has been sent successfully. Something went wrong. Please try again later. ",
+    "content": "| Please fill out the form below to get in touch . Name Email Role School Name School Address Question / Feedback / Interest / Message Send Message Thank you! Your message has been sent successfully. Something went wrong. Please try again later. ",
     "url": "/contact.html#contact-form",
     
     "relUrl": "/contact.html#contact-form"

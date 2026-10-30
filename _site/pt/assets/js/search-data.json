@@ -204,7 +204,7 @@
   },"29": {
     "doc": "Contato",
     "title": "Formulário de contato",
-    "content": "Preencha o formulário abaixo para entrar em contato . Nome E-mail Papel Nome da escola Endereço da escola Pergunta / Feedback / Interesse / Mensagem Enviar mensagem Obrigado! Sua mensagem foi enviada com sucesso. Algo deu errado. Por favor, tente novamente mais tarde. ",
+    "content": "| Preencha o formulário abaixo para entrar em contato . Nome E-mail Papel Nome da escola Endereço da escola Pergunta / Feedback / Interesse / Mensagem Enviar mensagem Obrigado! Sua mensagem foi enviada com sucesso. Algo deu errado. Por favor, tente novamente mais tarde. ",
     "url": "/pt/contact.html#contact-form",
     
     "relUrl": "/pt/contact.html#contact-form"

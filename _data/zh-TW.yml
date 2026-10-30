@@ -632,13 +632,6 @@ Introduction to Electronics Slides: 電子學入門幻燈片
 ? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : Utshaho 為盲人和視障人士研發「價格親民的智慧眼鏡」的經歷，啟發他創造了<span translate="no">Inventor Pi</span>
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: 將 USB 連接線連接到 Pico 上的 Micro USB 端口，即可將 Pico 連接到電腦。 <span translate="no"><img src="/assets/images/micro-usb-port.webp"
-  alt="Pico 上的 Micro USB 端口" class="inline-img" width="202" height="205" fetchpriority="high"></span>以及電腦上的任何
-  USB-C 或 USB-A 端口
 English: 英語
 French: 法語
 Spanish: 西班牙語
@@ -656,14 +649,6 @@ Italian: 義大利語
 Dutch: 荷蘭語
 Danish: 丹麥語
 Russian: 俄文
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: 儲存檔案並使用綠色按鈕運行腳本。 <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="運行當前腳本" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span>按鈕
 Run current script: 運行當前腳本
 Contact Form: 聯絡表格
 Please fill out the form below to get in touch: 請填寫以下表格與我們聯絡。
@@ -704,3 +689,15 @@ Ground: 地面
   with the students ahead of time, so they can install the app on their laptops before
   the class
 : 請提前將這些<a href="/getting-started/install-thonny-app.html">說明</a>分享給學生，以便他們在課前能在筆記型電腦上安裝應用程式。
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: 儲存檔案並使用綠色按鈕運行腳本。 <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="運行當前腳本" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>按鈕
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: 將 USB 連接線連接到 Pico 上的 Micro USB 端口，即可將 Pico 連接到電腦。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Pico 上的 Micro USB 端口" class="inline-img" /></span>以及電腦上的任何 USB-C 或 USB-A 端口

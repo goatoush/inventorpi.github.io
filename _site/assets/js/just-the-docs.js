@@ -77,7 +77,7 @@ function disableHeadStyleSheets() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', '/assets/js/search-data.json', true);
+  request.open('GET', searchDataPath, true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {

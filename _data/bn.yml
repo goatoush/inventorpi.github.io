@@ -935,14 +935,6 @@ Introduction to Electronics Slides: ইলেকট্রনিক্স পর�
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : অন্ধ ও দৃষ্টিপ্রতিবন্ধীদের জন্য সাশ্রয়ী স্মার্ট চশমা তৈরির বিষয়ে উৎশাহোর কাজই
   তাকে <span translate="no">Inventor Pi</span> তৈরি করতে অনুপ্রাণিত করেছিল।
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: পিকো-র মাইক্রো ইউএসবি পোর্টে ইউএসবি কেবলটি লাগিয়ে পিকো-কে কম্পিউটারের সাথে সংযুক্ত
-  করুন। <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="পিকো-তে
-  মাইক্রো ইউএসবি পোর্ট" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  এবং কম্পিউটারের যেকোনো USB-C বা USB-A পোর্ট
 English: ইংরেজি
 French: ফরাসি
 Spanish: স্প্যানিশ
@@ -960,14 +952,6 @@ Italian: ইতালীয়
 Dutch: ডাচ
 Danish: ড্যানিশ
 Russian: রাশিয়ান
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: ফাইলটি সংরক্ষণ করুন এবং সবুজ বোতামটি ব্যবহার করে স্ক্রিপ্টটি চালান। <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp" alt="বর্তমান স্ক্রিপ্ট চালান" class="inline-img"
-  width="24" height="24" fetchpriority="high"></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>
 Run current script: বর্তমান স্ক্রিপ্ট চালান
 Contact Form: যোগাযোগ ফর্ম
 Please fill out the form below to get in touch: যোগাযোগ করতে নিচের ফর্মটি পূরণ করুন।
@@ -1018,3 +1002,18 @@ Ground: ভূমি
 : অনুগ্রহ করে এই <a href="/getting-started/install-thonny-app.html">নির্দেশাবলী</a>
   শিক্ষার্থীদের সাথে আগে থেকেই শেয়ার করুন, যাতে তারা ক্লাসের আগেই তাদের ল্যাপটপে
   অ্যাপটি ইনস্টল করে নিতে পারে।
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: ফাইলটি সংরক্ষণ করুন এবং সবুজ বোতামটি ব্যবহার করে স্ক্রিপ্টটি চালান। <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="বর্তমান স্ক্রিপ্ট চালান"
+  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: পিকো-র মাইক্রো ইউএসবি পোর্টে ইউএসবি কেবলটি লাগিয়ে পিকো-কে কম্পিউটারের সাথে সংযুক্ত
+  করুন। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="পিকো-তে মাইক্রো ইউএসবি পোর্ট" class="inline-img" /></span> এবং কম্পিউটারের
+  যেকোনো USB-C বা USB-A পোর্ট

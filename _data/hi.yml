@@ -940,14 +940,6 @@ Introduction to Electronics Slides: इलेक्ट्रॉनिक्स �
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : दृष्टिबाधित और दृष्टिबाधित लोगों के लिए किफायती स्मार्ट चश्मे बनाने के उत्शाहो के
   काम ने ही उन्हें <span translate="no">Inventor Pi</span> बनाने के लिए प्रेरित किया।
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: पिको को कंप्यूटर से जोड़ने के लिए, USB केबल को पिको के माइक्रो USB पोर्ट से कनेक्ट
-  करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="पिको
-  पर माइक्रो यूएसबी पोर्ट" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  और कंप्यूटर पर मौजूद किसी भी USB-C या USB-A पोर्ट पर।
 English: अंग्रेज़ी
 French: फ्रेंच
 Spanish: स्पैनिश
@@ -965,14 +957,6 @@ Italian: इतालवी
 Dutch: डच
 Danish: डेनिश
 Russian: रूसी
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: फ़ाइल को सेव करें और हरे बटन का उपयोग करके स्क्रिप्ट चलाएँ। <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp" alt="वर्तमान स्क्रिप्ट चलाएँ" class="inline-img"
-  width="24" height="24" fetchpriority="high"></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span> बटन
 Run current script: वर्तमान स्क्रिप्ट चलाएँ
 Contact Form: संपर्क करें प्रपत्र
 Please fill out the form below to get in touch: संपर्क करने के लिए कृपया नीचे दिया
@@ -1022,3 +1006,18 @@ Ground: मैदान
 : कृपया इन <a href="/getting-started/install-thonny-app.html">निर्देशों को</a> विद्यार्थियों
   के साथ पहले से साझा कर दें, ताकि वे कक्षा शुरू होने से पहले अपने लैपटॉप पर ऐप इंस्टॉल
   कर सकें।
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: फ़ाइल को सेव करें और हरे बटन का उपयोग करके स्क्रिप्ट चलाएँ। <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="वर्तमान स्क्रिप्ट चलाएँ"
+  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> बटन
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: पिको को कंप्यूटर से जोड़ने के लिए, USB केबल को पिको के माइक्रो USB पोर्ट से कनेक्ट
+  करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="पिको पर माइक्रो यूएसबी पोर्ट" class="inline-img" /></span> और कंप्यूटर पर मौजूद
+  किसी भी USB-C या USB-A पोर्ट पर।

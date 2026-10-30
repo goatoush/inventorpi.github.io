@@ -204,7 +204,7 @@
   },"29": {
     "doc": "Kontakt",
     "title": "Kontaktformular",
-    "content": "Bitte füllen Sie das untenstehende Formular aus, um Kontakt aufzunehmen . Name E-Mail Rolle Name der Schule Schuladresse Frage / Feedback / Interesse / Nachricht Nachricht senden Vielen Dank! Ihre Nachricht wurde erfolgreich versendet. Etwas ist schiefgelaufen. Bitte versuchen Sie es später noch einmal. ",
+    "content": "| Bitte füllen Sie das untenstehende Formular aus, um Kontakt aufzunehmen . Name E-Mail Rolle Name der Schule Schuladresse Frage / Feedback / Interesse / Nachricht Nachricht senden Vielen Dank! Ihre Nachricht wurde erfolgreich versendet. Etwas ist schiefgelaufen. Bitte versuchen Sie es später noch einmal. ",
     "url": "/de/contact.html#contact-form",
     
     "relUrl": "/de/contact.html#contact-form"

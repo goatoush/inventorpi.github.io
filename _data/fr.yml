@@ -928,14 +928,6 @@ You could direct one team to work on Bluetooth advertise and others to setup Blu
   pourriez demander à une équipe de travailler sur la publicité Bluetooth et à d&#39;autres
   de configurer le scan Bluetooth avant l&#39;expiration du délai
 Introduction to Electronics Slides: Introduction à l&#39;électronique (diapositives)
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Connectez le Pico à l&#39;ordinateur en branchant le câble USB au port micro USB
-  du Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Port
-  micro USB sur Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  et n&#39;importe quel port USB-C ou USB-A de l&#39;ordinateur
 English: Anglais
 French: Français
 Spanish: Espagnol
@@ -953,15 +945,6 @@ Italian: italien
 Dutch: Néerlandais
 Danish: danois
 Russian: russe
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: Enregistrez le fichier et exécutez le script en utilisant le bouton vert. <span
-  translate="no"><img src="/assets/images/thonny-run-button.webp" alt="Exécuter le
-  script actuel" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  Bouton <span translate="no"><code class="language-plaintext highlighter-rouge">Run
-  current script</code></span>
 Run current script: Exécuter le script actuel
 Contact Form: Formulaire de contact
 Please fill out the form below to get in touch: Veuillez remplir le formulaire ci-dessous
@@ -1066,3 +1049,18 @@ Search <span translate="no">Inventor Pi</span>: Rechercher <span translate="no">
   et à la carte Raspberry Pi Pico, faciles à utiliser pour les débutants, ainsi qu&#39;à
   un plan de cours permettant aux enseignants de créer des ateliers virtuels et en
   présentiel
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: Enregistrez le fichier et exécutez le script en utilisant le bouton vert. <span
+  translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Exécuter
+  le script actuel" class="inline-img" /></span> Bouton <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Connectez le Pico à l&#39;ordinateur en branchant le câble USB au port micro USB
+  du Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Port micro USB sur Pico" class="inline-img" /></span> et n&#39;importe quel
+  port USB-C ou USB-A de l&#39;ordinateur

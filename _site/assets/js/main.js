@@ -1,4 +1,39 @@
+const testRtl = rtl => {
+    if (rtl) {
+        document.documentElement.setAttribute('dir', 'rtl');
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.href = '/assets/css/rtl.css';
+        document.head.appendChild(linkElement);
+    }
+    else {
+        document.documentElement.removeAttribute('dir');
+    }
+}
+
+const detectUserLanguage = () => {
+    const banner = document.querySelector('.language-banner');
+    const dismissBtn = banner.querySelector('.dismiss.btn');
+    const switchBtn = banner.querySelector('.switch.btn');
+    const userLang = navigator.language || navigator.userLanguage;
+    const match = languages.find((l) => l.c == userLang) || languages.find((l) => l.c == userLang.substring(0, 2));
+    if (currentLang == 'en' && match && currentLang != match.c && !localStorage.getItem('hide_lang_banner')) {
+        dismissBtn.textContent = 'Keep English';
+        dismissBtn.addEventListener('click', () => {
+            localStorage.setItem('hide_lang_banner', 'true');
+            banner.style.display = 'none';
+        });
+        switchBtn.textContent = `Switch to ${match.l}`;
+        switchBtn.addEventListener('click', () => {
+            window.location.replace(`/${match.c}/${window.location.pathname}`);
+        });
+        banner.style.display = 'block';
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
+
+    detectUserLanguage();
 
     window.glightboxLoaded = false;
 
@@ -83,5 +118,40 @@ document.addEventListener("DOMContentLoaded", function () {
         menuButton.click();
         backdrop.classList.remove("open");
     });
+
+    if (document.querySelector('.slider-container')) {
+        setTimeout(() => {
+            const sliderContainer = document.querySelector('.slider-container');
+            const images = sliderContainer.getAttribute('data-images').split('|');
+            const joinPath = (...parts) => parts.join('/');
+            const imageFolder = joinPath('', 'assets', 'images', 'circuits', 'small');
+            const sliderTrack = document.createElement('div');
+            sliderTrack.className = 'slider-track';
+            sliderContainer.appendChild(sliderTrack);
+            images.concat(images).forEach((image) => {
+                const slide = document.createElement('div');
+                slide.className = 'slide';
+                sliderTrack.appendChild(slide);
+                const img = document.createElement('img');
+                img.src = joinPath(imageFolder, image + '.webp');
+                img.alt = image;
+                img.loading = 'eager';
+                const link = document.createElement('a');
+                link.href = img.src;
+                link.className = 'glightbox';
+                slide.appendChild(link);
+                link.appendChild(img);
+                link.setAttribute('data-gallery', 'slider');
+                link.setAttribute('data-title', image);
+                link.addEventListener('click', (e) => {
+                    if (!glightboxLoaded) {
+                        e.preventDefault();
+                        initLazyGLightbox(e.currentTarget);
+                    }
+                });
+            });
+        }, 1000);
+    }
+
 
 });

@@ -1,3 +1,16 @@
+<link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}" />
+{% for lang in site.languages offset: 1 %}
+  <link
+    rel="alternate"
+    hreflang="{{ lang.code }}"
+    href="{{ page.url | prepend: lang.code | prepend: '/' | absolute_url }}"
+  />
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}" />
+{% for lang in site.languages offset: 1 %}
+  <meta property="og:locale:alternate" content="{{ lang.code }}" />
+{% endfor %}
+
 {% if page.noindex %}
   <meta name="robots" content="noindex, nofollow">
 {% endif %}
@@ -16,9 +29,11 @@
   const BRAND_COLOR = '{{ site.brand_color }}';
   const i18nText = JSON.parse(`{{ site.i18n_text | jsonify | default: [] }}`);
   const i18n = (text) => i18nText[text] || text;
+  const searchDataPath = '/assets/js/search-data.json';
+  const citiesDataPath = '/assets/data/cities.json';
+  const languages = [{%- for l in site.languages -%}{c:"{{l.code}}",l:"{{l.label_en}}"},{%- endfor -%}];
 </script>
-<link rel="preload" href="{{ '/assets/js/search-data.json' | relative_url }}" as="fetch" crossorigin="anonymous">
-<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/main.js' | bust_cache | relative_url }}" defer></script>
 <link
   rel="preload"
   href="{{ '/assets/css/styles.css' | relative_url }}"
@@ -28,9 +43,6 @@
 <noscript>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </noscript>
-{% if page.title == 'Contact' %}
-  <link rel="stylesheet" href="{{ '/assets/css/contact_form.css' | relative_url }}">
-{% endif %}
 <style>
   html {
     font-size: 1rem !important;

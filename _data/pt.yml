@@ -937,22 +937,6 @@ Introduction to Electronics Slides: Introdução à Eletrônica - Slides
 : O trabalho de Utshaho na criação dos &quot;Óculos Inteligentes Acessíveis para Cegos
   e Deficientes Visuais&quot; foi o que o inspirou a criar <span translate="no">Inventor
   Pi</span>
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Conecte o Pico ao computador conectando o cabo USB à porta Micro USB do Pico. <span
-  translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Porta Micro USB
-  no Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  e qualquer porta USB-C ou USB-A do computador
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: Salve o arquivo e execute o script usando o ícone verde. <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp" alt="Executar o script atual" class="inline-img"
-  width="24" height="24" fetchpriority="high"></span> Botão <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span>
 Run current script: Executar o script atual
 English: Inglês
 French: Francês
@@ -1020,3 +1004,18 @@ Ground: Chão
 : Por favor, compartilhe estas <a href="/getting-started/install-thonny-app.html">instruções</a>
   com os alunos com antecedência, para que eles possam instalar o aplicativo em seus
   laptops antes da aula
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: Salve o arquivo e execute o script usando o ícone verde. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Executar o script atual"
+  class="inline-img" /></span> Botão <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Conecte o Pico ao computador conectando o cabo USB à porta Micro USB do Pico. <span
+  translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Porta
+  Micro USB no Pico" class="inline-img" /></span> e qualquer porta USB-C ou USB-A
+  do computador

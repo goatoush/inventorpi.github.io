@@ -129,11 +129,28 @@ main+hr {
           font-size: 1.7em;
           line-height: 1;
           margin-left: 6px;
+          white-space: nowrap;
         }
       }
 
     }
   }
+}
+
+.btn.btn-black {
+  @include btn-color($grey-lt-000, $grey-dk-300);
+}
+
+.language-banner {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #888;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 10;
 }
 
 @media (width < 50rem) {
@@ -296,4 +313,3 @@ main+hr {
     display: none !important;
   }
 }
-

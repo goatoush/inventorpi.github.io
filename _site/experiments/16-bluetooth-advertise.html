@@ -4,22 +4,53 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="author" content="Utshaho Gupta">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=17vq3k4">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+
+    .site-nav > ul.nav-list:first-child > li > a,
+    
+    .site-nav > ul.nav-list:first-child > li > ul > li:not(:nth-child(16)) > a,
+    .site-nav > ul.nav-list:first-child > li > ul > li > ul > li a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:not(:first-child) a,
+    .site-nav li.external a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:first-child > li:nth-child(2) > ul > li:nth-child(16) > a {
+      font-weight: 600;
+      text-decoration: none;
+    }.site-nav > ul.nav-list:first-child > li:nth-child(2) > button svg,
+    .site-nav > ul.nav-list:first-child > li:nth-child(2) > ul > li:nth-child(16) > button svg {
+      transform: rotate(-90deg);
+    }.site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(2) > ul.nav-list,
+    .site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(2) > ul.nav-list > li.nav-list-item:nth-child(16) > ul.nav-list {
+      display: block;
+    }
+  </style>
+
   
 
   
-
-  
-    <script src="/assets/js/vendor/lunr.min.js" defer></script>
+    <script src="/assets/js/vendor/lunr.min.js?v=tzvu4b"></script>
   
 
-  <script src="/assets/js/just-the-docs.js" defer></script>
+  <script src="/assets/js/just-the-docs.js?v=1r969qv"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  
+
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
 
   <!-- Begin Jekyll SEO tag v2.9.1 -->
 <title>Bluetooth Advertise | Inventor Pi</title>
@@ -28,86 +59,87 @@
 <meta property="og:locale" content="en">
 <meta name="description" content="Hands-on electronics workshops for schools">
 <meta name="twitter:description" property="og:description" content="Hands-on electronics workshops for schools">
-<link rel="canonical" href="https://inventorpi.com/experiments/16-bluetooth-advertise.html">
-<meta property="og:url" content="https://inventorpi.com/experiments/16-bluetooth-advertise.html">
+<link rel="canonical" href="http://localhost:4000/experiments/16-bluetooth-advertise.html">
+<meta property="og:url" content="http://localhost:4000/experiments/16-bluetooth-advertise.html">
 <meta property="og:site_name" content="Inventor Pi">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Bluetooth Advertise">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-21T18:23:57+00:00","description":"Hands-on electronics workshops for schools","headline":"Bluetooth Advertise","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://inventorpi.com/assets/images/inventor-pi-logo.webp"}},"url":"https://inventorpi.com/experiments/16-bluetooth-advertise.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-30T04:31:39+00:00","description":"Hands-on electronics workshops for schools","headline":"Bluetooth Advertise","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/inventor-pi-logo.webp"}},"url":"http://localhost:4000/experiments/16-bluetooth-advertise.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <link rel="alternate" hreflang="en" href="https://inventorpi.com/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="fr" href="https://inventorpi.com/fr/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="es" href="https://inventorpi.com/es/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="de" href="https://inventorpi.com/de/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="zh" href="https://inventorpi.com/zh/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="zh-TW" href="https://inventorpi.com/zh-TW/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="hi" href="https://inventorpi.com/hi/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="bn" href="https://inventorpi.com/bn/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="ar" href="https://inventorpi.com/ar/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="fa" href="https://inventorpi.com/fa/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="ur" href="https://inventorpi.com/ur/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="pt" href="https://inventorpi.com/pt/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="ja" href="https://inventorpi.com/ja/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="it" href="https://inventorpi.com/it/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="nl" href="https://inventorpi.com/nl/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="da" href="https://inventorpi.com/da/experiments/16-bluetooth-advertise.html">
-  
-    <link rel="alternate" hreflang="ru" href="https://inventorpi.com/ru/experiments/16-bluetooth-advertise.html">
-  
-  <link rel="alternate" hreflang="x-default" href="https://inventorpi.com/experiments/16-bluetooth-advertise.html">
-  
-    <meta property="og:locale:alternate" content="fr">
-  
-    <meta property="og:locale:alternate" content="es">
-  
-    <meta property="og:locale:alternate" content="de">
-  
-    <meta property="og:locale:alternate" content="zh">
-  
-    <meta property="og:locale:alternate" content="zh-TW">
-  
-    <meta property="og:locale:alternate" content="hi">
-  
-    <meta property="og:locale:alternate" content="bn">
-  
-    <meta property="og:locale:alternate" content="ar">
-  
-    <meta property="og:locale:alternate" content="fa">
-  
-    <meta property="og:locale:alternate" content="ur">
-  
-    <meta property="og:locale:alternate" content="pt">
-  
-    <meta property="og:locale:alternate" content="ja">
-  
-    <meta property="og:locale:alternate" content="it">
-  
-    <meta property="og:locale:alternate" content="nl">
-  
-    <meta property="og:locale:alternate" content="da">
-  
-    <meta property="og:locale:alternate" content="ru">
-  
-  
+  <link rel="alternate" hreflang="en" href="http://localhost:4000/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="fr" href="http://localhost:4000/fr/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="es" href="http://localhost:4000/es/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="de" href="http://localhost:4000/de/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="zh" href="http://localhost:4000/zh/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="zh-TW" href="http://localhost:4000/zh-TW/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="hi" href="http://localhost:4000/hi/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="bn" href="http://localhost:4000/bn/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="ar" href="http://localhost:4000/ar/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="fa" href="http://localhost:4000/fa/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="ur" href="http://localhost:4000/ur/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="pt" href="http://localhost:4000/pt/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="ja" href="http://localhost:4000/ja/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="it" href="http://localhost:4000/it/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="nl" href="http://localhost:4000/nl/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="da" href="http://localhost:4000/da/experiments/16-bluetooth-advertise.html">
+
+  <link rel="alternate" hreflang="ru" href="http://localhost:4000/ru/experiments/16-bluetooth-advertise.html">
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:4000/experiments/16-bluetooth-advertise.html">
+
+  <meta property="og:locale:alternate" content="fr">
+
+  <meta property="og:locale:alternate" content="es">
+
+  <meta property="og:locale:alternate" content="de">
+
+  <meta property="og:locale:alternate" content="zh">
+
+  <meta property="og:locale:alternate" content="zh-TW">
+
+  <meta property="og:locale:alternate" content="hi">
+
+  <meta property="og:locale:alternate" content="bn">
+
+  <meta property="og:locale:alternate" content="ar">
+
+  <meta property="og:locale:alternate" content="fa">
+
+  <meta property="og:locale:alternate" content="ur">
+
+  <meta property="og:locale:alternate" content="pt">
+
+  <meta property="og:locale:alternate" content="ja">
+
+  <meta property="og:locale:alternate" content="it">
+
+  <meta property="og:locale:alternate" content="nl">
+
+  <meta property="og:locale:alternate" content="da">
+
+  <meta property="og:locale:alternate" content="ru">
+
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
 <script>
@@ -123,14 +155,15 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = JSON.parse(`{"Active":null,"Base":null,"Planned":null,"Here":null,"Summary":null,"Note":null,"Important":null}`);
   const i18n = (text) => i18nText[text] || text;
+  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
+  const languages = [{c:"en",l:"English"},{c:"fr",l:"French"},{c:"es",l:"Spanish"},{c:"de",l:"German"},{c:"zh",l:"Chinese (Simplified)"},{c:"zh-TW",l:"Chinese (Traditional)"},{c:"hi",l:"Hindi"},{c:"bn",l:"Bangla"},{c:"ar",l:"Arabic"},{c:"fa",l:"Persian"},{c:"ur",l:"Urdu"},{c:"pt",l:"Portuguese"},{c:"ja",l:"Japanese"},{c:"it",l:"Italian"},{c:"nl",l:"Dutch"},{c:"da",l:"Danish"},{c:"ru",l:"Russian"},];
 </script>
-<link rel="preload" href="/assets/js/search-data.json" as="fetch" crossorigin="anonymous">
-<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/main.js?v=1cndni6" defer></script>
 <link rel="preload" href="/assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
-
 <style>
   html {
     font-size: 1rem !important;
@@ -144,6 +177,7 @@
     font-size: 1rem !important;
   }
 </style>
+
 
 </head>
 
@@ -847,64 +881,77 @@ Inventor Pi, Inc. is a registered 501(c)(3) organization
     <p><a href="#top" id="back-to-top">Back to top</a></p>
   
 
-  <script>
-    document.querySelectorAll("h3#summary").forEach(summary => {
-        summary.innerHTML = summary.innerHTML
-            .replace(/&nbsp;/, " <ul><li>")
-            .replace(/&nbsp;/g, " <li>");
-    });
-    document.getElementById("search-input").type = "search";
-    let sheet = document.querySelector('head style').sheet;
-    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
-    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
-    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
-    let langCode = window.location.pathname.split("/").at(1);
-    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
-        langCode = "en";
-    }
-    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
-        const isActive = el.classList.contains(langCode);
-        el.classList.toggle("active", isActive);
-        if (isActive) document.querySelector(".site-button.lang").innerHTML = el.innerHTML;
-    });
-    document.querySelector(".site-button.lang").addEventListener('click', e => {
-        document.querySelector(".select-lang-container").classList.toggle('open');
-        e.preventDefault();
-        return false;
-    });
-    document.querySelector(".select-lang-backdrop").addEventListener('click', () => {
-        document.querySelector(".select-lang-container").classList.remove('open');
-    });
+  <div class="language-banner">
+  <div class="fs-3 m-4">
+    <button type="button" class="dismiss btn btn-black mr-2"></button>
+    <button type="button" class="switch btn btn-green"></button>
+  </div>
+</div>
+<script>
+  document.querySelectorAll('h3#summary').forEach((summary) => {
+    summary.innerHTML = summary.innerHTML.replace(/&nbsp;/, ' <ul><li>').replace(/&nbsp;/g, ' <li>');
+  });
+  document.getElementById('search-input').type = 'search';
+  let sheet = document.querySelector('head style').sheet;
+  sheet.insertRule(
+    `p.note::before, blockquote.note::before { content: '${i18n('Note')}' !important; }`,
+    sheet.cssRules.length
+  );
+  sheet.insertRule(
+    `p.important::before, blockquote.important::before { content: '${i18n('Important')}' !important; }`,
+    sheet.cssRules.length
+  );
+  sheet.insertRule(
+    `.main-content h3#summary::before { content: '${i18n('Summary')}' !important; }`,
+    sheet.cssRules.length
+  );
+  let currentLang = window.location.pathname.split('/').at(1);
+  if (!((currentLang && currentLang.length == 2) || (currentLang.length == 5 && currentLang[2] == '-'))) {
+    currentLang = 'en';
+  }
+  Array.from(document.querySelectorAll('.select-lang li')).map((el) => {
+    const isActive = el.classList.contains(currentLang);
+    el.classList.toggle('active', isActive);
+    if (isActive) document.querySelector('.site-button.lang').innerHTML = el.innerHTML;
+  });
+  document.querySelector('.site-button.lang').addEventListener('click', (e) => {
+    document.querySelector('.select-lang-container').classList.toggle('open');
+    e.preventDefault();
+    return false;
+  });
+  document.querySelector('.select-lang-backdrop').addEventListener('click', () => {
+    document.querySelector('.select-lang-container').classList.remove('open');
+  });
 </script>
 <style>
-    .main-content h3#summary {
-        font-size: 0.75rem !important;
-        font-style: italic;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-        position: relative;
-        margin-top: 1em;
-        line-height: 1.65;
-        border: 1px solid #a8a8a8;
-        border-left: 4px solid #6d6d6d;
-        padding: 0.8rem;
-        border-radius: 4px;
-        margin-bottom: 1em;
-    }
+  .main-content h3#summary {
+    font-size: 0.75rem !important;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    position: relative;
+    margin-top: 1em;
+    line-height: 1.65;
+    border: 1px solid #a8a8a8;
+    border-left: 4px solid #6d6d6d;
+    padding: 0.8rem;
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
 
-    .main-content h3#summary::before {
-        content: 'Summary';
-        font-style: normal;
-        color: #444;
-        display: block;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding-bottom: .35rem;
-    }
+  .main-content h3#summary::before {
+    content: 'Summary';
+    font-style: normal;
+    color: #444;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.35rem;
+  }
 
-    .main-content h3#summary ul {
-        margin-bottom: 0;
-    }
+  .main-content h3#summary ul {
+    margin-bottom: 0;
+  }
 </style>
 <div id="nav-backdrop" class="nav-backdrop"></div>
 
@@ -919,6 +966,7 @@ Inventor Pi, Inc. is a registered 501(c)(3) organization
       <strong>Mix and Match</strong>
     </a></div>
   </div>
+
 
   <div class="d-md-none mt-4 fs-2">
     

@@ -72,8 +72,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
       .glob(
         [
           File.join(destination_dir, "**/*.html"),
-          File.join(destination_dir, "assets/js/search-data.json"),
-          File.join(destination_dir, "assets/js/just-the-docs.js")
+          File.join(destination_dir, "assets/js/search-data.json")
         ]
       )
       .reject do |file_path|
@@ -82,7 +81,6 @@ Jekyll::Hooks.register :site, :post_write do |site|
         end
       end
   files_to_be_updated.each do |file_path|
-    next if file_path.include?("just-the-docs.js")
     content = File.read(file_path)
     text_content =
       content
@@ -227,83 +225,74 @@ Jekyll::Hooks.register :site, :post_write do |site|
     # Repeat for each file
     files_to_be_updated.each do |file_path|
       content = File.read(file_path)
-      content.sub!(%r{(assets/js/search-data.json)}, "#{lang}/\\1")
-      if !file_path.include?("just-the-docs.js")
-        # Add lang to html tag
-        content.gsub!(/<html[^>]*?>/, "<html lang=\"#{lang}\">")
+      # Add lang to html tag
+      content.gsub!(/<html[^>]*?>/, "<html lang=\"#{lang}\">")
 
-        # Add rtl
-        if languages.find { |l| l["code"] == lang }["rtl"]
-          content.sub!(/<html([^>]*?>)/, "<html dir=\"rtl\"\\1")
-          content.sub!(
-            %r{</head>},
-            "<link rel=\"stylesheet\" href=\"\/assets\/css\/rtl.css\">\n</head>"
-          )
-        end
-
-        # Update head
-        content.gsub!(
-          /<meta property="og:locale" content="[^>]*?>/,
-          "<meta property=\"og:locale\" content=\"#{lang}\">"
-        )
-        content.sub!(/(og:locale:alternate" content=")#{lang}"/, "\\1en\"")
-        content.sub!(%r{(assets/js/just-the-docs.js)}, "#{lang}/\\1")
-        if file_path.include?("search-data.json")
-          content.gsub!(
-            %r{("url": "|"relUrl": ")(/[^"']*["'])},
-            "\\1/#{lang}\\2"
-          )
-        end
-
-        # Add placeholders for blocks that should not be translated
-        preserved_blocks = []
-        content.gsub!(%r{<code>.*?</code>}m) do |match|
-          preserved_blocks << match
-          "___PRESERVED_BLOCK_PLACEHOLDER_#{preserved_blocks.size - 1}___"
-        end
-        content.gsub!(%r{<div class="select-lang-text">.*?</div>}m) do |match|
-          preserved_blocks << match
-          "___PRESERVED_BLOCK_PLACEHOLDER_#{preserved_blocks.size - 1}___"
-        end
-
-        # Repeat for each text key, sorted in reverse order by size
-        lang_text_sorted.each do |key1, value|
-          key =
-            Regexp.escape(
-              key1.gsub(%r{<span translate="no">(.+?)</span>}, "\\1")
-            )
-          value.gsub!(%r{<span translate="no">(.+?)</span>}, "\\1")
-          content.gsub!(
-            /(?:alt|placeholder|title|aria-label|name=\"description\" content|property=\"og:.+?\" content|property=\"twitter:.+?\" content)\="\K#{key}/,
-            value
-          )
-          content.gsub!(/(?<!\=")#{key}(?![^<>]*>)/, value)
-        end
-
-        # Insert /lang in links
-        content.gsub!(
-          %r{(<a\s+[^>]*href=["']|<link rel="canonical" href="#{site_url}|<meta property="og:url" content="#{site_url}|\}\},"url"\:"#{site_url})/([^"']*["'])}m
-        ) do
-          prefix = $1
-          path = $2
-          match = $&
-          if prefix =~ /(class="lang")/
-            match
-          else
-            "#{prefix}/#{lang}/#{path}"
-          end
-        end
-
-        # Write translated i18n keys used by javascript i18n()
+      # Add rtl
+      if languages.find { |l| l["code"] == lang }["rtl"]
+        content.sub!(/<html([^>]*?>)/, "<html dir=\"rtl\"\\1")
         content.sub!(
-          /i18nText = JSON\.parse\(`\{.+?\}`\);/m,
-          "i18nText = " + JSON.dump(i18n) + ";"
+          %r{</head>},
+          "<link rel=\"stylesheet\" href=\"\/assets\/css\/rtl.css\">\n</head>"
         )
+      end
 
-        # Restore preserved blocks
-        content.gsub!(/___PRESERVED_BLOCK_PLACEHOLDER_(\d+)___/) do
-          preserved_blocks[$1.to_i]
+      # Update head
+      content.gsub!(
+        /<meta property="og:locale" content="[^>]*?>/,
+        "<meta property=\"og:locale\" content=\"#{lang}\">"
+      )
+      content.sub!(/(og:locale:alternate" content=")#{lang}"/, "\\1en\"")
+
+      # Add placeholders for blocks that should not be translated
+      preserved_blocks = []
+      content.gsub!(%r{<code>.*?</code>}m) do |match|
+        preserved_blocks << match
+        "___PRESERVED_BLOCK_PLACEHOLDER_#{preserved_blocks.size - 1}___"
+      end
+      content.gsub!(%r{<div class="select-lang-text">.*?</div>}m) do |match|
+        preserved_blocks << match
+        "___PRESERVED_BLOCK_PLACEHOLDER_#{preserved_blocks.size - 1}___"
+      end
+
+      # Repeat for each text key, sorted in reverse order by size
+      lang_text_sorted.each do |key1, value|
+        key =
+          Regexp.escape(key1.gsub(%r{<span translate="no">(.+?)</span>}, "\\1"))
+        value.gsub!(%r{<span translate="no">(.+?)</span>}, "\\1")
+        content.gsub!(
+          /(?:alt|placeholder|title|aria-label|name=\"description\" content|property=\"og:.+?\" content|property=\"twitter:.+?\" content)\="\K#{key}/,
+          value
+        )
+        content.gsub!(/(?<!\=")#{key}(?![^<>]*>)/, value)
+      end
+
+      # Insert /lang in links
+      content.gsub!(
+        %r{(<a\s+[^>]*href=["']|<link rel="prefetch" href="|<link rel="canonical" href="#{site_url}|<meta property="og:url" content="#{site_url}|\}\},"url"\:"#{site_url})/([^"']*["'])}m
+      ) do
+        prefix = $1
+        path = $2
+        match = $&
+        if prefix =~ /(class="lang")/
+          match
+        else
+          "#{prefix}/#{lang}/#{path}"
         end
+      end
+      if file_path.include?("search-data.json")
+        content.gsub!(%r{("url": "|"relUrl": ")(/[^"']*["'])}, "\\1/#{lang}\\2")
+      end
+
+      # Write translated i18n keys used by javascript i18n()
+      content.sub!(
+        /i18nText = JSON\.parse\(`\{.+?\}`\);/m,
+        "i18nText = " + JSON.dump(i18n) + ";"
+      )
+
+      # Restore preserved blocks
+      content.gsub!(/___PRESERVED_BLOCK_PLACEHOLDER_(\d+)___/) do
+        preserved_blocks[$1.to_i]
       end
 
       new_file_path =

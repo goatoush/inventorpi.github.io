@@ -204,7 +204,7 @@
   },"29": {
     "doc": "Kontakte",
     "title": "Kontaktformular",
-    "content": "Udfyld venligst formularen nedenfor for at komme i kontakt . Navn E-mail Rolle Skolens navn Skolens adresse Spørgsmål / Feedback / Interesse / Besked Send besked Tak! Din besked er blevet sendt. Noget gik galt. Prøv igen senere. ",
+    "content": "| Udfyld venligst formularen nedenfor for at komme i kontakt . Navn E-mail Rolle Skolens navn Skolens adresse Spørgsmål / Feedback / Interesse / Besked Send besked Tak! Din besked er blevet sendt. Noget gik galt. Prøv igen senere. ",
     "url": "/da/contact.html#contact-form",
     
     "relUrl": "/da/contact.html#contact-form"

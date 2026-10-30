@@ -906,22 +906,6 @@ Introduction to Electronics Slides: Introduktion til elektronik-slides
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : Utshahos arbejde med at skabe &quot;Overkommelige smarte briller til blinde og synshandicappede&quot;
   inspirerede ham til at skabe <span translate="no">Inventor Pi</span>
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Tilslut Pico&#39;en til computeren ved at tilslutte USB-kablet til Micro USB-porten
-  på Pico&#39;en. <span translate="no"><img src="/assets/images/micro-usb-port.webp"
-  alt="Micro USB-port på Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  og enhver USB-C- eller USB-A-port på computeren
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: Gem filen og kør scriptet ved hjælp af den grønne <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Kør det aktuelle script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  Knap <span translate="no"><code class="language-plaintext highlighter-rouge">Run
-  current script</code></span>
 Run current script: Kør det aktuelle script
 English: Engelsk
 French: Fransk
@@ -987,3 +971,17 @@ Ground: Jord
 : Del venligst disse <a href="/getting-started/install-thonny-app.html">instruktioner</a>
   med eleverne på forhånd, så de kan installere appen på deres bærbare computere inden
   undervisningen
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: Gem filen og kør scriptet ved hjælp af den grønne <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Kør det aktuelle script" class="inline-img" /></span> Knap <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Tilslut Pico&#39;en til computeren ved at tilslutte USB-kablet til Micro USB-porten
+  på Pico&#39;en. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB-port på Pico" class="inline-img" /></span> og enhver USB-C- eller
+  USB-A-port på computeren

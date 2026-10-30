@@ -18,6 +18,11 @@ pdfs:
   - "assets/Inventor Pi - Introduction to Electronics.pdf"
 preserve_text:
   - Inventor Pi(, Inc.?)?
+bust_cache_patters:
+  - '<script src="\/assets\/js\/.+?"'
+  - 'const \w+ = ''/assets/.+?'''
+  - '<link rel="stylesheet" href="\/assets\/css\/.+?\.css"'
+  - '<img\s.*?src=["'']\/assets\/.+?["'']'
 languages:
   - code: en
     label: English

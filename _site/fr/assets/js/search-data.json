@@ -204,7 +204,7 @@
   },"29": {
     "doc": "Contact",
     "title": "Formulaire de contact",
-    "content": "Veuillez remplir le formulaire ci-dessous pour nous contacter . Nom E-mail Rôle Nom de l&#39;école Adresse de l&#39;école Question / Commentaires / Intérêt / Message Envoyer un message Merci ! Votre message a bien été envoyé. Quelque chose s&#39;est mal passé. Veuillez réessayer plus tard. ",
+    "content": "| Veuillez remplir le formulaire ci-dessous pour nous contacter . Nom E-mail Rôle Nom de l&#39;école Adresse de l&#39;école Question / Commentaires / Intérêt / Message Envoyer un message Merci ! Votre message a bien été envoyé. Quelque chose s&#39;est mal passé. Veuillez réessayer plus tard. ",
     "url": "/fr/contact.html#contact-form",
     
     "relUrl": "/fr/contact.html#contact-form"

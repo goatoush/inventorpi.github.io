@@ -1,61 +1,74 @@
+<div class="language-banner">
+  <div class="fs-3 m-4">
+    <button type="button" class="dismiss btn btn-black mr-2"></button>
+    <button type="button" class="switch btn btn-green"></button>
+  </div>
+</div>
 <script>
-    document.querySelectorAll("h3#summary").forEach(summary => {
-        summary.innerHTML = summary.innerHTML
-            .replace(/&nbsp;/, " <ul><li>")
-            .replace(/&nbsp;/g, " <li>");
-    });
-    document.getElementById("search-input").type = "search";
-    let sheet = document.querySelector('head style').sheet;
-    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
-    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
-    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
-    let langCode = window.location.pathname.split("/").at(1);
-    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
-        langCode = "en";
-    }
-    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
-        const isActive = el.classList.contains(langCode);
-        el.classList.toggle("active", isActive);
-        if (isActive) document.querySelector(".site-button.lang").innerHTML = el.innerHTML;
-    });
-    document.querySelector(".site-button.lang").addEventListener('click', e => {
-        document.querySelector(".select-lang-container").classList.toggle('open');
-        e.preventDefault();
-        return false;
-    });
-    document.querySelector(".select-lang-backdrop").addEventListener('click', () => {
-        document.querySelector(".select-lang-container").classList.remove('open');
-    });
+  document.querySelectorAll('h3#summary').forEach((summary) => {
+    summary.innerHTML = summary.innerHTML.replace(/&nbsp;/, ' <ul><li>').replace(/&nbsp;/g, ' <li>');
+  });
+  document.getElementById('search-input').type = 'search';
+  let sheet = document.querySelector('head style').sheet;
+  sheet.insertRule(
+    `p.note::before, blockquote.note::before { content: '${i18n('Note')}' !important; }`,
+    sheet.cssRules.length
+  );
+  sheet.insertRule(
+    `p.important::before, blockquote.important::before { content: '${i18n('Important')}' !important; }`,
+    sheet.cssRules.length
+  );
+  sheet.insertRule(
+    `.main-content h3#summary::before { content: '${i18n('Summary')}' !important; }`,
+    sheet.cssRules.length
+  );
+  let currentLang = window.location.pathname.split('/').at(1);
+  if (!((currentLang && currentLang.length == 2) || (currentLang.length == 5 && currentLang[2] == '-'))) {
+    currentLang = 'en';
+  }
+  Array.from(document.querySelectorAll('.select-lang li')).map((el) => {
+    const isActive = el.classList.contains(currentLang);
+    el.classList.toggle('active', isActive);
+    if (isActive) document.querySelector('.site-button.lang').innerHTML = el.innerHTML;
+  });
+  document.querySelector('.site-button.lang').addEventListener('click', (e) => {
+    document.querySelector('.select-lang-container').classList.toggle('open');
+    e.preventDefault();
+    return false;
+  });
+  document.querySelector('.select-lang-backdrop').addEventListener('click', () => {
+    document.querySelector('.select-lang-container').classList.remove('open');
+  });
 </script>
 <style>
-    .main-content h3#summary {
-        font-size: 0.75rem !important;
-        font-style: italic;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-        position: relative;
-        margin-top: 1em;
-        line-height: 1.65;
-        border: 1px solid #a8a8a8;
-        border-left: 4px solid #6d6d6d;
-        padding: 0.8rem;
-        border-radius: 4px;
-        margin-bottom: 1em;
-    }
+  .main-content h3#summary {
+    font-size: 0.75rem !important;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    position: relative;
+    margin-top: 1em;
+    line-height: 1.65;
+    border: 1px solid #a8a8a8;
+    border-left: 4px solid #6d6d6d;
+    padding: 0.8rem;
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
 
-    .main-content h3#summary::before {
-        content: 'Summary';
-        font-style: normal;
-        color: #444;
-        display: block;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding-bottom: .35rem;
-    }
+  .main-content h3#summary::before {
+    content: 'Summary';
+    font-style: normal;
+    color: #444;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.35rem;
+  }
 
-    .main-content h3#summary ul {
-        margin-bottom: 0;
-    }
+  .main-content h3#summary ul {
+    margin-bottom: 0;
+  }
 </style>
 <div id="nav-backdrop" class="nav-backdrop"></div>
 {% include nav_pagination.html %}

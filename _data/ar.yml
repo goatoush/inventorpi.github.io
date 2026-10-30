@@ -138,14 +138,6 @@ We add a 1 second delay with the sleep(1) statement: نضيف تأخيرًا ل�
   class="language-plaintext highlighter-rouge">while True:</code></span>
 Copy and paste the code below to the end of the blink.py file: انسخ والصق الكود أدناه
   في نهاية ملف blink.py
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: احفظ الملف وشغّل البرنامج النصي باستخدام الزر الأخضر <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="تشغيل البرنامج النصي الحالي" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  زر <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span>
 If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: إذا
   سارت الأمور كما هو متوقع، فسترى مؤشر LED على جهاز Raspberry Pi Pico يومض بشكل متكرر
 Congratulations, you have written and run your first MicroPython script: تهانينا،
@@ -568,14 +560,6 @@ The students should verify all the connections and resume the experiment: ينب
   الطلاب التحقق من جميع التوصيلات واستئناف التجربة
 Resettable Fuse: فيوز قابل لإعادة الضبط
 Connect Pico to Computer: قم بتوصيل جهاز Pico بالكمبيوتر
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: قم بتوصيل جهاز Pico بالكمبيوتر عن طريق توصيل كابل USB بمنفذ Micro USB الموجود على
-  جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="منفذ
-  Micro USB على جهاز Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  وأي منفذ USB-C أو USB-A على الكمبيوتر
 You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: يمكنك
   استخدام محول USB-C إلى USB-A الموجود في حزمة البطارية إذا لم يكن جهاز الكمبيوتر
   الخاص بك يحتوي على أي منافذ USB-C
@@ -955,3 +939,17 @@ Ground: أرضي
 : يرجى مشاركة هذه <a href="/getting-started/install-thonny-app.html">التعليمات</a>
   مع الطلاب مسبقًا، حتى يتمكنوا من تثبيت التطبيق على أجهزة الكمبيوتر المحمولة الخاصة
   بهم قبل بدء الحصة
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: احفظ الملف وشغّل البرنامج النصي باستخدام الزر الأخضر <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="تشغيل البرنامج النصي الحالي" class="inline-img" /></span> زر <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: قم بتوصيل جهاز Pico بالكمبيوتر عن طريق توصيل كابل USB بمنفذ Micro USB الموجود على
+  جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="منفذ Micro USB على جهاز Pico" class="inline-img" /></span> وأي منفذ USB-C أو
+  USB-A على الكمبيوتر

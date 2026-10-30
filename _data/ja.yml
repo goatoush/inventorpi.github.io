@@ -582,20 +582,6 @@ Introduction to Electronics Slides: 電子工学入門スライド
 ? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : ウツシャホ氏が「視覚障害者向けの低価格スマートグラス」の開発に取り組んだことが、彼が<span translate="no">Inventor Pi</span>開発するきっかけとなった。
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
-  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
-  and any USB-C or USB-A port on the computer
-: Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp"
-  alt="PicoのマイクロUSBポート" class="inline-img" width="202" height="205" fetchpriority="high"></span>コンピューター上のUSB-CまたはUSB-Aポート
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span> button
-: ファイルを保存し、緑色のボタンを使用してスクリプトを実行します。 <span translate="no"><img src="/assets/images/thonny-run-button.webp"
-  alt="現在のスクリプトを実行する" class="inline-img" width="24" height="24" fetchpriority="high"></span>
-  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
-  script</code></span>ボタン
 Run current script: 現在のスクリプトを実行する
 English: 英語
 French: フランス語
@@ -651,3 +637,15 @@ Ground: 地面
   with the students ahead of time, so they can install the app on their laptops before
   the class
 : 授業前に生徒にこれらの<a href="/getting-started/install-thonny-app.html">手順を</a>共有し、生徒が授業前に各自のノートパソコンにアプリをインストールできるようにしてください。
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+: ファイルを保存し、緑色のボタンを使用してスクリプトを実行します。 <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="現在のスクリプトを実行する" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>ボタン
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
+  port on the computer
+: Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="PicoのマイクロUSBポート" class="inline-img" /></span>コンピューター上のUSB-CまたはUSB-Aポート
