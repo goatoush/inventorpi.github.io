@@ -90,6 +90,8 @@ main+hr {
 
     position: fixed;
     top: 60px;
+    max-height: calc(100vh - 65px);
+    overflow-y: auto;
     margin-left: -60px;
     padding: 0 0 0.5em;
     z-index: 101;
