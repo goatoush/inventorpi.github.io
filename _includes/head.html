@@ -13,6 +13,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="author" content="Utshaho Gupta">
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
   {% comment %}
@@ -22,11 +23,6 @@
       id="jtd-head-nav-stylesheet"
     >
   {% endcomment %}
-  <style id="jtd-nav-activation">
-    {
-        % include css/activation.scss.liquid %
-    }
-  </style>
 
   {% if site.ga_tracking != null %}
     {% assign ga_tracking_ids = site.ga_tracking | split: ',' %}
@@ -50,9 +46,21 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% include_cached favicon.html %}
+  <link rel="icon" href="{{ site.favicon_ico | default: '/favicon.ico' | relative_url }}" type="image/x-icon">
 
   {% seo %}
 
+  <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}" />
+  {% for lang in site.languages offset: 1 %}
+    <link
+      rel="alternate"
+      hreflang="{{ lang.code }}"
+      href="{{ page.url | prepend: lang.code | prepend: '/' | absolute_url }}"
+    />
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}" />
+  {% for lang in site.languages offset: 1 %}
+    <meta property="og:locale:alternate" content="{{ lang.code }}" />
+  {% endfor %}
   {% include head_custom.html %}
 </head>

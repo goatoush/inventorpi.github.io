@@ -1,25 +1,26 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '4.4.1'
+gem "jekyll", "4.4.1"
 
-gem 'jekyll-remote-theme'
+gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
+  gem "faraday-retry"
+  gem "fastimage"
+  gem "google-cloud-translate", "~> 3.0"
+  gem "hexapdf"
   gem "jekyll-last-modified-at"
-  gem 'nokogiri'
-  gem 'fastimage'
-  gem 'faraday-retry'
-  
-  # --- Restored GitHub Pages Core Stack ---
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-include-cache'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-paginate'
-  gem 'jekyll-optional-front-matter'
-  gem 'jekyll-titles-from-headings'
-  gem 'jekyll-relative-links'
-  gem 'jekyll-default-layout'
+  gem "nokogiri"
+  gem "dotenv"
+  gem "jekyll-include-cache"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-default-layout"
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-relative-links"
+  gem "jekyll-titles-from-headings"
+end
 
+group :development, :test do
+  gem "syntax_tree", require: false
 end

@@ -1,0 +1,992 @@
+"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)
+  pins are repeated after every 4 pins, and start after 2 pins in each end"
+10cm Jumper Wires: 10cm Jumper Wires
+2 Micro servo motors: 2 Micro servo motors
+20 jumper wires: 20 jumper wires
+2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
+  Pi, Inc.</span>
+<span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
+  translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization
+<span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+? <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+: <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+: <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+<span translate="no">Inventor Pi</span> on GitHub: <span translate="no">Inventor Pi</span>
+  on GitHub
+A MicroPython code example: A MicroPython code example
+A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects: A
+  PIR motion sensor detects movement by measuring changes in infrared (heat) radiation
+  emitted by surrounding objects
+A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close: A
+  capacitive touch sensor detects a touch by measuring changes in electrical charge
+  when a human finger comes close
+A crash sensor uses a limit switch: A crash sensor uses a limit switch
+A distance sensor measures the distance to any nearby obstruction: A distance sensor
+  measures the distance to any nearby obstruction
+A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: A
+  few seconds after the circuit is fixed or the power is turned off, it cools down
+  and resets itself
+A humidity and temperature sensor measures the ambient temperature and air humidity: A
+  humidity and temperature sensor measures the ambient temperature and air humidity
+A joystick is often used for navigation in robots, drones, cruise ships and planes: A
+  joystick is often used for navigation in robots, drones, cruise ships and planes
+A knock sensor detects vibrations: A knock sensor detects vibrations
+? A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+: A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+? A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+: A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+? A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+: A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+? A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+: A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+: A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: A
+  servo is a motor where we can control the rotation angle by changing the PWM signal
+  we send to it
+AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping: AA Alkaline
+  Batteries, packed in a plastic bag with bubble wrap for shipping
+About: About
+Accelerometer: Accelerometer
+Accelerometer Module: Accelerometer Module
+Active: Active
+Additional Sensors: Additional Sensors
+Additional Sensors Kit: Additional Sensors Kit
+Additional Sensors for Sharing Amongst Teams: Additional Sensors for Sharing Amongst
+  Teams
+? Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+: Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+Affordable Smart Glasses for the Blind and Visually Impaired on YouTube: Affordable
+  Smart Glasses for the Blind and Visually Impaired on YouTube
+? Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+: Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+After that, try random experiments from the list below: After that, try random experiments
+  from the list below
+Alternate Method to Run Experiments without Thonny: Alternate Method to Run Experiments
+  without Thonny
+An accelerometer measures acceleration around the x, y and z axis: An accelerometer
+  measures acceleration around the x, y and z axis
+And when user input pauses, we replay the notes to create a fun musical instrument: And
+  when user input pauses, we replay the notes to create a fun musical instrument
+Arabic: Arabic
+Assorted Reward Stickers: Assorted Reward Stickers
+Atlanta International School: Atlanta International School
+Auxiliary: Auxiliary
+Back to top: Back to top
+Bangla: Bangla
+Base: Base
+Battery pack: Battery pack
+Before we can start the experiments, we need a way to write and deploy the code to Pico: Before
+  we can start the experiments, we need a way to write and deploy the code to Pico
+Blink: Blink
+Bluetooth Advertise: Bluetooth Advertise
+Bluetooth Advertise and Bluetooth Scan: Bluetooth Advertise and Bluetooth Scan
+? Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+: Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+Book: Book
+? Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+: Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+Breadboard Basics: Breadboard Basics
+Breadboard Basics Explained in 60 Seconds: Breadboard Basics Explained in 60 Seconds
+Breadboard Connections and Safety: Breadboard Connections and Safety
+Breadboard Wiring: Breadboard Wiring
+Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: Breadboard with
+  OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons
+? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+: Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+Breadboard without Backing: Breadboard without Backing
+Breadcrumb: Breadcrumb
+Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody: Bring
+  the devices close to each other and place the microphone directly on top of the
+  buzzer of the device playing the melody
+By pressing the joystick button, we toggle the mode to Sync Angle Mode: By pressing
+  the joystick button, we toggle the mode to Sync Angle Mode
+Capacitive Touch Sensor: Capacitive Touch Sensor
+Category: Category
+Check your class experiments kit: Check your class experiments kit
+Chinese (Simplified): Chinese (Simplified)
+Chinese (Traditional): Chinese (Traditional)
+? Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+: Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+Class Experiments Kit: Class Experiments Kit
+Class Experiments Kit Contents: Class Experiments Kit Contents
+Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: Class
+  Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit
+Clean up and pack the kits (5-7 min): Clean up and pack the kits (5-7 min)
+Congratulations, you have written and run your first MicroPython script: Congratulations,
+  you have written and run your first MicroPython script
+Connect Components: Connect Components
+Connect Pico: Connect Pico
+Connect Pico to Computer: Connect Pico to Computer
+Connect any components: Connect any components
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+: Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: Connect
+  the Raspberry Pi Pico to the battery pack with the provided USB cable
+Connect the Raspberry Pi Pico to the computer with the provided USB cable: Connect
+  the Raspberry Pi Pico to the computer with the provided USB cable
+Connect the components as described before connecting Pico to power supply: Connect
+  the components as described before connecting Pico to power supply
+Contact: Contact
+Contact Form: Contact Form
+Copy and paste the code below into the file you created: Copy and paste the code below
+  into the file you created
+Copy and paste the code below to the end of the blink.py file: Copy and paste the
+  code below to the end of the blink.py file
+Count point distance from other connectors on the board to verify: Count point distance
+  from other connectors on the board to verify
+Crash Sensor: Crash Sensor
+Crash Sensor Module: Crash Sensor Module
+Crash sensor: Crash sensor
+Create a new file in Thonny, with file name accelerometer.py: Create a new file in
+  Thonny, with file name accelerometer.py
+Create a new file in Thonny, with file name blink.py: Create a new file in Thonny,
+  with file name blink.py
+Create a new file in Thonny, with file name bluetooth_advertise.py: Create a new file
+  in Thonny, with file name bluetooth_advertise.py
+Create a new file in Thonny, with file name crash_sensor.py: Create a new file in
+  Thonny, with file name crash_sensor.py
+Create a new file in Thonny, with file name distance_sensor.py: Create a new file
+  in Thonny, with file name distance_sensor.py
+Create a new file in Thonny, with file name joystick_and_servos.py: Create a new file
+  in Thonny, with file name joystick_and_servos.py
+Create a new file in Thonny, with file name knock_sensor.py: Create a new file in
+  Thonny, with file name knock_sensor.py
+Create a new file in Thonny, with file name microphone_sensor.py: Create a new file
+  in Thonny, with file name microphone_sensor.py
+Create a new file in Thonny, with file name mix_and_match.py: Create a new file in
+  Thonny, with file name mix_and_match.py
+Create a new file in Thonny, with file name motion_sensor.py: Create a new file in
+  Thonny, with file name motion_sensor.py
+Create a new file in Thonny, with file name photo_interrupter.py: Create a new file
+  in Thonny, with file name photo_interrupter.py
+Create a new file in Thonny, with file name photoresistor.py: Create a new file in
+  Thonny, with file name photoresistor.py
+Create a new file in Thonny, with file name potentiometer_and_servo.py: Create a new
+  file in Thonny, with file name potentiometer_and_servo.py
+Create a new file in Thonny, with file name touch_game.py: Create a new file in Thonny,
+  with file name touch_game.py
+Danish: Danish
+? Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+: Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+Disconnect Pico before changing connectors: Disconnect Pico before changing connectors
+Distance Sensor: Distance Sensor
+Distance sensor: Distance sensor
+Divide class into 5 teams (one per invention kit) (3-5 min): Divide class into 5 teams
+  (one per invention kit) (3-5 min)
+Do …: Do …
+Do's and Don'ts: Do's and Don'ts
+Don’t leave before putting everything back in the kit box: Don’t leave before putting
+  everything back in the kit box
+Don’t power on before verifying all connections: Don’t power on before verifying all
+  connections
+Don’t rely on numbers printed on the breadboard: Don’t rely on numbers printed on
+  the breadboard
+Don’t …: Don’t …
+Download Slides: Download Slides
+Download and Install Thonny (with Python) from: Download and Install Thonny (with
+  Python) from
+Do’s and Don’ts: Do’s and Don’ts
+Dutch: Dutch
+Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit: Each
+  class experiments kit includes 5 identical invention kits and one Additional Sensors
+  Kit
+Each joystick includes independent X and Y axis control: Each joystick includes independent
+  X and Y axis control
+Email: Email
+Empty Battery Pack with USB-C to USB-A Adapter: Empty Battery Pack with USB-C to USB-A
+  Adapter
+English: English
+Establish team roles like coding, wiring, verifying circuit, capturing notes and recording: Establish
+  team roles like coding, wiring, verifying circuit, capturing notes and recording
+? Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+: Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico: Expand
+  the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico
+Experiments: Experiments
+Experiments submenu: Experiments submenu
+FOUNDER: FOUNDER
+Featured in Raspberry Pi Foundation’s Worldwide Coolest Projects: Featured in Raspberry
+  Pi Foundation’s Worldwide Coolest Projects
+? Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+: Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion: For
+  a ladder climbing robot, a knock sensor could detect when an extending arm hits
+  a ladder rung, and then initiate next motion
+? For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+: For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+For this, we add some more helper functions below: For this, we add some more helper
+  functions below
+'For this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span> as shown below:': 'For
+  this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>
+  as shown below:'
+French: French
+Full Raspberry Pi Pico 2 W Pinout: Full Raspberry Pi Pico 2 W Pinout
+German: German
+Get Started: Get Started
+Get started with MicroPython on Raspberry Pi Pico Book: Get started with MicroPython
+  on Raspberry Pi Pico Book
+Getting Started: Getting Started
+Getting Started submenu: Getting Started submenu
+GitHub: GitHub
+Grade 7 Student: Grade 7 Student
+Ground: Ground
+Guide to Reading Code: Guide to Reading Code
+Hands-on electronics workshops for schools: Hands-on electronics workshops for schools
+? He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+: He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate: He
+  loves traveling, band, track and photography and he is a 3rd degree black belt in
+  Karate
+He provided clear instructions and offered support to the students throughout their activities: He
+  provided clear instructions and offered support to the students throughout their
+  activities
+He was fantastic with the kids, coming prepared with all the necessary materials: He
+  was fantastic with the kids, coming prepared with all the necessary materials
+Here: Here
+Hindi: Hindi
+Hint: Hint
+How to Run Experiments with Thonny: How to Run Experiments with Thonny
+Humans are full of water and salt, making the body a natural conductor of electricity: Humans
+  are full of water and salt, making the body a natural conductor of electricity
+Humidity + temperature sensor: Humidity + temperature sensor
+Humidity Temp Sensor: Humidity Temp Sensor
+Humidity Temp Sensor Circuit: Humidity Temp Sensor Circuit
+I liked how many different things we could do, there was lot’s of variety: I liked
+  how many different things we could do, there was lot’s of variety
+If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: If
+  Thonny cannot be installed at all, we can use the alternate method below to run
+  the experiments
+If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: If
+  everything worked as expected, you should see an LED on the Raspberry Pi Pico blink
+  on and off repeatedly
+If teams have more than 3 students, they can take turns reading about an experiment and running an experiment: If
+  teams have more than 3 students, they can take turns reading about an experiment
+  and running an experiment
+If that is not feasible, we install it on at least one computer per team: If that
+  is not feasible, we install it on at least one computer per team
+If the room is not very noisy, it should pick up at least some of the notes: If the
+  room is not very noisy, it should pick up at least some of the notes
+If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway: If
+  you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy
+  &amp; Security and click Open Anyway
+Important: Important
+Important Do's and Don'ts: Important Do's and Don'ts
+Important Do’s and Don’ts: Important Do’s and Don’ts
+In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller: In
+  FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller
+In a printer, it detects when a paper is present: In a printer, it detects when a
+  paper is present
+In robotics, it is essential in determining the robot position and movement: In robotics,
+  it is essential in determining the robot position and movement
+In robotics, temperature sensors are built into most electronic components: In robotics,
+  temperature sensors are built into most electronic components
+In robotics, we often use advanced mathematics to control various motions: In robotics,
+  we often use advanced mathematics to control various motions
+? In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+: In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+In this script, we control the angle of two servos using different axes of the joystick: In
+  this script, we control the angle of two servos using different axes of the joystick
+In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen: In
+  this script, we create a short game to test your reaction time, while also learning
+  how to draw shapes on the OLED screen
+In this script, we draw a 3D shape, and control its rotation using the accelerometer: In
+  this script, we draw a 3D shape, and control its rotation using the accelerometer
+In this script, we send different frequencies to a piezo buzzer to play different musical notes: In
+  this script, we send different frequencies to a piezo buzzer to play different musical
+  notes
+In this script, we use this input to control a servo angle: In this script, we use
+  this input to control a servo angle
+Incorrect VCC and GND can destroy sensitive electronics: Incorrect VCC and GND can
+  destroy sensitive electronics
+Inspiration Behind the Initiative: Inspiration Behind the Initiative
+Install Thonny App: Install Thonny App
+Installation Steps: Installation Steps
+Introduction - Learn about electronics, breadboards, safety (10-20 min): Introduction
+  - Learn about electronics, breadboards, safety (10-20 min)
+Introduction to Electronics Slides: Introduction to Electronics Slides
+Introduction to Electronics Workshop: Introduction to Electronics Workshop
+Introduction to Electronics Workshop at Atlanta International School: Introduction
+  to Electronics Workshop at Atlanta International School
+Invention Kit (5x): Invention Kit (5x)
+Invention Kit Contents: Invention Kit Contents
+It includes 5 identical invention kits and one additional sensors kit: It includes
+  5 identical invention kits and one additional sensors kit
+It is also used in oven and refrigerator doors to turn on the internal light when the door is opened: It
+  is also used in oven and refrigerator doors to turn on the internal light when the
+  door is opened
+It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars: It
+  is also used to count the pulses of a slotted disc rotating to calculate motor or
+  wheel speed in robotics and smart cars
+It is available for optional extra reading, if desired: It is available for optional
+  extra reading, if desired
+It is important for the students to learn how breadboard connections work and to be safe: It
+  is important for the students to learn how breadboard connections work and to be
+  safe
+It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM: It
+  is targeted towards middle school and primary school teachers and students who want
+  to introduce and learn hands-on STEM
+It is used in security alarms and smart home automation: It is used in security alarms
+  and smart home automation
+It is used in smartphones for multi-touch navigation and gesture detection: It is
+  used in smartphones for multi-touch navigation and gesture detection
+It is used to detect end-of-travel in 3D printers, CNC machines and robots: It is
+  used to detect end-of-travel in 3D printers, CNC machines and robots
+It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight: It
+  is used to dim a phone screen in low light, and brighten it when outdoors under
+  bright sunlight
+It is useful to count the pin distance from other used pins on the board: It is useful
+  to count the pin distance from other used pins on the board
+? It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+: It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+It was truly great to have Utshaho in class: It was truly great to have Utshaho in
+  class
+? It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+: It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+Italian: Italian
+Item Description: Item Description
+Japanese: Japanese
+Joystick Module: Joystick Module
+Joystick and Servos: Joystick and Servos
+Joystick module: Joystick module
+Knock Sensor: Knock Sensor
+Knock Sensor Module: Knock Sensor Module
+Knock sensor: Knock sensor
+Launch Thonny App on your computer, if it is not already running: Launch Thonny App
+  on your computer, if it is not already running
+Lesson Plan Outline: Lesson Plan Outline
+Lesson Plan for Teachers: Lesson Plan for Teachers
+Let’s start with a simple micropython script to control the onboard LED on the Pico microcontroller: Let’s
+  start with a simple micropython script to control the onboard LED on the Pico microcontroller
+Line tracking robots use it to distinguish between a dark line and a light surface: Line
+  tracking robots use it to distinguish between a dark line and a light surface
+MYP Science Teacher: MYP Science Teacher
+Main: Main
+Making hands-on invention more accessible for teachers and students: Making hands-on
+  invention more accessible for teachers and students
+Melody: Melody
+Menu: Menu
+Micro Servo Motor: Micro Servo Motor
+Micro USB Port on Pico: Micro USB Port on Pico
+Micro USB cable: Micro USB cable
+Micro USB to USB-C Cable: Micro USB to USB-C Cable
+Microphone Sensor: Microphone Sensor
+Microphone Sensor and Melody: Microphone Sensor and Melody
+Microphone sensor: Microphone sensor
+Mix and Match: Mix and Match
+Mix and Match Inputs and Outputs: Mix and Match Inputs and Outputs
+Motion Sensor: Motion Sensor
+Motion sensor: Motion sensor
+Ms. Irem Nekay: Ms. Irem Nekay
+NFC Nail Reward Stickers: NFC Nail Reward Stickers
+Name: Name
+Next: Next
+Note: Note
+Notice that: Notice that
+Now let’s add the main loop: Now let’s add the main loop
+Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: Now
+  we use trigonometry to calculate the angle the joystick lever makes, and set the
+  servos to match this angle
+"On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "On
+  the breadboard, press the blue button \U0001F535 once to launch the menu on the
+  OLED screen"
+Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment: Once
+  you get it to work on your Pico, try connecting the humidity and temperature sensor
+  in the next experiment
+"Once you reach the experiment you are trying to run, press the blue button \U0001F535 to launch it": "Once
+  you reach the experiment you are trying to run, press the blue button \U0001F535
+  to launch it"
+PIR Motion Sensor Module: PIR Motion Sensor Module
+Page not found: Page not found
+Persian: Persian
+Photo Interrupter: Photo Interrupter
+Photo Interrupter Module: Photo Interrupter Module
+Photo interrupter: Photo interrupter
+Photoresistor: Photoresistor
+Photoresistor Module: Photoresistor Module
+Piano: Piano
+Pico 2 W Pinout: Pico 2 W Pinout
+Planned: Planned
+Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: Please
+  familiarize yourself with the contents of the invention kit and the Additional Sensors
+  Kit
+Please fill out the form below to get in touch: Please fill out the form below to
+  get in touch
+? Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+: Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+Please try again later: Please try again later
+Portuguese: Portuguese
+Potentiometer: Potentiometer
+Potentiometer Module: Potentiometer Module
+Potentiometer and Servo: Potentiometer and Servo
+Potentiometers are the dials we turn to control things like temperature or volume: Potentiometers
+  are the dials we turn to control things like temperature or volume
+Power Off: Power Off
+Power On: Power On
+Previous: Previous
+Quantity per Box: Quantity per Box
+Question / Feedback / Interest / Message: Question / Feedback / Interest / Message
+Raspberry Pi Pico 2 W GPIO Pinout: Raspberry Pi Pico 2 W GPIO Pinout
+Reaching Teachers and Students Worldwide: Reaching Teachers and Students Worldwide
+Read experiment description and code: Read experiment description and code
+Read other comments: Read other comments
+Read rest of the code: Read rest of the code
+Read the guide and the code for the experiment on this website and create a new file as described: Read
+  the guide and the code for the experiment on this website and create a new file
+  as described
+Read the guide and the code for the experiment on this website but skip creating a file: Read
+  the guide and the code for the experiment on this website but skip creating a file
+Read the main loop: Read the main loop
+Refer to the relevant circuit diagrams above based on the input you choose: Refer
+  to the relevant circuit diagrams above based on the input you choose
+Reference Slides for the Workshop: Reference Slides for the Workshop
+Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation: Reference
+  slides from our first workshop are included below, which you can use as-is, or incorporate
+  within your presentation
+Remembering this will make verifying the pin positions easier: Remembering this will
+  make verifying the pin positions easier
+Resettable Fuse: Resettable Fuse
+Robots and cars use such sensors to stop before hitting any obstruction: Robots and
+  cars use such sensors to stop before hitting any obstruction
+Role: Role
+Rotation Encoder: Rotation Encoder
+Rotation Encoder Module: Rotation Encoder Module
+Run current script: Run current script
+Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): Run
+  first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10
+  min)
+Run random experiments from the list, and present to other teams (20-30 min): Run
+  random experiments from the list, and present to other teams (20-30 min)
+Run this script, and simultaneously run melody.py on a different device: Run this
+  script, and simultaneously run melody.py on a different device
+Russian: Russian
+Safety Procedure: Safety Procedure
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+: Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+School Address: School Address
+School Name: School Name
+Search <span translate="no">Inventor Pi</span>: Search <span translate="no">Inventor
+  Pi</span>
+Send Message: Send Message
+Showing cities with active workshops/outreach, as well as planned cities: Showing
+  cities with active workshops/outreach, as well as planned cities
+Skip to main content: Skip to main content
+Some Additional Notes: Some Additional Notes
+Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: Some
+  TVs use it to dim the display to match the ambient room light, to appear like printed
+  wall art
+Some experiments need additional sensors from the common additional sensors kit to be shared by all teams: Some
+  experiments need additional sensors from the common additional sensors kit to be
+  shared by all teams
+? Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+: Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+Something went wrong: Something went wrong
+Sound waves move through the air and hit a tiny flexible diaphragm inside the module’s microphone: Sound
+  waves move through the air and hit a tiny flexible diaphragm inside the module’s
+  microphone
+Spanish: Spanish
+Start by reading the description: Start by reading the description
+Students familiarize themselves with the invention kit components (3-5 min): Students
+  familiarize themselves with the invention kit components (3-5 min)
+? Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+: Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+Summary: Summary
+Table of contents: Table of contents
+Teachers can run a one hour workshop with middle school students interested in STEM: Teachers
+  can run a one hour workshop with middle school students interested in STEM
+Temp &amp; Humidity Sensor: Temp &amp; Humidity Sensor
+Thank you! Your message has been sent successfully: Thank you! Your message has been
+  sent successfully
+? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+: The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+The Additional Sensors Kit includes a breadboard with no backing to show how it works: The
+  Additional Sensors Kit includes a breadboard with no backing to show how it works
+? The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+: The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+The complete code for all the experiments is also available on: The complete code
+  for all the experiments is also available on
+The first step is installing the Thonny app: The first step is installing the Thonny
+  app
+The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume: The
+  fluctuations in the diaphragm create electrical signals that match the sound frequency
+  and volume
+The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times: The
+  function below adds a twinkle effect by turning the LED to dim white then off, repeating
+  multiple times
+The function below draws happy or sad face based on the parameters passed to it: The
+  function below draws happy or sad face based on the parameters passed to it
+The goal is to help students move from simply learning about technology to actually building technology that solve real problems: The
+  goal is to help students move from simply learning about technology to actually
+  building technology that solve real problems
+The ground pins also have a square copper shape around the pin on the Pico board to make them easier to recognize: The
+  ground pins also have a square copper shape around the pin on the Pico board to
+  make them easier to recognize
+The main loop of our game is easy to follow because it calls easy to understand function names: The
+  main loop of our game is easy to follow because it calls easy to understand function
+  names
+The onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25): The
+  onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25)
+The page you requested could not be found: The page you requested could not be found
+The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen: The
+  sensor readings are converted to LED color, servo angle, buzzer frequency and text
+  on the OLED screen
+The sensor used here is an ultrasonic distance sensor: The sensor used here is an
+  ultrasonic distance sensor
+The students should verify all the connections and resume the experiment: The students
+  should verify all the connections and resume the experiment
+? The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+: The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+The students were engaged and enjoyed what they were doing: The students were engaged
+  and enjoyed what they were doing
+Then in the main loop, we use the measure function to get the temperature and humidity: Then
+  in the main loop, we use the measure function to get the temperature and humidity
+Then remove the book and wait for the sensor to detect motion: Then remove the book
+  and wait for the sensor to detect motion
+? There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+: There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+? There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+: There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+? There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+: There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+? There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+: There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits: They
+  can be used for thermal protection, such as to automatically shutdown a robot when
+  temperatures exceed safe limits
+They were really interested in building different sensors: They were really interested
+  in building different sensors
+They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: They
+  work by varying the electrical resistance, which we read as varying voltage at a
+  microcontroller’s input pin
+? This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+: This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+This is a DHT11 sensor: This is a DHT11 sensor
+This is a companion guide to the class experiments kit shown below: This is a companion
+  guide to the class experiments kit shown below
+This is a fun hands-on way to get introduced to electronics, programming and engineering: This
+  is a fun hands-on way to get introduced to electronics, programming and engineering
+This is how a cluster of robots can communicate and work together: This is how a cluster
+  of robots can communicate and work together
+This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs: This
+  is the kitchen sink catch-all script that lets you mix and match different inputs
+  and outputs
+This particular module uses a spring-based vibration switch: This particular module
+  uses a spring-based vibration switch
+To add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>: To
+  add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>
+To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it: To
+  do this, we will install the Thonny app, preferably on all computers, so every student
+  can learn to use it
+To end the experiment, disconnect the USB cable from Pico: To end the experiment,
+  disconnect the USB cable from Pico
+? To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+: To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+? To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+: To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+'To play a note at an interval, we run:': 'To play a note at an interval, we run:'
+To play an entire melody, create a new file in Thonny, with file name melody.py: To
+  play an entire melody, create a new file in Thonny, with file name melody.py
+To put it all together, and test, create a new file in Thonny, with file name piano.py: To
+  put it all together, and test, create a new file in Thonny, with file name piano.py
+? To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+? To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+'To read the sensor, we run:': 'To read the sensor, we run:'
+To run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py: To
+  run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py
+To select another experiment, repeat the steps above: To select another experiment,
+  repeat the steps above
+? To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+: To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+? To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+: To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+? To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+: To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+? To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+: To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty): Toggle
+  the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty)
+Total Quantity: Total Quantity
+Touch Game: Touch Game
+Touch sensor: Touch sensor
+Try using the navigation or search to find what you're looking for or go to the: Try
+  using the navigation or search to find what you're looking for or go to the
+Ultrasonic Distance Sensor: Ultrasonic Distance Sensor
+Unlike standard electric motors that spin continuously, a servo motor moves to an exact angle or position and holds it firmly: Unlike
+  standard electric motors that spin continuously, a servo motor moves to an exact
+  angle or position and holds it firmly
+Urdu: Urdu
+"Use the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2 to move back": "Use
+  the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2
+  to move back"
+Utshaho Gupta: Utshaho Gupta
+? Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+: Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+Utshaho revels in the intersection of math and science with language and international relations: Utshaho
+  revels in the intersection of math and science with language and international relations
+? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+: Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+Verify Each Connection: Verify Each Connection
+Verify all connections, especially VCC and GND: Verify all connections, especially
+  VCC and GND
+Verify all the connections are to the correct Pins, especially the VCC and GND connections: Verify
+  all the connections are to the correct Pins, especially the VCC and GND connections
+We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: We
+  access the GPIO (General Purpose Input Output) pins by using the Pin object from
+  the machine library
+We add a 1 second delay with the sleep(1) statement: We add a 1 second delay with
+  the sleep(1) statement
+We also change the angle of a servo motor based on the distance detected: We also
+  change the angle of a servo motor based on the distance detected
+We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines: We
+  also learn how to draw shapes on the OLED screen to draw the notes on musical staff
+  lines
+We can use simple math formula to convert from celsius to fahrenheit: We can use simple
+  math formula to convert from celsius to fahrenheit
+? We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+: We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+'We import the dht library and setup the GP28 pin as shown below:': 'We import the
+  dht library and setup the GP28 pin as shown below:'
+We read 6 different inputs for the 6 buttons: We read 6 different inputs for the 6
+  buttons
+We use Pin.OUT to set it as an output pin: We use Pin.OUT to set it as an output pin
+? We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+: We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+We use the buttons to play different musical notes: We use the buttons to play different
+  musical notes
+We will use input pins later with sensors: We will use input pins later with sensors
+? When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+: When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+? When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+: When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+? When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+: When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+? When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+: When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+? When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+: When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+? When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+: When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+? When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+: When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: When
+  there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard
+Which  gives us a total of 8 independent axes to control the robot: Which  gives us
+  a total of 8 independent axes to control the robot
+While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: While
+  a crash sensor would need to be placed at the point of impact, a knock sensor could
+  detect vibrations across an entire arm
+With all these functions, our main loop is still easy to follow: With all these functions,
+  our main loop is still easy to follow
+? With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+: With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+? With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+: With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+Won the 2025 Congressional App Challenge in Georgia’s 6th District: Won the 2025 Congressional
+  App Challenge in Georgia’s 6th District
+Workshops: Workshops
+Write your first script “blink.py” by following the instructions below: Write your
+  first script “blink.py” by following the instructions below
+You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: You
+  can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below
+You can streamline the process by installing Thonny app on all computers before the workshop: You
+  can streamline the process by installing Thonny app on all computers before the
+  workshop
+You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: You
+  can use the USB-C to USB-A adapter from the battery pack if your computer does not
+  have any USB-C ports
+You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out: You
+  could direct one team to work on Bluetooth advertise and others to setup Bluetooth
+  scan before time runs out
+? You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+: You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+? You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+: You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller: You
+  will use this guide along with the kit to learn to build simple electronic circuits
+  with a Raspberry Pi Pico microcontroller
+YouTube video player: YouTube video player
+? and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+: and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+and replay as a recording after a pause: and replay as a recording after a pause
+and show the received color on LEDs, creating a cluster of synced Pico devices: and
+  show the received color on LEDs, creating a cluster of synced Pico devices
+and to learn to draw shapes on the OLED display: and to learn to draw shapes on the
+  OLED display
+broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,: broadcast
+  it over bluetooth by embedding it in the service UUID of the BLE advertising data,
+connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard: connected
+  to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306)
+  on a breadboard
+connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: connected
+  to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306)
+  on a breadboard
+connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard: connected
+  to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display
+  module (SSD1306) on a breadboard
+connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: connected
+  to a crash sensor module with a limit switch, an RGB LED module and an OLED display
+  module (SSD1306) on a breadboard
+connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard: connected
+  to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306)
+  on a breadboard
+connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard: connected
+  to a knock sensor module with a coiled spring, an RGB LED module and an OLED display
+  module (SSD1306) on a breadboard
+connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard: connected
+  to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display
+  module (SSD1306) on a breadboard
+connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306): connected
+  to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module
+  (SSD1306)
+connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard: connected
+  to a microphone sound sensor module, a passive piezo buzzer and an OLED display
+  module (SSD1306) on a breadboard
+connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard: connected
+  to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on
+  a breadboard
+connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard: connected
+  to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306)
+  on a breadboard
+connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: connected
+  to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306)
+  on a breadboard
+connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: connected
+  to a photoresister module, an RGB LED module and an OLED display module (SSD1306)
+  on a breadboard
+connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard: connected
+  to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a
+  breadboard
+connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard: connected
+  to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display
+  module (SSD1306) on a breadboard
+? connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+: connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+display the hex value and R, G, B values on the display,: display the hex value and
+  R, G, B values on the display,
+draw the notes and musical staff lines on the display,: draw the notes and musical
+  staff lines on the display,
+home page: home page
+loved this lesson: loved this lesson
+rail: rail
+rail) to GND  (breadboard: rail) to GND  (breadboard
+rail), it trips, preventing damage to the electronics: rail), it trips, preventing
+  damage to the electronics
+running on a Raspberry Pi Pico 2 W microcontroller: running on a Raspberry Pi Pico
+  2 W microcontroller
+thonny.org: thonny.org
+to blink an onboard LED repeatedly: to blink an onboard LED repeatedly
+to change the LED color and show the status on the display when a sudden shake is detected: to
+  change the LED color and show the status on the display when a sudden shake is detected
+to change the LED color and show the status on the display when crash is detected: to
+  change the LED color and show the status on the display when crash is detected
+to change the LED color and show the status on the display when motion is detected: to
+  change the LED color and show the status on the display when motion is detected
+to control the angle of the servo by rotating the potentiometer knob and display it on the display: to
+  control the angle of the servo by rotating the potentiometer knob and display it
+  on the display
+to control the angles of both servos using the joystick and display the angles on the OLED display: to
+  control the angles of both servos using the joystick and display the angles on the
+  OLED display
+? to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+: to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+to create a reaction time testing game,: to create a reaction time testing game,
+to dim or brighten the LED to match the change in ambient light measured by the photoresister: to
+  dim or brighten the LED to match the change in ambient light measured by the photoresister
+to draw and rotate a 3D shape on the OLED display by rotating the accelerometer about its X and Y axes: to
+  draw and rotate a 3D shape on the OLED display by rotating the accelerometer about
+  its X and Y axes
+to increment the count on the display each time the photo interrupter light beam is interrupted: to
+  increment the count on the display each time the photo interrupter light beam is
+  interrupted
+to individually control the red, green and blue channels of the LED to create any color,: to
+  individually control the red, green and blue channels of the LED to create any color,
+to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit: to
+  measure and display the relative humidity and ambient temperature in both celsius
+  and fahrenheit
+to play a melody of musical notes on the buzzer with matching text displayed on the display: to
+  play a melody of musical notes on the buzzer with matching text displayed on the
+  display
+to play different musical notes on the buzzer,: to play different musical notes on
+  the buzzer,
+? to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+: to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+to replay the sound frequencies measured by the microphone on the buzzer and display them on the display: to
+  replay the sound frequencies measured by the microphone on the buzzer and display
+  them on the display
+use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,: use
+  bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,

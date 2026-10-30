@@ -1,0 +1,1024 @@
+Skip to main content: मुख्य सामग्री पर जाएं
+Menu: मेनू
+Getting Started: शुरू करना
+Install Thonny App: थॉनी ऐप इंस्टॉल करें
+Invention Kit Contents: आविष्कार किट की सामग्री
+Additional Sensors Kit: अतिरिक्त सेंसर किट
+Breadboard Basics: ब्रेडबोर्ड की मूल बातें
+Breadboard Wiring: ब्रेडबोर्ड वायरिंग
+Pico 2 W Pinout: पिको 2 डब्ल्यू पिनआउट
+Do's and Don'ts: करो और ना करो
+Connect Pico: पिको को कनेक्ट करें
+Guide to Reading Code: कोड पढ़ने के लिए गाइड
+Experiments: प्रयोगों
+Blink: पलक झपकना
+Humidity Temp Sensor: आर्द्रता तापमान सेंसर
+Melody: राग
+Touch Game: टच गेम
+Distance Sensor: दूरी सेंसर
+Piano: पियानो
+Joystick and Servos: जॉयस्टिक और सर्वो
+Microphone Sensor: माइक्रोफ़ोन सेंसर
+Accelerometer: accelerometer
+Crash Sensor: क्रैश सेंसर
+Knock Sensor: खटखटाहट सेंसर
+Motion Sensor: मोशन सेंसर
+Photo Interrupter: फोटो इंटरप्टर
+Photoresistor: फोटोरेसिस्टर
+Potentiometer and Servo: पोटेंशियोमीटर और सर्वो
+Bluetooth Advertise: ब्लूटूथ विज्ञापन
+Mix and Match: मिश्रण और मैच
+Lesson Plan for Teachers: शिक्षकों के लिए पाठ योजना
+About: के बारे में
+Contact: संपर्क
+Making hands-on invention more accessible for teachers and students: शिक्षकों और छात्रों
+  के लिए व्यावहारिक आविष्कार को अधिक सुलभ बनाना
+Get Started: शुरू हो जाओ
+Page not found: पृष्ठ नहीं मिला
+The page you requested could not be found: आपने जिस पृष्ठ का अनुरोध किया है वह नहीं
+  मिल सका
+Try using the navigation or search to find what you're looking for or go to the: आप
+  जो खोज रहे हैं उसे ढूंढने के लिए नेविगेशन या सर्च का उपयोग करने का प्रयास करें या
+  फिर सीधे उस पेज पर जाएं।
+home page: होम पेज
+Back to top: शीर्ष पर वापस जाएं
+Active: सक्रिय
+Base: आधार
+Planned: की योजना बनाई
+Here: यहाँ
+Summary: सारांश
+Note: टिप्पणी
+Important: महत्वपूर्ण
+Utshaho Gupta: उत्शाहो गुप्ता
+FOUNDER: संस्थापक
+? Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+: उत्शाहो एक हाई स्कूल के सीनियर छात्र हैं, जिन्होंने दृष्टिबाधित लोगों के लिए किफायती
+  एआई-संचालित स्मार्ट चश्मे डिजाइन करने में 3 साल से अधिक समय बिताया है और अपने नवाचार
+  को वित्त पोषित करने के लिए कई अनुदान जीते हैं।
+Utshaho revels in the intersection of math and science with language and international relations: उत्शाहो
+  गणित और विज्ञान के साथ-साथ भाषा और अंतरराष्ट्रीय संबंधों के अंतर्संबंधों में आनंद
+  लेते हैं।
+? He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+: वह आईएचओटी रोबोटिक्स टीम और गणित क्लब के कप्तान हैं, और उन्होंने स्कूल के अखबार
+  और फ्रेंच एमयूएन कार्यक्रम की सह-स्थापना भी की है।
+He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate: उन्हें
+  यात्रा करना, बैंड बजाना, ट्रैक और फोटोग्राफी पसंद है और वे कराटे में तृतीय श्रेणी
+  के ब्लैक बेल्ट धारक हैं।
+Inspiration Behind the Initiative: इस पहल के पीछे की प्रेरणा
+? It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+: इस ऐप ने जॉर्जिया के छठे कांग्रेसनल डिस्ट्रिक्ट में 2025 कांग्रेसनल ऐप चैलेंज जीता
+  और इसे कांग्रेसवुमन लूसी मैकबाथ और सीनेटर जॉन ओसॉफ द्वारा सम्मानित किया गया।
+Won the 2025 Congressional App Challenge in Georgia’s 6th District: जॉर्जिया के छठे
+  जिले में 2025 के कांग्रेसनल ऐप चैलेंज में जीत हासिल की।
+Affordable Smart Glasses for the Blind and Visually Impaired on YouTube: दृष्टिबाधित
+  और दृष्टिबाधित लोगों के लिए किफायती स्मार्ट चश्मे (YouTube पर उपलब्ध)
+? Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+: दृष्टिबाधित और दृष्टिबाधित लोगों के लिए किफायती स्मार्ट चश्मे ने जॉर्जिया के छठे
+  कांग्रेसनल डिस्ट्रिक्ट में 2025 कांग्रेसनल ऐप चैलेंज जीता।
+? Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+: दृष्टिबाधित और दृष्टिबाधित लोगों के लिए किफायती स्मार्ट चश्मे, रास्पबेरी पाई फाउंडेशन
+  के विश्वव्यापी सर्वश्रेष्ठ परियोजनाओं के ऑनलाइन शोकेस में प्रदर्शित किए गए।
+A MicroPython code example: माइक्रो पाइथन कोड का एक उदाहरण
+to blink an onboard LED repeatedly: ऑनबोर्ड एलईडी को बार-बार झपकाने के लिए
+Let’s start with a simple micropython script to control the onboard LED on the Pico microcontroller: आइए
+  पिको माइक्रोकंट्रोलर पर लगे एलईडी को नियंत्रित करने के लिए एक सरल माइक्रो पाइथन
+  स्क्रिप्ट से शुरुआत करें।
+We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: हम
+  मशीन लाइब्रेरी से पिन ऑब्जेक्ट का उपयोग करके GPIO (जनरल पर्पस इनपुट आउटपुट) पिन
+  तक पहुँच प्राप्त करते हैं।
+The onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25): ऑनबोर्ड
+  एलईडी को GP25 पर, या &quot;LED&quot; नाम से Pin(&quot;LED&quot;) या Pin(25) के रूप
+  में एक्सेस किया जा सकता है।
+We use Pin.OUT to set it as an output pin: हम इसे आउटपुट पिन के रूप में सेट करने के
+  लिए Pin.OUT का उपयोग करते हैं।
+We will use input pins later with sensors: हम बाद में सेंसर के साथ इनपुट पिन का उपयोग
+  करेंगे।
+Create a new file in Thonny, with file name blink.py: Thonny में blink.py नाम से एक
+  नई फ़ाइल बनाएँ।
+Copy and paste the code below into the file you created: नीचे दिए गए कोड को कॉपी करके
+  अपनी बनाई गई फ़ाइल में पेस्ट करें।
+Now let’s add the main loop: अब मुख्य लूप जोड़ते हैं
+We add a 1 second delay with the sleep(1) statement: हम sleep(1) स्टेटमेंट के साथ
+  1 सेकंड का विलंब जोड़ते हैं।
+Copy and paste the code below to the end of the blink.py file: नीचे दिए गए कोड को
+  कॉपी करके blink.py फ़ाइल के अंत में पेस्ट करें।
+Congratulations, you have written and run your first MicroPython script: बधाई हो,
+  आपने अपना पहला माइक्रो पाइथन स्क्रिप्ट लिखा और चलाया है।
+Previous: पहले का
+Next: अगला
+connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर क्रैश सेंसर मॉड्यूल, लिमिट स्विच, आरजीबी एलईडी मॉड्यूल और ओएलईडी डिस्प्ले मॉड्यूल
+  (एसएसडी1306) से कनेक्ट किया गया है।
+to change the LED color and show the status on the display when crash is detected: दुर्घटना
+  का पता चलने पर एलईडी का रंग बदलने और डिस्प्ले पर स्थिति दिखाने के लिए।
+A crash sensor uses a limit switch: क्रैश सेंसर में लिमिट स्विच का उपयोग किया जाता
+  है।
+? This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+: इसका उपयोग हार्ड स्टॉप के साथ किया जा सकता है ताकि यह पता लगाया जा सके कि कोई तंत्र,
+  जैसे कि रोबोटिक आर्म, अपनी गति की सीमा तक कब पहुँचता है और लिमिट स्विच को सक्रिय
+  करता है।
+It is also used in oven and refrigerator doors to turn on the internal light when the door is opened: इसका
+  उपयोग ओवन और रेफ्रिजरेटर के दरवाजों में भी किया जाता है ताकि दरवाजा खोलने पर अंदर
+  की लाइट जल जाए।
+Create a new file in Thonny, with file name crash_sensor.py: Thonny में crash_sensor.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर कॉइल स्प्रिंग, आरजीबी एलईडी मॉड्यूल और ओएलईडी डिस्प्ले मॉड्यूल (एसएसडी1306) के
+  साथ एक नॉकिंग सेंसर मॉड्यूल से जुड़ा हुआ है।
+to change the LED color and show the status on the display when a sudden shake is detected: अचानक
+  कंपन का पता चलने पर एलईडी का रंग बदलने और डिस्प्ले पर स्थिति दिखाने के लिए।
+A knock sensor detects vibrations: एक नॉकिंग सेंसर कंपन का पता लगाता है।
+This particular module uses a spring-based vibration switch: यह विशेष मॉड्यूल स्प्रिंग-आधारित
+  कंपन स्विच का उपयोग करता है।
+? When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+: जब मॉड्यूल स्थिर होता है, तो स्प्रिंग केंद्र पिन को नहीं छूती है, लेकिन जब इसे धक्का
+  लगता है या हिलाया जाता है, तो स्प्रिंग हिलती है और केंद्र पिन से टकराती है, जिससे
+  सर्किट क्षण भर के लिए बंद हो जाता है।
+For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion: सीढ़ी
+  चढ़ने वाले रोबोट के लिए, एक नॉकिंग सेंसर यह पता लगा सकता है कि कब उसका विस्तारित
+  हाथ सीढ़ी के पायदान से टकराता है, और फिर अगली गति शुरू कर सकता है।
+While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: जहां
+  क्रैश सेंसर को टक्कर के बिंदु पर लगाना आवश्यक होगा, वहीं नॉक सेंसर पूरी भुजा में
+  कंपन का पता लगा सकता है।
+Create a new file in Thonny, with file name knock_sensor.py: Thonny में knock_sensor.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर पीआईआर मोशन सेंसर मॉड्यूल, आरजीबी एलईडी मॉड्यूल और ओएलईडी डिस्प्ले मॉड्यूल (एसएसडी1306)
+  से जुड़ा हुआ है।
+to change the LED color and show the status on the display when motion is detected: गति
+  का पता चलने पर एलईडी का रंग बदलने और डिस्प्ले पर स्थिति दिखाने के लिए।
+A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects: पीआईआर
+  मोशन सेंसर आसपास की वस्तुओं द्वारा उत्सर्जित अवरक्त (ऊष्मा) विकिरण में होने वाले
+  परिवर्तनों को मापकर गति का पता लगाता है।
+? When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+: जब कोई गर्म वस्तु (जैसे मनुष्य या जानवर) क्षेत्र में चलती है, तो वह पहले सेंसर के
+  एक हिस्से को और फिर दूसरे हिस्से को बाधित करती है, जिससे एक विभेदक वोल्टेज पल्स
+  उत्पन्न होता है जो गति का संकेत देता है।
+It is used in security alarms and smart home automation: इसका उपयोग सुरक्षा अलार्म
+  और स्मार्ट होम ऑटोमेशन में किया जाता है।
+Then remove the book and wait for the sensor to detect motion: फिर किताब को हटा दें
+  और सेंसर द्वारा गति का पता लगाने की प्रतीक्षा करें।
+Create a new file in Thonny, with file name motion_sensor.py: Thonny में motion_sensor.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर फोटो इंटरप्टर मॉड्यूल, आरजीबी एलईडी मॉड्यूल और ओएलईडी डिस्प्ले मॉड्यूल (एसएसडी1306)
+  से जुड़ा हुआ है।
+to increment the count on the display each time the photo interrupter light beam is interrupted: फोटो
+  इंटरप्टर लाइट बीम के बाधित होने पर डिस्प्ले पर गिनती बढ़ाने के लिए।
+? A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+: एक फोटो इंटरप्टर मॉड्यूल उत्सर्जक से रिसीवर (मॉड्यूल पर मौजूद दो काले ब्लॉक) तक
+  अवरक्त प्रकाश किरण भेजता है और इस किरण के अवरुद्ध होने का पता लगाता है।
+It is used to detect end-of-travel in 3D printers, CNC machines and robots: इसका उपयोग
+  3डी प्रिंटर, सीएनसी मशीन और रोबोट में यात्रा के अंत का पता लगाने के लिए किया जाता
+  है।
+It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars: इसका
+  उपयोग रोबोटिक्स और स्मार्ट कारों में मोटर या पहिए की गति की गणना करने के लिए घूमने
+  वाली स्लॉटेड डिस्क की पल्स गिनने के लिए भी किया जाता है।
+In a printer, it detects when a paper is present: प्रिंटर में, यह पता लगाता है कि
+  कागज मौजूद है या नहीं।
+Create a new file in Thonny, with file name photo_interrupter.py: Thonny में photo_interrupter.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर एक फोटोरेसिस्टर मॉड्यूल, एक आरजीबी एलईडी मॉड्यूल और एक ओएलईडी डिस्प्ले मॉड्यूल
+  (एसएसडी1306) से जुड़ा हुआ है।
+to dim or brighten the LED to match the change in ambient light measured by the photoresister: फोटोरेसिस्टर
+  द्वारा मापी गई परिवेशी प्रकाश में परिवर्तन के अनुसार एलईडी की चमक को कम या ज्यादा
+  करना।
+? A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+: एक फोटोरेसिस्टर की सतह पर अधिक प्रकाश पड़ने पर अधिक विद्युत प्रवाहित होती है, और
+  कम प्रकाश पड़ने पर कम विद्युत प्रवाहित होती है।
+It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight: इसका
+  उपयोग कम रोशनी में फोन की स्क्रीन की चमक कम करने और तेज धूप में बाहर होने पर उसे
+  बढ़ाने के लिए किया जाता है।
+Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: कुछ
+  टीवी डिस्प्ले की चमक को कमरे की परिवेशी रोशनी के अनुरूप कम करने के लिए इसका उपयोग
+  करते हैं, जिससे यह दीवार पर छपी कलाकृति जैसा दिखता है।
+Line tracking robots use it to distinguish between a dark line and a light surface: लाइन
+  ट्रैकिंग रोबोट इसका उपयोग एक गहरी रेखा और एक हल्की सतह के बीच अंतर करने के लिए करते
+  हैं।
+Create a new file in Thonny, with file name photoresistor.py: Thonny में photoresistor.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर एक माइक्रो सर्वो मोटर, एक पोटेंशियोमीटर (रोटेशन सेंसर) मॉड्यूल और एक OLED डिस्प्ले
+  मॉड्यूल (SSD1306) से जुड़ा हुआ है।
+to control the angle of the servo by rotating the potentiometer knob and display it on the display: पोटेंशियोमीटर
+  नॉब को घुमाकर सर्वो के कोण को नियंत्रित करना और उसे डिस्प्ले पर दिखाना।
+Potentiometers are the dials we turn to control things like temperature or volume: पोटेंशियोमीटर
+  वे डायल होते हैं जिन्हें घुमाकर हम तापमान या आयतन जैसी चीजों को नियंत्रित करते हैं।
+They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: ये
+  विद्युत प्रतिरोध को बदलकर काम करते हैं, जिसे हम माइक्रोकंट्रोलर के इनपुट पिन पर
+  वोल्टेज में परिवर्तन के रूप में पढ़ते हैं।
+In this script, we use this input to control a servo angle: इस स्क्रिप्ट में, हम इस
+  इनपुट का उपयोग सर्वो कोण को नियंत्रित करने के लिए करते हैं।
+A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: सर्वो
+  एक मोटर है जिसमें हम भेजे जाने वाले PWM सिग्नल को बदलकर घूर्णन कोण को नियंत्रित
+  कर सकते हैं।
+Unlike standard electric motors that spin continuously, a servo motor moves to an exact angle or position and holds it firmly: मानक
+  इलेक्ट्रिक मोटरों के विपरीत जो लगातार घूमती रहती हैं, एक सर्वो मोटर एक सटीक कोण
+  या स्थिति तक जाती है और उसे मजबूती से रोके रखती है।
+Create a new file in Thonny, with file name potentiometer_and_servo.py: Thonny में
+  potentiometer_and_servo.py नाम से एक नई फ़ाइल बनाएँ।
+Bluetooth Advertise and Bluetooth Scan: ब्लूटूथ विज्ञापन और ब्लूटूथ स्कैन
+connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर रोटरी एनकोडर मॉड्यूल, आरजीबी एलईडी और ओएलईडी डिस्प्ले मॉड्यूल (एसएसडी1306) से
+  जुड़ा हुआ है।
+to individually control the red, green and blue channels of the LED to create any color,: एलईडी
+  के लाल, हरे और नीले चैनलों को अलग-अलग नियंत्रित करके कोई भी रंग बनाया जा सकता है।
+display the hex value and R, G, B values on the display,: डिस्प्ले पर हेक्साडेसिमल
+  मान और R, G, B मान प्रदर्शित करें।
+broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,: इसे
+  बीएलई विज्ञापन डेटा के सेवा यूयूआईडी में एम्बेड करके ब्लूटूथ के माध्यम से प्रसारित
+  करें।
+and show the received color on LEDs, creating a cluster of synced Pico devices: और
+  प्राप्त रंग को एलईडी पर प्रदर्शित करें, जिससे सिंक्रनाइज़्ड पिको उपकरणों का एक समूह
+  तैयार हो जाएगा।
+? We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+: हम एलईडी के लाल, हरे और नीले रंग को बदलने के लिए रोटरी एनकोडर का उपयोग करते हैं,
+  फिर उस रंग को आस-पास के उपकरणों में प्रसारित करते हैं, जो अपनी एलईडी को उसी रंग
+  में सेट कर लेते हैं।
+? When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+: जब एक डिवाइस bluetooth_advertise.py चलाता है और आस-पास के कई डिवाइस bluetooth_scan.py
+  चलाते हैं, तो हम सिंक्रनाइज़्ड डिवाइसों का एक नेटवर्क बना सकते हैं।
+This is how a cluster of robots can communicate and work together: इस तरह रोबोटों
+  का एक समूह आपस में संवाद कर सकता है और मिलकर काम कर सकता है।
+Create a new file in Thonny, with file name bluetooth_advertise.py: Thonny में bluetooth_advertise.py
+  नाम से एक नई फ़ाइल बनाएँ।
+? To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+: किसी दूसरे डिवाइस पर bluetooth_scan.py चलाकर परीक्षण करने के लिए, दूसरे डिवाइस के
+  कंप्यूटर पर Thonny में bluetooth_scan.py नाम से एक नई फ़ाइल बनाएँ।
+Mix and Match Inputs and Outputs: इनपुट और आउटपुट को मिलाकर उपयोग करें
+connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306): एक
+  माइक्रो सर्वो मोटर, एक आरजीबी एलईडी, एक पैसिव पीजो बजर और एक ओएलईडी डिस्प्ले मॉड्यूल
+  (एसएसडी1306) से जुड़ा हुआ।
+? and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+: और ब्रेडबोर्ड पर लगे कई इनपुट घटकों में से एक - जैसे एक्सेलेरोमीटर, पुश बटन, मोशन
+  सेंसर, फोटोरेसिस्टर, जॉयस्टिक, माइक्रोफोन, रोटरी एनकोडर, या कोई अन्य सेंसर।
+? to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+: चयनित घटक से इनपुट डेटा को पढ़कर, उसे बजर आवृत्ति, एलईडी रंग और सर्वो कोण में परिवर्तित
+  करके, मानों को डिस्प्ले पर प्रदर्शित करना।
+This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs: यह
+  एक व्यापक स्क्रिप्ट है जो आपको विभिन्न इनपुट और आउटपुट को संयोजित करने की सुविधा
+  देती है।
+The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen: सेंसर
+  से प्राप्त रीडिंग को एलईडी रंग, सर्वो कोण, बजर आवृत्ति और OLED स्क्रीन पर टेक्स्ट
+  के रूप में परिवर्तित किया जाता है।
+Refer to the relevant circuit diagrams above based on the input you choose: आपके द्वारा
+  चुने गए इनपुट के आधार पर ऊपर दिए गए संबंधित सर्किट आरेखों को देखें।
+Create a new file in Thonny, with file name mix_and_match.py: Thonny में mix_and_match.py
+  ​​नाम से एक नई फ़ाइल बनाएँ।
+connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर आर्द्रता और तापमान सेंसर मॉड्यूल (DHT11) और OLED डिस्प्ले मॉड्यूल (SSD1306) से
+  जुड़ा हुआ है।
+to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit: सापेक्ष
+  आर्द्रता और परिवेश तापमान को सेल्सियस और फारेनहाइट दोनों में मापने और प्रदर्शित
+  करने के लिए।
+A humidity and temperature sensor measures the ambient temperature and air humidity: आर्द्रता
+  और तापमान सेंसर परिवेश के तापमान और हवा की आर्द्रता को मापता है।
+In robotics, temperature sensors are built into most electronic components: रोबोटिक्स
+  में, तापमान सेंसर अधिकांश इलेक्ट्रॉनिक घटकों में अंतर्निहित होते हैं।
+They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits: इनका
+  उपयोग थर्मल सुरक्षा के लिए किया जा सकता है, जैसे कि तापमान सुरक्षित सीमा से अधिक
+  होने पर रोबोट को स्वचालित रूप से बंद करना।
+? Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+: क्या आप जानते हैं कि एक स्मार्टफोन में लगभग 8 अलग-अलग तापमान सेंसर होते हैं, जो
+  स्क्रीन का तापमान, बैक का तापमान, बैटरी का तापमान, सीपीयू का तापमान आदि मापते हैं?
+  आर्द्रता सेंसर स्मार्टफोन या स्मार्टवॉच के अंदर संघनन की निगरानी करते हैं।
+This is a DHT11 sensor: यह एक DHT11 सेंसर है।
+'We import the dht library and setup the GP28 pin as shown below:': 'हम dht लाइब्रेरी
+  को इम्पोर्ट करते हैं और GP28 पिन को नीचे दिखाए अनुसार सेटअप करते हैं:'
+Then in the main loop, we use the measure function to get the temperature and humidity: फिर
+  मुख्य लूप में, हम तापमान और आर्द्रता प्राप्त करने के लिए मेजर फ़ंक्शन का उपयोग करते
+  हैं।
+We can use simple math formula to convert from celsius to fahrenheit: हम सेल्सियस
+  को फारेनहाइट में बदलने के लिए सरल गणितीय सूत्रों का उपयोग कर सकते हैं।
+To run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py: पूरी
+  स्क्रिप्ट चलाने के लिए, Thonny में humidity_temp_sensor.py नाम से एक नई फ़ाइल बनाएँ।
+Humidity Temp Sensor Circuit: आर्द्रता तापमान सेंसर सर्किट
+connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर एक पैसिव पीजो बजर, एक आरजीबी एलईडी मॉड्यूल और एक ओएलईडी डिस्प्ले मॉड्यूल (एसएसडी1306)
+  से जुड़ा हुआ है।
+to play a melody of musical notes on the buzzer with matching text displayed on the display: बजर
+  पर संगीत की धुन बजाने के लिए, डिस्प्ले पर दिखाए गए टेक्स्ट से मेल खाने वाले टेक्स्ट
+  का उपयोग करें।
+? A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+: पीजो बज़र पीजोइलेक्ट्रिक प्रभाव का उपयोग करके विद्युत संकेतों को तीव्र यांत्रिक
+  कंपन में परिवर्तित करता है, जिससे ध्वनि तरंगें उत्पन्न होती हैं।
+In this script, we send different frequencies to a piezo buzzer to play different musical notes: इस
+  स्क्रिप्ट में, हम अलग-अलग संगीत नोट्स बजाने के लिए पीजो बजर को अलग-अलग आवृत्तियाँ
+  भेजते हैं।
+'To play a note at an interval, we run:': 'अंतराल पर एक स्वर बजाने के लिए, हम इस प्रकार
+  करते हैं:'
+The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times: नीचे
+  दिया गया फ़ंक्शन एलईडी को मंद सफेद रंग में बदलकर फिर बंद करके, कई बार दोहराकर टिमटिमाहट
+  का प्रभाव उत्पन्न करता है।
+To play an entire melody, create a new file in Thonny, with file name melody.py: किसी
+  पूरी धुन को बजाने के लिए, थॉनी में melody.py नाम से एक नई फ़ाइल बनाएँ।
+connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर कैपेसिटिव टच सेंसर मॉड्यूल, पैसिव पीजो बजर और OLED डिस्प्ले मॉड्यूल (SSD1306)
+  से जुड़ा हुआ है।
+to create a reaction time testing game,: प्रतिक्रिया समय परीक्षण खेल बनाने के लिए,
+and to learn to draw shapes on the OLED display: और ओएलईडी डिस्प्ले पर आकृतियाँ बनाना
+  सीखना।
+A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close: एक
+  कैपेसिटिव टच सेंसर मानव उंगली के पास आने पर विद्युत आवेश में होने वाले परिवर्तनों
+  को मापकर स्पर्श का पता लगाता है।
+Humans are full of water and salt, making the body a natural conductor of electricity: मनुष्य
+  का शरीर पानी और नमक से भरपूर होता है, जिससे शरीर बिजली का प्राकृतिक सुचालक बन जाता
+  है।
+It is used in smartphones for multi-touch navigation and gesture detection: इसका उपयोग
+  स्मार्टफोन में मल्टी-टच नेविगेशन और जेस्चर डिटेक्शन के लिए किया जाता है।
+In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen: इस
+  स्क्रिप्ट में, हम आपकी प्रतिक्रिया समय का परीक्षण करने के लिए एक छोटा गेम बनाते
+  हैं, साथ ही साथ OLED स्क्रीन पर आकृतियाँ बनाना भी सीखते हैं।
+'To read the sensor, we run:': 'सेंसर से रीडिंग लेने के लिए, हम निम्न कमांड चलाते
+  हैं:'
+The function below draws happy or sad face based on the parameters passed to it: नीचे
+  दिया गया फ़ंक्शन इसमें पास किए गए पैरामीटर के आधार पर खुश या उदास चेहरा बनाता है।
+The main loop of our game is easy to follow because it calls easy to understand function names: हमारे
+  गेम का मुख्य लूप समझना आसान है क्योंकि इसमें आसानी से समझ में आने वाले फ़ंक्शन नामों
+  का उपयोग किया गया है।
+Create a new file in Thonny, with file name touch_game.py: Thonny में touch_game.py
+  नाम से एक नई फ़ाइल बनाएँ।
+? connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+: ब्रेडबोर्ड पर अल्ट्रासोनिक दूरी सेंसर मॉड्यूल (HC-SR04), माइक्रो सर्वो मोटर, पैसिव
+  पीजो बजर, RGB LED मॉड्यूल और OLED डिस्प्ले मॉड्यूल (SSD1306) से जुड़ा हुआ है।
+? to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+: एक ऐसा जेस्चर-आधारित ध्वनि उपकरण बनाना जो मापी गई दूरी को विभिन्न बजर ध्वनि आवृत्तियों,
+  सर्वो कोणों और एलईडी रंगों में परिवर्तित करे और मापी गई दूरी को ओएलईडी डिस्प्ले
+  पर प्रदर्शित करे।
+A distance sensor measures the distance to any nearby obstruction: दूरी संवेदक आसपास
+  की किसी भी बाधा से दूरी मापता है।
+Robots and cars use such sensors to stop before hitting any obstruction: रोबोट और
+  कारें किसी भी बाधा से टकराने से पहले रुकने के लिए ऐसे सेंसर का उपयोग करते हैं।
+The sensor used here is an ultrasonic distance sensor: यहां इस्तेमाल किया गया सेंसर
+  एक अल्ट्रासोनिक दूरी सेंसर है।
+? We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+: हम दूरी को अलग-अलग RGB रंगों और बजर आवृत्तियों में परिवर्तित करते हैं ताकि एक मजेदार
+  वाद्य यंत्र बनाया जा सके जिसे आप हाथ के इशारों से बजा सकते हैं।
+We also change the angle of a servo motor based on the distance detected: हम दूरी
+  का पता लगाने के आधार पर सर्वो मोटर का कोण भी बदलते हैं।
+Create a new file in Thonny, with file name distance_sensor.py: Thonny में distance_sensor.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard: ब्रेडबोर्ड
+  पर लगे पैसिव पीजो बजर, OLED डिस्प्ले मॉड्यूल (SSD1306) और 6 पुश बटन से जुड़ा हुआ
+  है।
+to play different musical notes on the buzzer,: बजर पर अलग-अलग संगीत सुर बजाने के
+  लिए,
+draw the notes and musical staff lines on the display,: डिस्प्ले पर नोट्स और म्यूजिकल
+  स्टाफ की लाइनें बनाएं।
+and replay as a recording after a pause: और विराम के बाद रिकॉर्डिंग के रूप में पुनः
+  चलाएं।
+We use the buttons to play different musical notes: हम बटनों का उपयोग करके विभिन्न
+  संगीत सुर बजाते हैं।
+We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines: हम
+  यह भी सीखते हैं कि संगीत स्टाफ लाइनों पर नोट्स बनाने के लिए OLED स्क्रीन पर आकृतियाँ
+  कैसे बनाई जाती हैं।
+And when user input pauses, we replay the notes to create a fun musical instrument: और
+  जब उपयोगकर्ता का इनपुट रुकता है, तो हम नोट्स को दोबारा बजाकर एक मजेदार संगीत वाद्ययंत्र
+  बनाते हैं।
+We read 6 different inputs for the 6 buttons: हमने 6 बटनों के लिए 6 अलग-अलग इनपुट
+  पढ़े।
+For this, we add some more helper functions below: इसके लिए, हम नीचे कुछ और सहायक
+  फ़ंक्शन जोड़ते हैं।
+With all these functions, our main loop is still easy to follow: इन सभी कार्यों के
+  साथ, हमारा मुख्य लूप अभी भी आसानी से समझने योग्य है।
+To put it all together, and test, create a new file in Thonny, with file name piano.py: इन
+  सबको एक साथ जोड़ने और परीक्षण करने के लिए, थॉनी में piano.py नाम से एक नई फ़ाइल
+  बनाएँ।
+connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर एनालॉग 2-एक्सिस थंब जॉयस्टिक मॉड्यूल, 2 माइक्रो सर्वो मोटर्स और एक OLED डिस्प्ले
+  मॉड्यूल (SSD1306) से जुड़ा हुआ है।
+to control the angles of both servos using the joystick and display the angles on the OLED display: जॉयस्टिक
+  का उपयोग करके दोनों सर्वो के कोणों को नियंत्रित करें और उन कोणों को OLED डिस्प्ले
+  पर प्रदर्शित करें।
+A joystick is often used for navigation in robots, drones, cruise ships and planes: रोबोट,
+  ड्रोन, क्रूज जहाज और विमानों में नेविगेशन के लिए अक्सर जॉयस्टिक का उपयोग किया जाता
+  है।
+In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller: FRC
+  रोबोटिक्स में, हम 2 गेमिंग कंट्रोलर का उपयोग करते हैं, जिनमें से प्रत्येक कंट्रोलर
+  में 2 जॉयस्टिक होते हैं।
+Each joystick includes independent X and Y axis control: प्रत्येक जॉयस्टिक में स्वतंत्र
+  X और Y अक्ष नियंत्रण शामिल है।
+Which  gives us a total of 8 independent axes to control the robot: इससे हमें रोबोट
+  को नियंत्रित करने के लिए कुल 8 स्वतंत्र अक्ष मिलते हैं।
+In this script, we control the angle of two servos using different axes of the joystick: इस
+  स्क्रिप्ट में, हम जॉयस्टिक के अलग-अलग अक्षों का उपयोग करके दो सर्वो के कोण को नियंत्रित
+  करते हैं।
+By pressing the joystick button, we toggle the mode to Sync Angle Mode: जॉयस्टिक बटन
+  दबाकर, हम मोड को सिंक एंगल मोड में बदल देते हैं।
+Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: अब
+  हम त्रिकोणमिति का उपयोग करके जॉयस्टिक लीवर द्वारा बनाए गए कोण की गणना करते हैं और
+  सर्वो को इस कोण के अनुरूप सेट करते हैं।
+In robotics, we often use advanced mathematics to control various motions: रोबोटिक्स
+  में, हम अक्सर विभिन्न गतियों को नियंत्रित करने के लिए उन्नत गणित का उपयोग करते हैं।
+Create a new file in Thonny, with file name joystick_and_servos.py: Thonny में joystick_and_servos.py
+  नाम से एक नई फ़ाइल बनाएँ।
+Microphone Sensor and Melody: माइक्रोफ़ोन सेंसर और मेलोडी
+connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर माइक्रोफोन साउंड सेंसर मॉड्यूल, पैसिव पीजो बजर और OLED डिस्प्ले मॉड्यूल (SSD1306)
+  से जुड़ा हुआ है।
+to replay the sound frequencies measured by the microphone on the buzzer and display them on the display: बज़र
+  पर लगे माइक्रोफ़ोन द्वारा मापी गई ध्वनि आवृत्तियों को पुनः बजाकर डिस्प्ले पर प्रदर्शित
+  करना।
+? A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+: एक माइक्रोफोन ध्वनि सेंसर अंतर्निर्मित माइक्रोफोन और ऑनबोर्ड प्रोसेसिंग सर्किट का
+  उपयोग करके पर्यावरणीय ध्वनि तरंगों को विद्युत संकेतों में परिवर्तित करता है।
+Sound waves move through the air and hit a tiny flexible diaphragm inside the module’s microphone: ध्वनि
+  तरंगें हवा में फैलती हैं और मॉड्यूल के माइक्रोफोन के अंदर मौजूद एक छोटे, लचीले डायाफ्राम
+  से टकराती हैं।
+The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume: डायाफ्राम
+  में होने वाले उतार-चढ़ाव से ऐसे विद्युत संकेत उत्पन्न होते हैं जो ध्वनि की आवृत्ति
+  और तीव्रता से मेल खाते हैं।
+Run this script, and simultaneously run melody.py on a different device: इस स्क्रिप्ट
+  को चलाएं और साथ ही किसी दूसरे डिवाइस पर melody.py को भी चलाएं।
+Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody: दोनों
+  उपकरणों को एक दूसरे के करीब लाएं और माइक्रोफ़ोन को सीधे उस उपकरण के बजर के ऊपर रखें
+  जो धुन बजा रहा है।
+If the room is not very noisy, it should pick up at least some of the notes: अगर कमरे
+  में ज्यादा शोर नहीं है, तो कम से कम कुछ सुर तो सुनाई देने ही चाहिए।
+Create a new file in Thonny, with file name microphone_sensor.py: Thonny में microphone_sensor.py
+  नाम से एक नई फ़ाइल बनाएँ।
+connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard: ब्रेडबोर्ड
+  पर 3-एक्सिस डिजिटल एक्सेलेरोमीटर मॉड्यूल (ADXL345) और OLED डिस्प्ले मॉड्यूल (SSD1306)
+  से जुड़ा हुआ है।
+to draw and rotate a 3D shape on the OLED display by rotating the accelerometer about its X and Y axes: एक्सेलेरोमीटर
+  को उसके X और Y अक्षों के चारों ओर घुमाकर OLED डिस्प्ले पर 3D आकृति को बनाना और घुमाना।
+An accelerometer measures acceleration around the x, y and z axis: एक त्वरणमापी x,
+  y और z अक्षों के सापेक्ष त्वरण को मापता है।
+In robotics, it is essential in determining the robot position and movement: रोबोटिक्स
+  में, रोबोट की स्थिति और गति निर्धारित करने में यह आवश्यक है।
+In this script, we draw a 3D shape, and control its rotation using the accelerometer: इस
+  स्क्रिप्ट में, हम एक 3D आकृति बनाते हैं और एक्सेलेरोमीटर का उपयोग करके उसके घूर्णन
+  को नियंत्रित करते हैं।
+Create a new file in Thonny, with file name accelerometer.py: Thonny में accelerometer.py
+  नाम से एक नई फ़ाइल बनाएँ।
+Write your first script “blink.py” by following the instructions below: नीचे दिए गए
+  निर्देशों का पालन करके अपनी पहली स्क्रिप्ट &quot;blink.py&quot; लिखें।
+Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment: एक
+  बार जब यह आपके पिको कंप्यूटर पर काम करने लगे, तो अगले प्रयोग में आर्द्रता और तापमान
+  सेंसर को कनेक्ट करने का प्रयास करें।
+After that, try random experiments from the list below: उसके बाद, नीचे दी गई सूची
+  में से कोई भी प्रयोग करके देखें।
+Some experiments need additional sensors from the common additional sensors kit to be shared by all teams: कुछ
+  प्रयोगों के लिए सामान्य अतिरिक्त सेंसर किट से अतिरिक्त सेंसर की आवश्यकता होती है,
+  जिसे सभी टीमों द्वारा साझा किया जाना चाहिए।
+The complete code for all the experiments is also available on: सभी प्रयोगों का संपूर्ण
+  कोड भी उपलब्ध है।
+GitHub: GitHub
+Table of contents: विषयसूची
+Additional Sensors for Sharing Amongst Teams: टीमों के बीच साझा करने के लिए अतिरिक्त
+  सेंसर
+Motion sensor: मोशन सेंसर
+Knock sensor: खटखटाहट सेंसर
+Potentiometer: तनाव नापने का यंत्र
+Microphone sensor: माइक्रोफ़ोन सेंसर
+Photo interrupter: फोटो अवरोधक
+Crash sensor: क्रैश सेंसर
+Rotation Encoder: रोटेशन एनकोडर
+Additional Sensors: अतिरिक्त सेंसर
+Breadboard Basics Explained in 60 Seconds: ब्रेडबोर्ड की बुनियादी बातें 60 सेकंड में
+  समझाई गईं
+? There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+: ब्रेडबोर्ड पर अब एक रीसेट करने योग्य फ्यूज लगा हुआ है (ऊपर दिए गए चित्र में नहीं
+  दिखाया गया है, नीचे देखें) जो किसी छात्र द्वारा गलती से ब्रेडबोर्ड पर शॉर्ट सर्किट
+  होने की स्थिति में सर्किट को डिस्कनेक्ट कर देता है।
+? You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+: सर्किट को चालू करने से पहले आपको सभी कनेक्शनों की जांच अवश्य कर लेनी चाहिए, क्योंकि
+  सेंसरों के गलत कनेक्शन से उनके संवेदनशील इलेक्ट्रॉनिक्स को स्थायी नुकसान हो सकता
+  है, जिससे वे बेकार हो जाएंगे।
+Do’s and Don’ts: करो और ना करो
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+: एक रीसेट करने योग्य फ्यूज (पीपीटीसी फ्यूज या पॉलीफ्यूज) वह छोटा नारंगी-पीला घटक
+  है जो पिको 3.3V आउट पिन को ब्रेडबोर्ड से जोड़ता है।
+rail: रेल
+When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: जब
+  शॉर्ट सर्किट होता है, जैसे कि गलती से जम्पर वायर का VCC (ब्रेडबोर्ड) से जुड़ जाना
+rail) to GND  (breadboard: रेल) से जीएनडी (ब्रेडबोर्ड)
+rail), it trips, preventing damage to the electronics: रेल), यह ट्रिप हो जाता है,
+  जिससे इलेक्ट्रॉनिक्स को नुकसान होने से बचाया जा सकता है।
+A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: सर्किट
+  ठीक होने या बिजली बंद होने के कुछ सेकंड बाद, यह ठंडा हो जाता है और खुद को रीसेट
+  कर लेता है।
+The students should verify all the connections and resume the experiment: छात्रों
+  को सभी कनेक्शनों की जांच करनी चाहिए और प्रयोग को पुनः शुरू करना चाहिए।
+Resettable Fuse: रीसेट करने योग्य फ़्यूज़
+Connect Pico to Computer: पिको को कंप्यूटर से कनेक्ट करें
+You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: यदि
+  आपके कंप्यूटर में कोई यूएसबी-सी पोर्ट नहीं है, तो आप बैटरी पैक से यूएसबी-सी से यूएसबी-ए
+  एडाप्टर का उपयोग कर सकते हैं।
+Micro USB Port on Pico: पिको पर माइक्रो यूएसबी पोर्ट
+Start by reading the description: सबसे पहले विवरण पढ़ें।
+Connect any components: किसी भी घटक को कनेक्ट करें
+Read the main loop: मुख्य लूप पढ़ें
+Read other comments: अन्य टिप्पणियाँ पढ़ें
+Read rest of the code: शेष कोड पढ़ें
+Important Do’s and Don’ts: महत्वपूर्ण बातें जो करनी चाहिए और जो नहीं करनी चाहिए
+Do …: करना …
+Disconnect Pico before changing connectors: कनेक्टर बदलने से पहले पिको को डिस्कनेक्ट
+  करें।
+Verify all connections, especially VCC and GND: सभी कनेक्शनों की जांच करें, विशेष
+  रूप से VCC और GND की।
+Establish team roles like coding, wiring, verifying circuit, capturing notes and recording: कोडिंग,
+  वायरिंग, सर्किट सत्यापन, नोट्स लेना और रिकॉर्डिंग जैसे टीम के कार्य निर्धारित करें।
+Read experiment description and code: प्रयोग का विवरण और कोड पढ़ें
+Don’t …: नहीं …
+Don’t power on before verifying all connections: सभी कनेक्शनों की पुष्टि किए बिना
+  पावर ऑन न करें
+Incorrect VCC and GND can destroy sensitive electronics: गलत VCC और GND संवेदनशील
+  इलेक्ट्रॉनिक उपकरणों को नष्ट कर सकते हैं।
+Don’t rely on numbers printed on the breadboard: ब्रेडबोर्ड पर छपे नंबरों पर भरोसा
+  न करें
+Count point distance from other connectors on the board to verify: बोर्ड पर मौजूद
+  अन्य कनेक्टर्स से बिंदु दूरी की गणना करके पुष्टि करें
+Don’t leave before putting everything back in the kit box: सारा सामान वापस किट बॉक्स
+  में रखे बिना मत जाइएगा।
+Important Do's and Don'ts: महत्वपूर्ण बातें जो करनी चाहिए और जो नहीं करनी चाहिए
+This is a companion guide to the class experiments kit shown below: यह नीचे दिखाए
+  गए कक्षा प्रयोग किट के लिए एक सहायक मार्गदर्शिका है।
+This is a fun hands-on way to get introduced to electronics, programming and engineering: यह
+  इलेक्ट्रॉनिक्स, प्रोग्रामिंग और इंजीनियरिंग से परिचित होने का एक मजेदार और व्यावहारिक
+  तरीका है।
+Check your class experiments kit: अपनी कक्षा के प्रयोग किट की जाँच करें
+It includes 5 identical invention kits and one additional sensors kit: इसमें 5 एक
+  जैसे आविष्कार किट और एक अतिरिक्त सेंसर किट शामिल हैं।
+Before we can start the experiments, we need a way to write and deploy the code to Pico: प्रयोग
+  शुरू करने से पहले, हमें कोड लिखने और उसे पिको पर डिप्लॉय करने का एक तरीका चाहिए।
+To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it: इसके
+  लिए, हम थॉनी ऐप को सभी कंप्यूटरों पर इंस्टॉल करेंगे, ताकि हर छात्र इसका उपयोग करना
+  सीख सके।
+If that is not feasible, we install it on at least one computer per team: यदि यह संभव
+  नहीं है, तो हम इसे प्रत्येक टीम के कम से कम एक कंप्यूटर पर स्थापित करते हैं।
+If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: यदि
+  थॉनी को बिल्कुल भी इंस्टॉल नहीं किया जा सकता है, तो हम प्रयोगों को चलाने के लिए
+  नीचे दिए गए वैकल्पिक तरीके का उपयोग कर सकते हैं।
+You can streamline the process by installing Thonny app on all computers before the workshop: वर्कशॉप
+  से ​​पहले सभी कंप्यूटरों पर थॉनी ऐप इंस्टॉल करके आप प्रक्रिया को सुव्यवस्थित कर
+  सकते हैं।
+How to Run Experiments with Thonny: थॉनी के साथ प्रयोग कैसे चलाएं
+Launch Thonny App on your computer, if it is not already running: यदि आपके कंप्यूटर
+  पर थॉनी ऐप पहले से नहीं चल रहा है, तो उसे लॉन्च करें।
+Read the guide and the code for the experiment on this website and create a new file as described: इस
+  वेबसाइट पर दिए गए निर्देश और प्रयोग के कोड को पढ़ें और बताए गए तरीके से एक नई फ़ाइल
+  बनाएं।
+Connect the components as described before connecting Pico to power supply: पिको को
+  बिजली आपूर्ति से जोड़ने से पहले बताए गए तरीके से घटकों को कनेक्ट करें।
+Verify all the connections are to the correct Pins, especially the VCC and GND connections: सभी
+  कनेक्शन सही पिनों से जुड़े हैं, विशेषकर VCC और GND कनेक्शन, इसकी पुष्टि कर लें।
+To end the experiment, disconnect the USB cable from Pico: प्रयोग समाप्त करने के लिए,
+  USB केबल को Pico से डिस्कनेक्ट करें।
+To select another experiment, repeat the steps above: दूसरा प्रयोग चुनने के लिए, ऊपर
+  दिए गए चरणों को दोहराएँ।
+Alternate Method to Run Experiments without Thonny: थॉनी के बिना प्रयोग चलाने की वैकल्पिक
+  विधि
+Read the guide and the code for the experiment on this website but skip creating a file: इस
+  वेबसाइट पर दिए गए गाइड और प्रयोग के कोड को पढ़ें, लेकिन फ़ाइल बनाने की प्रक्रिया
+  को छोड़ दें।
+Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty): बैटरी
+  पैक पर लगे स्विच को ऑन करें (यदि बैटरी खाली है तो पहले शामिल की गई 3 AA बैटरियां
+  डालें)।
+"On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "ब्रेडबोर्ड
+  पर, OLED स्क्रीन पर मेनू लॉन्च करने के लिए नीले बटन \U0001F535 को एक बार दबाएँ।"
+"Use the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2 to move back": "अगले
+  प्रयोग पर जाने के लिए पीले बटन \U0001F7E1 का उपयोग करें और पीछे जाने के लिए हरे
+  बटन \U0001F7E2 का उपयोग करें।"
+"Once you reach the experiment you are trying to run, press the blue button \U0001F535 to launch it": "जब
+  आप उस प्रयोग तक पहुँच जाएँ जिसे आप चलाना चाहते हैं, तो उसे शुरू करने के लिए नीले
+  बटन \U0001F535 को दबाएँ।"
+Installation Steps: स्थापना के चरण
+Download and Install Thonny (with Python) from: Thonny (Python के साथ) को डाउनलोड
+  और इंस्टॉल करें
+thonny.org: thonny.org
+? Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+: अपने ऑपरेटिंग सिस्टम और प्रोसेसर के लिए उपयुक्त पाइथन इंस्टॉलर चुनें (सबसे अच्छा
+  विकल्प पहले से ही आपके लिए अनुशंसित के रूप में हाइलाइट किया गया होगा)।
+If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway: यदि
+  आप MacOS का उपयोग कर रहे हैं और यह इंस्टॉलर को ब्लॉक कर देता है, तो सिस्टम सेटिंग्स
+  &gt; गोपनीयता और सुरक्षा पर जाएं और &quot;फिर भी खोलें&quot; पर क्लिक करें।
+2 Micro servo motors: 2 माइक्रो सर्वो मोटर्स
+Joystick module: जॉयस्टिक मॉड्यूल
+Distance sensor: दूरी सेंसर
+Humidity + temperature sensor: आर्द्रता + तापमान सेंसर
+Touch sensor: टच सेंसर
+20 jumper wires: 20 जम्पर तार
+Battery pack: बैटरी का संकुल
+Micro USB cable: माइक्रो यूएसबी केबल
+Remembering this will make verifying the pin positions easier: इसे याद रखने से पिन
+  की स्थिति की पुष्टि करना आसान हो जाएगा।
+The ground pins also have a square copper shape around the pin on the Pico board to make them easier to recognize: ग्राउंड
+  पिन को आसानी से पहचानने के लिए पिको बोर्ड पर पिन के चारों ओर तांबे की चौकोर आकृति
+  भी बनी होती है।
+Raspberry Pi Pico 2 W GPIO Pinout: Raspberry Pi Pico 2 W GPIO पिनआउट
+Reaching Teachers and Students Worldwide: विश्वभर के शिक्षकों और छात्रों तक पहुँचना
+Showing cities with active workshops/outreach, as well as planned cities: सक्रिय कार्यशालाओं/जागरूकता
+  कार्यक्रमों वाले शहरों के साथ-साथ नियोजित शहरों को भी दर्शाया गया है।
+It was truly great to have Utshaho in class: कक्षा में उत्शाहो का होना वाकई बहुत अच्छा
+  था।
+He was fantastic with the kids, coming prepared with all the necessary materials: वह
+  बच्चों के साथ बहुत ही शानदार व्यवहार करते थे और सभी आवश्यक सामग्री लेकर तैयार रहते
+  थे।
+He provided clear instructions and offered support to the students throughout their activities: उन्होंने
+  स्पष्ट निर्देश दिए और छात्रों को उनकी गतिविधियों के दौरान पूरा सहयोग प्रदान किया।
+The students were engaged and enjoyed what they were doing: छात्र अपने काम में पूरी
+  तरह से लगे हुए थे और उसे आनंद आ रहा था।
+They were really interested in building different sensors: वे विभिन्न सेंसर बनाने
+  में वास्तव में रुचि रखते थे।
+MYP Science Teacher: एमवाईपी विज्ञान शिक्षक
+Atlanta International School: अटलांटा इंटरनेशनल स्कूल
+Introduction to Electronics Workshop at Atlanta International School: अटलांटा इंटरनेशनल
+  स्कूल में इलेक्ट्रॉनिक्स कार्यशाला का परिचय
+I liked how many different things we could do, there was lot’s of variety: मुझे यह
+  बात पसंद आई कि हम कितनी अलग-अलग चीजें कर सकते थे, इसमें बहुत विविधता थी।
+Grade 7 Student: कक्षा 7 का छात्र
+loved this lesson: मुझे यह पाठ बहुत पसंद आया।
+Hands-on electronics workshops for schools: स्कूलों के लिए व्यावहारिक इलेक्ट्रॉनिक्स
+  कार्यशालाएँ
+The goal is to help students move from simply learning about technology to actually building technology that solve real problems: इसका
+  लक्ष्य छात्रों को प्रौद्योगिकी के बारे में मात्र सीखने से आगे बढ़कर वास्तविक समस्याओं
+  को हल करने वाली प्रौद्योगिकी का निर्माण करने में मदद करना है।
+Introduction to Electronics Workshop: इलेक्ट्रॉनिक्स कार्यशाला का परिचय
+It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM: यह
+  कार्यक्रम माध्यमिक और प्राथमिक विद्यालय के शिक्षकों और छात्रों के लिए लक्षित है
+  जो विज्ञान, प्रौद्योगिकी, इंजीनियरिंग और गणित (एसटीईएम) के व्यावहारिक पहलुओं को
+  सीखना और उनसे परिचय कराना चाहते हैं।
+? With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+: सही मार्गदर्शन से हर कोई वास्तविक दुनिया पर प्रभाव डालने वाली परियोजनाओं के माध्यम
+  से इलेक्ट्रॉनिक्स, एआई और कंप्यूटर विज़न सीख सकता है।
+? With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+: जल्दी शुरुआत करने से उनकी रचनात्मकता को बढ़ावा मिल सकता है और वे नए विचारों के प्रोटोटाइप
+  बनाने, वास्तविक दुनिया की समस्याओं की पहचान करने और नए कौशल सीखने, प्रयोग करने और
+  आविष्कार करने के मार्ग पर अग्रसर हो सकते हैं।
+Reference Slides for the Workshop: कार्यशाला के लिए संदर्भ स्लाइड
+Class Experiments Kit: कक्षा प्रयोग किट
+Breadboard Connections and Safety: ब्रेडबोर्ड कनेक्शन और सुरक्षा
+Lesson Plan Outline: पाठ योजना की रूपरेखा
+Some Additional Notes: कुछ अतिरिक्त नोट्स
+Class Experiments Kit Contents: कक्षा प्रयोग किट की सामग्री
+Teachers can run a one hour workshop with middle school students interested in STEM: शिक्षक
+  विज्ञान, प्रौद्योगिकी, इंजीनियरिंग और गणित (एसटीईएम) में रुचि रखने वाले माध्यमिक
+  विद्यालय के छात्रों के साथ एक घंटे की कार्यशाला आयोजित कर सकते हैं।
+Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit: प्रत्येक
+  कक्षा प्रयोग किट में 5 एक समान आविष्कार किट और एक अतिरिक्त सेंसर किट शामिल होती
+  है।
+It is available for optional extra reading, if desired: यदि चाहें तो इसे अतिरिक्त
+  पठन सामग्री के रूप में उपलब्ध कराया जा सकता है।
+Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: कक्षा
+  प्रयोग किट में 5 एक समान आविष्कार किट और एक अतिरिक्त सेंसर किट शामिल हैं।
+Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation: हमारी
+  पहली कार्यशाला की संदर्भ स्लाइड नीचे दी गई हैं, जिनका आप सीधे उपयोग कर सकते हैं
+  या अपनी प्रस्तुति में शामिल कर सकते हैं।
+Download Slides: स्लाइड डाउनलोड करें
+Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: कृपया
+  आविष्कार किट और अतिरिक्त सेंसर किट की सामग्री से खुद को परिचित कर लें।
+? The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+: एडिशनल सेंसर्स किट में रिवॉर्ड स्टिकर शामिल हैं जिन्हें आप बेहतरीन रचनात्मक विचारों,
+  सक्रिय भागीदारी आदि के लिए वितरित कर सकते हैं।
+? There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+: कुछ छोटे-छोटे एनएफसी नेल स्टिकर भी होते हैं जो एनएफसी वाले स्मार्टफोन के पास लाने
+  पर चमकने लगते हैं (अक्सर पीछे की तरफ ऊपर बीच में होते हैं)।
+The first step is installing the Thonny app: पहला चरण थॉनी ऐप को इंस्टॉल करना है।
+It is important for the students to learn how breadboard connections work and to be safe: छात्रों
+  के लिए यह सीखना महत्वपूर्ण है कि ब्रेडबोर्ड कनेक्शन कैसे काम करते हैं और सुरक्षित
+  तरीके से काम करते हैं।
+The Additional Sensors Kit includes a breadboard with no backing to show how it works: एडिशनल
+  सेंसर्स किट में एक ब्रेडबोर्ड शामिल है जिसमें इसके काम करने का तरीका दिखाने के लिए
+  कोई सपोर्ट नहीं दिया गया है।
+? There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+: ब्रेडबोर्ड पर एक रीसेट करने योग्य फ्यूज लगा होता है जो किसी छात्र द्वारा गलती से
+  ब्रेडबोर्ड पर शॉर्ट सर्किट होने की स्थिति में सर्किट को डिस्कनेक्ट कर देता है।
+? The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+: सर्किट को चालू करने से पहले छात्रों को सभी कनेक्शनों की जांच करनी होगी, क्योंकि
+  सेंसरों के गलत कनेक्शन से उनके संवेदनशील इलेक्ट्रॉनिक उपकरणों को स्थायी नुकसान हो
+  सकता है, जिससे वे बेकार हो जाएंगे।
+? When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+: कनेक्टर लगाते समय, छात्रों को पिको से यूएसबी केबल को डिस्कनेक्ट करना चाहिए और यूएसबी
+  केबल को कनेक्ट करने से पहले कई छात्रों से कनेक्शन की जांच करवानी चाहिए।
+It is useful to count the pin distance from other used pins on the board: बोर्ड पर
+  उपयोग में आने वाले अन्य पिनों से पिन की दूरी गिनना उपयोगी होता है।
+Safety Procedure: सुरक्षा प्रक्रिया
+Power Off: बिजली बंद
+Connect Components: घटकों को कनेक्ट करें
+Verify Each Connection: प्रत्येक कनेक्शन को सत्यापित करें
+Power On: पावर ऑन
+Introduction - Learn about electronics, breadboards, safety (10-20 min): परिचय - इलेक्ट्रॉनिक्स,
+  ब्रेडबोर्ड और सुरक्षा के बारे में जानें (10-20 मिनट)
+Divide class into 5 teams (one per invention kit) (3-5 min): कक्षा को 5 टीमों में
+  विभाजित करें (प्रत्येक आविष्कार किट के लिए एक टीम) (3-5 मिनट)
+Students familiarize themselves with the invention kit components (3-5 min): छात्र
+  आविष्कार किट के घटकों से परिचित होते हैं (3-5 मिनट)
+Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): बुनियादी
+  बातों को सीखते हुए पहले प्रयोग करें (ब्लिंक, फिर आर्द्रता तापमान सेंसर) (5-10 मिनट)
+Run random experiments from the list, and present to other teams (20-30 min): सूची
+  में से यादृच्छिक प्रयोग करें और अन्य टीमों के सामने प्रस्तुत करें (20-30 मिनट)।
+Clean up and pack the kits (5-7 min): सफाई करें और किट पैक करें (5-7 मिनट)
+? To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+: भविष्य में अतिरिक्त कार्यशालाओं के आयोजन को सुगम बनाने के लिए, छात्रों को डिब्बों
+  की सामग्री को उसी प्रकार वापस डिब्बों में पैक कर देना चाहिए जैसे उन्हें मिली थी।
+If teams have more than 3 students, they can take turns reading about an experiment and running an experiment: यदि
+  टीमों में 3 से अधिक छात्र हैं, तो वे बारी-बारी से किसी प्रयोग के बारे में पढ़ सकते
+  हैं और प्रयोग कर सकते हैं।
+? When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+: जब छात्र अतिरिक्त सेंसर किट से सेंसर उधार लेते हैं, तो उन्हें प्रयोग के बाद सेंसर
+  वापस कर देना चाहिए ताकि अन्य टीमें भी उन्हें उधार ले सकें।
+? Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+: कुछ प्रयोग जोड़े में किए जाते हैं, जिनमें दो टीमों को एक ही समय में दो पिको का उपयोग
+  करके सहयोग करने की आवश्यकता होती है (माइक्रोफोन सेंसर और मेलोडी, और ब्लूटूथ विज्ञापन
+  और स्कैन)।
+? Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+: ब्लूटूथ एडवर्टाइज और स्कैन पूरी कक्षा के लिए एक मजेदार प्रयोग होना चाहिए, जिसमें
+  सभी डिवाइस अपने एलईडी रंगों को एक एडवर्टाइजिंग डिवाइस से मेल खाने के लिए सिंक्रनाइज़
+  करें।
+You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out: आप
+  एक टीम को ब्लूटूथ विज्ञापन पर काम करने का निर्देश दे सकते हैं और दूसरी टीम को समय
+  समाप्त होने से पहले ब्लूटूथ स्कैन सेटअप करने का निर्देश दे सकते हैं।
+Category: वर्ग
+Item Description: आइटम विवरण
+Quantity per Box: प्रति बॉक्स मात्रा
+Total Quantity: कुल मात्रा
+Invention Kit (5x): आविष्कार किट (5x)
+Empty Battery Pack with USB-C to USB-A Adapter: USB-C से USB-A एडाप्टर के साथ खाली
+  बैटरी पैक
+AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping: AA अल्कलाइन
+  बैटरियां, शिपिंग के लिए बबल रैप से लिपटे प्लास्टिक बैग में पैक की गई हैं।
+Micro USB to USB-C Cable: माइक्रो यूएसबी से यूएसबी-सी केबल
+Micro Servo Motor: माइक्रो सर्वो मोटर
+Capacitive Touch Sensor: कैपेसिटिव टच सेंसर
+Temp &amp; Humidity Sensor: तापमान और आर्द्रता सेंसर
+Ultrasonic Distance Sensor: अल्ट्रासोनिक दूरी सेंसर
+Joystick Module: जॉयस्टिक मॉड्यूल
+10cm Jumper Wires: 10 सेमी जम्पर तार
+PIR Motion Sensor Module: पीआईआर मोशन सेंसर मॉड्यूल
+Knock Sensor Module: नॉकिंग सेंसर मॉड्यूल
+Potentiometer Module: पोटेंशियोमीटर मॉड्यूल
+Accelerometer Module: एक्सेलेरोमीटर मॉड्यूल
+Photo Interrupter Module: फोटो इंटरप्टर मॉड्यूल
+Crash Sensor Module: क्रैश सेंसर मॉड्यूल
+Photoresistor Module: फोटोरेसिस्टर मॉड्यूल
+Rotation Encoder Module: रोटेशन एनकोडर मॉड्यूल
+NFC Nail Reward Stickers: एनएफसी नेल रिवॉर्ड स्टिकर
+Assorted Reward Stickers: विभिन्न प्रकार के इनाम स्टिकर
+Breadboard without Backing: बिना बैकिंग वाला ब्रेडबोर्ड
+Book: किताब
+? It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+: इसे रास्पबेरी पाई फाउंडेशन के वर्ल्डवाइड कूलेस्ट प्रोजेक्ट्स ऑनलाइन शोकेस में भी
+  प्रदर्शित किया गया था और इसने जॉर्जिया में जजों की पसंद का पुरस्कार जीता था।
+Featured in Raspberry Pi Foundation’s Worldwide Coolest Projects: रास्पबेरी पाई फाउंडेशन
+  की दुनिया भर की सबसे बेहतरीन परियोजनाओं में शामिल
+running on a Raspberry Pi Pico 2 W microcontroller: Raspberry Pi Pico 2W माइक्रोकंट्रोलर
+  पर चल रहा है
+If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: यदि
+  सब कुछ अपेक्षा के अनुरूप हुआ, तो आपको रास्पबेरी पाई पिको पर एक एलईडी बार-बार जलती-बुझती
+  हुई दिखाई देगी।
+use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,: आस-पास
+  के रास्पबेरी पाई पिको उपकरणों पर रंग पढ़ने के लिए ब्लूटूथ स्कैनिंग का उपयोग करें।
+? Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+: जब भी आप पिको को कनेक्ट करें, कुछ सेकंड प्रतीक्षा करें, फिर थॉनी विंडो के निचले
+  दाएं कोने में स्थित मेनू ☰ आइकन को खोलें और मेनू से माइक्रो पाइथन (रास्पबेरी पाई
+  पिको) चुनें।
+You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller: इस
+  गाइड और किट का उपयोग करके आप रास्पबेरी पाई पिको माइक्रोकंट्रोलर के साथ सरल इलेक्ट्रॉनिक
+  सर्किट बनाना सीखेंगे।
+Connect the Raspberry Pi Pico to the computer with the provided USB cable: Raspberry
+  Pi Pico को दिए गए USB केबल का उपयोग करके कंप्यूटर से कनेक्ट करें।
+Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico: थॉनी
+  विंडो के निचले दाएं कोने में स्थित मेनू को खोलें और रास्पबेरी पाई पिको चुनें।
+Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: दिए
+  गए यूएसबी केबल का उपयोग करके रास्पबेरी पाई पिको को बैटरी पैक से कनेक्ट करें।
+? To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+: पहली बार Thonny का उपयोग करने के लिए, Thonny ऐप लॉन्च करें, मेनू से Tools &gt; Options
+  चुनें, Interpreter टैब चुनें, ड्रॉप डाउन से MicroPython (Raspberry Pi Pico) चुनें
+  और OK पर क्लिक करें।
+Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: OLED, LED, बजर,
+  Raspberry Pi Pico 2W, 6 बटन वाला ब्रेडबोर्ड
+You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: आप
+  नीचे दिए गए लिंक पर जाकर Raspberry Pi Pico 2W का पूरा पिनआउट देख सकते हैं।
+Full Raspberry Pi Pico 2 W Pinout: Raspberry Pi Pico 2 W का पूरा पिनआउट
+? Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+: छात्र ब्रेडबोर्ड का उपयोग करना, सेंसर, मोटर और कंट्रोलर को जोड़ना और रास्पबेरी पाई
+  पर प्रोग्रामिंग करना जैसे बुनियादी इलेक्ट्रॉनिक कौशल सीखते हैं।
+? There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+: इसमें &quot;Raspberry Pi Pico पर MicroPython के साथ शुरुआत करें&quot; नामक एक पुस्तक
+  भी शामिल है, जो कार्यशाला के संचालन के लिए अनिवार्य नहीं है।
+? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+: ब्रेडबोर्ड जिसमें Raspberry Pi Pico 2W, 6 पुश बटन, पीजो बजर, OLED स्क्रीन मॉड्यूल,
+  RGB LED मॉड्यूल, रीसेट करने योग्य PPTC फ्यूज और प्रीसेट कनेक्टर लगे हैं।
+Get started with MicroPython on Raspberry Pi Pico Book: Raspberry Pi Pico बुक पर MicroPython
+  के साथ शुरुआत करें
+Workshops: कार्यशालाएं
+<span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+<span translate="no">Inventor Pi</span> on GitHub: GitHub पर <span translate="no">Inventor
+  Pi</span>
+2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
+  Pi, Inc.</span>
+<span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
+  translate="no">Inventor Pi, Inc.</span> एक पंजीकृत 501(सी)(3) संगठन है।
+Search <span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+  खोजें
+Main: मुख्य
+Getting Started submenu: आरंभ करना उपमेनू
+Experiments submenu: प्रयोग उपमेनू
+Auxiliary: सहायक
+YouTube video player: यूट्यूब वीडियो प्लेयर
+? In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+: नीचे दिए गए कोड में, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  फ़ंक्शन LED को चालू और बंद करता है।
+? Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+: <span translate="no"><code class="language-plaintext highlighter-rouge">while True:</code></span>
+  कोड ब्लॉक के अंदर दोनों पंक्तियाँ अनिश्चित काल तक दोहराई जाती हैं।
+Breadcrumb: ब्रेडक्रम्ब
+? To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+: परीक्षण के लिए, स्क्रिप्ट चलाएँ, फिर नॉक सेंसर सहित पूरे ब्रेडबोर्ड को हाथ में पकड़ें
+  और उसे ज़ोर से हिलाएँ, जिससे वह अचानक रुक जाए।
+? When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+: कक्षा में इस स्क्रिप्ट को चलाते समय, सेंसर को पूरी तरह से एक किताब या मुड़े हुए
+  कागज़ के पन्नों से ढक दें, फिर सेंसर के रीसेट होने और <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span> प्रदर्शित होने
+  तक प्रतीक्षा करें।
+Hint: संकेत देना
+To add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>: किसी
+  फ़ंक्शन को जोड़ने के लिए, हम <span translate="no"><code class="language-plaintext
+  highlighter-rouge">def</code></span> उपयोग करते हैं।
+? For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+: इस खेल में, हम OLED स्क्रीन पर चित्र बनाना सीखते हैं, जिसमें वृत्त बनाने के लिए
+  <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  और आयत बनाने के लिए <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  उपयोग किया जाता है।
+? Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+: अंत में, हम बजाए गए नोट्स को उनकी अवधि के साथ एक <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> में सहेज लेते हैं।
+'For this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span> as shown below:': 'इसके
+  लिए हम नीचे दिखाए गए अनुसार एक <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> उपयोग करते हैं:'
+? To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+: OLED स्क्रीन पर आकृतियाँ बनाना सीखने के लिए, हम बजाए जा रहे नोट्स की आकृतियाँ बनाते
+  हैं, इसके लिए हम <span translate="no"><code class="language-plaintext highlighter-rouge">draw_notes_on_screen()</code></span>
+  नामक एक फ़ंक्शन का उपयोग करते हैं।
+? When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+: सफलतापूर्वक कनेक्ट होने पर, नीचे की ओर स्थित शेल विंडो <span translate="no"><code
+  class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span> प्रॉम्प्ट
+  के साथ समाप्त होती है।
+? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+: <span translate="no">Inventor Pi</span> छात्रों द्वारा संचालित एक STEM पहल है जिसका
+  उद्देश्य शिक्षकों और छात्रों के लिए व्यावहारिक आविष्कार को अधिक सुलभ बनाना है।
+? <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+: <span translate="no">Inventor Pi</span> शिक्षकों और छात्रों को शुरुआती लोगों के
+  लिए उपयुक्त रास्पबेरी पाई पिको और इलेक्ट्रॉनिक्स किट के साथ अपने कौशल को विकसित
+  करने के लिए एक स्पष्ट प्रारंभिक बिंदु प्रदान करता है, साथ ही इसमें ऐसे पाठ योजनाएं
+  भी शामिल हैं जिनका उपयोग शिक्षक आभासी और व्यक्तिगत कार्यशालाएं आयोजित करने के लिए
+  कर सकते हैं।
+Ms. Irem Nekay: सुश्री इरेम नेके
+Introduction to Electronics Slides: इलेक्ट्रॉनिक्स का परिचय (स्लाइड्स)
+? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+: दृष्टिबाधित और दृष्टिबाधित लोगों के लिए किफायती स्मार्ट चश्मे बनाने के उत्शाहो के
+  काम ने ही उन्हें <span translate="no">Inventor Pi</span> बनाने के लिए प्रेरित किया।
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+: पिको को कंप्यूटर से जोड़ने के लिए, USB केबल को पिको के माइक्रो USB पोर्ट से कनेक्ट
+  करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="पिको
+  पर माइक्रो यूएसबी पोर्ट" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  और कंप्यूटर पर मौजूद किसी भी USB-C या USB-A पोर्ट पर।
+English: अंग्रेज़ी
+French: फ्रेंच
+Spanish: स्पैनिश
+German: जर्मन
+Chinese (Simplified): सरलीकृत चीनी)
+Chinese (Traditional): चीनी पारंपरिक)
+Hindi: हिंदी
+Bangla: बांग्ला
+Arabic: अरबी
+Persian: फ़ारसी
+Urdu: उर्दू
+Portuguese: पुर्तगाली
+Japanese: जापानी
+Italian: इतालवी
+Dutch: डच
+Danish: डेनिश
+Russian: रूसी
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+: फ़ाइल को सेव करें और हरे बटन का उपयोग करके स्क्रिप्ट चलाएँ। <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp" alt="वर्तमान स्क्रिप्ट चलाएँ" class="inline-img"
+  width="24" height="24" fetchpriority="high"></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> बटन
+Run current script: वर्तमान स्क्रिप्ट चलाएँ
+Contact Form: संपर्क करें प्रपत्र
+Please fill out the form below to get in touch: संपर्क करने के लिए कृपया नीचे दिया
+  गया फॉर्म भरें।
+Name: नाम
+Email: ईमेल
+Role: भूमिका
+School Name: स्कूल के नाम
+School Address: स्कूल का पता
+Question / Feedback / Interest / Message: प्रश्न / प्रतिक्रिया / रुचि / संदेश
+Send Message: मेसेज भेजें
+Thank you! Your message has been sent successfully: धन्यवाद! आपका संदेश सफलतापूर्वक
+  भेज दिया गया है।
+Something went wrong: कुछ गलत हो गया
+Please try again later: 'कृपया बाद में पुन: प्रयास करें'
+? To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: बिना नया कोड अपलोड किए, एक या अधिक डिवाइस पर bluetooth_scan.py को तुरंत चलाने के
+  लिए, <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">&#39;शुरुआत
+  करना&#39;</a> अनुभाग में वर्णित वैकल्पिक विधि का उपयोग करें।
+? To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: किसी अन्य डिवाइस पर नया कोड अपलोड किए बिना melody.py को तुरंत चलाने के लिए, <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">&#39;शुरुआत
+  करना</a> &#39; अनुभाग में वर्णित वैकल्पिक विधि का उपयोग करें।
+? To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+: किसी अन्य डिवाइस पर melody.py फ़ाइल चलाकर परीक्षण करने के लिए, ऊपर दिए गए <a href="/experiments/3-melody.html">Melody</a>
+  प्रयोग से melody.py फ़ाइल को दूसरे डिवाइस से जुड़े कंप्यूटर पर चलाएँ।
+? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+: <a href="/getting-started/important-dos-and-donts.html">क्या करें और क्या न करें</a>
+  अनुभाग में ध्यान रखने योग्य महत्वपूर्ण बिंदुओं को शामिल किया गया है।
+Notice that: नोटिस जो
+Ground: मैदान
+"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)
+  पिन हर 4 पिन के बाद दोहराए जाते हैं, और प्रत्येक छोर पर 2 पिन के बाद शुरू होते हैं।"
+? You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+: कक्षा शुरू होने से पहले, इस वेबसाइट के <a href="/getting-started/">&#39;शुरुआत कैसे
+  करें&#39;</a> अनुभाग का उपयोग करके विभिन्न प्रयोगों को स्वयं करके देखें।
+? Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+: कृपया इन <a href="/getting-started/install-thonny-app.html">निर्देशों को</a> विद्यार्थियों
+  के साथ पहले से साझा कर दें, ताकि वे कक्षा शुरू होने से पहले अपने लैपटॉप पर ऐप इंस्टॉल
+  कर सकें।

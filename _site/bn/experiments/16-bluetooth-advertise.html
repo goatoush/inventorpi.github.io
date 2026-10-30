@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="author" content="Utshaho Gupta">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+  
+
+  
+
+  
+    <script src="/assets/js/vendor/lunr.min.js" defer></script>
+  
+
+  <script src="/bn/assets/js/just-the-docs.js" defer></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>ব্লুটুথ বিজ্ঞাপন | Inventor Pi</title>
+<meta name="generator" content="Jekyll v4.4.1">
+<meta property="og:title" content="ব্লুটুথ বিজ্ঞাপন">
+<meta property="og:locale" content="bn">
+<meta name="description" content="বিদ্যালয়গুলির জন্য হাতে-কলমে ইলেকট্রনিক্স কর্মশালা">
+<meta name="twitter:description" property="og:description" content="বিদ্যালয়গুলির জন্য হাতে-কলমে ইলেকট্রনিক্স কর্মশালা">
+<link rel="canonical" href="https://inventorpi.com/bn/experiments/16-bluetooth-advertise.html">
+<meta property="og:url" content="https://inventorpi.com/bn/experiments/16-bluetooth-advertise.html">
+<meta property="og:site_name" content="Inventor Pi">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Bluetooth Advertise">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-21T18:23:57+00:00","description":"বিদ্যালয়গুলির জন্য হাতে-কলমে ইলেকট্রনিক্স কর্মশালা","headline":"ব্লুটুথ বিজ্ঞাপন","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://inventorpi.com/assets/images/inventor-pi-logo.webp"}},"url":"https://inventorpi.com/bn/experiments/16-bluetooth-advertise.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <link rel="alternate" hreflang="en" href="https://inventorpi.com/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="fr" href="https://inventorpi.com/fr/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="es" href="https://inventorpi.com/es/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="de" href="https://inventorpi.com/de/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="zh" href="https://inventorpi.com/zh/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="zh-TW" href="https://inventorpi.com/zh-TW/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="hi" href="https://inventorpi.com/hi/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="bn" href="https://inventorpi.com/bn/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="ar" href="https://inventorpi.com/ar/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="fa" href="https://inventorpi.com/fa/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="ur" href="https://inventorpi.com/ur/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="pt" href="https://inventorpi.com/pt/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="ja" href="https://inventorpi.com/ja/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="it" href="https://inventorpi.com/it/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="nl" href="https://inventorpi.com/nl/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="da" href="https://inventorpi.com/da/experiments/16-bluetooth-advertise.html">
+  
+    <link rel="alternate" hreflang="ru" href="https://inventorpi.com/ru/experiments/16-bluetooth-advertise.html">
+  
+  <link rel="alternate" hreflang="x-default" href="https://inventorpi.com/experiments/16-bluetooth-advertise.html">
+  
+    <meta property="og:locale:alternate" content="fr">
+  
+    <meta property="og:locale:alternate" content="es">
+  
+    <meta property="og:locale:alternate" content="de">
+  
+    <meta property="og:locale:alternate" content="zh">
+  
+    <meta property="og:locale:alternate" content="zh-TW">
+  
+    <meta property="og:locale:alternate" content="hi">
+  
+    <meta property="og:locale:alternate" content="en">
+  
+    <meta property="og:locale:alternate" content="ar">
+  
+    <meta property="og:locale:alternate" content="fa">
+  
+    <meta property="og:locale:alternate" content="ur">
+  
+    <meta property="og:locale:alternate" content="pt">
+  
+    <meta property="og:locale:alternate" content="ja">
+  
+    <meta property="og:locale:alternate" content="it">
+  
+    <meta property="og:locale:alternate" content="nl">
+  
+    <meta property="og:locale:alternate" content="da">
+  
+    <meta property="og:locale:alternate" content="ru">
+  
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-00FD6QB7EM');
+</script>
+<script>
+  const BRAND_COLOR = '#F31660';
+  const i18nText = {"Active":"সক্রিয়","Base":"ভিত্তি","Planned":"পরিকল্পিত","Here":"এখানে","Summary":"সারসংক্ষেপ","Note":"দ্রষ্টব্য","Important":"গুরুত্বপূর্ণ"};
+  const i18n = (text) => i18nText[text] || text;
+</script>
+<link rel="preload" href="/bn/assets/js/search-data.json" as="fetch" crossorigin="anonymous">
+<script src="/assets/js/main.js" defer></script>
+<link rel="preload" href="/assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</noscript>
+
+<style>
+  html {
+    font-size: 1rem !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  :root {
+    font-size: 1rem !important;
+  }
+</style>
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">মূল বিষয়বস্তুতে যান</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewbox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewbox="0 0 24 24">
+  <title>মেনু</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewbox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewbox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewbox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewbox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewbox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewbox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewbox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"></path>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"></path>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <header class="side-bar">
+  <div class="site-header">
+    <a href="/bn/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Inventor Pi"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="মেনু" aria-expanded="false">
+      <svg viewbox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="প্রধান" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list">
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="শুরু করার সাবমেনু" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/bn/getting-started/" class="nav-list-link">শুরু করা</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/bn/getting-started/install-thonny-app.html" class="nav-list-link">থনি অ্যাপ ইনস্টল করুন</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/invention-kit-contents.html" class="nav-list-link">উদ্ভাবন কিটের সামগ্রী</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/additional-sensors-kit.html" class="nav-list-link">অতিরিক্ত সেন্সর কিট</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/breadboard-basics.html" class="nav-list-link">ব্রেডবোর্ডের প্রাথমিক বিষয়</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/breadboard-wiring.html" class="nav-list-link">ব্রেডবোর্ড ওয়্যারিং</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/pico-2w-gpio-pinout.html" class="nav-list-link">পিকো ২ ওয়াট পিনআউট</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/important-dos-and-donts.html" class="nav-list-link">করণীয় ও বর্জনীয়</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/connect-pico-to-computer.html" class="nav-list-link">পিকো সংযোগ করুন</a></li>
+<li class="nav-list-item"><a href="/bn/getting-started/guide-to-reading-code.html" class="nav-list-link">কোড পড়ার নির্দেশিকা</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="পরীক্ষা উপমেনু" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/bn/experiments/" class="nav-list-link">পরীক্ষাগুলি</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/bn/experiments/1-blink.html" class="nav-list-link">ব্লিঙ্ক</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/2-humidity-temp-sensor.html" class="nav-list-link">আর্দ্রতা তাপমাত্রা সেন্সর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/3-melody.html" class="nav-list-link">মেলোডি</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/4-touch-game.html" class="nav-list-link">টাচ গেম</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/5-distance-sensor.html" class="nav-list-link">দূরত্ব সেন্সর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/6-piano.html" class="nav-list-link">পিয়ানো</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/7-joystick-and-servos.html" class="nav-list-link">জয়স্টিক এবং সার্ভো</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/8-microphone-sensor.html" class="nav-list-link">মাইক্রোফোন সেন্সর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/9-accelerometer.html" class="nav-list-link">অ্যাক্সেলেরোমিটার</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/10-crash-sensor.html" class="nav-list-link">ক্র্যাশ সেন্সর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/11-knock-sensor.html" class="nav-list-link">নক সেন্সর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/12-motion-sensor.html" class="nav-list-link">মোশন সেন্সর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/13-photo-interrupter.html" class="nav-list-link">ফটো ইন্টারাপ্টার</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/14-photoresistor.html" class="nav-list-link">ফটোরেজিস্টর</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/15-potentiometer-and-servo.html" class="nav-list-link">পটেনশিওমিটার এবং সার্ভো</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/16-bluetooth-advertise.html" class="nav-list-link">ব্লুটুথ বিজ্ঞাপন</a></li>
+<li class="nav-list-item"><a href="/bn/experiments/17-mix-and-match.html" class="nav-list-link">মিশিয়ে ও মিলিয়ে নিন</a></li>
+</ul>
+</li>
+<li class="nav-list-item"><a href="/bn/lesson-plan-for-teachers.html" class="nav-list-link">শিক্ষকদের জন্য পাঠ পরিকল্পনা</a></li>
+<li class="nav-list-item"><a href="/bn/about.html" class="nav-list-link">সম্পর্কে</a></li>
+<li class="nav-list-item"><a href="/bn/contact.html" class="nav-list-link">যোগাযোগ করুন</a></li>
+</ul>
+  <ul class="nav-list"><li class="nav-list-item external">
+          <a href="https://github.com/goatoush/inventor-pi" class="nav-list-link external" target="_blank" rel="noopener noreferrer">
+            গিটহাবে Inventor Pi
+            <svg viewbox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>
+          </a>
+        </li></ul>
+</nav>
+
+
+<div class="d-md-block d-none site-footer">
+  
+  
+    শিক্ষক ও শিক্ষার্থীদের জন্য হাতে-কলমে উদ্ভাবনকে আরও সহজলভ্য করে তোলা. <br>
+© ২০২৬ Inventor Pi, Inc. <br>
+Inventor Pi, Inc. একটি নিবন্ধিত 501(c)(3) সংস্থা
+  
+  </div>
+</header>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Inventor Pi অনুসন্ধান করুন" autocomplete="off">
+    <label for="search-input" class="search-label">
+      <span class="sr-only">Inventor Pi অনুসন্ধান করুন</span>
+      <svg viewbox="0 0 24 24" class="search-icon" aria-hidden="true"><use xlink:href="#svg-search"></use></svg>
+    </label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+    <nav aria-label="সহায়ক" class="aux-nav">
+    <ul class="aux-nav-list">
+        <li class="aux-nav-list-item">
+            <button class="site-button lang btn-reset" type="button" aria-label="Select Language" title="Select Language">
+                🇺🇸
+            </button>
+        </li>
+        
+        <li class="aux-nav-list-item">
+            <a href="/bn/getting-started/" class="site-button">
+                শুরু করুন
+            </a>
+        </li>
+        
+    </ul>
+    <div class="select-lang-container">
+        <div class="select-lang-backdrop"></div>
+        <section class="select-lang">
+            <ul>
+                
+                <li class="lang en">
+                    <a class="lang" href="/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">English</div>
+                            <div class="sub">ইংরেজি</div>
+                        </div>
+                        <div class="flag">🇺🇸 🇬🇧</div>
+                    </a>
+                </li>
+                
+                <li class="lang fr">
+                    <a class="lang" href="/fr/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Français</div>
+                            <div class="sub">ফরাসি</div>
+                        </div>
+                        <div class="flag">🇫🇷 🇬🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang es">
+                    <a class="lang" href="/es/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Español</div>
+                            <div class="sub">স্প্যানিশ</div>
+                        </div>
+                        <div class="flag">🇪🇸 🇲🇽</div>
+                    </a>
+                </li>
+                
+                <li class="lang de">
+                    <a class="lang" href="/de/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Deutsch</div>
+                            <div class="sub">জার্মান</div>
+                        </div>
+                        <div class="flag">🇩🇪 🇦🇹</div>
+                    </a>
+                </li>
+                
+                <li class="lang zh">
+                    <a class="lang" href="/zh/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">简体字</div>
+                            <div class="sub">চীনা (সরলীকৃত)</div>
+                        </div>
+                        <div class="flag">🇨🇳 🇸🇬</div>
+                    </a>
+                </li>
+                
+                <li class="lang zh-TW">
+                    <a class="lang" href="/zh-TW/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">正体字</div>
+                            <div class="sub">চীনা (ঐতিহ্যবাহী)</div>
+                        </div>
+                        <div class="flag">🇹🇼 🇭🇰</div>
+                    </a>
+                </li>
+                
+                <li class="lang hi">
+                    <a class="lang" href="/hi/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">हिंदी</div>
+                            <div class="sub">হিন্দি</div>
+                        </div>
+                        <div class="flag">🇮🇳 🇳🇵</div>
+                    </a>
+                </li>
+                
+                <li class="lang bn">
+                    <a class="lang" href="/bn/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">বাংলা</div>
+                            <div class="sub">বাংলা</div>
+                        </div>
+                        <div class="flag">🇧🇩 🇮🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang ar">
+                    <a class="lang" href="/ar/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">عربي</div>
+                            <div class="sub">আরবি</div>
+                        </div>
+                        <div class="flag">🇸🇦 🇪🇬</div>
+                    </a>
+                </li>
+                
+                <li class="lang fa">
+                    <a class="lang" href="/fa/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">فارسی</div>
+                            <div class="sub">ফার্সি</div>
+                        </div>
+                        <div class="flag">🇮🇷 🇦🇫</div>
+                    </a>
+                </li>
+                
+                <li class="lang ur">
+                    <a class="lang" href="/ur/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">اردو</div>
+                            <div class="sub">উর্দু</div>
+                        </div>
+                        <div class="flag">🇵🇰 🇮🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang pt">
+                    <a class="lang" href="/pt/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Português</div>
+                            <div class="sub">পর্তুগিজ</div>
+                        </div>
+                        <div class="flag">🇵🇹 🇧🇷</div>
+                    </a>
+                </li>
+                
+                <li class="lang ja">
+                    <a class="lang" href="/ja/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">日本語</div>
+                            <div class="sub">জাপানি</div>
+                        </div>
+                        <div class="flag">🇯🇵 🇵🇼</div>
+                    </a>
+                </li>
+                
+                <li class="lang it">
+                    <a class="lang" href="/it/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Italiana</div>
+                            <div class="sub">ইতালীয়</div>
+                        </div>
+                        <div class="flag">🇮🇹 🇸🇲</div>
+                    </a>
+                </li>
+                
+                <li class="lang nl">
+                    <a class="lang" href="/nl/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Nederlands</div>
+                            <div class="sub">ডাচ</div>
+                        </div>
+                        <div class="flag">🇳🇱 🇸🇷</div>
+                    </a>
+                </li>
+                
+                <li class="lang da">
+                    <a class="lang" href="/da/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Dansk</div>
+                            <div class="sub">ড্যানিশ</div>
+                        </div>
+                        <div class="flag">🇩🇰 🇪🇺</div>
+                    </a>
+                </li>
+                
+                <li class="lang ru">
+                    <a class="lang" href="/ru/experiments/16-bluetooth-advertise.html">
+                        <div>
+                            <div class="select-lang-text">Русский</div>
+                            <div class="sub">রাশিয়ান</div>
+                        </div>
+                        <div class="flag">🇷🇺 🇰🇿</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </section>
+    </div>
+</nav>
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="রুটির গুঁড়ো" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/bn/experiments/">পরীক্ষাগুলি</a></li>
+    <li class="breadcrumb-nav-list-item"><span>ব্লুটুথ বিজ্ঞাপন</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 id="bluetooth-advertise-and-bluetooth-scan">
+  
+  
+    <a href="#bluetooth-advertise-and-bluetooth-scan" class="anchor-heading" aria-labelledby="bluetooth-advertise-and-bluetooth-scan"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ব্লুটুথ বিজ্ঞাপন এবং ব্লুটুথ স্ক্যান
+  
+  
+</h1>
+    
+
+<p><img src="/assets/images/circuits/Bluetooth%20Advertise%20Circuit.webp" alt="ব্লুটুথ বিজ্ঞাপন" width="1280" height="720" fetchpriority="high"></p>
+<h3 id="summary">
+  
+  
+    <a href="#summary" class="anchor-heading" aria-labelledby="summary"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> একটি মাইক্রোপাইথন কোডের উদাহরণ রাস্পবেরি পাই পিকো ২ ওয়াট মাইক্রোকন্ট্রোলারে চালিত ব্রেডবোর্ডে একটি রোটারি এনকোডার মডিউল, একটি RGB LED এবং একটি OLED ডিসপ্লে মডিউল (SSD1306) এর সাথে সংযুক্ত। যেকোনো রঙ তৈরি করার জন্য এলইডি-র লাল, সবুজ এবং নীল চ্যানেলগুলোকে আলাদাভাবে নিয়ন্ত্রণ করতে হয়। ডিসপ্লেতে হেক্স ভ্যালু এবং R, G, B ভ্যালুগুলো প্রদর্শন করুন। BLE অ্যাডভার্টাইজিং ডেটার সার্ভিস UUID-তে এটিকে এমবেড করে ব্লুটুথের মাধ্যমে সম্প্রচার করুন, কাছাকাছি থাকা রাস্পবেরি পাই পিকো ডিভাইসগুলোর রঙ পড়ার জন্য ব্লুটুথ স্ক্যানিং ব্যবহার করুন।  এবং প্রাপ্ত রঙটি এলইডি-তে প্রদর্শন করে, যার ফলে সিঙ্ক করা পিকো ডিভাইসগুলির একটি ক্লাস্টার তৈরি হয়।
+  
+  
+</h3>
+    
+
+<p>আমরা একটি রোটারি এনকোডার ব্যবহার করে এলইডি-র লাল, সবুজ ও নীল রঙ পরিবর্তন করি এবং তারপর সেই রঙটি কাছাকাছি থাকা ডিভাইসগুলিতে সম্প্রচার করি, যেগুলো তাদের এলইডি-গুলোকেও একই রঙে সেট করে নেয়।. যখন একটি ডিভাইসে bluetooth_advertise.py এবং কাছাকাছি থাকা একাধিক ডিভাইসে bluetooth_scan.py চালানো হয়, তখন আমরা সিঙ্ক করা ডিভাইসগুলোর একটি নেটওয়ার্ক তৈরি করতে পারি।. এভাবেই একদল রোবট একে অপরের সাথে যোগাযোগ করতে ও একসাথে কাজ করতে পারে।.</p>
+
+<p>Thonny-তে bluetooth_advertise.py নামে একটি নতুন ফাইল তৈরি করুন।. আপনার তৈরি করা ফাইলে নিচের কোডটি কপি করে পেস্ট করুন।.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+</pre></td>
+<td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Bluetooth Advertise</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># DESCRIPTION
+</span>
+<span class="c1"># We use a rotary encoder to change red, green and blue color of the LED, then
+# broadcast that color to nearby devices, which set their LEDs to the same color. 
+# When one device runs bluetooth_advertise.py and multiple nearby devices run 
+# bluetooth_scan.py, we can create a network of synced devices.
+# This is how a cluster of robots can communicate and work together.
+</span>
+<span class="c1"># CONNECTIONS REQUIRED
+</span>
+<span class="c1"># Connect R E Sensor (KY-040) module
+#   Pins: GND =&gt; GND, VCC =&gt; VCC, SW =&gt; GP22, DT =&gt; GP21, CLK =&gt; GP20
+</span>
+<span class="kn">from</span> <span class="n">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="n">oled</span> <span class="kn">import</span> <span class="n">OLED</span>
+<span class="kn">from</span> <span class="n">rgbled</span> <span class="kn">import</span> <span class="n">RGBLED</span>
+<span class="kn">from</span> <span class="n">rotary_encoder</span> <span class="kn">import</span> <span class="n">RotaryEncoder</span>
+<span class="kn">from</span> <span class="n">bluetooth</span> <span class="kn">import</span> <span class="n">BLE</span><span class="p">,</span> <span class="n">UUID</span>
+<span class="kn">from</span> <span class="n">value_filter</span> <span class="kn">import</span> <span class="n">ValueFilter</span>
+<span class="kn">from</span> <span class="n">ble_helper</span> <span class="kn">import</span> <span class="n">advertising_payload</span>
+
+<span class="n">oled</span> <span class="o">=</span> <span class="nc">OLED</span><span class="p">(</span><span class="n">scl_pin</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">sda_pin</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">rgbled</span> <span class="o">=</span> <span class="nc">RGBLED</span><span class="p">(</span><span class="n">red_pin</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">green_pin</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">blue_pin</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">rotary_encoder</span> <span class="o">=</span> <span class="nc">RotaryEncoder</span><span class="p">(</span><span class="n">sw_pin</span><span class="o">=</span><span class="mi">22</span><span class="p">,</span> <span class="n">dt_pin</span><span class="o">=</span><span class="mi">21</span><span class="p">,</span> <span class="n">clk_pin</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">min_val</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">max_val</span><span class="o">=</span><span class="mi">255</span><span class="p">)</span>
+<span class="n">uuid_filter</span> <span class="o">=</span> <span class="nc">ValueFilter</span><span class="p">()</span>
+<span class="n">ble</span> <span class="o">=</span> <span class="nc">BLE</span><span class="p">()</span>
+<span class="n">ble</span><span class="p">.</span><span class="nf">active</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="n">rgb</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>    <span class="c1"># array of red, green and blue values, initially set to zero
+</span><span class="n">channel</span> <span class="o">=</span> <span class="mi">0</span>     <span class="c1"># 0 is red, 1 is green and 2 is blue
+</span>
+<span class="k">def</span> <span class="nf">show_color_values_on_screen</span><span class="p">():</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="sh">"</span><span class="s"> HEX: </span><span class="si">{</span><span class="n">rgbled</span><span class="p">.</span><span class="nb">hex</span><span class="si">}</span><span class="sh">"</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span> <span class="n">lines</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="sh">"</span><span class="s">-&gt;</span><span class="sh">"</span> <span class="k">if</span> <span class="n">channel</span> <span class="o">==</span> <span class="n">i</span> <span class="k">else</span> <span class="sh">"</span><span class="s">  </span><span class="sh">"</span><span class="si">}</span><span class="s"> </span><span class="si">{</span><span class="sh">"</span><span class="s">RGB</span><span class="sh">"</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">rgb</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+    <span class="n">oled</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="o">*</span><span class="n">lines</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">set_color</span><span class="p">():</span>
+    <span class="n">rgb</span><span class="p">[</span><span class="n">channel</span><span class="p">]</span> <span class="o">=</span> <span class="n">rotary_encoder</span><span class="p">.</span><span class="nf">value</span><span class="p">()</span> <span class="c1"># Update color value for current color channel in rgb list
+</span>    <span class="n">rgbled</span><span class="p">.</span><span class="nf">set_color</span><span class="p">(</span><span class="o">*</span><span class="n">rgb</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">advertise_color</span><span class="p">():</span>
+    <span class="c1"># Bluetooth advertise broadcasts a message with service UUID (unique id) to any nearby devices listening
+</span>    <span class="c1"># We will embed the color values inside the service UUID, which a listening device can then extract
+</span>    <span class="c1"># UUID is a random hexadecimal string with format XXXXXXXX-RR00-GG01-BB02-XXXXXXXXXXXX
+</span>    <span class="n">uuid</span> <span class="o">=</span> <span class="nc">UUID</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">F62BA79A-</span><span class="si">{</span><span class="n">rgb</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="mi">02</span><span class="n">X</span><span class="si">}</span><span class="s">00-</span><span class="si">{</span><span class="n">rgb</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="mi">02</span><span class="n">X</span><span class="si">}</span><span class="s">01-</span><span class="si">{</span><span class="n">rgb</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="si">:</span><span class="mi">02</span><span class="n">X</span><span class="si">}</span><span class="s">02-FF3591B2FA74</span><span class="sh">"</span><span class="p">)</span> <span class="c1">#02X changes number to 2 character hex
+</span>
+    <span class="c1"># Set or update BLE advertising payload only when the UUID value changes
+</span>    <span class="k">if</span> <span class="n">uuid_filter</span><span class="p">.</span><span class="nf">did_change</span><span class="p">(</span><span class="n">uuid</span><span class="p">):</span>
+        <span class="n">adv_data</span> <span class="o">=</span> <span class="nf">advertising_payload</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="sh">"</span><span class="s">Pico2W</span><span class="sh">"</span><span class="p">,</span> <span class="n">services</span><span class="o">=</span><span class="p">[</span><span class="n">uuid</span><span class="p">])</span>
+        <span class="n">ble</span><span class="p">.</span><span class="nf">gap_advertise</span><span class="p">(</span><span class="n">interval_us</span><span class="o">=</span><span class="mi">500000</span><span class="p">,</span> <span class="n">adv_data</span><span class="o">=</span><span class="n">adv_data</span><span class="p">)</span> <span class="c1"># repeats every 0.5 second
+</span>
+<span class="k">def</span> <span class="nf">monitor_button_pressed</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">channel</span>
+    <span class="k">if</span> <span class="n">rotary_encoder</span><span class="p">.</span><span class="n">button</span><span class="p">.</span><span class="nf">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># value 0 =&gt; button pressed
+</span>        <span class="n">channel</span> <span class="o">=</span> <span class="p">(</span><span class="n">channel</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="mi">3</span> <span class="c1"># switch to next color
+</span>        <span class="n">rotary_encoder</span><span class="p">.</span><span class="nf">update_value</span><span class="p">(</span><span class="n">rgb</span><span class="p">[</span><span class="n">channel</span><span class="p">])</span> <span class="c1"># initialize encoder to the new color's value
+</span>        <span class="k">while</span> <span class="n">rotary_encoder</span><span class="p">.</span><span class="n">button</span><span class="p">.</span><span class="nf">value</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="k">pass</span> <span class="c1"># loop until button is released
+</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+
+        <span class="c1"># Step 1: Update color to the current encoder value
+</span>        <span class="nf">set_color</span><span class="p">()</span>
+
+        <span class="c1"># Step 2: Show red, green and blue values on screen
+</span>        <span class="nf">show_color_values_on_screen</span><span class="p">()</span>
+
+        <span class="c1"># Step 3: Broadcast color value to nearby devices
+</span>        <span class="nf">advertise_color</span><span class="p">()</span>
+
+        <span class="c1"># Step 4: Monitor if button is pressed. When pressed, switch to the next color channel
+</span>        <span class="nf">monitor_button_pressed</span><span class="p">()</span>
+        
+        <span class="nf">sleep</span><span class="p">(</span><span class="mf">0.05</span><span class="p">)</span>
+        
+<span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Interrupted by user!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">ble</span><span class="p">.</span><span class="nf">gap_advertise</span><span class="p">(</span><span class="bp">None</span><span class="p">)</span>
+    <span class="n">ble</span><span class="p">.</span><span class="nf">active</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">oled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+    <span class="n">rgbled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></div></code></pre></div></div>
+
+<p>অন্য একটি ডিভাইসে bluetooth_scan.py চালিয়ে পরীক্ষা করার জন্য, দ্বিতীয় ডিভাইসটির কম্পিউটারে, Thonny-তে bluetooth_scan.py নামে একটি নতুন ফাইল তৈরি করুন।. আপনার তৈরি করা ফাইলে নিচের কোডটি কপি করে পেস্ট করুন।.</p>
+
+<blockquote class="new-title mb-6">
+  <p>ইঙ্গিত</p>
+
+  <p>নতুন কোড আপলোড না করে এক বা একাধিক ডিভাইসে দ্রুত bluetooth_scan.py চালানোর জন্য, <a href="/bn/getting-started/#alternate-method-to-run-experiments-without-thonny">&#39;শুরু করা&#39;</a> বিভাগে বর্ণিত বিকল্প পদ্ধতিটি ব্যবহার করুন।.</p>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+</pre></td>
+<td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Bluetooth Scan</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># DESCRIPTION
+</span>
+<span class="c1"># We scan bluetooth signals from nearby devices and set the device LED to the
+# color received from a device advertising it (using bluetooth_advertise.py).
+# When one device runs bluetooth_advertise.py and multiple nearby devices run 
+# bluetooth_scan.py, we can create a network of synced devices.
+# This is how a cluster of robots can communicate and work together.
+</span>
+<span class="c1"># CONNECTIONS REQUIRED
+</span>
+<span class="c1"># No additional connections are needed
+</span>
+<span class="kn">from</span> <span class="n">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="n">oled</span> <span class="kn">import</span> <span class="n">OLED</span>
+<span class="kn">from</span> <span class="n">rgbled</span> <span class="kn">import</span> <span class="n">RGBLED</span>
+<span class="kn">from</span> <span class="n">ble_helper</span> <span class="kn">import</span> <span class="n">read_uuid</span>
+<span class="kn">from</span> <span class="n">bluetooth</span> <span class="kn">import</span> <span class="n">BLE</span>
+
+<span class="n">oled</span> <span class="o">=</span> <span class="nc">OLED</span><span class="p">(</span><span class="n">scl_pin</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">sda_pin</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">rgbled</span> <span class="o">=</span> <span class="nc">RGBLED</span><span class="p">(</span><span class="n">red_pin</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">green_pin</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">blue_pin</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">rgb</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># BLE interrupt request handler gets triggered with advertising data for each BLE device found
+</span><span class="k">def</span> <span class="nf">ble_irq</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+    <span class="n">uuid</span> <span class="o">=</span> <span class="nf">read_uuid</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="sh">"</span><span class="s">Pico2W</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">uuid</span> <span class="ow">and</span> <span class="n">uuid</span><span class="p">[</span><span class="mi">21</span><span class="p">:</span><span class="mi">23</span><span class="p">]</span> <span class="o">==</span> <span class="sh">"</span><span class="s">02</span><span class="sh">"</span><span class="p">:</span> <span class="c1"># check if substring from char 21 to 23 matches 02 (XXXXXXXX-RR00-GG01-BB02-XXXXXXXXXXXX)
+</span>        <span class="nb">hex</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">#</span><span class="si">{</span><span class="n">uuid</span><span class="p">[</span><span class="mi">9</span><span class="si">:</span><span class="mi">11</span><span class="p">]</span><span class="si">}{</span><span class="n">uuid</span><span class="p">[</span><span class="mi">14</span><span class="si">:</span><span class="mi">16</span><span class="p">]</span><span class="si">}{</span><span class="n">uuid</span><span class="p">[</span><span class="mi">19</span><span class="si">:</span><span class="mi">21</span><span class="p">]</span><span class="si">}</span><span class="sh">"</span>
+        <span class="n">rgbled</span><span class="p">.</span><span class="nf">set_color</span><span class="p">(</span><span class="nb">hex</span><span class="o">=</span><span class="nb">hex</span><span class="p">)</span> <span class="c1">#set LED color to value received
+</span>        <span class="n">oled</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">)</span>
+
+<span class="c1"># Initialize BLE
+</span><span class="n">ble</span> <span class="o">=</span> <span class="nc">BLE</span><span class="p">()</span>
+<span class="n">ble</span><span class="p">.</span><span class="nf">active</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">ble</span><span class="p">.</span><span class="nf">irq</span><span class="p">(</span><span class="n">ble_irq</span><span class="p">)</span> <span class="c1"># Setup IRQ (Interrupt Request) handler callback
+</span><span class="n">ble</span><span class="p">.</span><span class="nf">gap_scan</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">20000</span><span class="p">)</span> <span class="c1"># Scan at 20ms interval
+</span><span class="n">oled</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Scanning...</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="nf">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Interrupted by user!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">ble</span><span class="p">.</span><span class="nf">gap_scan</span><span class="p">(</span><span class="bp">None</span><span class="p">)</span>
+    <span class="n">ble</span><span class="p">.</span><span class="nf">active</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">oled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+    <span class="n">rgbled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></div></code></pre></div></div>
+
+          
+
+          
+            
+          
+        </main>
+        
+<hr>
+<footer>
+  
+    <p><a href="#top" id="back-to-top">উপরে ফিরে যান</a></p>
+  
+
+  <script>
+    document.querySelectorAll("h3#summary").forEach(summary => {
+        summary.innerHTML = summary.innerHTML
+            .replace(/&nbsp;/, " <ul><li>")
+            .replace(/&nbsp;/g, " <li>");
+    });
+    document.getElementById("search-input").type = "search";
+    let sheet = document.querySelector('head style').sheet;
+    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
+    let langCode = window.location.pathname.split("/").at(1);
+    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
+        langCode = "en";
+    }
+    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
+        const isActive = el.classList.contains(langCode);
+        el.classList.toggle("active", isActive);
+        if (isActive) document.querySelector(".site-button.lang").innerHTML = el.innerHTML;
+    });
+    document.querySelector(".site-button.lang").addEventListener('click', e => {
+        document.querySelector(".select-lang-container").classList.toggle('open');
+        e.preventDefault();
+        return false;
+    });
+    document.querySelector(".select-lang-backdrop").addEventListener('click', () => {
+        document.querySelector(".select-lang-container").classList.remove('open');
+    });
+</script>
+<style>
+    .main-content h3#summary {
+        font-size: 0.75rem !important;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        position: relative;
+        margin-top: 1em;
+        line-height: 1.65;
+        border: 1px solid #a8a8a8;
+        border-left: 4px solid #6d6d6d;
+        padding: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 1em;
+    }
+
+    .main-content h3#summary::before {
+        content: 'সারসংক্ষেপ';
+        font-style: normal;
+        color: #444;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: .35rem;
+    }
+
+    .main-content h3#summary ul {
+        margin-bottom: 0;
+    }
+</style>
+<div id="nav-backdrop" class="nav-backdrop"></div>
+
+
+<div class="nav-pagination" style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+  <div><a href="/bn/experiments/15-potentiometer-and-servo.html" class="btn btn-outline nav-pagination-prev" style="text-align: left;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">পূর্ববর্তী</span>
+      <strong>পটেনশিওমিটার এবং সার্ভো</strong>
+    </a></div>
+  <div><a href="/bn/experiments/17-mix-and-match.html" class="btn btn-outline nav-pagination-next" style="text-align: right;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">পরবর্তী</span>
+      <strong>মিশিয়ে ও মিলিয়ে নিন</strong>
+    </a></div>
+  </div>
+
+  <div class="d-md-none mt-4 fs-2">
+    
+    
+      শিক্ষক ও শিক্ষার্থীদের জন্য হাতে-কলমে উদ্ভাবনকে আরও সহজলভ্য করে তোলা. <br>
+© ২০২৬ Inventor Pi, Inc. <br>
+Inventor Pi, Inc. একটি নিবন্ধিত 501(c)(3) সংস্থা
+    
+  </div>
+</footer>
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+    
+
+  
+</body>
+</html>

@@ -1,0 +1,653 @@
+Skip to main content: メインコンテンツへスキップ
+Menu: メニュー
+Getting Started: はじめる
+Install Thonny App: Thonnyアプリをインストール
+Invention Kit Contents: 発明キットの内容
+Additional Sensors Kit: 追加センサーキット
+Breadboard Basics: ブレッドボードの基本
+Breadboard Wiring: ブレッドボード配線
+Pico 2 W Pinout: Pico 2 Wのピン配置
+Do's and Don'ts: やっていいこととやってはいけないこと
+Connect Pico: コネクトピコ
+Guide to Reading Code: コードを読むためのガイド
+Experiments: 実験
+Blink: 瞬き
+Humidity Temp Sensor: 湿度温度センサー
+Melody: メロディー
+Touch Game: タッチゲーム
+Distance Sensor: 距離センサー
+Piano: ピアノ
+Joystick and Servos: ジョイスティックとサーボ
+Microphone Sensor: マイクセンサー
+Accelerometer: 加速度計
+Crash Sensor: 衝突センサー
+Knock Sensor: ノックセンサー
+Motion Sensor: モーションセンサー
+Photo Interrupter: フォトインターラプター
+Photoresistor: フォトレジスター
+Potentiometer and Servo: ポテンショメータとサーボ
+Bluetooth Advertise: Bluetooth アドバタイズ
+Mix and Match: 組み合わせ自由
+Lesson Plan for Teachers: 教師向け授業計画
+About: について
+Contact: 接触
+Making hands-on invention more accessible for teachers and students: 教師と生徒にとって、実践的な発明をより身近なものにする。
+Get Started: さあ始めましょう
+Page not found: ページが見つかりません
+The page you requested could not be found: リクエストされたページは見つかりませんでした
+Try using the navigation or search to find what you're looking for or go to the: ナビゲーションまたは検索を使用して探しているものを見つけるか、
+home page: ホームページ
+Back to top: ページトップへ戻る
+Active: アクティブ
+Base: ベース
+Planned: 計画
+Here: ここ
+Summary: まとめ
+Note: 注記
+Important: 重要
+Utshaho Gupta: ウトシャホ・グプタ
+FOUNDER: 創業者
+? Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+: ウツシャホは高校3年生で、視覚障害者向けの手頃な価格のAI搭載スマートグラスを3年以上かけて設計しており、そのイノベーションを支援するための助成金を複数獲得している。
+Utshaho revels in the intersection of math and science with language and international relations: ウツシャホは、数学と科学が言語や国際関係と交わる点に魅力を感じている。
+? He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+: 彼はIHOTロボットチームと数学クラブのキャプテンであり、学校新聞とフランス語模擬国連プログラムの共同創設者でもある。
+He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate: 彼は旅行、バンド活動、陸上競技、写真撮影が好きで、空手では三段の黒帯を持っている。
+Inspiration Behind the Initiative: この取り組みの背景にあるインスピレーション
+? It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+: このアプリは、ジョージア州第6選挙区の2025年議会アプリチャレンジで優勝し、ルーシー・マクバス下院議員とジョン・オソフ上院議員から表彰された。
+Won the 2025 Congressional App Challenge in Georgia’s 6th District: ジョージア州第6選挙区の2025年議会アプリコンテストで優勝
+Affordable Smart Glasses for the Blind and Visually Impaired on YouTube: 視覚障害者向けのお手頃価格のスマートグラス（YouTube）
+? Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+: 視覚障害者向けの手頃な価格のスマートグラスが、ジョージア州第6選挙区の2025年議会アプリチャレンジで優勝しました。
+? Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+: 視覚障害者向けの低価格スマートグラスが、ラズベリーパイ財団の「世界で最もクールなプロジェクト」オンラインショーケースで紹介されました。
+A MicroPython code example: MicroPythonコードの例
+to blink an onboard LED repeatedly: オンボードLEDを繰り返し点滅させる
+Let’s start with a simple micropython script to control the onboard LED on the Pico microcontroller: まずは、Picoマイクロコントローラに搭載されているLEDを制御するためのシンプルなマイクロPythonスクリプトから始めましょう。
+We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: マシンライブラリの
+  Pin オブジェクトを使用して、GPIO (汎用入出力) ピンにアクセスします。
+The onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25): オンボードLEDには、GP25、または「LED」という名前でPin(“LED”)またはPin(25)としてアクセスできます。
+We use Pin.OUT to set it as an output pin: Pin.OUTを使用して、それを出力ピンとして設定します。
+We will use input pins later with sensors: 入力ピンは後ほどセンサーで使用します
+Create a new file in Thonny, with file name blink.py: Thonnyでblink.pyという名前の新しいファイルを作成します。
+Copy and paste the code below into the file you created: 以下のコードをコピーして、作成したファイルに貼り付けてください。
+Now let’s add the main loop: それでは、メインループを追加しましょう。
+We add a 1 second delay with the sleep(1) statement: sleep(1)文で1秒の遅延を追加します
+Copy and paste the code below to the end of the blink.py file: 以下のコードをコピーして、blink.pyファイルの末尾に貼り付けてください。
+Congratulations, you have written and run your first MicroPython script: おめでとうございます！初めてのMicroPythonスクリプトの作成と実行に成功しました。
+Previous: 前の
+Next: 次
+connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ブレッドボード上に、リミットスイッチ付き衝突センサーモジュール、RGB
+  LEDモジュール、およびOLEDディスプレイモジュール（SSD1306）を接続した。
+to change the LED color and show the status on the display when crash is detected: 衝突が検出されたときにLEDの色を変更し、ディスプレイにステータスを表示する
+A crash sensor uses a limit switch: 衝突センサーはリミットスイッチを使用する
+? This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+: これはハードストップと組み合わせて使用​​することで、ロボットアームなどの機構が動作限界に達したことを検知し、リミットスイッチを作動させることができます。
+It is also used in oven and refrigerator doors to turn on the internal light when the door is opened: オーブンや冷蔵庫のドアにも使用され、ドアを開けたときに内部照明を点灯させる役割を果たします。
+Create a new file in Thonny, with file name crash_sensor.py: Thonnyでcrash_sensor.pyという名前の新しいファイルを作成します。
+connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ブレッドボード上に、コイルばね付きノックセンサーモジュール、RGB
+  LEDモジュール、OLEDディスプレイモジュール（SSD1306）を接続した。
+to change the LED color and show the status on the display when a sudden shake is detected: 急な揺れを検知すると、LEDの色を変えてディスプレイに状態を表示する。
+A knock sensor detects vibrations: ノックセンサーは振動を検知します
+This particular module uses a spring-based vibration switch: このモジュールはバネ式の振動スイッチを使用しています。
+? When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+: モジュールが静止しているときは、バネは中央のピンに接触しませんが、衝撃や振動を受けると、バネが揺れて中央のピンに当たり、回路が一時的に閉じます。
+For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion: はしごを登るロボットの場合、ノックセンサーは、伸びたアームがはしごの段に当たったことを検知し、次の動作を開始することができる。
+While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: 衝突センサーは衝撃点に設置する必要があるが、ノックセンサーはアーム全体の振動を検出できる。
+Create a new file in Thonny, with file name knock_sensor.py: Thonnyでknock_sensor.pyという名前の新しいファイルを作成します。
+connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ブレッドボード上にPIRモーションセンサーモジュール、RGB
+  LEDモジュール、OLEDディスプレイモジュール（SSD1306）を接続した。
+to change the LED color and show the status on the display when motion is detected: 動きを検知するとLEDの色を変え、ディスプレイに状態を表示する
+A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects: PIRモーションセンサーは、周囲の物体から放出される赤外線（熱）放射の変化を測定することで動きを検出します。
+? When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+: 人間や動物などの温かい物体がフィールドを横切ると、まずセンサーの片側を通過し、次に反対側を通過することで、動きを感知する差動電圧パルスが発生します。
+It is used in security alarms and smart home automation: セキュリティアラームやスマートホームオートメーションに使用されます。
+Then remove the book and wait for the sensor to detect motion: 次に本を取り外し、センサーが動きを検知するまで待ちます。
+Create a new file in Thonny, with file name motion_sensor.py: Thonnyでmotion_sensor.pyという名前の新しいファイルを作成します。
+connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ブレッドボード上のフォトインタラプタモジュール、RGB
+  LEDモジュール、およびOLEDディスプレイモジュール（SSD1306）に接続されています。
+to increment the count on the display each time the photo interrupter light beam is interrupted: フォトインタラプタの光線が遮断されるたびに、ディスプレイ上のカウントをインクリメントする。
+? A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+: フォトインタラプタモジュールは、発光体から受光体（モジュール上の2つの黒いブロック）へ赤外線ビームを送信し、このビームが遮られたことを検出します。
+It is used to detect end-of-travel in 3D printers, CNC machines and robots: これは、3Dプリンター、CNCマシン、ロボットの移動終端を検出するために使用されます。
+It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars: また、ロボットやスマートカーにおいて、回転する溝付きディスクのパルス数をカウントしてモーターや車輪の速度を計算するためにも使用されます。
+In a printer, it detects when a paper is present: プリンターでは、用紙が存在するかどうかを検知します。
+Create a new file in Thonny, with file name photo_interrupter.py: Thonnyでphoto_interrupter.pyというファイル名の新しいファイルを作成します。
+connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: ブレッドボード上にフォトレジストモジュール、RGB
+  LEDモジュール、OLEDディスプレイモジュール（SSD1306）を接続した。
+to dim or brighten the LED to match the change in ambient light measured by the photoresister: フォトレジストで測定した周囲光の変化に合わせてLEDの明るさを調整する
+? A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+: フォトレジストは、表面に当たる光が多いほど電流が流れやすく、表面に当たる光が少ないほど電流が流れにくくなる。
+It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight: 暗い場所ではスマートフォンの画面を暗くし、明るい日光の下では画面を明るくするために使用されます。
+Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: 一部のテレビでは、画面の明るさを室内の明るさに合わせて調整し、まるで壁に印刷された絵画のように見えるようにするためにこの機能を使用しています。
+Line tracking robots use it to distinguish between a dark line and a light surface: ライン追跡ロボットは、暗い線と明るい表面を区別するためにこれを使用します。
+Create a new file in Thonny, with file name photoresistor.py: Thonnyでphotoresistor.pyという名前の新しいファイルを作成します。
+connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard: ブレッドボード上にマイクロサーボモーター、ポテンショメータ（回転センサー）モジュール、OLEDディスプレイモジュール（SSD1306）を接続した。
+to control the angle of the servo by rotating the potentiometer knob and display it on the display: ポテンショメータのノブを回転させてサーボの角度を制御し、その角度をディスプレイに表示する
+Potentiometers are the dials we turn to control things like temperature or volume: ポテンショメータは、温度や音量などを制御するために回すダイヤルです。
+They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: これらは電気抵抗を変化させることで動作し、その変化はマイクロコントローラの入力ピンにおける電圧の変化として解釈されます。
+In this script, we use this input to control a servo angle: このスクリプトでは、この入力を使用してサーボの角度を制御します。
+A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: サーボとは、PWM信号を変化させることで回転角度を制御できるモーターのことです。
+Unlike standard electric motors that spin continuously, a servo motor moves to an exact angle or position and holds it firmly: 連続的に回転する標準的な電気モーターとは異なり、サーボモーターは正確な角度または位置に移動し、それをしっかりと保持します。
+Create a new file in Thonny, with file name potentiometer_and_servo.py: Thonnyでpotentiometer_and_servo.pyというファイル名の新しいファイルを作成します。
+Bluetooth Advertise and Bluetooth Scan: BluetoothアドバタイズとBluetoothスキャン
+connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard: ブレッドボード上にロータリーエンコーダーモジュール、RGB
+  LED、OLEDディスプレイモジュール（SSD1306）を接続した。
+to individually control the red, green and blue channels of the LED to create any color,: LEDの赤、緑、青の各チャンネルを個別に制御して任意の色を作り出す、
+display the hex value and R, G, B values on the display,: ディスプレイに16進数値とR、G、B値を表示する。
+broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,: BLE広告データのサービスUUIDに埋め込むことでBluetooth経由でブロードキャストし、
+and show the received color on LEDs, creating a cluster of synced Pico devices: 受信した色をLEDに表示し、同期されたPicoデバイスのクラスターを作成する。
+? We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+: ロータリーエンコーダを使用してLEDの赤、緑、青の色を変更し、その色を近くのデバイスに送信して、デバイスが自身のLEDを同じ色に設定するようにします。
+? When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+: 1台のデバイスがbluetooth_advertise.pyを実行し、近くの複数のデバイスがbluetooth_scan.pyを実行すると、同期されたデバイスのネットワークを作成できます。
+This is how a cluster of robots can communicate and work together: これがロボット群が通信し、連携して作業する方法です。
+Create a new file in Thonny, with file name bluetooth_advertise.py: Thonnyでbluetooth_advertise.pyという名前の新しいファイルを作成します。
+? To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+: 別のデバイスでbluetooth_scan.pyを実行してテストするには、2番目のデバイスのコンピューターで、Thonnyにbluetooth_scan.pyという名前の新しいファイルを作成します。
+Mix and Match Inputs and Outputs: 入力と出力を自由に組み合わせる
+connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306): マイクロサーボモーター、RGB
+  LED、パッシブピエゾブザー、OLEDディスプレイモジュール（SSD1306）に接続されています。
+? and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+: そして、ブレッドボード上に、加速度計、プッシュボタン、モーションセンサー、フォトレジスタ、ジョイスティック、マイクロフォン、ロータリーエンコーダ、または別のセンサーなど、複数の入力コンポーネントのうちの1つを配置する。
+? to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+: 選択されたコンポーネントから入力データを読み取り、それをブザー周波数、LEDの色、サーボ角度に補間し、その値をディスプレイに表示する。
+This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs: これは、さまざまな入力と出力を自由に組み合わせることができる、何でもありのスクリプトです。
+The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen: センサーの読み取り値は、OLEDスクリーン上のLEDの色、サーボ角度、ブザー周波数、テキストに変換されます。
+Refer to the relevant circuit diagrams above based on the input you choose: 選択した入力に基づいて、上記の関連する回路図を参照してください。
+Create a new file in Thonny, with file name mix_and_match.py: Thonnyでmix_and_match.py​​という名前の新しいファイルを作成します。
+connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard: ブレッドボード上の湿度・温度センサーモジュール（DHT11）とOLEDディスプレイモジュール（SSD1306）に接続されています。
+to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit: 相対湿度と周囲温度を摂氏と華氏の両方で測定し表示する
+A humidity and temperature sensor measures the ambient temperature and air humidity: 湿度・温度センサーは、周囲の温度と空気中の湿度を測定します。
+In robotics, temperature sensors are built into most electronic components: ロボット工学では、温度センサーはほとんどの電子部品に組み込まれている。
+They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits: これらは、温度が安全限界を超えた場合にロボットを自動的にシャットダウンするなど、熱保護に使用できます。
+? Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+: スマートフォンには、画面温度、背面温度、バッテリー温度、CPU温度などを測定する約8種類の温度センサーが搭載されていることをご存知ですか？湿度センサーは、スマートフォンやスマートウォッチ内部の結露を監視します。
+This is a DHT11 sensor: これはDHT11センサーです
+'We import the dht library and setup the GP28 pin as shown below:': dhtライブラリをインポートし、以下に示すようにGP28ピンを設定します。
+Then in the main loop, we use the measure function to get the temperature and humidity: 次に、メインループで、測定関数を使用して温度と湿度を取得します。
+We can use simple math formula to convert from celsius to fahrenheit: 摂氏から華氏への変換には、簡単な数式を使用できます。
+To run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py: スクリプト全体を実行するには、Thonny
+  に humidity_temp_sensor.py という名前の新しいファイルを作成してください。
+Humidity Temp Sensor Circuit: 湿度温度センサー回路
+connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard: パッシブピエゾブザー、RGB
+  LEDモジュール、OLEDディスプレイモジュール（SSD1306）をブレッドボードに接続
+to play a melody of musical notes on the buzzer with matching text displayed on the display: ディスプレイに表示されるテキストと一致する音符のメロディーをブザーで鳴らす
+? A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+: ピエゾブザーは、圧電効果を利用して電気信号を高速の機械的振動に変換し、音波を発生させることで動作します。
+In this script, we send different frequencies to a piezo buzzer to play different musical notes: このスクリプトでは、異なる周波数をピエゾブザーに送信して、異なる音を鳴らします。
+'To play a note at an interval, we run:': 一定の間隔で音を鳴らすには、次のように実行します。
+The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times: 以下の関数は、LEDを暗い白色に点灯させてから消灯させる動作を複数回繰り返すことで、きらめき効果を追加します。
+To play an entire melody, create a new file in Thonny, with file name melody.py: メロディー全体を演奏するには、Thonnyでmelody.pyという名前の新しいファイルを作成します。
+connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard: ブレッドボード上に静電容量式タッチセンサーモジュール、パッシブピエゾブザー、およびOLEDディスプレイモジュール（SSD1306）を接続した。
+to create a reaction time testing game,: 反応時間テストゲームを作成するために、
+and to learn to draw shapes on the OLED display: OLEDディスプレイ上に図形を描く方法を学ぶ
+A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close: 静電容量式タッチセンサーは、人間の指が近づいたときの電荷の変化を測定することでタッチを検出します。
+Humans are full of water and salt, making the body a natural conductor of electricity: 人間の体は水分と塩分を多く含んでおり、そのため電気を通しやすい性質を持っている。
+It is used in smartphones for multi-touch navigation and gesture detection: スマートフォンでは、マルチタッチナビゲーションやジェスチャー検出に使用されます。
+In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen: このスクリプトでは、反応速度をテストする短いゲームを作成すると同時に、OLEDスクリーンに図形を描く方法も学びます。
+'To read the sensor, we run:': センサーを読み取るには、以下を実行します。
+The function below draws happy or sad face based on the parameters passed to it: 以下の関数は、渡されたパラメータに基づいて、笑顔または悲しい顔を描画します。
+The main loop of our game is easy to follow because it calls easy to understand function names: ゲームのメインループは、理解しやすい関数名を使用しているため、簡単に追跡できます。
+Create a new file in Thonny, with file name touch_game.py: Thonnyでtouch_game.pyという名前の新しいファイルを作成します。
+? connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+: ブレッドボード上に、超音波距離センサーモジュール（HC-SR04）、マイクロサーボモーター、パッシブピエゾブザー、RGB LEDモジュール、およびOLEDディスプレイモジュール（SSD1306）を接続した。
+? to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+: 測定された距離をさまざまなブザー音の周波数、サーボ角度、LEDの色に変換し、測定された距離をOLEDディスプレイに表示する、ジェスチャーベースの音響機器を作成する。
+A distance sensor measures the distance to any nearby obstruction: 距離センサーは、近くにある障害物までの距離を測定します。
+Robots and cars use such sensors to stop before hitting any obstruction: ロボットや自動車は、障害物に衝突する前に停止するために、このようなセンサーを使用します。
+The sensor used here is an ultrasonic distance sensor: ここで使用されているセンサーは超音波距離センサーです。
+? We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+: 距離を様々なRGBカラーとブザー周波数に変換することで、手のジェスチャーで演奏できる楽しい楽器を作り出します。
+We also change the angle of a servo motor based on the distance detected: 検出された距離に基づいてサーボモーターの角度も変更します。
+Create a new file in Thonny, with file name distance_sensor.py: Thonnyでdistance_sensor.pyという名前の新しいファイルを作成します。
+connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard: パッシブピエゾブザー、OLEDディスプレイモジュール（SSD1306）、およびブレッドボード上の6つのプッシュボタンに接続されています。
+to play different musical notes on the buzzer,: ブザーで異なる音符を鳴らす、
+draw the notes and musical staff lines on the display,: ディスプレイに音符と五線譜を描き、
+and replay as a recording after a pause: 一時停止後に録音として再生する
+We use the buttons to play different musical notes: ボタンを使って様々な音符を演奏します
+We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines: また、OLEDスクリーン上に図形を描いて楽譜の五線譜に音符を描く方法も学びます。
+And when user input pauses, we replay the notes to create a fun musical instrument: ユーザーの入力が一時停止すると、音符を再生して楽しい楽器を作り出します。
+We read 6 different inputs for the 6 buttons: 6つのボタンに対して6つの異なる入力を読み取りました
+For this, we add some more helper functions below: そのため、以下にいくつかのヘルパー関数を追加します。
+With all these functions, our main loop is still easy to follow: これらの機能をすべて備えても、メインループは依然として理解しやすい。
+To put it all together, and test, create a new file in Thonny, with file name piano.py: これら全てをまとめてテストするには、Thonnyでpiano.pyという名前の新しいファイルを作成します。
+connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard: ブレッドボード上にアナログ2軸サムジョイスティックモジュール、2つのマイクロサーボモーター、およびOLEDディスプレイモジュール（SSD1306）が接続されています。
+to control the angles of both servos using the joystick and display the angles on the OLED display: ジョイスティックを使用して両方のサーボの角度を制御し、その角度をOLEDディスプレイに表示する。
+A joystick is often used for navigation in robots, drones, cruise ships and planes: ジョイスティックは、ロボット、ドローン、クルーズ船、飛行機などの操縦によく使用されます。
+In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller: FRCロボティクスでは、2つのゲームコントローラーを使用し、各コントローラーには2つのジョイスティックが付いています。
+Each joystick includes independent X and Y axis control: 各ジョイスティックには、独立したX軸とY軸の制御機能が備わっています。
+Which  gives us a total of 8 independent axes to control the robot: これにより、ロボットを制御するための独立した軸が合計8つ得られます。
+In this script, we control the angle of two servos using different axes of the joystick: このスクリプトでは、ジョイスティックの異なる軸を使用して2つのサーボの角度を制御します。
+By pressing the joystick button, we toggle the mode to Sync Angle Mode: ジョイスティックのボタンを押すと、同期角度モードに切り替わります。
+Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: 次に、三角法を用いてジョイスティックレバーの角度を計算し、サーボモーターをこの角度に合わせるように設定します。
+In robotics, we often use advanced mathematics to control various motions: ロボット工学では、さまざまな動作を制御するために高度な数学を用いることが多い。
+Create a new file in Thonny, with file name joystick_and_servos.py: Thonnyでjoystick_and_servos.pyというファイル名の新しいファイルを作成します。
+Microphone Sensor and Melody: マイクセンサーとメロディ
+connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard: ブレッドボード上に、マイクロフォン音センサーモジュール、パッシブピエゾブザー、OLEDディスプレイモジュール（SSD1306）を接続した。
+to replay the sound frequencies measured by the microphone on the buzzer and display them on the display: ブザーのマイクロホンで測定した音の周波数を再生し、ディスプレイに表示する。
+? A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+: マイクロフォンサウンドセンサーは、内蔵マイクロフォンとオンボード処理回路を使用して、周囲の音波を電気信号に変換します。
+Sound waves move through the air and hit a tiny flexible diaphragm inside the module’s microphone: 音波は空気中を伝わり、モジュール内のマイクロフォン内部にある小さな柔軟な振動板に当たる。
+The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume: 振動板の変動によって、音の周波数と音量に一致する電気信号が生成される。
+Run this script, and simultaneously run melody.py on a different device: このスクリプトを実行すると同時に、別のデバイスでmelody.pyを実行してください。
+Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody: デバイス同士を近づけ、メロディーを再生しているデバイスのブザーの真上にマイクを直接置いてください。
+If the room is not very noisy, it should pick up at least some of the notes: 部屋があまり騒がしくなければ、少なくともいくつかの音符は拾えるはずです。
+Create a new file in Thonny, with file name microphone_sensor.py: Thonnyでmicrophone_sensor.pyというファイル名の新しいファイルを作成します。
+connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard: ブレッドボード上の3軸デジタル加速度計モジュール（ADXL345）とOLEDディスプレイモジュール（SSD1306）に接続されています。
+to draw and rotate a 3D shape on the OLED display by rotating the accelerometer about its X and Y axes: 加速度センサーをX軸とY軸を中心に回転させることで、OLEDディスプレイ上に3D形状を描画および回転させる。
+An accelerometer measures acceleration around the x, y and z axis: 加速度計は、x、y、z軸周りの加速度を測定します。
+In robotics, it is essential in determining the robot position and movement: ロボット工学において、ロボットの位置と動きを決定する上で不可欠である。
+In this script, we draw a 3D shape, and control its rotation using the accelerometer: このスクリプトでは、3D形状を描画し、加速度センサーを使用してその回転を制御します。
+Create a new file in Thonny, with file name accelerometer.py: Thonnyでaccelerometer.pyという名前の新しいファイルを作成します。
+Write your first script “blink.py” by following the instructions below: 以下の手順に従って、最初のスクリプト「blink.py」を作成してください。
+Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment: Picoで動作確認ができたら、次の実験で湿度センサーと温度センサーを接続してみてください。
+After that, try random experiments from the list below: その後、以下のリストからランダムに実験を試してみてください。
+Some experiments need additional sensors from the common additional sensors kit to be shared by all teams: 一部の実験では、すべてのチームが共有する共通追加センサーキットに含まれる追加センサーが必要になります。
+The complete code for all the experiments is also available on: すべての実験の完全なコードは、以下の場所でも入手可能です。
+GitHub: GitHub
+Table of contents: 目次
+Additional Sensors for Sharing Amongst Teams: チーム間で共有するための追加センサー
+Motion sensor: モーションセンサー
+Knock sensor: ノックセンサー
+Potentiometer: ポテンショメータ
+Microphone sensor: マイクセンサー
+Photo interrupter: 写真割り込み
+Crash sensor: 衝突センサー
+Rotation Encoder: 回転エンコーダ
+Additional Sensors: 追加センサー
+Breadboard Basics Explained in 60 Seconds: ブレッドボードの基本を60秒で解説
+? There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+: ブレッドボードにはリセット可能なヒューズが取り付けられています（上の画像には含まれていません。下記参照）。これにより、学生が誤ってブレッドボード上でショート回路を作ってしまった場合に回路が遮断されます。
+? You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+: 回路に電源を入れる前に、すべての接続を確認する必要があります。センサーへの接続が間違っていると、センサーの繊細な電子部品に永久的な損傷を与え、センサーが使用不能になる可能性があるからです。
+Do’s and Don’ts: やっていいこととやってはいけないこと
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+: リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。
+rail: レール
+When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合
+rail) to GND  (breadboard: レール)からGND（ブレッドボード）へ
+rail), it trips, preventing damage to the electronics: レール）が引っかかると、電子機器の損傷を防ぎます。
+A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。
+The students should verify all the connections and resume the experiment: 学生はすべての接続を確認し、実験を再開する必要があります。
+Resettable Fuse: リセット可能なヒューズ
+Connect Pico to Computer: Picoをコンピュータに接続する
+You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: お使いのコンピューターにUSB-Cポートがない場合は、バッテリーパックに付属のUSB-C
+  - USB-Aアダプターを使用できます。
+Micro USB Port on Pico: PicoのマイクロUSBポート
+Start by reading the description: まずは説明文をお読みください。
+Connect any components: コンポーネントを接続する
+Read the main loop: メインループを読み込む
+Read other comments: 他のコメントを読む
+Read rest of the code: コードの残りの部分を読んでください
+Important Do’s and Don’ts: 重要な注意事項
+Do …: する …
+Disconnect Pico before changing connectors: コネクタを交換する前にPicoを取り外してください
+Verify all connections, especially VCC and GND: すべての接続、特にVCCとGNDの接続を確認してください。
+Establish team roles like coding, wiring, verifying circuit, capturing notes and recording: コーディング、配線、回路の検証、メモの記録、録音などのチームの役割分担を確立する
+Read experiment description and code: 実験の説明とコードを読んでください。
+Don’t …: しないで…
+Don’t power on before verifying all connections: すべての接続を確認する前に電源を入れないでください
+Incorrect VCC and GND can destroy sensitive electronics: VCCとGNDの接続が間違っていると、精密電子機器が破損する可能性があります。
+Don’t rely on numbers printed on the breadboard: ブレッドボードに印刷されている数字に頼らないでください
+Count point distance from other connectors on the board to verify: ボード上の他のコネクタからのポイント距離を数えて検証します
+Don’t leave before putting everything back in the kit box: キットボックスの中身を全て戻すまで、出発しないでください。
+Important Do's and Don'ts: 重要な注意事項
+This is a companion guide to the class experiments kit shown below: これは、下記に示す授業用実験キットの補助ガイドです。
+This is a fun hands-on way to get introduced to electronics, programming and engineering: これは、電子工学、プログラミング、エンジニアリングを楽​​しく実践的に学ぶ方法です。
+Check your class experiments kit: 授業で使用する実験キットを確認してください。
+It includes 5 identical invention kits and one additional sensors kit: 5つの同一の発明キットと1つの追加センサーキットが含まれています。
+Before we can start the experiments, we need a way to write and deploy the code to Pico: 実験を開始する前に、Picoにコードを記述してデプロイする方法が必要です。
+To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it: そのため、すべてのコンピューターにThonnyアプリをインストールし、すべての生徒が使い方を学べるようにします。
+If that is not feasible, we install it on at least one computer per team: それが不可能な場合は、チームごとに少なくとも1台のコンピューターにインストールします。
+If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: Thonnyを全くインストールできない場合は、以下の代替方法を使用して実験を実行できます。
+You can streamline the process by installing Thonny app on all computers before the workshop: ワークショップの前にすべてのコンピューターにThonnyアプリをインストールしておけば、プロセスを効率化できます。
+How to Run Experiments with Thonny: Thonnyで実験を実行する方法
+Launch Thonny App on your computer, if it is not already running: Thonnyアプリがまだ起動していない場合は、コンピューターで起動してください。
+Read the guide and the code for the experiment on this website and create a new file as described: このウェブサイトにある実験ガイドとコードを読み、説明に従って新しいファイルを作成してください。
+Connect the components as described before connecting Pico to power supply: Picoを電源に接続する前に、説明されているようにコンポーネントを接続してください。
+Verify all the connections are to the correct Pins, especially the VCC and GND connections: すべての接続が正しいピンに接続されていることを確認してください。特にVCCとGNDの接続を確認してください。
+To end the experiment, disconnect the USB cable from Pico: 実験を終了するには、PicoからUSBケーブルを外してください。
+To select another experiment, repeat the steps above: 別の実験を選択するには、上記の手順を繰り返してください。
+Alternate Method to Run Experiments without Thonny: Thonnyを使わずに実験を実行する代替方法
+Read the guide and the code for the experiment on this website but skip creating a file: このウェブサイトにある実験のガイドとコードを読んでください。ただし、ファイルの作成はスキップしてください。
+Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty): バッテリーパックのスイッチをONに切り替えてください（空の場合は、付属の単3電池3本を先に挿入してください）。
+"On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "ブレッドボード上で、青いボタン\U0001F535を一度押すと、OLEDスクリーンにメニューが表示されます。"
+"Use the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2 to move back": "黄色のボタン\U0001F7E1で次の実験に進み、緑色のボタン\U0001F7E2で前の実験に戻ります。"
+"Once you reach the experiment you are trying to run, press the blue button \U0001F535 to launch it": "実行したい実験にたどり着いたら、青いボタン\U0001F535を押して実験を開始してください。"
+Installation Steps: インストール手順
+Download and Install Thonny (with Python) from: Thonny (Python付き) をダウンロードしてインストールします。
+thonny.org: thonny.org
+? Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+: お使いのオペレーティングシステムとプロセッサに対応したPythonインストーラを選択してください（最適なオプションが既に推奨としてハイライト表示されているはずです）。
+If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway: macOSをご利用で、インストーラーがブロックされる場合は、「システム設定」＞「プライバシーとセキュリティ」に進み、「とにかく開く」をクリックしてください。
+2 Micro servo motors: マイクロサーボモーター2個
+Joystick module: ジョイスティックモジュール
+Distance sensor: 距離センサー
+Humidity + temperature sensor: 湿度＋温度センサー
+Touch sensor: タッチセンサー
+20 jumper wires: ジャンパー線20本
+Battery pack: バッテリーパック
+Micro USB cable: マイクロUSBケーブル
+Remembering this will make verifying the pin positions easier: これを覚えておけば、ピンの位置の確認が容易になります。
+The ground pins also have a square copper shape around the pin on the Pico board to make them easier to recognize: Picoボード上のグランドピンは、識別しやすくするために、ピンの周囲に四角い銅製の縁取りが施されています。
+Raspberry Pi Pico 2 W GPIO Pinout: Raspberry Pi Pico 2W GPIOピン配置
+Reaching Teachers and Students Worldwide: 世界中の教師と生徒にリーチする
+Showing cities with active workshops/outreach, as well as planned cities: 活発なワークショップやアウトリーチ活動が行われている都市、および計画中の都市を紹介します。
+It was truly great to have Utshaho in class: ウトシャホが授業に参加してくれたのは本当に素晴らしかった。
+He was fantastic with the kids, coming prepared with all the necessary materials: 彼は子供たちにとても優しく接してくれ、必要な教材もすべて準備してきてくれた。
+He provided clear instructions and offered support to the students throughout their activities: 彼は明確な指示を与え、生徒たちの活動全体を通してサポートを提供した。
+The students were engaged and enjoyed what they were doing: 生徒たちは熱心に取り組み、楽しんでいた。
+They were really interested in building different sensors: 彼らはさまざまなセンサーの開発に非常に興味を持っていた。
+MYP Science Teacher: MYP理科教師
+Atlanta International School: アトランタ・インターナショナル・スクール
+Introduction to Electronics Workshop at Atlanta International School: アトランタ・インターナショナル・スクールでの電子工学入門ワークショップ
+I liked how many different things we could do, there was lot’s of variety: いろいろなことができて、バリエーションが豊富だったのが良かったです。
+Grade 7 Student: 7年生
+loved this lesson: このレッスンがとても気に入りました
+Hands-on electronics workshops for schools: 学校向けの体験型電子工作ワークショップ
+The goal is to help students move from simply learning about technology to actually building technology that solve real problems: 目標は、学生が単に技術について学ぶ段階から、現実の問題を解決する技術を実際に構築する段階へと移行できるよう支援することです。
+Introduction to Electronics Workshop: 電子工学入門ワークショップ
+It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM: このプログラムは、実践的なSTEM教育を導入・学習したいと考えている中学生や小学生の教師と生徒を対象としています。
+? With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+: 適切な指導があれば、誰もが現実世界に影響を与えるプロジェクトを通して、電子工学、AI、コンピュータビジョンを学ぶことができる。
+? With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+: 早期に始めることで、彼らの創造性を解き放ち、新しいアイデアの試作、現実世界の問題の特定、そして新しいスキルの習得、実験、発明を継続する道へと導くことができる。
+Reference Slides for the Workshop: ワークショップ用参考スライド
+Class Experiments Kit: 教室実験キット
+Breadboard Connections and Safety: ブレッドボードの接続と安全性
+Lesson Plan Outline: 授業計画の概要
+Some Additional Notes: 補足事項
+Class Experiments Kit Contents: 授業用実験キットの内容
+Teachers can run a one hour workshop with middle school students interested in STEM: 教師は、STEMに興味のある中学生を対象に1時間のワークショップを開催することができます。
+Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit: 各授業用実験キットには、同一の発明キットが5個と追加センサーキットが1個含まれています。
+It is available for optional extra reading, if desired: ご希望であれば、オプションの追加読書としてご利用いただけます。
+Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: クラス実験キットには、同一の発明キットが5個と追加センサーキットが1個含まれています。
+Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation: 最初のワークショップで使用した参考スライドを以下に掲載します。そのまま使用することも、ご自身のプレゼンテーションに組み込むことも可能です。
+Download Slides: スライドをダウンロード
+Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: 発明キットおよび追加センサーキットの内容をよくご確認ください。
+? The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+: 追加センサーキットには、最高の創造的なアイデアや積極的な参加などに配布できる報酬ステッカーが含まれています。
+? There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+: また、NFC機能を搭載したスマートフォン（多くの場合、背面の上部中央付近にNFCセンサーがある）に近づけると光る、小さなNFCネイルステッカーもある。
+The first step is installing the Thonny app: 最初のステップは、Thonnyアプリをインストールすることです。
+It is important for the students to learn how breadboard connections work and to be safe: 生徒たちがブレッドボードの接続方法と安全について学ぶことは重要です
+The Additional Sensors Kit includes a breadboard with no backing to show how it works: 追加センサーキットには、動作原理を示すための裏板のないブレッドボードが含まれています。
+? There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+: ブレッドボードにはリセット可能なヒューズが付いており、学生が誤ってブレッドボード上でショート回路を起こした場合に回路を遮断します。
+? The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+: センサーへの接続が間違っていると、繊細な電子機器に永久的な損傷を与え、使用不能にしてしまう可能性があるため、生徒たちは回路に電源を入れる前にすべての接続を確認する必要があります。
+? When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+: コネクタをセットアップする際は、生徒はPicoからUSBケーブルを外し、USBケーブルを接続する前に複数の生徒が接続を確認するようにしてください。
+It is useful to count the pin distance from other used pins on the board: 基板上の他の使用済みピンからのピンの距離を数えることは有用です
+Safety Procedure: 安全手順
+Power Off: 電源オフ
+Connect Components: 接続コンポーネント
+Verify Each Connection: 各接続を確認する
+Power On: 電源オン
+Introduction - Learn about electronics, breadboards, safety (10-20 min): はじめに - 電子工作、ブレッドボード、安全対策について学びます（10～20分）
+Divide class into 5 teams (one per invention kit) (3-5 min): クラスを5つのチームに分けます（発明キット1セットにつき1チーム）。（3～5分）
+Students familiarize themselves with the invention kit components (3-5 min): 生徒は発明キットの構成要素について理解を深める（3～5分）
+Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): まず、基本的な操作（点滅、次に湿度温度センサー）を学ぶための実験を行います（5～10分）。
+Run random experiments from the list, and present to other teams (20-30 min): リストからランダムに実験を選び、他のチームに発表する（20～30分）。
+Clean up and pack the kits (5-7 min): キットを片付けて梱包する（5～7分）
+? To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+: 今後追加のワークショップを開催しやすくするため、学生は中身を元の箱の状態に戻して梱包する必要があります。
+If teams have more than 3 students, they can take turns reading about an experiment and running an experiment: チームの人数が3人以上の場合、実験に関する資料を読んだり、実験を行ったりする役割分担をすることができます。
+? When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+: 生徒が追加センサーキットからセンサーを借りた場合、実験後にセンサーを返却して、他のチームが借りられるようにする必要があります。
+? Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+: 一部の実験はペアで行われ、2つのチームが同時に2台のPicoを使用して協力する必要があります（マイクセンサーとメロディー、Bluetoothアドバタイズとスキャン）。
+? Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+: Bluetoothの広告とスキャンは、クラス全員にとって楽しい実験となるはずです。すべてのデバイスがLEDの色を同期させて、1つの広告デバイスに合わせます。
+You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out: 時間切れになる前に、1つのチームにBluetoothアドバタイズメントの作業をさせ、他のチームにBluetoothスキャンの設定をさせるように指示することができます。
+Category: カテゴリ
+Item Description: 商品説明
+Quantity per Box: 1箱あたりの数量
+Total Quantity: 合計数量
+Invention Kit (5x): 発明キット（5個入り）
+Empty Battery Pack with USB-C to USB-A Adapter: USB-C - USB-A変換アダプタ付き空のバッテリーパック
+AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping: 単3アルカリ乾電池、輸送用にプチプチで包んだビニール袋入り
+Micro USB to USB-C Cable: Micro USB - USB-Cケーブル
+Micro Servo Motor: マイクロサーボモーター
+Capacitive Touch Sensor: 静電容量式タッチセンサー
+Temp &amp; Humidity Sensor: 温度・湿度センサー
+Ultrasonic Distance Sensor: 超音波距離センサー
+Joystick Module: ジョイスティックモジュール
+10cm Jumper Wires: 10cmジャンパー線
+PIR Motion Sensor Module: PIRモーションセンサーモジュール
+Knock Sensor Module: ノックセンサーモジュール
+Potentiometer Module: ポテンショメータモジュール
+Accelerometer Module: 加速度計モジュール
+Photo Interrupter Module: フォトインタラプタモジュール
+Crash Sensor Module: 衝突センサーモジュール
+Photoresistor Module: フォトレジスタモジュール
+Rotation Encoder Module: 回転エンコーダーモジュール
+NFC Nail Reward Stickers: NFCネイルリワードステッカー
+Assorted Reward Stickers: 各種ご褒美ステッカー
+Breadboard without Backing: 裏板なしブレッドボード
+Book: 本
+? It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+: また、Raspberry Pi FoundationのWorldwide Coolest Projects Online Showcaseにも掲載され、ジョージア州で審査員特別賞を受賞しました。
+Featured in Raspberry Pi Foundation’s Worldwide Coolest Projects: ラズベリーパイ財団の「世界で最もクールなプロジェクト」に選出されました。
+running on a Raspberry Pi Pico 2 W microcontroller: Raspberry Pi Pico 2Wマイクロコントローラー上で動作
+If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: すべてが想定通りに動作すれば、Raspberry
+  Pi PicoのLEDが繰り返し点滅するはずです。
+use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,: Bluetoothスキャンを使用して近くのRaspberry
+  Pi Picoデバイスの色を読み取ります。
+? Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+: Picoを接続するたびに、数秒待ってから、Thonnyウィンドウの右下にある☰メニューアイコンを展開し、メニューからMicroPython（Raspberry
+  Pi Pico）を選択してください。
+You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller: このガイドとキットを使って、Raspberry
+  Pi Picoマイクロコントローラーを使った簡単な電子回路の構築方法を学びます。
+Connect the Raspberry Pi Pico to the computer with the provided USB cable: 付属のUSBケーブルでRaspberry
+  Pi Picoをコンピューターに接続します。
+Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico: Thonnyウィンドウの右下にあるメニューを展開し、「Raspberry
+  Pi Pico」を選択します。
+Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: 付属のUSBケーブルを使用して、Raspberry
+  Pi Picoをバッテリーパックに接続します。
+? To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+: Thonnyを初めて使用するには、Thonnyアプリを起動し、メニューから「ツール」&gt;「オプション」を選択し、「インタープリタ」タブを選択し、ドロップダウンメニューから「MicroPython
+  (Raspberry Pi Pico)」を選択して「OK」をクリックします。
+Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: OLED、LED、ブザー、Raspberry
+  Pi Pico 2W、6つのボタンを備えたブレッドボード
+You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: Raspberry
+  Pi Pico 2 Wのピン配置の詳細は、下記のリンク先のページで確認できます。
+Full Raspberry Pi Pico 2 W Pinout: Raspberry Pi Pico 2Wの完全なピン配置
+? Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+: 学生は、ブレッドボードの使い方、センサー、モーター、コントローラーの接続、Raspberry Piでのプログラミングなど、基本的な電子工作スキルを学びます。
+? There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+: ワークショップの実施には必須ではありませんが、「Raspberry Pi Pico で MicroPython を入門する」という書籍も付属しています。
+? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+: Raspberry Pi Pico 2W、プッシュボタン6個、ピエゾブザー、OLEDスクリーンモジュール、RGB LEDモジュール、リセット可能なPPTCヒューズ、プリセットコネクタを備えたブレッドボード
+Get started with MicroPython on Raspberry Pi Pico Book: Raspberry Pi Pico で MicroPython
+  を始めるための書籍
+Workshops: ワークショップ
+<span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+<span translate="no">Inventor Pi</span> on GitHub: <span translate="no">Inventor Pi</span>の
+  GitHub
+2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
+  Pi, Inc.</span>
+<span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
+  translate="no">Inventor Pi, Inc.</span>は、501(c)(3)に登録された非営利団体です。
+Search <span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>を検索
+Main: 主要
+Getting Started submenu: はじめにサブメニュー
+Experiments submenu: 実験サブメニュー
+Auxiliary: 補助
+YouTube video player: YouTube動画プレーヤー
+? In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+: 以下のコードでは、 <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>関数が
+  LED のオン/オフを切り替えます。
+? Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+: 両方の行は<span translate="no"><code class="language-plaintext highlighter-rouge">while
+  True:</code></span>コードブロック
+Breadcrumb: パンくず
+? To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+: テストするには、スクリプトを実行した後、ブレッドボード全体とノックセンサーを手に持ち、大きく振って急停止させてください。
+? When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+: 教室でこのスクリプトを実行する場合は、センサーを本や折りたたんだ紙などで完全に覆い、センサーがリセットされて<span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>と表示されるまで待ちます。
+Hint: ヒント
+To add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>: 関数を追加するには、
+  <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>を使用します。
+? For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+: このゲームでは、 <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>を使って円を描き、
+  <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>を使って長方形を描き、OLEDスクリーンに描画する方法を学びます。
+? Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+: 最後に、音符とその演奏時間とともに<span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>に保存します。
+'For this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span> as shown below:': そのためには、以下に示すような<span
+  translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>を使用します。
+? To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+: OLEDスクリーン上に図形を描画する方法をさらに学ぶために、 <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>関数を作成して、演奏される音符の形状を描画します。
+? When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+: 接続が成功すると、下部のシェルウィンドウに<span translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>プロンプトが表示されます。
+? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+: <span translate="no">Inventor Pi</span>は、教師と生徒が実践的な発明をより身近に感じられるようにすることに焦点を当てた、学生主導のSTEMイニシアチブです。
+? <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+: <span translate="no">Inventor Pi</span> 、初心者向けのRaspberry Pi Picoや電子工作キット、教師がバーチャルおよび対面式のワークショップを作成するために使用できる授業計画など、教師と生徒がスキルを伸ばすための明確な出発点を提供します。
+Ms. Irem Nekay: イレム・ネカイさん
+Introduction to Electronics Slides: 電子工学入門スライド
+? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+: ウツシャホ氏が「視覚障害者向けの低価格スマートグラス」の開発に取り組んだことが、彼が<span translate="no">Inventor Pi</span>開発するきっかけとなった。
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+: Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp"
+  alt="PicoのマイクロUSBポート" class="inline-img" width="202" height="205" fetchpriority="high"></span>コンピューター上のUSB-CまたはUSB-Aポート
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+: ファイルを保存し、緑色のボタンを使用してスクリプトを実行します。 <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="現在のスクリプトを実行する" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span>ボタン
+Run current script: 現在のスクリプトを実行する
+English: 英語
+French: フランス語
+Spanish: スペイン語
+German: ドイツ語
+Chinese (Simplified): 中国語（簡体字）
+Chinese (Traditional): 中国語（繁体字）
+Hindi: ヒンディー語
+Bangla: バングラ語
+Arabic: アラビア語
+Persian: ペルシャ語
+Urdu: ウルドゥー語
+Portuguese: ポルトガル語
+Japanese: 日本語
+Italian: イタリア語
+Dutch: オランダ語
+Danish: デンマーク語
+Russian: ロシア
+Contact Form: お問い合わせフォーム
+Please fill out the form below to get in touch: お問い合わせは下記のフォームにご記入ください。
+Name: 名前
+Email: メール
+Role: 役割
+School Name: 学校名
+School Address: 学校の住所
+Question / Feedback / Interest / Message: 質問／フィードバック／関心事項／メッセージ
+Send Message: メッセージを送信
+Thank you! Your message has been sent successfully: ありがとうございます！メッセージは正常に送信されました。
+Something went wrong: 何らかの問題が発生しました
+Please try again later: 後でもう一度お試しください。
+? To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: 新しいコードをアップロードせずに、1つまたは複数のデバイスでbluetooth_scan.pyをすばやく実行するには、 <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">「はじめに」</a>セクションで説明されている別の方法を使用してください。
+? To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: 別のデバイスでmelody.pyを新しいコードをアップロードせずにすばやく実行するには、 <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">「はじめに」</a>セクションで説明されている別の方法を使用してください。
+? To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+: 別のデバイスでmelody.pyを実行してテストするには、上記の<a href="/experiments/3-melody.html">Melody</a>実験で使用したmelody.pyファイルを、2番目のデバイスに接続されたコンピューターで実行します。
+? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+: <a href="/getting-started/important-dos-and-donts.html">「すべきこと」と「してはいけないこと」</a>のセクションでは、留意すべき重要な点について説明します。
+Notice that: 注目してください
+Ground: 地面
+"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "（GND）ピンは4ピンごとに繰り返され、両端で2ピンごとに始まります。"
+? You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+: 授業前に、このウェブサイトの<a href="/getting-started/">「はじめに」</a>セクションを利用して、さまざまな実験を自分で試してみることをお勧めします。
+? Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+: 授業前に生徒にこれらの<a href="/getting-started/install-thonny-app.html">手順を</a>共有し、生徒が授業前に各自のノートパソコンにアプリをインストールできるようにしてください。

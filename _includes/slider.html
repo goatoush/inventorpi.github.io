@@ -74,6 +74,8 @@ map: "basename"
     sliderContainer.style.setProperty('--slide-count', images.length);
     document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
+            const joinPath = (...parts) => parts.join("/");
+            const imageFolder = joinPath("", "assets", "images", "circuits", "small");
             const sliderTrack = document.createElement("div");
             sliderTrack.style.width =
                 sliderTrack.className = "slider-track";
@@ -83,10 +85,22 @@ map: "basename"
                 slide.className = "slide";
                 sliderTrack.appendChild(slide);
                 const img = document.createElement("img");
-                img.src = "/assets/images/circuits/small/" + image + ".webp";
+                img.src = joinPath(imageFolder, image + ".webp");
                 img.alt = image;
                 img.loading = "lazy";
-                slide.appendChild(img);
+                const link = document.createElement("a");
+                link.href = img.src;
+                link.className = "glightbox";
+                slide.appendChild(link);
+                link.appendChild(img);
+                link.setAttribute("data-gallery", "slider");
+                link.setAttribute("data-title", image);
+                link.addEventListener('click', (e) => {
+                    if (!glightboxLoaded) {
+                        e.preventDefault();
+                        initLazyGLightbox(e.currentTarget);
+                    }
+                });
             })
         }, 2000);
     });

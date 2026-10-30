@@ -1,7 +1,7 @@
 ---
 title: About
 has_toc: false
-nav_order: 4
+nav_order: 5
 ---
 # Utshaho Gupta
 {: .text-center.mb-0 } 
@@ -15,7 +15,7 @@ Utshaho is a high school senior who has spent over 3 years designing affordable 
 
 ## Inspiration Behind the Initiative
 
-Utshaho's work on creating the *Affordable Smart Glasses for the Blind and Visually Impaired* is what inspired him to create Inventor Pi. It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District, and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff. It was also featured in Raspberry Pi Foundation's Worldwide Coolest Projects Online Showcase and won the Judges' Pick award in Georgia.
+Utshaho's work on creating the "Affordable Smart Glasses for the Blind and Visually Impaired" is what inspired him to create Inventor Pi. It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District, and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff. It was also featured in Raspberry Pi Foundation's Worldwide Coolest Projects Online Showcase and won the Judges' Pick award in Georgia.
 
 [![Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District](/assets/images/utshaho-congressional-app-challenge.webp)](https://www.congressionalappchallenge.us/25-ga06/)
 *Won the 2025 Congressional App Challenge in Georgia's 6th District*

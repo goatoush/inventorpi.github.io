@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="author" content="Utshaho Gupta">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+  
+
+  
+
+  
+    <script src="/assets/js/vendor/lunr.min.js" defer></script>
+  
+
+  <script src="/ru/assets/js/just-the-docs.js" defer></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Датчик влажности и температуры | Inventor Pi</title>
+<meta name="generator" content="Jekyll v4.4.1">
+<meta property="og:title" content="Датчик влажности и температуры">
+<meta property="og:locale" content="ru">
+<meta name="description" content="Практические мастер-классы по электронике для школ">
+<meta name="twitter:description" property="og:description" content="Практические мастер-классы по электронике для школ">
+<link rel="canonical" href="https://inventorpi.com/ru/experiments/2-humidity-temp-sensor.html">
+<meta property="og:url" content="https://inventorpi.com/ru/experiments/2-humidity-temp-sensor.html">
+<meta property="og:site_name" content="Inventor Pi">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Humidity Temp Sensor">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-21T18:23:57+00:00","description":"Практические мастер-классы по электронике для школ","headline":"Датчик влажности и температуры","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://inventorpi.com/assets/images/inventor-pi-logo.webp"}},"url":"https://inventorpi.com/ru/experiments/2-humidity-temp-sensor.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <link rel="alternate" hreflang="en" href="https://inventorpi.com/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="fr" href="https://inventorpi.com/fr/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="es" href="https://inventorpi.com/es/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="de" href="https://inventorpi.com/de/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="zh" href="https://inventorpi.com/zh/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="zh-TW" href="https://inventorpi.com/zh-TW/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="hi" href="https://inventorpi.com/hi/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="bn" href="https://inventorpi.com/bn/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="ar" href="https://inventorpi.com/ar/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="fa" href="https://inventorpi.com/fa/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="ur" href="https://inventorpi.com/ur/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="pt" href="https://inventorpi.com/pt/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="ja" href="https://inventorpi.com/ja/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="it" href="https://inventorpi.com/it/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="nl" href="https://inventorpi.com/nl/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="da" href="https://inventorpi.com/da/experiments/2-humidity-temp-sensor.html">
+  
+    <link rel="alternate" hreflang="ru" href="https://inventorpi.com/ru/experiments/2-humidity-temp-sensor.html">
+  
+  <link rel="alternate" hreflang="x-default" href="https://inventorpi.com/experiments/2-humidity-temp-sensor.html">
+  
+    <meta property="og:locale:alternate" content="fr">
+  
+    <meta property="og:locale:alternate" content="es">
+  
+    <meta property="og:locale:alternate" content="de">
+  
+    <meta property="og:locale:alternate" content="zh">
+  
+    <meta property="og:locale:alternate" content="zh-TW">
+  
+    <meta property="og:locale:alternate" content="hi">
+  
+    <meta property="og:locale:alternate" content="bn">
+  
+    <meta property="og:locale:alternate" content="ar">
+  
+    <meta property="og:locale:alternate" content="fa">
+  
+    <meta property="og:locale:alternate" content="ur">
+  
+    <meta property="og:locale:alternate" content="pt">
+  
+    <meta property="og:locale:alternate" content="ja">
+  
+    <meta property="og:locale:alternate" content="it">
+  
+    <meta property="og:locale:alternate" content="nl">
+  
+    <meta property="og:locale:alternate" content="da">
+  
+    <meta property="og:locale:alternate" content="en">
+  
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-00FD6QB7EM');
+</script>
+<script>
+  const BRAND_COLOR = '#F31660';
+  const i18nText = {"Active":"Активный","Base":"База","Planned":"Запланировано","Here":"Здесь","Summary":"Краткое содержание","Note":"Примечание","Important":"Важный"};
+  const i18n = (text) => i18nText[text] || text;
+</script>
+<link rel="preload" href="/ru/assets/js/search-data.json" as="fetch" crossorigin="anonymous">
+<script src="/assets/js/main.js" defer></script>
+<link rel="preload" href="/assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</noscript>
+
+<style>
+  html {
+    font-size: 1rem !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  :root {
+    font-size: 1rem !important;
+  }
+</style>
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Перейти к основному содержимому</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewbox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewbox="0 0 24 24">
+  <title>Меню</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewbox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewbox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewbox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewbox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewbox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewbox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewbox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"></path>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"></path>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <header class="side-bar">
+  <div class="site-header">
+    <a href="/ru/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Inventor Pi"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Меню" aria-expanded="false">
+      <svg viewbox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Основной" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list">
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="Подменю «Начало работы»" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/ru/getting-started/" class="nav-list-link">Начиная</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/ru/getting-started/install-thonny-app.html" class="nav-list-link">Установите приложение Thonny</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/invention-kit-contents.html" class="nav-list-link">Состав набора для изобретений</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/additional-sensors-kit.html" class="nav-list-link">Комплект дополнительных датчиков</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/breadboard-basics.html" class="nav-list-link">Основы работы с макетной платой</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/breadboard-wiring.html" class="nav-list-link">Схема подключения на макетной плате</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/pico-2w-gpio-pinout.html" class="nav-list-link">Распиновка Pico 2 W</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/important-dos-and-donts.html" class="nav-list-link">Что можно и чего нельзя делать</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/connect-pico-to-computer.html" class="nav-list-link">Подключить Пико</a></li>
+<li class="nav-list-item"><a href="/ru/getting-started/guide-to-reading-code.html" class="nav-list-link">Руководство по чтению кода</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="Подменю «Эксперименты»" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/ru/experiments/" class="nav-list-link">Эксперименты</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/ru/experiments/1-blink.html" class="nav-list-link">Моргнуть</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/2-humidity-temp-sensor.html" class="nav-list-link">Датчик влажности и температуры</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/3-melody.html" class="nav-list-link">Мелодия</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/4-touch-game.html" class="nav-list-link">Игра на сенсорное управление</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/5-distance-sensor.html" class="nav-list-link">Датчик расстояния</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/6-piano.html" class="nav-list-link">фортепиано</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/7-joystick-and-servos.html" class="nav-list-link">Джойстик и сервоприводы</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/8-microphone-sensor.html" class="nav-list-link">Датчик микрофона</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/9-accelerometer.html" class="nav-list-link">Акселерометр</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/10-crash-sensor.html" class="nav-list-link">Датчик столкновения</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/11-knock-sensor.html" class="nav-list-link">Датчик детонации</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/12-motion-sensor.html" class="nav-list-link">Датчик движения</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/13-photo-interrupter.html" class="nav-list-link">Фотопрерыватель</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/14-photoresistor.html" class="nav-list-link">Фоторезистор</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/15-potentiometer-and-servo.html" class="nav-list-link">Потенциометр и сервопривод</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/16-bluetooth-advertise.html" class="nav-list-link">Реклама Bluetooth</a></li>
+<li class="nav-list-item"><a href="/ru/experiments/17-mix-and-match.html" class="nav-list-link">Комбинируйте и сочетайте</a></li>
+</ul>
+</li>
+<li class="nav-list-item"><a href="/ru/lesson-plan-for-teachers.html" class="nav-list-link">План урока для учителей</a></li>
+<li class="nav-list-item"><a href="/ru/about.html" class="nav-list-link">О</a></li>
+<li class="nav-list-item"><a href="/ru/contact.html" class="nav-list-link">Контакт</a></li>
+</ul>
+  <ul class="nav-list"><li class="nav-list-item external">
+          <a href="https://github.com/goatoush/inventor-pi" class="nav-list-link external" target="_blank" rel="noopener noreferrer">
+            Inventor Pi на GitHub
+            <svg viewbox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>
+          </a>
+        </li></ul>
+</nav>
+
+
+<div class="d-md-block d-none site-footer">
+  
+  
+    Сделать практическое изобретение более доступным для учителей и учеников. <br>
+© 2026 Inventor Pi, Inc. <br>
+Inventor Pi, Inc. — зарегистрированная организация 501(c)(3)
+  
+  </div>
+</header>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Поиск Inventor Pi" autocomplete="off">
+    <label for="search-input" class="search-label">
+      <span class="sr-only">Поиск Inventor Pi</span>
+      <svg viewbox="0 0 24 24" class="search-icon" aria-hidden="true"><use xlink:href="#svg-search"></use></svg>
+    </label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+    <nav aria-label="Вспомогательный" class="aux-nav">
+    <ul class="aux-nav-list">
+        <li class="aux-nav-list-item">
+            <button class="site-button lang btn-reset" type="button" aria-label="Select Language" title="Select Language">
+                🇺🇸
+            </button>
+        </li>
+        
+        <li class="aux-nav-list-item">
+            <a href="/ru/getting-started/" class="site-button">
+                Начать
+            </a>
+        </li>
+        
+    </ul>
+    <div class="select-lang-container">
+        <div class="select-lang-backdrop"></div>
+        <section class="select-lang">
+            <ul>
+                
+                <li class="lang en">
+                    <a class="lang" href="/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">English</div>
+                            <div class="sub">Английский</div>
+                        </div>
+                        <div class="flag">🇺🇸 🇬🇧</div>
+                    </a>
+                </li>
+                
+                <li class="lang fr">
+                    <a class="lang" href="/fr/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Français</div>
+                            <div class="sub">Французский</div>
+                        </div>
+                        <div class="flag">🇫🇷 🇬🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang es">
+                    <a class="lang" href="/es/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Español</div>
+                            <div class="sub">испанский</div>
+                        </div>
+                        <div class="flag">🇪🇸 🇲🇽</div>
+                    </a>
+                </li>
+                
+                <li class="lang de">
+                    <a class="lang" href="/de/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Deutsch</div>
+                            <div class="sub">немецкий</div>
+                        </div>
+                        <div class="flag">🇩🇪 🇦🇹</div>
+                    </a>
+                </li>
+                
+                <li class="lang zh">
+                    <a class="lang" href="/zh/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">简体字</div>
+                            <div class="sub">Китайский (упрощенный)</div>
+                        </div>
+                        <div class="flag">🇨🇳 🇸🇬</div>
+                    </a>
+                </li>
+                
+                <li class="lang zh-TW">
+                    <a class="lang" href="/zh-TW/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">正体字</div>
+                            <div class="sub">Китайский (традиционный)</div>
+                        </div>
+                        <div class="flag">🇹🇼 🇭🇰</div>
+                    </a>
+                </li>
+                
+                <li class="lang hi">
+                    <a class="lang" href="/hi/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">हिंदी</div>
+                            <div class="sub">хинди</div>
+                        </div>
+                        <div class="flag">🇮🇳 🇳🇵</div>
+                    </a>
+                </li>
+                
+                <li class="lang bn">
+                    <a class="lang" href="/bn/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">বাংলা</div>
+                            <div class="sub">Бенгальский</div>
+                        </div>
+                        <div class="flag">🇧🇩 🇮🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang ar">
+                    <a class="lang" href="/ar/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">عربي</div>
+                            <div class="sub">арабский</div>
+                        </div>
+                        <div class="flag">🇸🇦 🇪🇬</div>
+                    </a>
+                </li>
+                
+                <li class="lang fa">
+                    <a class="lang" href="/fa/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">فارسی</div>
+                            <div class="sub">персидский</div>
+                        </div>
+                        <div class="flag">🇮🇷 🇦🇫</div>
+                    </a>
+                </li>
+                
+                <li class="lang ur">
+                    <a class="lang" href="/ur/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">اردو</div>
+                            <div class="sub">урду</div>
+                        </div>
+                        <div class="flag">🇵🇰 🇮🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang pt">
+                    <a class="lang" href="/pt/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Português</div>
+                            <div class="sub">португальский</div>
+                        </div>
+                        <div class="flag">🇵🇹 🇧🇷</div>
+                    </a>
+                </li>
+                
+                <li class="lang ja">
+                    <a class="lang" href="/ja/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">日本語</div>
+                            <div class="sub">японский</div>
+                        </div>
+                        <div class="flag">🇯🇵 🇵🇼</div>
+                    </a>
+                </li>
+                
+                <li class="lang it">
+                    <a class="lang" href="/it/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Italiana</div>
+                            <div class="sub">итальянский</div>
+                        </div>
+                        <div class="flag">🇮🇹 🇸🇲</div>
+                    </a>
+                </li>
+                
+                <li class="lang nl">
+                    <a class="lang" href="/nl/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Nederlands</div>
+                            <div class="sub">Голландский</div>
+                        </div>
+                        <div class="flag">🇳🇱 🇸🇷</div>
+                    </a>
+                </li>
+                
+                <li class="lang da">
+                    <a class="lang" href="/da/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Dansk</div>
+                            <div class="sub">датский</div>
+                        </div>
+                        <div class="flag">🇩🇰 🇪🇺</div>
+                    </a>
+                </li>
+                
+                <li class="lang ru">
+                    <a class="lang" href="/ru/experiments/2-humidity-temp-sensor.html">
+                        <div>
+                            <div class="select-lang-text">Русский</div>
+                            <div class="sub">Русский</div>
+                        </div>
+                        <div class="flag">🇷🇺 🇰🇿</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </section>
+    </div>
+</nav>
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="Хлебные крошки" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/ru/experiments/">Эксперименты</a></li>
+    <li class="breadcrumb-nav-list-item"><span>Датчик влажности и температуры</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 id="humidity-temp-sensor">
+  
+  
+    <a href="#humidity-temp-sensor" class="anchor-heading" aria-labelledby="humidity-temp-sensor"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Датчик влажности и температуры
+  
+  
+</h1>
+    
+
+<p><img src="/assets/images/circuits/Humidity%20Temp%20Sensor%20Circuit.webp" alt="Схема датчика влажности и температуры" width="1280" height="720" fetchpriority="high"></p>
+<h3 id="summary">
+  
+  
+    <a href="#summary" class="anchor-heading" aria-labelledby="summary"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Пример кода на MicroPython работает на микроконтроллере Raspberry Pi Pico 2 Вт подключены к модулю датчика влажности и температуры (DHT11) и модулю OLED-дисплея (SSD1306) на макетной плате для измерения и отображения относительной влажности и температуры окружающей среды как в градусах Цельсия, так и в градусах Фаренгейта
+  
+  
+</h3>
+    
+
+<p>Датчик влажности и температуры измеряет температуру окружающей среды и влажность воздуха. В робототехнике датчики температуры встраиваются в большинство электронных компонентов. Они могут использоваться для термозащиты, например, для автоматического отключения робота при превышении безопасных температур. А вы знали, что в смартфоне находится около 8 различных датчиков температуры, измеряющих температуру экрана, задней панели, батареи, процессора и т.д.? Датчики влажности отслеживают образование конденсата внутри смартфона или умных часов.</p>
+
+<p>Это датчик DHT11. Мы импортируем библиотеку dht и настраиваем вывод GP28, как показано ниже:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="rouge-code"><pre><span class="kn">from</span> <span class="n">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="n">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
+<span class="kn">from</span> <span class="n">oled</span> <span class="kn">import</span> <span class="n">OLED</span>
+<span class="kn">from</span> <span class="n">dht</span> <span class="kn">import</span> <span class="n">DHT11</span>
+
+<span class="n">humidity_temp_sensor</span> <span class="o">=</span> <span class="nc">DHT11</span><span class="p">(</span><span class="nc">Pin</span><span class="p">(</span><span class="mi">28</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></div></code></pre></div></div>
+
+<p>Затем в основном цикле мы используем функцию измерения для получения температуры и влажности. Для перевода градусов Цельсия в градусы Фаренгейта можно использовать простые математические формулы.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td>
+<td class="rouge-code"><pre><span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">humidity_temp_sensor</span><span class="p">.</span><span class="nf">measure</span><span class="p">()</span>
+    <span class="n">humidity</span> <span class="o">=</span> <span class="n">humidity_temp_sensor</span><span class="p">.</span><span class="nf">humidity</span><span class="p">()</span>
+    <span class="n">temp_c</span> <span class="o">=</span> <span class="n">humidity_temp_sensor</span><span class="p">.</span><span class="nf">temperature</span><span class="p">()</span>
+    <span class="n">temp_f</span> <span class="o">=</span> <span class="n">temp_c</span> <span class="o">*</span> <span class="mi">9</span><span class="o">/</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">32</span>
+    <span class="n">oled</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">humidity</span><span class="si">:</span><span class="p">.</span><span class="mi">0</span><span class="n">f</span><span class="si">}</span><span class="s">% Humidity</span><span class="sh">"</span><span class="p">,</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">temp_c</span><span class="si">:</span><span class="p">.</span><span class="mi">1</span><span class="n">f</span><span class="si">}</span><span class="s"> Degrees C</span><span class="sh">"</span><span class="p">,</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">temp_f</span><span class="si">:</span><span class="p">.</span><span class="mi">1</span><span class="n">f</span><span class="si">}</span><span class="s"> Degrees F</span><span class="sh">"</span><span class="p">)</span>
+    <span class="nf">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></div></code></pre></div></div>
+
+<p>Для запуска всего скрипта создайте в Thonny новый файл с именем humidity_temp_sensor.py. Скопируйте и вставьте приведенный ниже код в созданный вами файл.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+</pre></td>
+<td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Humidity Temp Sensor</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># DESCRIPTION
+</span>
+<span class="c1"># A humidity and temperature sensor measures the ambient temperature and air humidity.
+# In robotics, temperature sensors are built into most electronic components. 
+# They can be used for thermal protection, such as to automatically shutdown a robot 
+# when temperatures exceed safe limits. Did you know that a smartphone has about 8 different
+# temperature sensors in it, measuring screen temperature, back temperature, 
+# battery temperature, CPU temperature, etc.? Humidity sensors monitor condensation 
+# inside a smartphone or smartwatch.
+</span>
+<span class="c1"># CONNECTIONS REQUIRED
+</span>
+<span class="c1"># Connect Humidity and Temperature Sensor (KY-015) module 
+# (it includes a big blue waffle block)
+#   Pins: + =&gt; VCC, OUT =&gt; GP28, - =&gt; GND
+</span>
+<span class="kn">from</span> <span class="n">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="n">machine</span> <span class="kn">import</span> <span class="n">Pin</span>
+<span class="kn">from</span> <span class="n">oled</span> <span class="kn">import</span> <span class="n">OLED</span>
+<span class="kn">from</span> <span class="n">dht</span> <span class="kn">import</span> <span class="n">DHT11</span>
+
+<span class="n">humidity_temp_sensor</span> <span class="o">=</span> <span class="nc">DHT11</span><span class="p">(</span><span class="nc">Pin</span><span class="p">(</span><span class="mi">28</span><span class="p">))</span>
+<span class="n">oled</span> <span class="o">=</span> <span class="nc">OLED</span><span class="p">(</span><span class="n">scl_pin</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">sda_pin</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="n">humidity_temp_sensor</span><span class="p">.</span><span class="nf">measure</span><span class="p">()</span>
+        <span class="n">humidity</span> <span class="o">=</span> <span class="n">humidity_temp_sensor</span><span class="p">.</span><span class="nf">humidity</span><span class="p">()</span>
+        <span class="n">temp_c</span> <span class="o">=</span> <span class="n">humidity_temp_sensor</span><span class="p">.</span><span class="nf">temperature</span><span class="p">()</span>
+        <span class="n">temp_f</span> <span class="o">=</span> <span class="n">temp_c</span> <span class="o">*</span> <span class="mi">9</span><span class="o">/</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">32</span>
+        <span class="n">oled</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">humidity</span><span class="si">:</span><span class="p">.</span><span class="mi">0</span><span class="n">f</span><span class="si">}</span><span class="s">% Humidity</span><span class="sh">"</span><span class="p">,</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">temp_c</span><span class="si">:</span><span class="p">.</span><span class="mi">1</span><span class="n">f</span><span class="si">}</span><span class="s"> Degrees C</span><span class="sh">"</span><span class="p">,</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">temp_f</span><span class="si">:</span><span class="p">.</span><span class="mi">1</span><span class="n">f</span><span class="si">}</span><span class="s"> Degrees F</span><span class="sh">"</span><span class="p">)</span>
+        <span class="nf">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+
+<span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Interrupted by user!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">oled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></div></code></pre></div></div>
+
+          
+
+          
+            
+          
+        </main>
+        
+<hr>
+<footer>
+  
+    <p><a href="#top" id="back-to-top">Вернуться наверх</a></p>
+  
+
+  <script>
+    document.querySelectorAll("h3#summary").forEach(summary => {
+        summary.innerHTML = summary.innerHTML
+            .replace(/&nbsp;/, " <ul><li>")
+            .replace(/&nbsp;/g, " <li>");
+    });
+    document.getElementById("search-input").type = "search";
+    let sheet = document.querySelector('head style').sheet;
+    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
+    let langCode = window.location.pathname.split("/").at(1);
+    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
+        langCode = "en";
+    }
+    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
+        const isActive = el.classList.contains(langCode);
+        el.classList.toggle("active", isActive);
+        if (isActive) document.querySelector(".site-button.lang").innerHTML = el.innerHTML;
+    });
+    document.querySelector(".site-button.lang").addEventListener('click', e => {
+        document.querySelector(".select-lang-container").classList.toggle('open');
+        e.preventDefault();
+        return false;
+    });
+    document.querySelector(".select-lang-backdrop").addEventListener('click', () => {
+        document.querySelector(".select-lang-container").classList.remove('open');
+    });
+</script>
+<style>
+    .main-content h3#summary {
+        font-size: 0.75rem !important;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        position: relative;
+        margin-top: 1em;
+        line-height: 1.65;
+        border: 1px solid #a8a8a8;
+        border-left: 4px solid #6d6d6d;
+        padding: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 1em;
+    }
+
+    .main-content h3#summary::before {
+        content: 'Краткое содержание';
+        font-style: normal;
+        color: #444;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: .35rem;
+    }
+
+    .main-content h3#summary ul {
+        margin-bottom: 0;
+    }
+</style>
+<div id="nav-backdrop" class="nav-backdrop"></div>
+
+
+<div class="nav-pagination" style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+  <div><a href="/ru/experiments/1-blink.html" class="btn btn-outline nav-pagination-prev" style="text-align: left;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Предыдущий</span>
+      <strong>Моргнуть</strong>
+    </a></div>
+  <div><a href="/ru/experiments/3-melody.html" class="btn btn-outline nav-pagination-next" style="text-align: right;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Следующий</span>
+      <strong>Мелодия</strong>
+    </a></div>
+  </div>
+
+  <div class="d-md-none mt-4 fs-2">
+    
+    
+      Сделать практическое изобретение более доступным для учителей и учеников. <br>
+© 2026 Inventor Pi, Inc. <br>
+Inventor Pi, Inc. — зарегистрированная организация 501(c)(3)
+    
+  </div>
+</footer>
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+    
+
+  
+</body>
+</html>

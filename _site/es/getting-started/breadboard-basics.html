@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="author" content="Utshaho Gupta">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+  
+
+  
+
+  
+    <script src="/assets/js/vendor/lunr.min.js" defer></script>
+  
+
+  <script src="/es/assets/js/just-the-docs.js" defer></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Conceptos básicos de la placa de prototipos | Inventor Pi</title>
+<meta name="generator" content="Jekyll v4.4.1">
+<meta property="og:title" content="Conceptos básicos de la placa de prototipos">
+<meta property="og:locale" content="es">
+<meta name="description" content="Talleres prácticos de electrónica para escuelas">
+<meta name="twitter:description" property="og:description" content="Talleres prácticos de electrónica para escuelas">
+<link rel="canonical" href="https://inventorpi.com/es/getting-started/breadboard-basics.html">
+<meta property="og:url" content="https://inventorpi.com/es/getting-started/breadboard-basics.html">
+<meta property="og:site_name" content="Inventor Pi">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Breadboard Basics">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-21T18:23:57+00:00","description":"Talleres prácticos de electrónica para escuelas","headline":"Conceptos básicos de la placa de prototipos","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://inventorpi.com/assets/images/inventor-pi-logo.webp"}},"url":"https://inventorpi.com/es/getting-started/breadboard-basics.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <link rel="alternate" hreflang="en" href="https://inventorpi.com/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="fr" href="https://inventorpi.com/fr/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="es" href="https://inventorpi.com/es/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="de" href="https://inventorpi.com/de/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="zh" href="https://inventorpi.com/zh/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="zh-TW" href="https://inventorpi.com/zh-TW/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="hi" href="https://inventorpi.com/hi/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="bn" href="https://inventorpi.com/bn/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="ar" href="https://inventorpi.com/ar/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="fa" href="https://inventorpi.com/fa/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="ur" href="https://inventorpi.com/ur/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="pt" href="https://inventorpi.com/pt/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="ja" href="https://inventorpi.com/ja/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="it" href="https://inventorpi.com/it/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="nl" href="https://inventorpi.com/nl/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="da" href="https://inventorpi.com/da/getting-started/breadboard-basics.html">
+  
+    <link rel="alternate" hreflang="ru" href="https://inventorpi.com/ru/getting-started/breadboard-basics.html">
+  
+  <link rel="alternate" hreflang="x-default" href="https://inventorpi.com/getting-started/breadboard-basics.html">
+  
+    <meta property="og:locale:alternate" content="fr">
+  
+    <meta property="og:locale:alternate" content="en">
+  
+    <meta property="og:locale:alternate" content="de">
+  
+    <meta property="og:locale:alternate" content="zh">
+  
+    <meta property="og:locale:alternate" content="zh-TW">
+  
+    <meta property="og:locale:alternate" content="hi">
+  
+    <meta property="og:locale:alternate" content="bn">
+  
+    <meta property="og:locale:alternate" content="ar">
+  
+    <meta property="og:locale:alternate" content="fa">
+  
+    <meta property="og:locale:alternate" content="ur">
+  
+    <meta property="og:locale:alternate" content="pt">
+  
+    <meta property="og:locale:alternate" content="ja">
+  
+    <meta property="og:locale:alternate" content="it">
+  
+    <meta property="og:locale:alternate" content="nl">
+  
+    <meta property="og:locale:alternate" content="da">
+  
+    <meta property="og:locale:alternate" content="ru">
+  
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-00FD6QB7EM');
+</script>
+<script>
+  const BRAND_COLOR = '#F31660';
+  const i18nText = {"Active":"Activo","Base":"Base","Planned":"Planificado","Here":"Aquí","Summary":"Resumen","Note":"Nota","Important":"Importante"};
+  const i18n = (text) => i18nText[text] || text;
+</script>
+<link rel="preload" href="/es/assets/js/search-data.json" as="fetch" crossorigin="anonymous">
+<script src="/assets/js/main.js" defer></script>
+<link rel="preload" href="/assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</noscript>
+
+<style>
+  html {
+    font-size: 1rem !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  :root {
+    font-size: 1rem !important;
+  }
+</style>
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Saltar al contenido principal</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewbox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewbox="0 0 24 24">
+  <title>Menú</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewbox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewbox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewbox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewbox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewbox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewbox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewbox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"></path>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"></path>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <header class="side-bar">
+  <div class="site-header">
+    <a href="/es/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Inventor Pi"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Menú" aria-expanded="false">
+      <svg viewbox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Principal" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list">
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="Submenú Primeros pasos" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/es/getting-started/" class="nav-list-link">Empezando</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/es/getting-started/install-thonny-app.html" class="nav-list-link">Instala la aplicación Thonny</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/invention-kit-contents.html" class="nav-list-link">Contenido del kit de invención</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/additional-sensors-kit.html" class="nav-list-link">Kit de sensores adicionales</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/breadboard-basics.html" class="nav-list-link">Conceptos básicos de la placa de prototipos</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/breadboard-wiring.html" class="nav-list-link">Cableado de la placa de pruebas</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/pico-2w-gpio-pinout.html" class="nav-list-link">Diagrama de pines de Pico 2 W</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/important-dos-and-donts.html" class="nav-list-link">Qué hacer y qué no hacer</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/connect-pico-to-computer.html" class="nav-list-link">Conectar Pico</a></li>
+<li class="nav-list-item"><a href="/es/getting-started/guide-to-reading-code.html" class="nav-list-link">Guía para leer código</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="Submenú de experimentos" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/es/experiments/" class="nav-list-link">Experimentos</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/es/experiments/1-blink.html" class="nav-list-link">Parpadear</a></li>
+<li class="nav-list-item"><a href="/es/experiments/2-humidity-temp-sensor.html" class="nav-list-link">Sensor de humedad y temperatura</a></li>
+<li class="nav-list-item"><a href="/es/experiments/3-melody.html" class="nav-list-link">Melodía</a></li>
+<li class="nav-list-item"><a href="/es/experiments/4-touch-game.html" class="nav-list-link">Juego táctil</a></li>
+<li class="nav-list-item"><a href="/es/experiments/5-distance-sensor.html" class="nav-list-link">Sensor de distancia</a></li>
+<li class="nav-list-item"><a href="/es/experiments/6-piano.html" class="nav-list-link">Piano</a></li>
+<li class="nav-list-item"><a href="/es/experiments/7-joystick-and-servos.html" class="nav-list-link">Joystick y servos</a></li>
+<li class="nav-list-item"><a href="/es/experiments/8-microphone-sensor.html" class="nav-list-link">Sensor de micrófono</a></li>
+<li class="nav-list-item"><a href="/es/experiments/9-accelerometer.html" class="nav-list-link">Acelerómetro</a></li>
+<li class="nav-list-item"><a href="/es/experiments/10-crash-sensor.html" class="nav-list-link">Sensor de colisión</a></li>
+<li class="nav-list-item"><a href="/es/experiments/11-knock-sensor.html" class="nav-list-link">Sensor de detonación</a></li>
+<li class="nav-list-item"><a href="/es/experiments/12-motion-sensor.html" class="nav-list-link">Sensor de movimiento</a></li>
+<li class="nav-list-item"><a href="/es/experiments/13-photo-interrupter.html" class="nav-list-link">Fotointerruptor</a></li>
+<li class="nav-list-item"><a href="/es/experiments/14-photoresistor.html" class="nav-list-link">Fotorresistencia</a></li>
+<li class="nav-list-item"><a href="/es/experiments/15-potentiometer-and-servo.html" class="nav-list-link">Potenciómetro y servomotor</a></li>
+<li class="nav-list-item"><a href="/es/experiments/16-bluetooth-advertise.html" class="nav-list-link">Publicidad Bluetooth</a></li>
+<li class="nav-list-item"><a href="/es/experiments/17-mix-and-match.html" class="nav-list-link">Mezcla y combina</a></li>
+</ul>
+</li>
+<li class="nav-list-item"><a href="/es/lesson-plan-for-teachers.html" class="nav-list-link">Plan de lección para maestros</a></li>
+<li class="nav-list-item"><a href="/es/about.html" class="nav-list-link">Acerca de</a></li>
+<li class="nav-list-item"><a href="/es/contact.html" class="nav-list-link">Contacto</a></li>
+</ul>
+  <ul class="nav-list"><li class="nav-list-item external">
+          <a href="https://github.com/goatoush/inventor-pi" class="nav-list-link external" target="_blank" rel="noopener noreferrer">
+            Inventor Pi en GitHub
+            <svg viewbox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>
+          </a>
+        </li></ul>
+</nav>
+
+
+<div class="d-md-block d-none site-footer">
+  
+  
+    Hacer que la invención práctica sea más accesible para profesores y alumnos. <br>
+© 2026 Inventor Pi, Inc. <br>
+Inventor Pi, Inc. es una organización registrada 501(c)(3)
+  
+  </div>
+</header>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Buscar Inventor Pi" autocomplete="off">
+    <label for="search-input" class="search-label">
+      <span class="sr-only">Buscar Inventor Pi</span>
+      <svg viewbox="0 0 24 24" class="search-icon" aria-hidden="true"><use xlink:href="#svg-search"></use></svg>
+    </label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+    <nav aria-label="Auxiliar" class="aux-nav">
+    <ul class="aux-nav-list">
+        <li class="aux-nav-list-item">
+            <button class="site-button lang btn-reset" type="button" aria-label="Select Language" title="Select Language">
+                🇺🇸
+            </button>
+        </li>
+        
+        <li class="aux-nav-list-item">
+            <a href="/es/getting-started/" class="site-button">
+                Comience
+            </a>
+        </li>
+        
+    </ul>
+    <div class="select-lang-container">
+        <div class="select-lang-backdrop"></div>
+        <section class="select-lang">
+            <ul>
+                
+                <li class="lang en">
+                    <a class="lang" href="/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">English</div>
+                            <div class="sub">Inglés</div>
+                        </div>
+                        <div class="flag">🇺🇸 🇬🇧</div>
+                    </a>
+                </li>
+                
+                <li class="lang fr">
+                    <a class="lang" href="/fr/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Français</div>
+                            <div class="sub">Francés</div>
+                        </div>
+                        <div class="flag">🇫🇷 🇬🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang es">
+                    <a class="lang" href="/es/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Español</div>
+                            <div class="sub">Español</div>
+                        </div>
+                        <div class="flag">🇪🇸 🇲🇽</div>
+                    </a>
+                </li>
+                
+                <li class="lang de">
+                    <a class="lang" href="/de/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Deutsch</div>
+                            <div class="sub">Alemán</div>
+                        </div>
+                        <div class="flag">🇩🇪 🇦🇹</div>
+                    </a>
+                </li>
+                
+                <li class="lang zh">
+                    <a class="lang" href="/zh/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">简体字</div>
+                            <div class="sub">Chino (simplificado)</div>
+                        </div>
+                        <div class="flag">🇨🇳 🇸🇬</div>
+                    </a>
+                </li>
+                
+                <li class="lang zh-TW">
+                    <a class="lang" href="/zh-TW/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">正体字</div>
+                            <div class="sub">Chino (tradicional)</div>
+                        </div>
+                        <div class="flag">🇹🇼 🇭🇰</div>
+                    </a>
+                </li>
+                
+                <li class="lang hi">
+                    <a class="lang" href="/hi/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">हिंदी</div>
+                            <div class="sub">hindi</div>
+                        </div>
+                        <div class="flag">🇮🇳 🇳🇵</div>
+                    </a>
+                </li>
+                
+                <li class="lang bn">
+                    <a class="lang" href="/bn/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">বাংলা</div>
+                            <div class="sub">Bangla</div>
+                        </div>
+                        <div class="flag">🇧🇩 🇮🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang ar">
+                    <a class="lang" href="/ar/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">عربي</div>
+                            <div class="sub">árabe</div>
+                        </div>
+                        <div class="flag">🇸🇦 🇪🇬</div>
+                    </a>
+                </li>
+                
+                <li class="lang fa">
+                    <a class="lang" href="/fa/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">فارسی</div>
+                            <div class="sub">persa</div>
+                        </div>
+                        <div class="flag">🇮🇷 🇦🇫</div>
+                    </a>
+                </li>
+                
+                <li class="lang ur">
+                    <a class="lang" href="/ur/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">اردو</div>
+                            <div class="sub">Urdu</div>
+                        </div>
+                        <div class="flag">🇵🇰 🇮🇳</div>
+                    </a>
+                </li>
+                
+                <li class="lang pt">
+                    <a class="lang" href="/pt/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Português</div>
+                            <div class="sub">portugués</div>
+                        </div>
+                        <div class="flag">🇵🇹 🇧🇷</div>
+                    </a>
+                </li>
+                
+                <li class="lang ja">
+                    <a class="lang" href="/ja/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">日本語</div>
+                            <div class="sub">japonés</div>
+                        </div>
+                        <div class="flag">🇯🇵 🇵🇼</div>
+                    </a>
+                </li>
+                
+                <li class="lang it">
+                    <a class="lang" href="/it/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Italiana</div>
+                            <div class="sub">italiano</div>
+                        </div>
+                        <div class="flag">🇮🇹 🇸🇲</div>
+                    </a>
+                </li>
+                
+                <li class="lang nl">
+                    <a class="lang" href="/nl/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Nederlands</div>
+                            <div class="sub">Holandés</div>
+                        </div>
+                        <div class="flag">🇳🇱 🇸🇷</div>
+                    </a>
+                </li>
+                
+                <li class="lang da">
+                    <a class="lang" href="/da/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Dansk</div>
+                            <div class="sub">danés</div>
+                        </div>
+                        <div class="flag">🇩🇰 🇪🇺</div>
+                    </a>
+                </li>
+                
+                <li class="lang ru">
+                    <a class="lang" href="/ru/getting-started/breadboard-basics.html">
+                        <div>
+                            <div class="select-lang-text">Русский</div>
+                            <div class="sub">ruso</div>
+                        </div>
+                        <div class="flag">🇷🇺 🇰🇿</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </section>
+    </div>
+</nav>
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="Migaja de pan" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/es/getting-started/">Empezando</a></li>
+    <li class="breadcrumb-nav-list-item"><span>Conceptos básicos de la placa de prototipos</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 id="breadboard-basics">
+  
+  
+    <a href="#breadboard-basics" class="anchor-heading" aria-labelledby="breadboard-basics"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Conceptos básicos de la placa de prototipos
+  
+  
+</h1>
+    
+
+<p class="mt-6"><img src="/assets/images/slides/4_Breadboard_Wiring_Basics.webp" alt="Conceptos básicos de la placa de prototipos" width="1500" height="843" fetchpriority="high"></p>
+
+<div class="youtube-embed" style="max-width: 450px; margin-inline: auto">
+    <div style="position: relative; height: 0; padding-top: 177.77777777777777%; margin-top: 2rem;">
+        <iframe style="position: absolute; width: 100%; height: 100%; top: 0" src="https://www.youtube.com/embed/DRCy2WY1DYw" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+    </div>
+</div>
+<p class="caption"><em>Conceptos básicos de la placa de prototipos explicados en 60 segundos</em></p>
+
+          
+
+          
+            
+          
+        </main>
+        
+<hr>
+<footer>
+  
+    <p><a href="#top" id="back-to-top">Volver arriba</a></p>
+  
+
+  <script>
+    document.querySelectorAll("h3#summary").forEach(summary => {
+        summary.innerHTML = summary.innerHTML
+            .replace(/&nbsp;/, " <ul><li>")
+            .replace(/&nbsp;/g, " <li>");
+    });
+    document.getElementById("search-input").type = "search";
+    let sheet = document.querySelector('head style').sheet;
+    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
+    let langCode = window.location.pathname.split("/").at(1);
+    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
+        langCode = "en";
+    }
+    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
+        const isActive = el.classList.contains(langCode);
+        el.classList.toggle("active", isActive);
+        if (isActive) document.querySelector(".site-button.lang").innerHTML = el.innerHTML;
+    });
+    document.querySelector(".site-button.lang").addEventListener('click', e => {
+        document.querySelector(".select-lang-container").classList.toggle('open');
+        e.preventDefault();
+        return false;
+    });
+    document.querySelector(".select-lang-backdrop").addEventListener('click', () => {
+        document.querySelector(".select-lang-container").classList.remove('open');
+    });
+</script>
+<style>
+    .main-content h3#summary {
+        font-size: 0.75rem !important;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        position: relative;
+        margin-top: 1em;
+        line-height: 1.65;
+        border: 1px solid #a8a8a8;
+        border-left: 4px solid #6d6d6d;
+        padding: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 1em;
+    }
+
+    .main-content h3#summary::before {
+        content: 'Resumen';
+        font-style: normal;
+        color: #444;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: .35rem;
+    }
+
+    .main-content h3#summary ul {
+        margin-bottom: 0;
+    }
+</style>
+<div id="nav-backdrop" class="nav-backdrop"></div>
+
+
+<div class="nav-pagination" style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+  <div><a href="/es/getting-started/additional-sensors-kit.html" class="btn btn-outline nav-pagination-prev" style="text-align: left;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Anterior</span>
+      <strong>Kit de sensores adicionales</strong>
+    </a></div>
+  <div><a href="/es/getting-started/breadboard-wiring.html" class="btn btn-outline nav-pagination-next" style="text-align: right;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Próximo</span>
+      <strong>Cableado de la placa de pruebas</strong>
+    </a></div>
+  </div>
+
+  <div class="d-md-none mt-4 fs-2">
+    
+    
+      Hacer que la invención práctica sea más accesible para profesores y alumnos. <br>
+© 2026 Inventor Pi, Inc. <br>
+Inventor Pi, Inc. es una organización registrada 501(c)(3)
+    
+  </div>
+</footer>
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+    
+
+  
+</body>
+</html>

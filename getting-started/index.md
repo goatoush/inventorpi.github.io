@@ -18,7 +18,7 @@ You can streamline the process by installing Thonny app on all computers before 
 1. Verify all the connections are to the correct Pins, especially the VCC and GND connections
 1. Connect the Raspberry Pi Pico to the computer with the provided USB cable
 1. Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico
-1. Save the file and run the script using the green ‘Current Run Script’ button
+1. Save the file and run the script using the green ![Run current script](/assets/images/thonny-run-button.webp){: .inline-img } `Run current script` button
 1. To end the experiment, disconnect the USB cable from Pico
 1. To select another experiment, repeat the steps above
 

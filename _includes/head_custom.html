@@ -1,27 +1,36 @@
-<meta name="author" content="Utshaho Gupta">
-<meta property="og:title" content="{{ page.title | default: site.title }}">
 {% if page.noindex %}
-<meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noindex, nofollow">
 {% endif %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
 
   gtag('config', 'G-00FD6QB7EM');
 </script>
 <script>
-  const BRAND_COLOR = "{{ site.brand_color }}";
+  const BRAND_COLOR = '{{ site.brand_color }}';
+  const i18nText = JSON.parse(`{{ site.i18n_text | jsonify | default: [] }}`);
+  const i18n = (text) => i18nText[text] || text;
 </script>
 <link rel="preload" href="{{ '/assets/js/search-data.json' | relative_url }}" as="fetch" crossorigin="anonymous">
 <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
-<link rel="preload" href="{{ '/assets/css/styles.css' | relative_url }}" as="style"
-  onload="this.onload=null;this.rel='stylesheet'">
+<link
+  rel="preload"
+  href="{{ '/assets/css/styles.css' | relative_url }}"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
 <noscript>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </noscript>
+{% if page.title == 'Contact' %}
+  <link rel="stylesheet" href="{{ '/assets/css/contact_form.css' | relative_url }}">
+{% endif %}
 <style>
   html {
     font-size: 1rem !important;

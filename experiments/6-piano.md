@@ -7,11 +7,11 @@ nav_order: 6
 ![Piano](/assets/images/circuits/Piano%20Circuit.webp)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard to play different musical notes on the buzzer,&nbsp;draw the notes and musical staff lines on the display,&nbsp;and replay as a recording after a pause
+### A MicroPython code example&nbsp;running on a Raspberry Pi Pico 2 W microcontroller&nbsp;connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard&nbsp;to play different musical notes on the buzzer,&nbsp;draw the notes and musical staff lines on the display,&nbsp;and replay as a recording after a pause
 
-We use the buttons to play different musical notes. We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines. Finally, we save the notes in a list along with their duration played. And when user input pauses, we replay the notes to create a fun musical instrument.
+We use the buttons to play different musical notes. We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines. Finally, we save the notes in a `list` along with their duration played. And when user input pauses, we replay the notes to create a fun musical instrument.
 
-We read 6 different inputs for the 6 buttons. For this, we use a list as shown below:
+We read 6 different inputs for the 6 buttons. For this, we use a `list` as shown below:
 
 ```python
 from machine import Pin
@@ -47,7 +47,7 @@ while True:
 
 ```
 
-To further learn drawing shapes on the OLED screen, we draw the shape of the notes as they are played, by creating a function draw_notes_on_screen()
+To further learn drawing shapes on the OLED screen, we draw the shape of the notes as they are played, by creating a function `draw_notes_on_screen()`
 
 ```python
 def draw_notes_on_screen():
@@ -68,7 +68,7 @@ def draw_note(position, note):
     if note == "C4": oled.display.hline(x - 16, y, 20, 1) # add a small horizontal line for C4
 ```
 
-Finally, we save the notes in a list along with their duration played. And when user input pauses, we replay the notes to create a fun musical instrument. For this, we add some more helper functions below.
+Finally, we save the notes in a `list` along with their duration played. And when user input pauses, we replay the notes to create a fun musical instrument. For this, we add some more helper functions below.
 
 ```python
 recording = []

@@ -60,16 +60,16 @@ Build a list consisting strictly of sibling pages sharing this parent
   style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
   <div>
     {%- if prev_page -%}
-    <a href="{{ prev_page.url | relative_url }}" class="btn btn-outline" style="text-align: left;">
-      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">← Previous</span>
+    <a href="{{ prev_page.url | relative_url }}" class="btn btn-outline nav-pagination-prev" style="text-align: left;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Previous</span>
       <strong>{{ prev_page.title }}</strong>
     </a>
     {%- endif -%}
   </div>
   <div>
     {%- if next_page -%}
-    <a href="{{ next_page.url | relative_url }}" class="btn btn-outline" style="text-align: right;">
-      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Next →</span>
+    <a href="{{ next_page.url | relative_url }}" class="btn btn-outline nav-pagination-next" style="text-align: right;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Next</span>
       <strong>{{ next_page.title }}</strong>
     </a>
     {%- endif -%}

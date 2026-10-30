@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    let glightboxLoaded = false;
+    window.glightboxLoaded = false;
 
-    const initLazyGLightbox = (clickedElement) => {
+    window.initLazyGLightbox = (clickedElement) => {
         if (glightboxLoaded) return;
         glightboxLoaded = true;
 
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Query all markdown content images
-    const images = document.querySelectorAll(".main-content img");
+    const images = document.querySelectorAll(".main-content img:not(.inline-img)");
 
     images.forEach(img => {
         // Avoid double wrapping if it's already inside a link
@@ -64,4 +64,24 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
+
+    const menuButton = document.getElementById("menu-button");
+    const backdrop = document.getElementById("nav-backdrop");
+
+    menuButton.addEventListener("click", function () {
+        setTimeout(function () {
+            var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+            if (isExpanded) {
+                backdrop.classList.add("open");
+            } else {
+                backdrop.classList.remove("open");
+            }
+        }, 50);
+    });
+
+    backdrop.addEventListener("click", function () {
+        menuButton.click();
+        backdrop.classList.remove("open");
+    });
+
 });

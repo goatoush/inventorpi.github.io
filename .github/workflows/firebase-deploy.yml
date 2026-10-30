@@ -20,9 +20,11 @@ jobs:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v6
+
+      - name: Set up GOOGLE_APPLICATION_CREDENTIALS environment variable
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default

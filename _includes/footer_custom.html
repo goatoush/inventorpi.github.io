@@ -1,29 +1,33 @@
 <script>
     document.querySelectorAll("h3#summary").forEach(summary => {
-        let html = summary.innerHTML;
-        if (html.includes("A MicroPython code example")) {
-            summary.innerHTML = html
-                .replace(/(?<=code example|Pico 2 W microcontroller|on a breadboard) /g, "&nbsp;")
-                .replace(/&nbsp;/, " <ul><li>")
-                .replace(/&nbsp;/g, " <li>");
-        }
+        summary.innerHTML = summary.innerHTML
+            .replace(/&nbsp;/, " <ul><li>")
+            .replace(/&nbsp;/g, " <li>");
+    });
+    document.getElementById("search-input").type = "search";
+    let sheet = document.querySelector('head style').sheet;
+    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
+    let langCode = window.location.pathname.split("/").at(1);
+    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
+        langCode = "en";
+    }
+    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
+        const isActive = el.classList.contains(langCode);
+        el.classList.toggle("active", isActive);
+        if (isActive) document.querySelector(".site-button.lang").innerHTML = el.innerHTML;
+    });
+    document.querySelector(".site-button.lang").addEventListener('click', e => {
+        document.querySelector(".select-lang-container").classList.toggle('open');
+        e.preventDefault();
+        return false;
+    });
+    document.querySelector(".select-lang-backdrop").addEventListener('click', () => {
+        document.querySelector(".select-lang-container").classList.remove('open');
     });
 </script>
 <style>
-    .main-content h3#summary::before {
-        content: "Summary";
-        font-style: normal;
-        color: #444;
-        display: block;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding-bottom: .35rem;
-    }
-
-    .main-content h3#summary ul {
-        margin-bottom: 0;
-    }
-
     .main-content h3#summary {
         font-size: 0.75rem !important;
         font-style: italic;
@@ -38,5 +42,20 @@
         border-radius: 4px;
         margin-bottom: 1em;
     }
+
+    .main-content h3#summary::before {
+        content: 'Summary';
+        font-style: normal;
+        color: #444;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: .35rem;
+    }
+
+    .main-content h3#summary ul {
+        margin-bottom: 0;
+    }
 </style>
+<div id="nav-backdrop" class="nav-backdrop"></div>
 {% include nav_pagination.html %}

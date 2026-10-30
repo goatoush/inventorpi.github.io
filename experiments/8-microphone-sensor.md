@@ -8,9 +8,15 @@ nav_order: 8
 ![Microphone Sensor](/assets/images/circuits/Microphone%20Sensor%20Circuit.webp)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard to replay the sound frequencies measured by the microphone on the buzzer and display them on the display
+### A MicroPython code example&nbsp;running on a Raspberry Pi Pico 2 W microcontroller&nbsp;connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard&nbsp;to replay the sound frequencies measured by the microphone on the buzzer and display them on the display
 
 A microphone sound sensor converts environmental sound waves into electrical signals using a built-in microphone and an onboard processing circuit. Sound waves move through the air and hit a tiny flexible diaphragm inside the module's microphone. The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume. Run this script, and simultaneously run melody.py on a different device. Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody. If the room is not very noisy, it should pick up at least some of the notes.
+
+{: .new-title }
+> Hint
+>
+> To quickly run melody.py on another device, without uploading new code, use the alternate method described in the [Getting Started](/getting-started/#alternate-method-to-run-experiments-without-thonny) section.
+
 
 Create a new file in Thonny, with file name microphone_sensor.py. Copy and paste the code below into the file you created.
 
@@ -75,4 +81,4 @@ finally:
     buzzer.reset()
 ```
 
-To test with melody.py running on a different device, on the second device's computer, run the melody.py file from the [Melody](/experiments/3-melody.html) experiment above.
+To test with melody.py running on a different device, run the melody.py file from the [Melody](/experiments/3-melody.html) experiment above on a computer connected to the second device.

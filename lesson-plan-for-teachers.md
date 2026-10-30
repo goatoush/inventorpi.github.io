@@ -4,7 +4,7 @@ nav_order: 3
 # Lesson Plan for Teachers
 {: .no_toc }
 
-## Table of Contents
+## Table of contents
 {: .no_toc.text-delta.mt-6 }
 
 - TOC
@@ -23,7 +23,7 @@ Teachers can run a one hour workshop with middle school students interested in S
 
 Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation.
 
-[![Inventor Pi - Introduction to Electronics.pdf](/assets/images/Inventor%20Pi%20-%20Introduction%20to%20Electronics.webp)
+[![Introduction to Electronics Slides](/assets/images/Inventor%20Pi%20-%20Introduction%20to%20Electronics.webp)
 Download Slides ↓](/assets/Inventor%20Pi%20-%20Introduction%20to%20Electronics.pdf)
 
 [Back to top](#top){: .back-to-top }

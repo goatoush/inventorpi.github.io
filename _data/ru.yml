@@ -1,0 +1,1036 @@
+Skip to main content: Перейти к основному содержимому
+Menu: Меню
+Getting Started: Начиная
+Install Thonny App: Установите приложение Thonny
+Invention Kit Contents: Состав набора для изобретений
+Additional Sensors Kit: Комплект дополнительных датчиков
+Breadboard Basics: Основы работы с макетной платой
+Breadboard Wiring: Схема подключения на макетной плате
+Pico 2 W Pinout: Распиновка Pico 2 W
+Do's and Don'ts: Что можно и чего нельзя делать
+Connect Pico: Подключить Пико
+Guide to Reading Code: Руководство по чтению кода
+Experiments: Эксперименты
+Blink: Моргнуть
+Humidity Temp Sensor: Датчик влажности и температуры
+Melody: Мелодия
+Touch Game: Игра на сенсорное управление
+Distance Sensor: Датчик расстояния
+Piano: фортепиано
+Joystick and Servos: Джойстик и сервоприводы
+Microphone Sensor: Датчик микрофона
+Accelerometer: Акселерометр
+Crash Sensor: Датчик столкновения
+Knock Sensor: Датчик детонации
+Motion Sensor: Датчик движения
+Photo Interrupter: Фотопрерыватель
+Photoresistor: Фоторезистор
+Potentiometer and Servo: Потенциометр и сервопривод
+Bluetooth Advertise: Реклама Bluetooth
+Mix and Match: Комбинируйте и сочетайте
+Lesson Plan for Teachers: План урока для учителей
+About: О
+Contact: Контакт
+Making hands-on invention more accessible for teachers and students: Сделать практическое
+  изобретение более доступным для учителей и учеников
+Get Started: Начать
+Page not found: Страница не найдена
+The page you requested could not be found: Запрошенная вами страница не найдена
+Try using the navigation or search to find what you're looking for or go to the: Попробуйте
+  воспользоваться навигацией или поиском, чтобы найти то, что вам нужно, или перейдите
+  в раздел..
+home page: главная страница
+Back to top: Вернуться наверх
+Active: Активный
+Base: База
+Planned: Запланировано
+Here: Здесь
+Summary: Краткое содержание
+Note: Примечание
+Important: Важный
+Utshaho Gupta: Утшахо Гупта
+FOUNDER: ОСНОВАТЕЛЬ
+? Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+: Утшахо — старшеклассник, который более 3 лет занимается разработкой доступных по
+  цене умных очков с искусственным интеллектом для людей с нарушениями зрения и получил
+  несколько грантов на финансирование своей инновации
+Utshaho revels in the intersection of math and science with language and international relations: Университет
+  Утшахо восхищается взаимодействием математики и науки с языкознанием и международными
+  отношениями
+? He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+: Он является капитаном команды робототехники IHOT и математического кружка, а также
+  соучредителем школьной газеты и французской программы модели ООН
+He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate: Он
+  любит путешествовать, заниматься музыкой, легкой атлетикой и фотографией, а также
+  имеет черный пояс 3-й степени по карате
+Inspiration Behind the Initiative: Вдохновение, лежащее в основе инициативы
+? It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+: Приложение победило в конкурсе Congressional App Challenge 2025 в 6-м избирательном
+  округе штата Джорджия и было отмечено конгрессменом Люси Макбат и сенатором Джоном
+  Оссоффом
+Won the 2025 Congressional App Challenge in Georgia’s 6th District: Победа в конкурсе
+  Congressional App Challenge 2025 в 6-м округе штата Джорджия
+Affordable Smart Glasses for the Blind and Visually Impaired on YouTube: Доступные
+  по цене умные очки для слепых и слабовидящих на YouTube
+? Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+: Доступные по цене умные очки для слепых и слабовидящих победили в конкурсе Congressional
+  App Challenge 2025 в 6-м избирательном округе штата Джорджия
+? Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+: Доступные по цене умные очки для слепых и слабовидящих представлены на онлайн-выставке
+  самых крутых проектов мира от фонда Raspberry Pi Foundation
+A MicroPython code example: Пример кода на MicroPython
+to blink an onboard LED repeatedly: многократно мигать встроенным светодиодом
+Let’s start with a simple micropython script to control the onboard LED on the Pico microcontroller: Начнём
+  с простого скрипта на MicroPython для управления встроенным светодиодом микроконтроллера
+  Pico
+We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: Доступ
+  к выводам GPIO (General Purpose Input Output) осуществляется с помощью объекта Pin
+  из библиотеки machine
+The onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25): Доступ
+  к встроенному светодиоду можно получить через порт GP25, или по имени «LED» в виде
+  контакта («LED») или контакта (25)
+We use Pin.OUT to set it as an output pin: Мы используем Pin.OUT для установки его
+  в качестве выходного контакта
+We will use input pins later with sensors: Позже мы будем использовать входные контакты
+  для подключения датчиков
+Create a new file in Thonny, with file name blink.py: Создайте в Thonny новый файл
+  с именем blink.py
+Copy and paste the code below into the file you created: Скопируйте и вставьте приведенный
+  ниже код в созданный вами файл
+Now let’s add the main loop: Теперь добавим основной цикл
+We add a 1 second delay with the sleep(1) statement: Мы добавляем задержку в 1 секунду
+  с помощью оператора sleep(1)
+Copy and paste the code below to the end of the blink.py file: Скопируйте и вставьте
+  приведенный ниже код в конец файла blink.py
+Congratulations, you have written and run your first MicroPython script: Поздравляем,
+  вы написали и запустили свой первый скрипт на MicroPython!
+Previous: Предыдущий
+Next: Следующий
+connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: подключены
+  к модулю датчика столкновения с концевым выключателем, модулю RGB-светодиодов и
+  модулю OLED-дисплея (SSD1306) на макетной плате
+to change the LED color and show the status on the display when crash is detected: Изменить
+  цвет светодиода и отобразить состояние на дисплее при обнаружении сбоя
+A crash sensor uses a limit switch: Датчик столкновения использует концевой выключатель
+? This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+: Это устройство можно использовать с жестким ограничителем для определения момента,
+  когда механизм, например, роботизированная рука, достигает предела своего движения,
+  и для срабатывания концевого выключателя
+It is also used in oven and refrigerator doors to turn on the internal light when the door is opened: Он
+  также используется в дверцах духовок и холодильников для включения внутреннего освещения
+  при открытии дверцы
+Create a new file in Thonny, with file name crash_sensor.py: Создайте в Thonny новый
+  файл с именем crash_sensor.py
+connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard: подключены
+  к модулю датчика детонации с пружиной, модулю RGB-светодиода и модулю OLED-дисплея
+  (SSD1306) на макетной плате
+to change the LED color and show the status on the display when a sudden shake is detected: Изменять
+  цвет светодиода и отображать состояние на дисплее при обнаружении резкого сотрясения
+A knock sensor detects vibrations: Датчик детонации обнаруживает вибрации
+This particular module uses a spring-based vibration switch: В этом модуле используется
+  вибропереключатель на пружинном механизме
+? When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+: Когда модуль неподвижен, пружина не касается центрального контакта, но при ударе
+  или сотрясении пружина раскачивается и ударяется о центральный контакт, кратковременно
+  замыкая цепь
+For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion: Для
+  робота, поднимающегося по лестнице, датчик удара мог бы определять, когда выдвижная
+  рука ударяется о ступеньку лестницы, и затем инициировать следующее движение
+While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: В
+  то время как датчик столкновения необходимо размещать в точке удара, датчик толчка
+  может обнаруживать вибрации по всей руке
+Create a new file in Thonny, with file name knock_sensor.py: Создайте в Thonny новый
+  файл с именем knock_sensor.py
+connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: подключены
+  модуль PIR-датчика движения, модуль RGB-светодиода и модуль OLED-дисплея (SSD1306)
+  на макетной плате
+to change the LED color and show the status on the display when motion is detected: Изменять
+  цвет светодиода и отображать состояние на дисплее при обнаружении движения
+A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects: PIR-датчик
+  движения обнаруживает движение, измеряя изменения инфракрасного (теплового) излучения,
+  испускаемого окружающими объектами
+? When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+: Когда теплое тело (например, человек или животное) движется по полю, оно сначала
+  пересекает одну половину датчика, а затем другую, создавая дифференциальный импульс
+  напряжения, который сигнализирует о движении
+It is used in security alarms and smart home automation: Он используется в системах
+  охранной сигнализации и автоматизации умного дома
+Then remove the book and wait for the sensor to detect motion: Затем уберите книгу
+  и подождите, пока датчик обнаружит движение
+Create a new file in Thonny, with file name motion_sensor.py: Создайте в Thonny новый
+  файл с именем motion_sensor.py
+connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: подключены
+  к фотоэлементу, модулю RGB-светодиода и модулю OLED-дисплея (SSD1306) на макетной
+  плате
+to increment the count on the display each time the photo interrupter light beam is interrupted: для
+  увеличения счетчика на дисплее каждый раз, когда прерывается световой луч фотопрерывателя
+? A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+: Модуль фотопрерывателя посылает инфракрасный луч света от излучателя к приемнику
+  (двум черным блокам на модуле) и определяет, когда этот луч блокируется
+It is used to detect end-of-travel in 3D printers, CNC machines and robots: Он используется
+  для определения конечной точки перемещения в 3D-принтерах, станках с ЧПУ и роботах
+It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars: Он
+  также используется для подсчета импульсов вращения перфорированного диска с целью
+  расчета скорости двигателя или колеса в робототехнике и умных автомобилях
+In a printer, it detects when a paper is present: В принтере он определяет наличие
+  бумаги
+Create a new file in Thonny, with file name photo_interrupter.py: Создайте в Thonny
+  новый файл с именем photo_interrupter.py
+connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: подключены
+  к модулю фоторезистора, модулю RGB-светодиода и модулю OLED-дисплея (SSD1306) на
+  макетной плате
+to dim or brighten the LED to match the change in ambient light measured by the photoresister: для
+  регулировки яркости светодиода в соответствии с изменением окружающего освещения,
+  измеряемым фоторезистором
+? A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+: Фоторезист пропускает больше электричества, когда на его поверхность попадает больше
+  света, и меньше электричества, когда на его поверхность попадает меньше света
+It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight: Она
+  используется для приглушения яркости экрана телефона при слабом освещении и увеличения
+  его яркости на улице при ярком солнечном свете
+Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: В
+  некоторых телевизорах эта функция используется для затемнения экрана в соответствии
+  с окружающим освещением в комнате, чтобы изображение выглядело как напечатанное
+  на стене произведение искусства
+Line tracking robots use it to distinguish between a dark line and a light surface: Роботы,
+  отслеживающие линии, используют это для различения темной линии и светлой поверхности
+Create a new file in Thonny, with file name photoresistor.py: Создайте в Thonny новый
+  файл с именем photoresistor.py
+connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard: подключены
+  к микросервомотору, потенциометру (датчику вращения) и модулю OLED-дисплея (SSD1306)
+  на макетной плате
+to control the angle of the servo by rotating the potentiometer knob and display it on the display: Для
+  управления углом поворота сервопривода используется вращение ручки потенциометра,
+  а результат отображается на дисплее
+Potentiometers are the dials we turn to control things like temperature or volume: Потенциометры
+  — это регуляторы, которые мы поворачиваем, чтобы управлять такими параметрами, как
+  температура или громкость
+They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: Они
+  работают за счет изменения электрического сопротивления, которое мы воспринимаем
+  как изменение напряжения на входном контакте микроконтроллера
+In this script, we use this input to control a servo angle: В этом скрипте мы используем
+  этот входной сигнал для управления углом поворота сервопривода
+A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: Сервопривод
+  — это двигатель, угол поворота которого можно регулировать, изменяя ШИМ-сигнал,
+  подаваемый на него
+Unlike standard electric motors that spin continuously, a servo motor moves to an exact angle or position and holds it firmly: В
+  отличие от стандартных электродвигателей, которые вращаются непрерывно, сервомотор
+  перемещается под точным углом или в заданное положение и надежно его удерживает
+Create a new file in Thonny, with file name potentiometer_and_servo.py: Создайте в
+  Thonny новый файл с именем potentiometer_and_servo.py
+Bluetooth Advertise and Bluetooth Scan: Реклама Bluetooth и сканирование Bluetooth
+connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard: подключены
+  модуль поворотного энкодера, RGB-светодиод и модуль OLED-дисплея (SSD1306) на макетной
+  плате
+to individually control the red, green and blue channels of the LED to create any color,: для
+  индивидуального управления красным, зеленым и синим каналами светодиода с целью
+  создания любого цвета
+display the hex value and R, G, B values on the display,: Отобразить на экране шестнадцатеричное
+  значение и значения R, G, B
+broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,: Передайте
+  его по Bluetooth, встроив в UUID службы рекламных данных BLE
+and show the received color on LEDs, creating a cluster of synced Pico devices: и
+  отображать полученный цвет на светодиодах, создавая кластер синхронизированных устройств
+  Pico
+? We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+: Мы используем поворотный энкодер для изменения красного, зеленого и синего цветов
+  светодиода, а затем передаем этот цвет на расположенные рядом устройства, которые
+  устанавливают тот же цвет на своих светодиодах
+? When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+: Когда на одном устройстве запущен скрипт bluetooth_advertise.py, а на нескольких
+  находящихся рядом устройствах — скрипт bluetooth_scan.py, мы можем создать сеть
+  синхронизированных устройств
+This is how a cluster of robots can communicate and work together: Вот как группа
+  роботов может общаться и работать вместе
+Create a new file in Thonny, with file name bluetooth_advertise.py: Создайте в Thonny
+  новый файл с именем bluetooth_advertise.py
+? To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+: Для проверки работы скрипта bluetooth_scan.py на другом устройстве, на компьютере
+  второго устройства создайте новый файл в Thonny с именем bluetooth_scan.py
+Mix and Match Inputs and Outputs: Комбинируйте входы и выходы
+connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306): подключены
+  микросервомотор, RGB-светодиод, пассивный пьезоэлектрический зуммер, модуль OLED-дисплея
+  (SSD1306)
+? and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+: и один из нескольких входных компонентов — акселерометр, кнопка, датчик движения,
+  фоторезистор, джойстик, микрофон, поворотный энкодер или другой датчик — на макетной
+  плате
+? to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+: Считывать входные данные с выбранного компонента, интерполировать их в частоту звукового
+  сигнала, цвет светодиода и угол поворота сервопривода, а затем отображать значения
+  на дисплее
+This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs: Это
+  универсальный скрипт, позволяющий комбинировать различные входные и выходные данные
+The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen: Показания
+  датчиков преобразуются в цвет светодиода, угол поворота сервопривода, частоту звукового
+  сигнала и текст на OLED-экране
+Refer to the relevant circuit diagrams above based on the input you choose: В зависимости
+  от выбранного вами входного сигнала, обратитесь к соответствующим схемам, приведенным
+  выше
+Create a new file in Thonny, with file name mix_and_match.py: Создайте в Thonny новый
+  файл с именем mix_and_match.py
+connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard: подключены
+  к модулю датчика влажности и температуры (DHT11) и модулю OLED-дисплея (SSD1306)
+  на макетной плате
+to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit: для
+  измерения и отображения относительной влажности и температуры окружающей среды как
+  в градусах Цельсия, так и в градусах Фаренгейта
+A humidity and temperature sensor measures the ambient temperature and air humidity: Датчик
+  влажности и температуры измеряет температуру окружающей среды и влажность воздуха
+In robotics, temperature sensors are built into most electronic components: В робототехнике
+  датчики температуры встраиваются в большинство электронных компонентов
+They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits: Они
+  могут использоваться для термозащиты, например, для автоматического отключения робота
+  при превышении безопасных температур
+? Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+: А вы знали, что в смартфоне находится около 8 различных датчиков температуры, измеряющих
+  температуру экрана, задней панели, батареи, процессора и т.д.? Датчики влажности
+  отслеживают образование конденсата внутри смартфона или умных часов
+This is a DHT11 sensor: Это датчик DHT11
+'We import the dht library and setup the GP28 pin as shown below:': 'Мы импортируем
+  библиотеку dht и настраиваем вывод GP28, как показано ниже:'
+Then in the main loop, we use the measure function to get the temperature and humidity: Затем
+  в основном цикле мы используем функцию измерения для получения температуры и влажности
+We can use simple math formula to convert from celsius to fahrenheit: Для перевода
+  градусов Цельсия в градусы Фаренгейта можно использовать простые математические
+  формулы
+To run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py: Для
+  запуска всего скрипта создайте в Thonny новый файл с именем humidity_temp_sensor.py
+Humidity Temp Sensor Circuit: Схема датчика влажности и температуры
+connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard: подключены
+  пассивный пьезоэлектрический зуммер, модуль RGB-светодиода и модуль OLED-дисплея
+  (SSD1306) на макетной плате
+to play a melody of musical notes on the buzzer with matching text displayed on the display: Воспроизвести
+  мелодию музыкальных нот на кнопке, при этом соответствующий текст будет отображаться
+  на дисплее
+? A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+: Пьезоэлектрический зуммер работает за счет использования пьезоэлектрического эффекта
+  для преобразования электрических сигналов в быстрые механические колебания, создающие
+  звуковые волны
+In this script, we send different frequencies to a piezo buzzer to play different musical notes: В
+  этом скрипте мы подаем разные частоты на пьезоэлектрический зуммер для воспроизведения
+  различных музыкальных нот
+'To play a note at an interval, we run:': 'Чтобы сыграть ноту с определенным интервалом,
+  мы исполняем:'
+The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times: Функция,
+  описанная ниже, добавляет эффект мерцания, переключая светодиод в тускло-белый режим,
+  а затем выключая его, и так несколько раз
+To play an entire melody, create a new file in Thonny, with file name melody.py: Чтобы
+  воспроизвести всю мелодию целиком, создайте в Thonny новый файл с именем melody.py
+connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard: подключены
+  модуль емкостного сенсорного датчика, пассивный пьезоэлектрический зуммер и модуль
+  OLED-дисплея (SSD1306) на макетной плате
+to create a reaction time testing game,: создать игру для проверки скорости реакции
+and to learn to draw shapes on the OLED display: а также научиться рисовать фигуры
+  на OLED-дисплее
+A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close: Емкостной
+  сенсорный датчик обнаруживает прикосновение, измеряя изменения электрического заряда
+  при приближении пальца человека
+Humans are full of water and salt, making the body a natural conductor of electricity: В
+  организме человека содержится много воды и соли, что делает его естественным проводником
+  электричества
+It is used in smartphones for multi-touch navigation and gesture detection: Он используется
+  в смартфонах для мультитач-навигации и распознавания жестов
+In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen: В
+  этом сценарии мы создадим короткую игру, чтобы проверить вашу скорость реакции,
+  а также научить вас рисовать фигуры на OLED-экране
+'To read the sensor, we run:': 'Для считывания показаний датчика выполняем следующую
+  команду:'
+The function below draws happy or sad face based on the parameters passed to it: Приведенная
+  ниже функция рисует счастливое или грустное лицо в зависимости от переданных ей
+  параметров
+The main loop of our game is easy to follow because it calls easy to understand function names: Основной
+  цикл нашей игры легко отследить, потому что он вызывает функции с понятными именами
+Create a new file in Thonny, with file name touch_game.py: Создайте в Thonny новый
+  файл с именем touch_game.py
+? connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+: На макетной плате подключены модуль ультразвукового датчика расстояния (HC-SR04),
+  микросервомотор, пассивный пьезоэлектрический зуммер, модуль RGB-светодиода и модуль
+  OLED-дисплея (SSD1306)
+? to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+: создать звуковой инструмент, управляемый жестами, который преобразует измеренное
+  расстояние в различные частоты звукового сигнала зуммера, углы поворота сервоприводов
+  и цвета светодиодов, и отображает измеренное расстояние на OLED-дисплее
+A distance sensor measures the distance to any nearby obstruction: Датчик расстояния
+  измеряет расстояние до любого ближайшего препятствия
+Robots and cars use such sensors to stop before hitting any obstruction: Роботы и
+  автомобили используют такие датчики, чтобы остановиться до столкновения с каким-либо
+  препятствием
+The sensor used here is an ultrasonic distance sensor: Здесь используется ультразвуковой
+  датчик расстояния
+? We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+: Мы преобразуем расстояние в различные цвета RGB и частоты звукового сигнала, чтобы
+  создать забавный музыкальный инструмент, на котором можно играть жестами рук
+We also change the angle of a servo motor based on the distance detected: Мы также
+  изменяем угол поворота сервомотора в зависимости от обнаруженного расстояния
+Create a new file in Thonny, with file name distance_sensor.py: Создайте в Thonny
+  новый файл с именем distance_sensor.py
+connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard: подключены
+  пассивный пьезоэлектрический зуммер, модуль OLED-дисплея (SSD1306) и 6 кнопок на
+  макетной плате
+to play different musical notes on the buzzer,: Издавать разные музыкальные ноты с
+  помощью кнопки-зуммера
+draw the notes and musical staff lines on the display,: Нарисуйте ноты и нотный стан
+  на экране
+and replay as a recording after a pause: и воспроизвести как запись после паузы
+We use the buttons to play different musical notes: Мы используем кнопки для воспроизведения
+  различных музыкальных нот
+We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines: Мы
+  также научимся рисовать фигуры на OLED-экране, чтобы отображать ноты на нотном стане
+And when user input pauses, we replay the notes to create a fun musical instrument: А
+  когда ввод пользователя приостанавливается, мы воспроизводим ноты заново, создавая
+  забавный музыкальный инструмент
+We read 6 different inputs for the 6 buttons: Мы считали 6 различных значений для
+  6 кнопок
+For this, we add some more helper functions below: Для этого мы добавляем несколько
+  вспомогательных функций ниже
+With all these functions, our main loop is still easy to follow: Несмотря на все эти
+  функции, наш основной цикл по-прежнему легко отслеживается
+To put it all together, and test, create a new file in Thonny, with file name piano.py: Чтобы
+  всё это собрать воедино и протестировать, создайте новый файл в Thonny с именем
+  piano.py
+connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard: подключены
+  к аналоговому двухкоординатному джойстику, двум микросервомоторам и модулю OLED-дисплея
+  (SSD1306) на макетной плате
+to control the angles of both servos using the joystick and display the angles on the OLED display: для
+  управления углами обоих сервоприводов с помощью джойстика и отображения углов на
+  OLED-дисплее
+A joystick is often used for navigation in robots, drones, cruise ships and planes: Джойстик
+  часто используется для навигации в роботах, дронах, круизных лайнерах и самолетах
+In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller: В робототехнике
+  FRC мы используем 2 игровых контроллера, каждый с 2 ​​джойстиками
+Each joystick includes independent X and Y axis control: Каждый джойстик имеет независимое
+  управление по осям X и Y
+Which  gives us a total of 8 independent axes to control the robot: Таким образом,
+  у нас есть в общей сложности 8 независимых осей для управления роботом
+In this script, we control the angle of two servos using different axes of the joystick: В
+  этом скрипте мы управляем углом наклона двух сервоприводов, используя разные оси
+  джойстика
+By pressing the joystick button, we toggle the mode to Sync Angle Mode: Нажав кнопку
+  джойстика, мы переключаем режим в режим синхронизации углов
+Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: Теперь
+  мы используем тригонометрию для вычисления угла, который образует рычаг джойстика,
+  и настраиваем сервоприводы так, чтобы они соответствовали этому углу
+In robotics, we often use advanced mathematics to control various motions: В робототехнике
+  для управления различными движениями часто используется сложная математика
+Create a new file in Thonny, with file name joystick_and_servos.py: Создайте в Thonny
+  новый файл с именем joystick_and_servos.py
+Microphone Sensor and Melody: Микрофон, датчик и мелодия
+connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard: подключены
+  модуль звукового датчика микрофона, пассивный пьезоэлектрический зуммер и модуль
+  OLED-дисплея (SSD1306) на макетной плате
+to replay the sound frequencies measured by the microphone on the buzzer and display them on the display: Воспроизводить
+  звуковые частоты, измеренные микрофоном зуммера, и отображать их на дисплее
+? A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+: Микрофонный звуковой датчик преобразует звуковые волны окружающей среды в электрические
+  сигналы с помощью встроенного микрофона и встроенной схемы обработки
+Sound waves move through the air and hit a tiny flexible diaphragm inside the module’s microphone: Звуковые
+  волны распространяются в воздухе и достигают крошечной гибкой диафрагмы внутри микрофона
+  модуля
+The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume: Колебания
+  диафрагмы создают электрические сигналы, которые соответствуют частоте и громкости
+  звука
+Run this script, and simultaneously run melody.py on a different device: Запустите
+  этот скрипт и одновременно запустите melody.py на другом устройстве
+Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody: Поднесите
+  устройства близко друг к другу и расположите микрофон непосредственно над зуммером
+  устройства, воспроизводящего мелодию
+If the room is not very noisy, it should pick up at least some of the notes: Если
+  в комнате не очень шумно, то она должна уловить хотя бы часть нот
+Create a new file in Thonny, with file name microphone_sensor.py: Создайте в Thonny
+  новый файл с именем microphone_sensor.py
+connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard: подключены
+  к 3-осевому цифровому акселерометру (ADXL345) и модулю OLED-дисплея (SSD1306) на
+  макетной плате
+to draw and rotate a 3D shape on the OLED display by rotating the accelerometer about its X and Y axes: Рисование
+  и вращение трехмерной фигуры на OLED-дисплее путем вращения акселерометра вокруг
+  его осей X и Y
+An accelerometer measures acceleration around the x, y and z axis: Акселерометр измеряет
+  ускорение по осям x, y и z
+In robotics, it is essential in determining the robot position and movement: В робототехнике
+  определение положения и движения робота имеет важное значение
+In this script, we draw a 3D shape, and control its rotation using the accelerometer: В
+  этом скрипте мы рисуем трехмерную фигуру и управляем ее вращением с помощью акселерометра
+Create a new file in Thonny, with file name accelerometer.py: Создайте в Thonny новый
+  файл с именем accelerometer.py
+Write your first script “blink.py” by following the instructions below: Напишите свой
+  первый скрипт «blink.py», следуя приведенным ниже инструкциям
+Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment: Как
+  только у вас всё заработает на вашем Pico, попробуйте подключить датчики влажности
+  и температуры в следующем эксперименте
+After that, try random experiments from the list below: После этого попробуйте провести
+  случайные эксперименты из списка ниже
+Some experiments need additional sensors from the common additional sensors kit to be shared by all teams: Для
+  некоторых экспериментов требуются дополнительные датчики из общего комплекта дополнительных
+  датчиков, которыми пользуются все команды
+The complete code for all the experiments is also available on: 'Полный код для всех
+  экспериментов также доступен по ссылке:'
+GitHub: GitHub
+Table of contents: Оглавление
+Additional Sensors for Sharing Amongst Teams: Дополнительные датчики для обмена данными
+  между командами
+Motion sensor: Датчик движения
+Knock sensor: Датчик детонации
+Potentiometer: Потенциометр
+Microphone sensor: Датчик микрофона
+Photo interrupter: Фотопрерыватель
+Crash sensor: Датчик столкновения
+Rotation Encoder: Энкодер вращения
+Additional Sensors: Дополнительные датчики
+Breadboard Basics Explained in 60 Seconds: 'Основы работы с макетной платой: объяснение
+  за 60 секунд'
+? There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+: Теперь на макетной плате установлен самовосстанавливающийся предохранитель (на изображении
+  выше он не показан, см. ниже), который отключает цепь в случае, если ученик случайно
+  закоротит на макетной плате
+? You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+: Перед включением цепи необходимо проверить все соединения, поскольку неправильное
+  подключение датчиков может привести к необратимому повреждению их чувствительной
+  электроники и сделать их непригодными для использования
+Do’s and Don’ts: Что можно и чего нельзя делать
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+: Многоразовый предохранитель (PPTC-предохранитель или полимерный предохранитель)
+  — это небольшой оранжево-желтый компонент, соединяющий вывод Pico 3.3V Out с макетной
+  платой
+rail: железная дорога
+When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Когда
+  происходит короткое замыкание, например, из-за случайного соединения перемычки с
+  напряжением VCC (макетная плата)
+rail) to GND  (breadboard: рельс) к GND (макетная плата)
+rail), it trips, preventing damage to the electronics: рельс), он срабатывает, предотвращая
+  повреждение электроники
+A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Через
+  несколько секунд после устранения неисправности в цепи или отключения питания устройство
+  остывает и перезагружается
+The students should verify all the connections and resume the experiment: Студенты
+  должны проверить все соединения и продолжить эксперимент
+Resettable Fuse: Сбрасываемый предохранитель
+Connect Pico to Computer: Подключите Pico к компьютеру
+You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: Если
+  на вашем компьютере нет портов USB-C, вы можете использовать адаптер USB-C на USB-A
+  из комплекта аккумулятора
+Micro USB Port on Pico: Порт Micro USB на Pico
+Start by reading the description: Начните с прочтения описания
+Connect any components: Подключите любые компоненты
+Read the main loop: Прочитайте основной цикл
+Read other comments: Прочитайте другие комментарии
+Read rest of the code: Прочитайте остальную часть кода
+Important Do’s and Don’ts: Важные правила поведения
+Do …: Делать …
+Disconnect Pico before changing connectors: Перед заменой разъемов отсоедините Pico
+Verify all connections, especially VCC and GND: Проверьте все соединения, особенно
+  VCC и GND
+Establish team roles like coding, wiring, verifying circuit, capturing notes and recording: Распределите
+  роли в команде, например, программирование, монтаж проводки, проверка схемы, ведение
+  записей и документирование
+Read experiment description and code: Ознакомьтесь с описанием эксперимента и кодом
+Don’t …: Не …
+Don’t power on before verifying all connections: Не включайте питание, не проверив
+  предварительно все соединения
+Incorrect VCC and GND can destroy sensitive electronics: Неправильное подключение
+  VCC и GND может привести к выходу из строя чувствительной электроники
+Don’t rely on numbers printed on the breadboard: Не полагайтесь на цифры, напечатанные
+  на макетной плате
+Count point distance from other connectors on the board to verify: Для проверки измерьте
+  расстояние от точки подключения до других разъемов на плате
+Don’t leave before putting everything back in the kit box: Не уходите, пока не сложите
+  все вещи обратно в коробку
+Important Do's and Don'ts: Важные правила поведения
+This is a companion guide to the class experiments kit shown below: Это дополнительное
+  руководство к набору для проведения классных экспериментов, показанному ниже
+This is a fun hands-on way to get introduced to electronics, programming and engineering: Это
+  увлекательный и практический способ познакомиться с электроникой, программированием
+  и инженерным делом
+Check your class experiments kit: Проверьте свой набор для проведения классных экспериментов
+It includes 5 identical invention kits and one additional sensors kit: В комплект
+  входят 5 одинаковых наборов для изобретений и один дополнительный набор датчиков
+Before we can start the experiments, we need a way to write and deploy the code to Pico: Прежде
+  чем начать эксперименты, нам нужен способ написать и развернуть код на Pico
+To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it: Для
+  этого мы установим приложение Thonny, желательно на все компьютеры, чтобы каждый
+  ученик мог научиться им пользоваться
+If that is not feasible, we install it on at least one computer per team: Если это
+  невозможно, мы устанавливаем его как минимум на один компьютер в каждой команде
+If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: Если
+  установить Thonny вообще не удаётся, для проведения экспериментов можно использовать
+  описанный ниже альтернативный метод
+You can streamline the process by installing Thonny app on all computers before the workshop: Вы
+  можете упростить процесс, установив приложение Thonny на все компьютеры до начала
+  семинара
+How to Run Experiments with Thonny: Как проводить эксперименты с помощью Тонни
+Launch Thonny App on your computer, if it is not already running: Запустите приложение
+  Thonny на своем компьютере, если оно еще не запущено
+Read the guide and the code for the experiment on this website and create a new file as described: Ознакомьтесь
+  с инструкцией и кодом эксперимента на этом сайте и создайте новый файл, как описано
+Connect the components as described before connecting Pico to power supply: Подключите
+  компоненты, как описано выше, прежде чем подключать Pico к источнику питания
+Verify all the connections are to the correct Pins, especially the VCC and GND connections: Убедитесь,
+  что все соединения выполнены с правильными контактами, особенно соединения VCC и
+  GND
+To end the experiment, disconnect the USB cable from Pico: Для завершения эксперимента
+  отсоедините USB-кабель от Pico
+To select another experiment, repeat the steps above: Чтобы выбрать другой эксперимент,
+  повторите описанные выше шаги
+Alternate Method to Run Experiments without Thonny: Альтернативный метод проведения
+  экспериментов без Тонни
+Read the guide and the code for the experiment on this website but skip creating a file: Ознакомьтесь
+  с инструкцией и кодом эксперимента на этом сайте, но пропустите этап создания файла
+Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty): Переведите
+  переключатель на батарейном блоке в положение «ВКЛ» (если батарейки разряжены, сначала
+  вставьте 3 прилагаемые батарейки типа АА)
+"On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "На
+  макетной плате нажмите один раз синюю кнопку \U0001F535, чтобы открыть меню на OLED-экране"
+"Use the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2 to move back": "Используйте
+  жёлтую кнопку \U0001F7E1, чтобы перейти к следующему эксперименту, и зелёную \U0001F7E2,
+  чтобы вернуться назад"
+"Once you reach the experiment you are trying to run, press the blue button \U0001F535 to launch it": "Как
+  только вы дойдете до нужного вам эксперимента, нажмите синюю кнопку \U0001F535,
+  чтобы запустить его"
+Installation Steps: Этапы установки
+Download and Install Thonny (with Python) from: 'Скачайте и установите Thonny (с Python)
+  по ссылке:'
+thonny.org: thonny.org
+? Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+: Выберите установщик с Python, соответствующий вашей операционной системе и процессору
+  (лучший вариант уже должен быть отмечен как рекомендуемый для вас)
+If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway: Если
+  вы используете macOS, и она блокирует установщик, перейдите в «Системные настройки»
+  &gt; «Конфиденциальность и безопасность» и нажмите «Открыть в любом случае»
+2 Micro servo motors: 2 микросервомотора
+Joystick module: модуль джойстика
+Distance sensor: Датчик расстояния
+Humidity + temperature sensor: Датчик влажности и температуры
+Touch sensor: Сенсорный датчик
+20 jumper wires: 20 соединительных проводов
+Battery pack: Аккумуляторный блок
+Micro USB cable: Кабель Micro USB
+Remembering this will make verifying the pin positions easier: Запомнив это, вы упростите
+  проверку положения контактов
+The ground pins also have a square copper shape around the pin on the Pico board to make them easier to recognize: Контакты
+  заземления также имеют квадратную медную оболочку вокруг контакта на плате Pico,
+  чтобы их было легче распознать
+Raspberry Pi Pico 2 W GPIO Pinout: Распиновка GPIO Raspberry Pi Pico 2 W
+Reaching Teachers and Students Worldwide: Достигаем учителей и учеников по всему миру
+Showing cities with active workshops/outreach, as well as planned cities: Показаны
+  города с действующими мастер-классами/просветительской деятельностью, а также города,
+  находящиеся на стадии планирования
+It was truly great to have Utshaho in class: Было действительно здорово, что Утшахо
+  был на занятиях
+He was fantastic with the kids, coming prepared with all the necessary materials: Он
+  прекрасно ладил с детьми, всегда приходил подготовленным и со всем необходимым
+He provided clear instructions and offered support to the students throughout their activities: Он
+  давал четкие инструкции и оказывал поддержку студентам на протяжении всей их деятельности
+The students were engaged and enjoyed what they were doing: Ученики были увлечены
+  и получали удовольствие от того, что делали
+They were really interested in building different sensors: Они были очень заинтересованы
+  в создании различных датчиков
+MYP Science Teacher: Учитель естественных наук в программе MYP
+Atlanta International School: Международная школа Атланты
+Introduction to Electronics Workshop at Atlanta International School: Вводный семинар
+  по электронике в Международной школе Атланты
+I liked how many different things we could do, there was lot’s of variety: Мне понравилось,
+  сколько разных занятий мы могли делать, было очень много вариантов
+Grade 7 Student: Ученик 7 класса
+loved this lesson: Мне очень понравился этот урок
+Hands-on electronics workshops for schools: Практические мастер-классы по электронике
+  для школ
+The goal is to help students move from simply learning about technology to actually building technology that solve real problems: Цель
+  состоит в том, чтобы помочь студентам перейти от простого изучения технологий к
+  реальному созданию технологий, решающих реальные проблемы
+Introduction to Electronics Workshop: Вводный семинар по электронике
+It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM: Программа
+  ориентирована на учителей и учеников средних и начальных школ, которые хотят познакомиться
+  с STEM-дисциплинами и получить практические знания в этой области
+? With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+: При правильном руководстве каждый может изучать электронику, искусственный интеллект
+  и компьютерное зрение посредством проектов, имеющих реальное практическое применение
+? With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+: Ранний старт может раскрыть их творческий потенциал и направить их на путь создания
+  прототипов новых идей, выявления реальных проблем, а также на дальнейшее освоение
+  новых навыков, экспериментирование и изобретательство
+Reference Slides for the Workshop: Слайды для ознакомления с материалами семинара
+Class Experiments Kit: Набор для проведения классных экспериментов
+Breadboard Connections and Safety: Подключение компонентов на макетной плате и правила
+  техники безопасности
+Lesson Plan Outline: План урока
+Some Additional Notes: Несколько дополнительных замечаний
+Class Experiments Kit Contents: Состав набора для проведения классных экспериментов
+Teachers can run a one hour workshop with middle school students interested in STEM: Учителя
+  могут провести часовой мастер-класс для учеников средних классов, интересующихся
+  наукой, технологией, инженерией и математикой (STEM)
+Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit: Каждый
+  набор для проведения классных экспериментов включает 5 одинаковых наборов для изобретений
+  и один дополнительный набор датчиков
+It is available for optional extra reading, if desired: При желании его можно дополнительно
+  прочитать
+Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: В
+  комплект для проведения классных экспериментов входят 5 одинаковых наборов для изобретений
+  и один дополнительный набор датчиков
+Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation: Ниже
+  представлены слайды с нашего первого семинара, которые вы можете использовать в
+  неизменном виде или включить в свою презентацию
+Download Slides: Скачать слайды
+Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: Пожалуйста,
+  ознакомьтесь с содержимым комплекта для изобретений и комплекта дополнительных датчиков
+? The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+: В комплект дополнительных датчиков входят наклейки-поощрения, которые можно раздавать
+  за лучшие креативные идеи, активное участие и т.д
+? There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+: Существуют также крошечные наклейки для ногтей с поддержкой NFC, которые загораются
+  при приближении к смартфону со встроенной функцией NFC (часто она расположена на
+  задней панели в верхней центральной части)
+The first step is installing the Thonny app: Первый шаг — установка приложения Thonny
+It is important for the students to learn how breadboard connections work and to be safe: Для
+  студентов важно изучить принцип работы макетной платы и правила техники безопасности
+The Additional Sensors Kit includes a breadboard with no backing to show how it works: В
+  комплект дополнительных датчиков входит макетная плата без подложки, демонстрирующая
+  принцип работы устройства
+? There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+: На макетной плате установлен самовосстанавливающийся предохранитель, который отключает
+  цепь в случае, если ученик случайно закоротит на макетной плате
+? The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+: Студентам по-прежнему необходимо проверять все соединения перед включением схемы,
+  поскольку неправильное подключение датчиков может привести к необратимому повреждению
+  их чувствительной электроники и сделать их непригодными для использования
+? When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+: При подключении разъемов учащимся следует отсоединить USB-кабель от Pico и попросить
+  нескольких учеников проверить соединения, прежде чем подключать USB-кабель обратно
+It is useful to count the pin distance from other used pins on the board: Полезно
+  подсчитать расстояние между контактами и другими используемыми контактами на плате
+Safety Procedure: Правила техники безопасности
+Power Off: Выключение питания
+Connect Components: Соединяйте компоненты
+Verify Each Connection: Проверьте каждое соединение
+Power On: Включение питания
+Introduction - Learn about electronics, breadboards, safety (10-20 min): Введение
+  - Изучение электроники, макетных плат и техники безопасности (10-20 мин)
+Divide class into 5 teams (one per invention kit) (3-5 min): Разделите класс на 5
+  команд (по одной на каждый набор для изобретений) (3-5 мин)
+Students familiarize themselves with the invention kit components (3-5 min): Учащиеся
+  знакомятся с компонентами набора для изобретений (3-5 мин)
+Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): Проведите
+  первые эксперименты, изучив основы (мигание индикатора, затем датчик влажности и
+  температуры) (5-10 мин)
+Run random experiments from the list, and present to other teams (20-30 min): Проведите
+  случайные эксперименты из списка и представьте результаты другим командам (20-30
+  мин)
+Clean up and pack the kits (5-7 min): Уборка и упаковка наборов (5-7 мин)
+? To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+: Для облегчения проведения дополнительных мастер-классов в будущем, студентам следует
+  упаковать содержимое обратно в коробки в том же виде, в каком они их нашли
+If teams have more than 3 students, they can take turns reading about an experiment and running an experiment: Если
+  в команде более 3 учеников, они могут по очереди читать описание эксперимента и
+  проводить его
+? When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+: Когда студенты берут датчики из дополнительного комплекта датчиков, они должны вернуть
+  их после завершения эксперимента, чтобы другие команды могли их взять
+? Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+: Некоторые эксперименты проводятся в парах, требуя от двух команд совместной работы
+  с использованием двух устройств Pico одновременно (микрофонный датчик и мелодия,
+  а также передача и сканирование по Bluetooth)
+? Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+: Эксперимент с рекламой и сканированием по Bluetooth должен стать увлекательным занятием
+  для всего класса, в рамках которого все устройства синхронизируют цвета своих светодиодов
+  с одним рекламным устройством
+You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out: Вы
+  можете поручить одной команде работу над рекламой Bluetooth, а другим — настройку
+  сканирования Bluetooth до истечения времени
+Category: Категория
+Item Description: Описание товара
+Quantity per Box: Количество в коробке
+Total Quantity: Общее количество
+Invention Kit (5x): Набор для изобретений (5 шт.)
+Empty Battery Pack with USB-C to USB-A Adapter: Пустой аккумуляторный блок с адаптером
+  USB-C на USB-A
+AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping: Щелочные
+  батарейки типа АА, упакованные в полиэтиленовый пакет с пузырчатой ​​пленкой для
+  транспортировки
+Micro USB to USB-C Cable: Кабель Micro USB — USB-C
+Micro Servo Motor: Микросервомотор
+Capacitive Touch Sensor: Емкостный сенсорный датчик
+Temp &amp; Humidity Sensor: Датчик температуры и влажности
+Ultrasonic Distance Sensor: Ультразвуковой датчик расстояния
+Joystick Module: Модуль джойстика
+10cm Jumper Wires: Соединительные провода длиной 10 см
+PIR Motion Sensor Module: Модуль датчика движения PIR
+Knock Sensor Module: Модуль датчика детонации
+Potentiometer Module: Модуль потенциометра
+Accelerometer Module: Модуль акселерометра
+Photo Interrupter Module: Модуль фотопрерывателя
+Crash Sensor Module: Модуль датчика столкновения
+Photoresistor Module: Модуль фоторезистора
+Rotation Encoder Module: Модуль энкодера вращения
+NFC Nail Reward Stickers: Наклейки-награды за маникюр с NFC
+Assorted Reward Stickers: Набор разнообразных поощрительных наклеек
+Breadboard without Backing: Макетная плата без подложки
+Book: Книга
+? It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+: Он также был представлен на онлайн-выставке Worldwide Coolest Projects Online Showcase
+  от фонда Raspberry Pi Foundation и получил награду «Выбор жюри» в Джорджии
+Featured in Raspberry Pi Foundation’s Worldwide Coolest Projects: Проект вошёл в список
+  самых крутых проектов мира по версии фонда Raspberry Pi Foundation
+running on a Raspberry Pi Pico 2 W microcontroller: работает на микроконтроллере Raspberry
+  Pi Pico 2 Вт
+If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: Если
+  всё прошло как ожидалось, вы должны увидеть, как светодиод на Raspberry Pi Pico
+  многократно мигает
+use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,: Используйте
+  сканирование по Bluetooth для определения цвета на находящихся поблизости устройствах
+  Raspberry Pi Pico
+? Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+: При каждом подключении Pico подождите несколько секунд, затем разверните значок
+  меню ☰ в правом нижнем углу окна Thonny и выберите MicroPython (Raspberry Pi Pico)
+  из меню
+You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller: С
+  помощью этого руководства и комплекта вы научитесь создавать простые электронные
+  схемы на базе микроконтроллера Raspberry Pi Pico
+Connect the Raspberry Pi Pico to the computer with the provided USB cable: Подключите
+  Raspberry Pi Pico к компьютеру с помощью прилагаемого USB-кабеля
+Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico: Разверните
+  меню в правом нижнем углу окна Thonny и выберите Raspberry Pi Pico
+Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: Подключите
+  Raspberry Pi Pico к аккумуляторному блоку с помощью прилагаемого USB-кабеля
+? To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+: Для первой настройки Thonny запустите приложение Thonny, выберите в меню Инструменты
+  &gt; Параметры, перейдите на вкладку Интерпретатор, выберите MicroPython (Raspberry
+  Pi Pico) из выпадающего списка и нажмите ОК
+Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: Макетная плата
+  с OLED-дисплеем, светодиодом, зуммером, Raspberry Pi Pico 2 Вт, 6 кнопками
+You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: Полную
+  схему расположения контактов Raspberry Pi Pico 2 W можно посмотреть на странице,
+  ссылка на которую приведена ниже
+Full Raspberry Pi Pico 2 W Pinout: Полная распиновка Raspberry Pi Pico 2 Вт
+? Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+: Студенты изучают базовые навыки работы с электроникой, включая использование макетной
+  платы, подключение датчиков, двигателей и контроллеров, а также программирование
+  на Raspberry Pi
+? There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+: В комплект также входит книга «Начало работы с MicroPython на Raspberry Pi Pico»,
+  которая не является обязательной для проведения мастер-класса
+? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+: Макетная плата с Raspberry Pi Pico 2W, 6 кнопками, пьезоэлектрическим зуммером,
+  модулем OLED-экрана, модулем RGB-светодиодов, перезарядным предохранителем PPTC,
+  предварительно настроенными разъемами
+Get started with MicroPython on Raspberry Pi Pico Book: Начните работу с MicroPython
+  на Raspberry Pi Pico Book
+Workshops: Мастер-классы
+<span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+<span translate="no">Inventor Pi</span> on GitHub: <span translate="no">Inventor Pi</span>
+  на GitHub
+2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
+  Pi, Inc.</span>
+<span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
+  translate="no">Inventor Pi, Inc.</span> — зарегистрированная организация 501(c)(3)
+Search <span translate="no">Inventor Pi</span>: Поиск <span translate="no">Inventor
+  Pi</span>
+Main: Основной
+Getting Started submenu: Подменю «Начало работы»
+Experiments submenu: Подменю «Эксперименты»
+Auxiliary: Вспомогательный
+YouTube video player: видеоплеер YouTube
+? In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+: В приведенном ниже коде функция <span translate="no"><code class="language-plaintext
+  highlighter-rouge">led.toggle()</code></span> включает и выключает светодиод
+? Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+: Обе строки повторяются бесконечно внутри блока кода <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span>
+Breadcrumb: Хлебные крошки
+? To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+: Для проверки запустите скрипт, затем возьмите всю макетную плату вместе с датчиком
+  детонации в руку и сильно потрясите её, резко остановив
+? When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+: При запуске этого скрипта в классе полностью закройте датчик книгой или сложенными
+  листами бумаги, затем дождитесь перезагрузки датчика и отображения сообщения <span
+  translate="no"><code class="language-plaintext highlighter-rouge">No motion</code></span>
+Hint: Намекать
+To add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>: Для
+  добавления функции мы используем <span translate="no"><code class="language-plaintext
+  highlighter-rouge">def</code></span>
+? For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+: В этой игре мы научимся рисовать на OLED-экране, используя <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  для рисования круга и <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  для рисования прямоугольника
+? Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+: Наконец, мы сохраняем ноты в <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> вместе с указанием их продолжительности воспроизведения
+'For this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span> as shown below:': 'Для
+  этого мы используем <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>
+  , представленный ниже:'
+? To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+: Чтобы лучше освоить рисование фигур на OLED-экране, мы будем рисовать форму нот
+  по мере их исполнения, создав функцию <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+? When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+: После успешного подключения окно командной оболочки внизу завершается приглашением
+  <span translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+: <span translate="no">Inventor Pi</span> — это студенческая инициатива в области
+  STEM (наука, технология, инженерия и математика), направленная на то, чтобы сделать
+  практическое изобретательство более доступным для учителей и учащихся
+? <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+: <span translate="no">Inventor Pi</span> предоставляет учителям и ученикам удобную
+  отправную точку для развития навыков с помощью простых в использовании наборов Raspberry
+  Pi Pico и электронных компонентов, а также планов уроков, которые учителя могут
+  использовать для создания виртуальных и очных мастер-классов
+Ms. Irem Nekay: Г-жа Ирем Некай
+Introduction to Electronics Slides: Введение в электронику (слайды)
+? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+: Работа Утшахо над созданием «доступных умных очков для слепых и слабовидящих» вдохновила
+  его на создание <span translate="no">Inventor Pi</span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+: Подключите Pico к компьютеру, соединив USB-кабель с портом Micro USB на Pico. <span
+  translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Порт Micro USB
+  на Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  и любой порт USB-C или USB-A на компьютере
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+: Сохраните файл и запустите скрипт, используя зеленую кнопку. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp" alt="Запустить текущий скрипт" class="inline-img"
+  width="24" height="24" fetchpriority="high"></span> Кнопка <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+Run current script: Запустить текущий скрипт
+English: Английский
+French: Французский
+Spanish: испанский
+German: немецкий
+Chinese (Simplified): Китайский (упрощенный)
+Chinese (Traditional): Китайский (традиционный)
+Hindi: хинди
+Bangla: Бенгальский
+Arabic: арабский
+Persian: персидский
+Urdu: урду
+Portuguese: португальский
+Japanese: японский
+Italian: итальянский
+Dutch: Голландский
+Danish: датский
+Russian: Русский
+Contact Form: Форма обратной связи
+Please fill out the form below to get in touch: Пожалуйста, заполните форму ниже,
+  чтобы связаться с нами
+Name: Имя
+Email: Электронная почта
+Role: Роль
+School Name: Название школы
+School Address: Адрес школы
+Question / Feedback / Interest / Message: Вопрос / Отзыв / Интерес / Сообщение
+Send Message: Отправить сообщение
+Thank you! Your message has been sent successfully: Спасибо! Ваше сообщение успешно
+  отправлено
+Something went wrong: Что-то пошло не так
+Please try again later: Пожалуйста, попробуйте позже
+? To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: Для быстрого запуска скрипта bluetooth_scan.py на одном или нескольких устройствах
+  без загрузки нового кода используйте альтернативный метод, описанный в разделе <a
+  href="/getting-started/#alternate-method-to-run-experiments-without-thonny">«Начало
+  работы».</a>
+? To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: Для быстрого запуска melody.py на другом устройстве без загрузки нового кода используйте
+  альтернативный метод, описанный в разделе « <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Начало
+  работы».</a>
+? To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+: Чтобы протестировать работу melody.py на другом устройстве, запустите файл melody.py
+  из приведенного выше эксперимента <a href="/experiments/3-melody.html">Melody</a>
+  на компьютере, подключенном ко второму устройству
+? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+: В разделе « <a href="/getting-started/important-dos-and-donts.html">Что можно и
+  чего нельзя делать»</a> рассматриваются важные моменты, которые следует учитывать
+Notice that: Обратите внимание, что
+Ground: Земля
+"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": Контакты
+  (GND) повторяются через каждые 4 контакта и начинаются после 2 контактов на каждом
+  конце
+? You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+: Перед началом занятия вам следует воспользоваться разделом <a href="/getting-started/">«Начало
+  работы»</a> на этом сайте, чтобы самостоятельно опробовать различные эксперименты
+? Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+: Пожалуйста, заранее поделитесь этими <a href="/getting-started/install-thonny-app.html">инструкциями</a>
+  со студентами, чтобы они могли установить приложение на свои ноутбуки до начала
+  занятия

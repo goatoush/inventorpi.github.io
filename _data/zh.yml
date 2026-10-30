@@ -1,0 +1,706 @@
+Skip to main content: 跳至内容
+Menu: 菜单
+Getting Started: 入门
+Install Thonny App: 安装 Thonny 应用
+Invention Kit Contents: 发明工具包内容
+Additional Sensors Kit: 附加传感器套件
+Breadboard Basics: 面包板基础知识
+Breadboard Wiring: 面包板接线
+Pico 2 W Pinout: Pico 2 W 引脚图
+Do's and Don'ts: 注意事项
+Connect Pico: 连接 Pico
+Guide to Reading Code: 代码阅读指南
+Experiments: 实验
+Blink: 眨
+Humidity Temp Sensor: 温湿度传感器
+Melody: 旋律
+Touch Game: 触摸游戏
+Distance Sensor: 距离传感器
+Piano: 钢琴
+Joystick and Servos: 操纵杆和伺服系统
+Microphone Sensor: 麦克风传感器
+Accelerometer: 加速度计
+Crash Sensor: 碰撞传感器
+Knock Sensor: 爆震传感器
+Motion Sensor: 运动传感器
+Photo Interrupter: 光中断器
+Photoresistor: 光敏电阻
+Potentiometer and Servo: 电位器和伺服电机
+Bluetooth Advertise: 蓝牙广告
+Mix and Match: 混搭
+Lesson Plan for Teachers: 教师教案
+About: 关于
+Contact: 接触
+Making hands-on invention more accessible for teachers and students: 让教师和学生更容易参与动手发明创造
+Get Started: 开始使用
+Page not found: 页面未找到
+The page you requested could not be found: 您请求的页面找不到
+Try using the navigation or search to find what you're looking for or go to the: 尝试使用导航或搜索功能查找您要查找的内容，或者前往……
+home page: 首页
+Back to top: 返回顶部
+Active: 积极的
+Base: 根据
+Planned: 计划
+Here: 这里
+Summary: 概括
+Note: 笔记
+Important: 重要的
+Utshaho Gupta: 乌特沙霍·古普塔
+FOUNDER: 创始人
+? Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+: 乌特沙霍是一名高中生，他花了三年多的时间设计价格亲民的人工智能智能眼镜，供视障人士使用，并已获得多项资助来支持他的创新项目。
+Utshaho revels in the intersection of math and science with language and international relations: Utshaho
+  致力于探索数学与科学、语言和国际关系之间的交融。
+? He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+: 他是IHOT机器人团队和数学俱乐部的队长，也是校报和法语模拟联合国项目的联合创始人。
+He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate: 他热爱旅行、乐队、田径和摄影，并且拥有空手道黑带三段。
+Inspiration Behind the Initiative: 这项倡议的灵感来源
+? It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+: 它赢得了2025年佐治亚州第六国会选区国会应用程序挑战赛的冠军，并受到了国会议员露西·麦克巴斯和参议员乔恩·奥索夫的表彰。
+Won the 2025 Congressional App Challenge in Georgia’s 6th District: 赢得了佐治亚州第六选区2025年国会应用程序挑战赛
+Affordable Smart Glasses for the Blind and Visually Impaired on YouTube: YouTube 上有面向盲人和视障人士的平价智能眼镜。
+? Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+: 面向盲人和视障人士的平价智能眼镜赢得了佐治亚州第六国会选区2025年国会应用程序挑战赛。
+? Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+: 树莓派基金会全球最酷项目在线展示会上展出了价格亲民的盲人和视障人士智能眼镜。
+A MicroPython code example: MicroPython 代码示例
+to blink an onboard LED repeatedly: 反复闪烁板载 LED 灯
+Let’s start with a simple micropython script to control the onboard LED on the Pico microcontroller: 我们先从一个简单的MicroPython脚本开始，用来控制Pico微控制器上的板载LED。
+We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: 我们使用机器库中的
+  Pin 对象来访问 GPIO（通用输入输出）引脚。
+The onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25): 板载
+  LED 可通过 GP25 访问，或使用名称“LED”作为 Pin(“LED”) 或 Pin(25) 进行访问。
+We use Pin.OUT to set it as an output pin: 我们使用 Pin.OUT 将其设置为输出引脚
+We will use input pins later with sensors: 稍后我们将使用输入引脚连接传感器。
+Create a new file in Thonny, with file name blink.py: 在 Thonny 中创建一个名为 blink.py 的新文件。
+Copy and paste the code below into the file you created: 将以下代码复制并粘贴到您创建的文件中。
+Now let’s add the main loop: 现在我们来添加主循环
+We add a 1 second delay with the sleep(1) statement: 我们使用 sleep(1) 语句添加 1 秒的延迟。
+Copy and paste the code below to the end of the blink.py file: 将以下代码复制并粘贴到 blink.py
+  文件的末尾。
+Congratulations, you have written and run your first MicroPython script: 恭喜，您已经编写并运行了您的第一个
+  MicroPython 脚本。
+Previous: 以前的
+Next: 下一个
+connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接着碰撞传感器模块（带限位开关）、RGB
+  LED 模块和 OLED 显示模块 (SSD1306)。
+to change the LED color and show the status on the display when crash is detected: 检测到碰撞时，改变
+  LED 指示灯颜色并在显示屏上显示碰撞状态。
+A crash sensor uses a limit switch: 碰撞传感器使用限位开关
+? This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+: 这可以与硬限位器配合使用，以检测机械臂等机构何时达到其运动极限并触发限位开关。
+It is also used in oven and refrigerator doors to turn on the internal light when the door is opened: 它也用于烤箱和冰箱门上，以便在门打开时打开内部照明灯。
+Create a new file in Thonny, with file name crash_sensor.py: 在 Thonny 中创建一个名为 crash_sensor.py
+  的新文件。
+connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接到一个带有螺旋弹簧的爆震传感器模块、一个RGB
+  LED模块和一个OLED显示模块（SSD1306）。
+to change the LED color and show the status on the display when a sudden shake is detected: 当检测到突然摇晃时，改变
+  LED 指示灯颜色并在显示屏上显示状态。
+A knock sensor detects vibrations: 爆震传感器用于检测振动。
+This particular module uses a spring-based vibration switch: 这个模块采用了一种基于弹簧的振动开关。
+? When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+: 当模块静止时，弹簧不会接触中心引脚；但当受到碰撞或摇晃时，弹簧会摆动并撞击中心引脚，从而瞬间闭合电路。
+For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion: 对于爬梯机器人而言，敲击传感器可以检测到伸出的机械臂何时碰到梯级，然后启动下一个动作。
+While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: 碰撞传感器需要安装在撞击点，而敲击传感器则可以检测整个手臂的振动。
+Create a new file in Thonny, with file name knock_sensor.py: 在 Thonny 中创建一个名为 knock_sensor.py
+  的新文件。
+connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: 在面包板上连接
+  PIR 运动传感器模块、RGB LED 模块和 OLED 显示模块 (SSD1306)。
+to change the LED color and show the status on the display when motion is detected: 检测到运动时，改变
+  LED 灯颜色并在显示屏上显示状态。
+A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects: PIR运动传感器通过测量周围物体发出的红外（热）辐射的变化来检测运动。
+? When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+: 当一个温暖的物体（例如人或动物）穿过传感器区域时，它会先与传感器的一半接触，然后再与另一半接触，从而产生一个差分电压脉冲，该脉冲指示了运动情况。
+It is used in security alarms and smart home automation: 它用于安全警报和智能家居自动化。
+Then remove the book and wait for the sensor to detect motion: 然后移开书，等待传感器检测到运动。
+Create a new file in Thonny, with file name motion_sensor.py: 在 Thonny 中创建一个名为 motion_sensor.py
+  的新文件。
+connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接着光电断路器模块、RGB
+  LED 模块和 OLED 显示模块 (SSD1306)。
+to increment the count on the display each time the photo interrupter light beam is interrupted: 每次光电中断器光束被中断时，显示屏上的计数增加。
+? A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+: 光电断路器模块会将红外光束从发射器发送到接收器（模块上的两个黑色方块），并检测该光束何时被遮挡。
+It is used to detect end-of-travel in 3D printers, CNC machines and robots: 它用于检测3D打印机、数控机床和机器人的行程终点。
+It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars: 它还用于计算旋转的开槽圆盘的脉冲数，从而计算机器人和智能汽车中的电机或车轮速度。
+In a printer, it detects when a paper is present: 打印机可以检测纸张是否存在。
+Create a new file in Thonny, with file name photo_interrupter.py: 在 Thonny 中创建一个名为
+  photo_interrupter.py 的新文件。
+connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接到光敏电阻模块、RGB
+  LED 模块和 OLED 显示模块 (SSD1306)。
+to dim or brighten the LED to match the change in ambient light measured by the photoresister: 根据光敏电阻测量的环境光变化，调节
+  LED 的亮度或亮度。
+? A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+: 光敏电阻表面受光量越大，通过的电流就越大；受光量越小，通过的电流就越小。
+It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight: 它用于在光线较暗的环境下调暗手机屏幕，并在户外阳光强烈时调亮屏幕。
+Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: 有些电视利用这项技术来调暗屏幕，使其与室内环境光线相匹配，看起来就像印刷在墙上的艺术品一样。
+Line tracking robots use it to distinguish between a dark line and a light surface: 循线机器人利用它来区分深色线条和浅色表面。
+Create a new file in Thonny, with file name photoresistor.py: 在 Thonny 中创建一个名为 photoresistor.py
+  的新文件。
+connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接着微型伺服电机、电位器（旋转传感器）模块和OLED显示模块（SSD1306）。
+to control the angle of the servo by rotating the potentiometer knob and display it on the display: 通过旋转电位器旋钮来控制伺服电机的角度，并在显示屏上显示该角度。
+Potentiometers are the dials we turn to control things like temperature or volume: 电位器就是我们用来控制温度或音量等参数的旋钮。
+They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: 它们的工作原理是改变电阻，而电阻的变化则表现为微控制器输入引脚上的电压变化。
+In this script, we use this input to control a servo angle: 在这个脚本中，我们使用此输入来控制伺服角度
+A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: 伺服电机是一种可以通过改变发送给它的PWM信号来控制其旋转角度的电机。
+Unlike standard electric motors that spin continuously, a servo motor moves to an exact angle or position and holds it firmly: 与持续旋转的普通电动机不同，伺服电机可以精确地移动到特定角度或位置并保持稳定。
+Create a new file in Thonny, with file name potentiometer_and_servo.py: 在 Thonny 中创建一个名为
+  potentiometer_and_servo.py 的新文件。
+Bluetooth Advertise and Bluetooth Scan: 蓝牙广播和蓝牙扫描
+connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接着旋转编码器模块、RGB
+  LED 和 OLED 显示模块 (SSD1306)。
+to individually control the red, green and blue channels of the LED to create any color,: 可以单独控制LED的红色、绿色和蓝色通道，从而创造出任何颜色。
+display the hex value and R, G, B values on the display,: 在显示屏上显示十六进制值以及R、G、B值。
+broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,: 通过将其嵌入BLE广播数据的服务UUID中，利用蓝牙进行广播。
+and show the received color on LEDs, creating a cluster of synced Pico devices: 并在
+  LED 上显示接收到的颜色，从而创建一个同步的 Pico 设备集群。
+? We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+: 我们使用旋转编码器来改变LED的红、绿、蓝三色，然后将该颜色广播给附近的设备，这些设备会将它们的LED设置为相同的颜色。
+? When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+: 当一台设备运行 bluetooth_advertise.py，而附近多台设备运行 bluetooth_scan.py 时，我们就可以创建一个同步设备网络。
+This is how a cluster of robots can communicate and work together: 这就是一群机器人如何进行通信和协同工作的方式。
+Create a new file in Thonny, with file name bluetooth_advertise.py: 在 Thonny 中创建一个名为
+  bluetooth_advertise.py 的新文件。
+? To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+: 要测试在另一台设备上运行的 bluetooth_scan.py，请在第二台设备的计算机上，在 Thonny 中创建一个名为 bluetooth_scan.py
+  的新文件。
+Mix and Match Inputs and Outputs: 输入输出可以自由组合。
+connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306): 连接到微型伺服电机、RGB
+  LED、无源压电蜂鸣器、OLED 显示模块 (SSD1306)
+? and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+: 以及面包板上的几个输入组件之一——加速度计、按钮、运动传感器、光敏电阻、操纵杆、麦克风、旋转编码器或其他传感器。
+? to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+: 读取所选组件的输入数据，并将其插值计算为蜂鸣器频率、LED颜色和伺服角度，然后将这些值显示在显示屏上。
+This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs: 这是一个包罗万象的脚本，允许你混合搭配不同的输入和输出。
+The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen: 传感器读数被转换成LED颜色、伺服角度、蜂鸣器频率和OLED屏幕上的文本。
+Refer to the relevant circuit diagrams above based on the input you choose: 请根据您选择的输入，参考上方相关的电路图。
+Create a new file in Thonny, with file name mix_and_match.py: 在 Thonny 中创建一个名为 mix_and_match.py​​
+  的新文件。
+connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard: 在面包板上连接温湿度传感器模块
+  (DHT11) 和 OLED 显示模块 (SSD1306)。
+to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit: 测量并显示相对湿度和环境温度，单位分别为摄氏度和华氏度
+A humidity and temperature sensor measures the ambient temperature and air humidity: 温湿度传感器测量环境温度和空气湿度
+In robotics, temperature sensors are built into most electronic components: 在机器人领域，大多数电子元件都内置了温度传感器。
+They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits: 它们可用于热保护，例如在温度超过安全限度时自动关闭机器人。
+? Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+: 你知道吗？智能手机内部大约有8个不同的温度传感器，分别用于测量屏幕温度、背部温度、电池温度、CPU温度等等。湿度传感器则用于监测智能手机或智能手表内部的冷凝情况。
+This is a DHT11 sensor: 这是DHT11传感器
+'We import the dht library and setup the GP28 pin as shown below:': 我们导入 dht 库并按如下所示设置
+  GP28 引脚：
+Then in the main loop, we use the measure function to get the temperature and humidity: 然后，在主循环中，我们使用测量函数来获取温度和湿度。
+We can use simple math formula to convert from celsius to fahrenheit: 我们可以使用简单的数学公式将摄氏度转换为华氏度。
+To run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py: 要运行完整脚本，请在
+  Thonny 中创建一个名为 humidity_temp_sensor.py 的新文件。
+Humidity Temp Sensor Circuit: 湿度温度传感器电路
+connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接着一个无源压电蜂鸣器、一个RGB
+  LED模块和一个OLED显示模块（SSD1306）。
+to play a melody of musical notes on the buzzer with matching text displayed on the display: 蜂鸣器发出与显示屏上显示的文字相对应的旋律
+? A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+: 压电蜂鸣器的工作原理是利用压电效应将电信号转化为快速机械振动，从而产生声波。
+In this script, we send different frequencies to a piezo buzzer to play different musical notes: 在这个脚本中，我们向压电蜂鸣器发送不同的频率，使其播放不同的音符。
+'To play a note at an interval, we run:': 要按特定音程演奏一个音符，我们运行：
+The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times: 以下函数通过将
+  LED 灯设置为暗白色然后关闭，重复多次，来添加闪烁效果。
+To play an entire melody, create a new file in Thonny, with file name melody.py: 要在
+  Thonny 中播放完整的旋律，请创建一个名为 melody.py 的新文件。
+connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接到电容式触摸传感器模块、无源压电蜂鸣器和OLED显示模块（SSD1306）。
+to create a reaction time testing game,: 创建一个反应时间测试游戏，
+and to learn to draw shapes on the OLED display: 并学习在OLED显示屏上绘制形状
+A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close: 电容式触摸传感器通过测量人手指靠近时产生的电荷变化来检测触摸。
+Humans are full of water and salt, making the body a natural conductor of electricity: 人体充满水和盐，这使得人体成为天然的导电体。
+It is used in smartphones for multi-touch navigation and gesture detection: 它用于智能手机的多点触控导航和手势检测。
+In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen: 在这个脚本中，我们创建了一个小游戏来测试你的反应速度，同时学习如何在OLED屏幕上绘制形状。
+'To read the sensor, we run:': 要读取传感器数据，我们运行：
+The function below draws happy or sad face based on the parameters passed to it: 以下函数根据传递给它的参数绘制笑脸或哭脸。
+The main loop of our game is easy to follow because it calls easy to understand function names: 我们游戏的主循环很容易理解，因为它调用了易于理解的函数名称。
+Create a new file in Thonny, with file name touch_game.py: 在 Thonny 中创建一个名为 touch_game.py
+  的新文件。
+? connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+: 在面包板上，连接了超声波距离传感器模块（HC-SR04）、微型伺服电机、无源压电蜂鸣器、RGB LED模块和OLED显示模块（SSD1306）。
+? to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+: 创建一个基于手势的声音乐器，该乐器可以将测量的距离转换为不同的蜂鸣器声音频率、伺服角度和 LED 颜色，并在 OLED 显示屏上显示测量的距离。
+A distance sensor measures the distance to any nearby obstruction: 距离传感器测量到附近障碍物的距离。
+Robots and cars use such sensors to stop before hitting any obstruction: 机器人和汽车利用这类传感器在撞到障碍物之前停下来。
+The sensor used here is an ultrasonic distance sensor: 这里使用的传感器是超声波测距传感器。
+? We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+: 我们将距离转换成不同的RGB颜色和蜂鸣器频率，创造出一种可以用手势演奏的趣味乐器。
+We also change the angle of a servo motor based on the distance detected: 我们还会根据检测到的距离来改变伺服电机的角度。
+Create a new file in Thonny, with file name distance_sensor.py: 在 Thonny 中创建一个名为 distance_sensor.py
+  的新文件。
+connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard: 连接到面包板上的无源压电蜂鸣器、OLED
+  显示模块 (SSD1306) 和 6 个按钮。
+to play different musical notes on the buzzer,: 用蜂鸣器演奏不同的音符，
+draw the notes and musical staff lines on the display,: 在显示屏上画出音符和五线谱，
+and replay as a recording after a pause: 暂停后以录音形式重播
+We use the buttons to play different musical notes: 我们用这些按钮来演奏不同的音符
+We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines: 我们还会学习如何在OLED屏幕上绘制形状，以便在五线谱上画出音符。
+And when user input pauses, we replay the notes to create a fun musical instrument: 当用户输入暂停时，我们会重新播放音符，从而创造出一种有趣的乐器。
+We read 6 different inputs for the 6 buttons: 我们读取了6个按钮的6个不同输入
+For this, we add some more helper functions below: 为此，我们在下面添加一些辅助函数。
+With all these functions, our main loop is still easy to follow: 有了这些功能，我们的主循环仍然很容易理解。
+To put it all together, and test, create a new file in Thonny, with file name piano.py: 为了将所有内容整合在一起并进行测试，请在
+  Thonny 中创建一个名为 piano.py 的新文件。
+connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard: 连接到面包板上的模拟双轴拇指摇杆模块、2个微型伺服电机和一个OLED显示模块（SSD1306）。
+to control the angles of both servos using the joystick and display the angles on the OLED display: 使用操纵杆控制两个舵机的角度，并在
+  OLED 显示屏上显示角度。
+A joystick is often used for navigation in robots, drones, cruise ships and planes: 操纵杆常用于机器人、无人机、游轮和飞机的导航。
+In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller: 在FRC机器人比赛中，我们使用两个游戏控制器，每个控制器有两个操纵杆。
+Each joystick includes independent X and Y axis control: 每个操纵杆均包含独立的 X 轴和 Y 轴控制功能
+Which  gives us a total of 8 independent axes to control the robot: 这样我们就总共有了8个独立的轴来控制机器人。
+In this script, we control the angle of two servos using different axes of the joystick: 在这个脚本中，我们使用操纵杆的不同轴来控制两个舵机的角度。
+By pressing the joystick button, we toggle the mode to Sync Angle Mode: 按下操纵杆按钮，即可将模式切换到同步角度模式。
+Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: 现在我们利用三角函数计算操纵杆的角度，并将伺服电机调整到与该角度相匹配的程度。
+In robotics, we often use advanced mathematics to control various motions: 在机器人学中，我们经常使用高等数学来控制各种运动。
+Create a new file in Thonny, with file name joystick_and_servos.py: 在 Thonny 中创建一个名为
+  joystick_and_servos.py 的新文件。
+Microphone Sensor and Melody: 麦克风传感器和旋律
+connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接着麦克风声音传感器模块、无源压电蜂鸣器和OLED显示模块（SSD1306）。
+to replay the sound frequencies measured by the microphone on the buzzer and display them on the display: 重放蜂鸣器上麦克风测量的声音频率，并将其显示在屏幕上。
+? A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+: 麦克风声音传感器利用内置麦克风和板载处理电路，将环境声波转换为电信号。
+Sound waves move through the air and hit a tiny flexible diaphragm inside the module’s microphone: 声波在空气中传播，并撞击模块麦克风内部的微型柔性振膜。
+The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume: 隔膜的波动会产生与声音频率和音量相匹配的电信号。
+Run this script, and simultaneously run melody.py on a different device: 运行此脚本，同时在另一台设备上运行
+  melody.py。
+Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody: 将两个设备靠近，并将麦克风直接放在播放旋律的设备的蜂鸣器上方。
+If the room is not very noisy, it should pick up at least some of the notes: 如果房间不太吵闹，它应该至少能拾取到一些音符。
+Create a new file in Thonny, with file name microphone_sensor.py: 在 Thonny 中创建一个名为
+  microphone_sensor.py 的新文件。
+connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard: 在面包板上，连接到三轴数字加速度计模块
+  (ADXL345) 和 OLED 显示模块 (SSD1306)。
+to draw and rotate a 3D shape on the OLED display by rotating the accelerometer about its X and Y axes: 通过绕
+  X 轴和 Y 轴旋转加速度计，在 OLED 显示屏上绘制和旋转 3D 形状。
+An accelerometer measures acceleration around the x, y and z axis: 加速度计测量绕 x、y 和 z
+  轴的加速度
+In robotics, it is essential in determining the robot position and movement: 在机器人学中，确定机器人的位置和运动至关重要。
+In this script, we draw a 3D shape, and control its rotation using the accelerometer: 在这个脚本中，我们绘制一个三维形状，并使用加速度计控制其旋转。
+Create a new file in Thonny, with file name accelerometer.py: 在 Thonny 中创建一个名为 accelerometer.py
+  的新文件。
+Write your first script “blink.py” by following the instructions below: 请按照以下说明编写你的第一个脚本“blink.py”。
+Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment: 一旦你在
+  Pico 上成功连接，请在下一个实验中尝试连接温湿度传感器。
+After that, try random experiments from the list below: 之后，尝试以下列表中的随机实验。
+Some experiments need additional sensors from the common additional sensors kit to be shared by all teams: 有些实验需要使用通用附加传感器套件中的额外传感器，该套件供所有团队共享。
+The complete code for all the experiments is also available on: 所有实验的完整代码也可在以下位置找到：
+GitHub: GitHub
+Table of contents: 目录
+Additional Sensors for Sharing Amongst Teams: 团队间共享的附加传感器
+Motion sensor: 运动传感器
+Knock sensor: 爆震传感器
+Potentiometer: 电位器
+Microphone sensor: 麦克风传感器
+Photo interrupter: 光中断器
+Crash sensor: 碰撞传感器
+Rotation Encoder: 旋转编码器
+Additional Sensors: 附加传感器
+Breadboard Basics Explained in 60 Seconds: 60秒带你了解面包板基础知识
+? There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+: 面包板上现在有一个可复位保险丝（上图中未显示，见下图），用于在学生不小心在面包板上造成短路时断开电路。
+? You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+: 在接通电路电源之前，您仍然需要检查所有连接，因为传感器连接错误可能会对其精密电子元件造成永久性损坏，使其无法使用。
+Do’s and Don’ts: 注意事项
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+: 可复位保险丝（PPTC 保险丝或自恢复保险丝）是连接 Pico 3.3V 输出引脚和面包板的小型橙黄色元件。
+rail: 轨
+When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: 当出现短路时，例如跳线意外连接到
+  VCC（面包板）。
+rail) to GND  (breadboard: 导轨）到 GND（面包板）
+rail), it trips, preventing damage to the electronics: 轨道），它跳闸，防止电子设备损坏。
+A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: 电路修复或断电几秒钟后，它会冷却下来并自动复位。
+The students should verify all the connections and resume the experiment: 学生应检查所有连接并继续实验。
+Resettable Fuse: 可复位保险丝
+Connect Pico to Computer: 将 Pico 连接到电脑
+You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: 如果您的电脑没有
+  USB-C 接口，您可以使用移动电源上的 USB-C 转 USB-A 适配器。
+Micro USB Port on Pico: Pico 上的 Micro USB 端口
+Important Do’s and Don’ts: 重要须知和禁忌
+Do …: 做 …
+Disconnect Pico before changing connectors: 更换连接器前，请先断开 Pico 的连接。
+Verify all connections, especially VCC and GND: 检查所有连接，特别是 VCC 和 GND 连接。
+Establish team roles like coding, wiring, verifying circuit, capturing notes and recording: 明确团队角色，例如编码、接线、电路验证、记录笔记和录制。
+Read experiment description and code: 阅读实验说明和代码
+Don’t …: 不 …
+Don’t power on before verifying all connections: 请勿在确认所有连接之前开机。
+Incorrect VCC and GND can destroy sensitive electronics: VCC 和 GND 接错可能会损坏敏感电子元件。
+Don’t rely on numbers printed on the breadboard: 不要依赖面包板上印刷的数字。
+Count point distance from other connectors on the board to verify: 计算该点到板上其他连接器的距离以进行验证
+Don’t leave before putting everything back in the kit box: 离开前请务必把所有东西都放回工具包里。
+Important Do's and Don'ts: 重要须知和禁忌
+This is a companion guide to the class experiments kit shown below: 这是下方所示课堂实验套件的配套指南。
+This is a fun hands-on way to get introduced to electronics, programming and engineering: 这是一种寓教于乐的实践方式，可以让你初步了解电子学、编程和工程学。
+Check your class experiments kit: 检查一下你的课堂实验工具包。
+It includes 5 identical invention kits and one additional sensors kit: 它包含 5 套相同的发明套件和
+  1 套额外的传感器套件。
+Before we can start the experiments, we need a way to write and deploy the code to Pico: 在开始实验之前，我们需要一种方法来编写代码并将其部署到
+  Pico。
+To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it: 为此，我们将安装
+  Thonny 应用程序，最好安装在所有电脑上，以便每个学生都能学习如何使用它。
+If that is not feasible, we install it on at least one computer per team: 如果无法做到这一点，我们会在每个团队至少一台计算机上安装它。
+If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: 如果
+  Thonny 完全无法安装，我们可以使用下面的替代方法来运行实验。
+You can streamline the process by installing Thonny app on all computers before the workshop: 您可以在研讨会开始前在所有电脑上安装
+  Thonny 应用，从而简化流程。
+How to Run Experiments with Thonny: 如何使用 Thonny 运行实验
+Launch Thonny App on your computer, if it is not already running: 如果您的电脑上 Thonny 应用尚未运行，请启动它。
+Read the guide and the code for the experiment on this website and create a new file as described: 请阅读本网站上的实验指南和代码，并按照说明创建一个新文件。
+Connect the components as described before connecting Pico to power supply: 请按照说明连接各组件，然后再将
+  Pico 连接到电源。
+Verify all the connections are to the correct Pins, especially the VCC and GND connections: 请确认所有连接都连接到了正确的引脚，特别是
+  VCC 和 GND 连接。
+To end the experiment, disconnect the USB cable from Pico: 实验结束时，请断开 Pico 的 USB 连接线。
+To select another experiment, repeat the steps above: 要选择另一个实验，请重复上述步骤。
+Alternate Method to Run Experiments without Thonny: 无需 Thonny 即可运行实验的替代方法
+Read the guide and the code for the experiment on this website but skip creating a file: 请阅读本网站上的实验指南和代码，但无需创建文件。
+Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty): 将电池组上的开关拨到“开”的位置（如果电池组没电，请先装入随附的3节AA电池）。
+"On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "在面包板上，按一次蓝色按钮\U0001F535即可在OLED屏幕上启动菜单。"
+"Use the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2 to move back": "使用黄色按钮\U0001F7E1进入下一个实验，使用绿色按钮\U0001F7E2返回上一个实验。"
+"Once you reach the experiment you are trying to run, press the blue button \U0001F535 to launch it": "找到你想运行的实验后，按下蓝色按钮\U0001F535即可启动它。"
+Installation Steps: 安装步骤
+Download and Install Thonny (with Python) from: 从以下位置下载并安装 Thonny（使用 Python）：
+thonny.org: thonny.org
+? Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+: 选择适用于您的操作系统和处理器的 Python 安装程序（最佳选项应该已经突出显示为推荐选项）。
+If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway: 如果您使用的是
+  macOS，并且安装程序被阻止，请前往“系统设置”&gt;“隐私与安全”，然后点击“仍然打开”。
+2 Micro servo motors: 2个微型伺服电机
+Joystick module: 操纵杆模块
+Distance sensor: 距离传感器
+Humidity + temperature sensor: 湿度+温度传感器
+Touch sensor: 触摸传感器
+20 jumper wires: 20根跳线
+Battery pack: 电池组
+Micro USB cable: Micro USB 数据线
+Remembering this will make verifying the pin positions easier: 记住这一点将使验证引脚位置更容易。
+The ground pins also have a square copper shape around the pin on the Pico board to make them easier to recognize: Pico板上的接地引脚周围也带有方形铜圈，以便于识别。
+Raspberry Pi Pico 2 W GPIO Pinout: 树莓派 Pico 2W GPIO 引脚图
+Reaching Teachers and Students Worldwide: 惠及全球教师和学生
+Showing cities with active workshops/outreach, as well as planned cities: 展示设有活跃研讨会/推广活动的城市，以及规划中的城市
+It was truly great to have Utshaho in class: 乌特沙霍能来上课真是太好了。
+He was fantastic with the kids, coming prepared with all the necessary materials: 他对待孩子们非常好，而且准备充分，带齐了所有需要的材料。
+He provided clear instructions and offered support to the students throughout their activities: 他提供了清晰的指导，并在学生们的整个活动中给予了支持。
+The students were engaged and enjoyed what they were doing: 学生们积极参与，并且很享受他们所做的事情。
+They were really interested in building different sensors: 他们对制造各种传感器非常感兴趣。
+MYP Science Teacher: MYP科学教师
+Atlanta International School: 亚特兰大国际学校
+Introduction to Electronics Workshop at Atlanta International School: 亚特兰大国际学校电子学入门研讨会
+I liked how many different things we could do, there was lot’s of variety: 我喜欢我们可以做的事情种类繁多，选择非常丰富。
+Grade 7 Student: 七年级学生
+loved this lesson: 很喜欢这节课
+Hands-on electronics workshops for schools: 面向学校的电子技术实践工作坊
+The goal is to help students move from simply learning about technology to actually building technology that solve real problems: 目标是帮助学生从单纯学习技术过渡到实际构建能够解决实际问题的技术。
+Introduction to Electronics Workshop: 电子学入门研讨会
+It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM: 它面向希望引入和学习实践性STEM的中小学教师和学生。
+? With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+: 只要有正确的指导，每个人都可以通过与现实世界相关的项目来学习电子学、人工智能和计算机视觉。
+? With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+: 尽早开始，可以激发他们的创造力，引导他们走上创新之路，发现现实世界的问题，并不断学习新技能、进行实验和发明创造。
+Reference Slides for the Workshop: 研讨会参考幻灯片
+Class Experiments Kit: 课堂实验套装
+Breadboard Connections and Safety: 面包板连接和安全
+Lesson Plan Outline: 课程计划大纲
+Some Additional Notes: 一些补充说明
+Class Experiments Kit Contents: 课堂实验套件内容
+Teachers can run a one hour workshop with middle school students interested in STEM: 教师可以为对STEM（科学、技术、工程和数学）感兴趣的中学生举办一小时的研讨会。
+Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit: 每个班级实验套件包含
+  5 个相同的发明套件和 1 个额外的传感器套件。
+It is available for optional extra reading, if desired: 如果需要，可将其作为可选的补充阅读材料。
+Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: 课堂实验套件包含
+  5 套相同的发明套件和 1 套额外的传感器套件
+Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation: 下面附上我们第一次研讨会的参考幻灯片，您可以直接使用，也可以将其融入到您的演示文稿中。
+Download Slides: 下载幻灯片
+Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: 请您仔细阅读发明套件和附加传感器套件的内容。
+? The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+: 附加传感器套件包含奖励贴纸，您可以将其发放给最佳创意、积极参与等。
+? There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+: 还有一些很小的NFC指甲贴纸，当靠近带有NFC功能的智能手机时（通常位于手机背面顶部中心附近），它们会亮起来。
+The first step is installing the Thonny app: 第一步是安装 Thonny 应用
+It is important for the students to learn how breadboard connections work and to be safe: 学生学习面包板连接的工作原理以及安全操作至关重要。
+The Additional Sensors Kit includes a breadboard with no backing to show how it works: 附加传感器套件包含一块没有背板的面包板，用于展示其工作原理。
+? There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+: 面包板上有一个可复位保险丝，如果学生不小心在面包板上造成短路，该保险丝会自动断开电路。
+? The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+: 学生们在接通电路电源前仍需检查所有连接，因为传感器连接错误可能会对其精密电子元件造成永久性损坏，使其无法使用。
+? When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+: 安装连接器时，学生应先断开 Pico 上的 USB 连接线，并由多名学生验证连接是否正确，然后再连接 USB 连接线。
+It is useful to count the pin distance from other used pins on the board: 计算引脚与其他已用引脚之间的距离很有用。
+Safety Procedure: 安全规程
+Power Off: 关闭电源
+Connect Components: 连接组件
+Verify Each Connection: 验证每个连接
+Power On: 开机
+Introduction - Learn about electronics, breadboards, safety (10-20 min): 简介 - 学习电子学、面包板和安全知识（10-20分钟）
+Divide class into 5 teams (one per invention kit) (3-5 min): 将全班分成 5 个小组（每个小组使用一套发明工具包）（3-5
+  分钟）
+Students familiarize themselves with the invention kit components (3-5 min): 学生熟悉发明套件的组成部分（3-5分钟）
+Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): 首先进行实验，学习基础知识（闪烁，然后是温湿度传感器）（5-10
+  分钟）
+Run random experiments from the list, and present to other teams (20-30 min): 从列表中随机运行实验，并向其他团队展示（20-30分钟）。
+Clean up and pack the kits (5-7 min): 清理并打包工具包（5-7分钟）
+? To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+: 为了方便日后举办更多工作坊，学生应将工作坊物品按原样装回盒子里。
+If teams have more than 3 students, they can take turns reading about an experiment and running an experiment: 如果小组人数超过
+  3 人，他们可以轮流阅读实验说明并进行实验。
+? When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+: 学生从附加传感器套件中借用传感器时，应在实验结束后归还传感器，以便其他小组也能借用。
+? Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+: 有些实验需要成对进行，需要两个团队同时使用两个 Pico 设备进行协作（麦克风传感器和旋律，以及蓝牙广播和扫描）。
+? Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+: 蓝牙广播和扫描应该是一个适合全班同学的有趣实验，所有设备都会同步它们的 LED 灯颜色，以匹配一个广播设备。
+You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out: 您可以安排一个团队负责蓝牙广播，其他团队负责设置蓝牙扫描，以免时间不够。
+Category: 类别
+Item Description: 商品描述
+Quantity per Box: 每盒数量
+Total Quantity: 总数
+Invention Kit (5x): 发明工具包（5套）
+Empty Battery Pack with USB-C to USB-A Adapter: 空电池组及 USB-C 转 USB-A 适配器
+AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping: AA碱性电池，用塑料袋包装，内衬气泡膜，便于运输。
+Micro USB to USB-C Cable: Micro USB 转 USB-C 数据线
+Micro Servo Motor: 微型伺服电机
+Capacitive Touch Sensor: 电容式触摸传感器
+Temp &amp; Humidity Sensor: 温湿度传感器
+Ultrasonic Distance Sensor: 超声波测距传感器
+Joystick Module: 操纵杆模块
+10cm Jumper Wires: 10厘米跳线
+PIR Motion Sensor Module: PIR运动传感器模块
+Knock Sensor Module: 爆震传感器模块
+Potentiometer Module: 电位器模块
+Accelerometer Module: 加速度计模块
+Photo Interrupter Module: 光电中断模块
+Crash Sensor Module: 碰撞传感器模块
+Photoresistor Module: 光敏电阻模块
+Rotation Encoder Module: 旋转编码器模块
+NFC Nail Reward Stickers: NFC美甲奖励贴纸
+Assorted Reward Stickers: 各种奖励贴纸
+Breadboard without Backing: 无背衬面包板
+Book: 书
+Start by reading the description: 首先阅读说明
+Connect any components: 连接所有组件
+Read the main loop: 阅读主循环
+Read other comments: 阅读其他评论
+Read rest of the code: 阅读剩余代码
+? It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+: 它还入选了树莓派基金会的“全球最酷项目在线展示会”，并在佐治亚州赢得了评委选择奖。
+Featured in Raspberry Pi Foundation’s Worldwide Coolest Projects: 入选树莓派基金会全球最酷项目
+running on a Raspberry Pi Pico 2 W microcontroller: 运行在 Raspberry Pi Pico 2 W 微控制器上
+If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: 如果一切正常，你应该会看到树莓派
+  Pico 上的 LED 指示灯反复闪烁。
+use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,: 使用蓝牙扫描读取附近树莓派Pico设备的颜色信息。
+? Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+: 每次连接 Pico 时，请等待几秒钟，然后展开 Thonny 窗口右下角的菜单 ☰ 图标，并从菜单中选择 MicroPython (Raspberry Pi Pico)。
+You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller: 您将使用本指南和套件来学习如何使用
+  Raspberry Pi Pico 微控制器构建简单的电子电路。
+Connect the Raspberry Pi Pico to the computer with the provided USB cable: 使用提供的 USB
+  数据线将 Raspberry Pi Pico 连接到电脑。
+Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico: 展开
+  Thonny 窗口右下角的菜单，然后选择 Raspberry Pi Pico
+Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: 使用提供的
+  USB 数据线将 Raspberry Pi Pico 连接到电池组。
+? To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+: 首次使用 Thonny 时，请启动 Thonny 应用，从菜单中选择“工具”&gt;“选项”，选择“解释器”选项卡，从下拉菜单中选择“MicroPython (Raspberry
+  Pi Pico)”，然后单击“确定”。
+Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: 面包板，配有 OLED 显示屏、LED
+  指示灯、蜂鸣器、树莓派 Pico 2W 和 6 个按钮
+You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: 您可以在下方链接的页面查看完整的
+  Raspberry Pi Pico 2 W 引脚图。
+Full Raspberry Pi Pico 2 W Pinout: 树莓派 Pico 2W 完整引脚图
+? Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+: 学生们将学习使用面包板、连接传感器、电机和控制器以及在树莓派上进行编程等基本电子技能。
+? There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+: 此外，还附赠一本《树莓派 Pico 上的 MicroPython 入门指南》，但这本书并非参加研讨会的必需品。
+? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+: 面包板，包含树莓派 Pico 2W、6 个按钮、压电蜂鸣器、OLED 屏幕模块、RGB LED 模块、可复位 PPTC 保险丝、预设连接器
+Get started with MicroPython on Raspberry Pi Pico Book: 如何在 Raspberry Pi Pico 上开始使用
+  MicroPython 入门指南
+Workshops: 研讨会
+<span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+<span translate="no">Inventor Pi</span> on GitHub: <span translate="no">Inventor Pi</span>在
+  GitHub 上
+2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
+  Pi, Inc.</span>
+<span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
+  translate="no">Inventor Pi, Inc.</span>是一家注册的 501(c)(3) 非营利组织
+Search <span translate="no">Inventor Pi</span>: 搜索<span translate="no">Inventor Pi</span>
+Main: 主要的
+Getting Started submenu: 入门指南子菜单
+Experiments submenu: 实验子菜单
+Auxiliary: 辅助的
+YouTube video player: YouTube 视频播放器
+? In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+: 下面的代码中， <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>函数用于切换
+  LED 的亮灭状态。
+? Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+: 这两行代码在<span translate="no"><code class="language-plaintext highlighter-rouge">while
+  True:</code></span>代码块内无限循环。
+Breadcrumb: 面包屑
+? To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+: 测试时，运行脚本，然后一手拿着整个面包板连同敲击传感器，用力摇晃，使其突然停止。
+? When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+: 在教室运行此脚本时，请用书本或折叠的纸张完全遮盖传感器，然后等待传感器重置并显示<span translate="no"><code class="language-plaintext
+  highlighter-rouge">No motion</code></span>
+Hint: 暗示
+To add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>: 要添加函数，我们使用<span
+  translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>
+? For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+: 在这个游戏中，我们将学习如何在 OLED 屏幕上绘图，使用<span translate="no"><code class="language-plaintext
+  highlighter-rouge">oled.display.ellipse</code></span>绘制圆形，使用<span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>绘制矩形。
+? Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+: 最后，我们将音符及其演奏时长保存到一个<span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>中。
+'For this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span> as shown below:': 为此，我们使用如下所示的<span
+  translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>
+  ：
+? To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+: 为了进一步学习如何在 OLED 屏幕上绘制形状，我们创建了一个名为<span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>的函数，用于在演奏音符时绘制音符的形状。
+? When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+: 连接成功后，底部的 shell 窗口会以<span translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>提示符结束。
+? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+: <span translate="no">Inventor Pi</span>是一项由学生主导的 STEM（科学、技术、工程和数学）计划，旨在让教师和学生更容易地参与动手发明创造。
+? <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+: <span translate="no">Inventor Pi</span>为教师和学生提供了一个清晰的起点，让他们能够使用对初学者友好的 Raspberry
+  Pi Pico 和电子套件来发展技能，并提供教师可以用来创建虚拟和面对面研讨会的课程计划。
+Ms. Irem Nekay: 伊雷姆·内凯女士
+Introduction to Electronics Slides: 电子学入门幻灯片
+? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+: Utshaho 为盲人和视障人士研发“价格亲民的智能眼镜”的经历，启发他创建了<span translate="no">Inventor Pi</span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+: 将 USB 数据线连接到 Pico 上的 Micro USB 端口，即可将 Pico 连接到计算机。 <span translate="no"><img src="/assets/images/micro-usb-port.webp"
+  alt="Pico 上的 Micro USB 端口" class="inline-img" width="202" height="205" fetchpriority="high"></span>以及电脑上的任何
+  USB-C 或 USB-A 端口
+English: 英语
+French: 法语
+Spanish: 西班牙语
+German: 德语
+Chinese (Simplified): 中文（简体）
+Chinese (Traditional): 中文（繁体）
+Hindi: 印地语
+Bangla: 孟加拉语
+Arabic: 阿拉伯
+Persian: 波斯语
+Urdu: 乌尔都语
+Portuguese: 葡萄牙语
+Japanese: 日本人
+Italian: 意大利语
+Dutch: 荷兰语
+Danish: 丹麦语
+Russian: 俄语
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+: 保存文件并使用绿色按钮运行脚本。 <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="运行当前脚本" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span>按钮
+Run current script: 运行当前脚本
+Contact Form: 联系表格
+Please fill out the form below to get in touch: 请填写以下表格与我们联系。
+Name: 姓名
+Email: 电子邮件
+Role: 角色
+School Name: 学校名称
+School Address: 学校地址
+Question / Feedback / Interest / Message: 问题/反馈/感兴趣/留言
+Send Message: 发送消息
+Thank you! Your message has been sent successfully: 谢谢！您的信息已成功发送。
+Something went wrong: 出问题了
+Please try again later: 请稍后再试。
+? To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: 要在不上传新代码的情况下，快速在一个或多个设备上运行 bluetooth_scan.py，请使用<a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">“入门指南”</a>部分中描述的替代方法。
+? To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: 要在其他设备上快速运行 melody.py，而无需上传新代码，请使用<a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">“入门指南”</a>部分中描述的替代方法。
+? To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+: 要测试 melody.py 在不同设备上运行的情况，请在连接到第二个设备的计算机上运行上述<a href="/experiments/3-melody.html">Melody</a>实验中的
+  melody.py 文件。
+? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+: <a href="/getting-started/important-dos-and-donts.html">“注意事项”</a>部分涵盖了需要牢记的重要事项。
+Notice that: 请注意
+Ground: 地面
+"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "（GND）引脚每隔
+  4 个引脚重复出现一次，并且在每端都从第 2 个引脚之后开始。"
+? You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+: 在上课之前，你应该先利用本网站的<a href="/getting-started/">“入门指南</a>”部分自行尝试不同的实验。
+? Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+: 请提前将这些<a href="/getting-started/install-thonny-app.html">说明</a>分享给学生，以便他们在课前能在笔记本电脑上安装该应用程序。

@@ -8,7 +8,7 @@ nav_order: 16
 ![Bluetooth Advertise](/assets/images/circuits/Bluetooth%20Advertise%20Circuit.webp)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard to individually control the red, green and blue channels of the LED to create any color,&nbsp;display the hex value and R, G, B values on the display,&nbsp;broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,&nbsp;use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,&nbsp; and show the received color on LEDs, creating a cluster of synced Pico devices
+### A MicroPython code example&nbsp;running on a Raspberry Pi Pico 2 W microcontroller&nbsp;connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard&nbsp;to individually control the red, green and blue channels of the LED to create any color,&nbsp;display the hex value and R, G, B values on the display,&nbsp;broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,&nbsp;use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,&nbsp; and show the received color on LEDs, creating a cluster of synced Pico devices
 
 We use a rotary encoder to change red, green and blue color of the LED, then broadcast that color to nearby devices, which set their LEDs to the same color. When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py, we can create a network of synced devices. This is how a cluster of robots can communicate and work together.
 
@@ -103,6 +103,12 @@ finally:
 ```
 
 To test with bluetooth_scan.py running on a different device, on the second device's computer, create a new file in Thonny, with file name bluetooth_scan.py. Copy and paste the code below into the file you created.
+
+{: .new-title.mb-6 }
+> Hint
+>
+> To quickly run bluetooth_scan.py on one or more devices, without uploading new code, use the alternate method described in the [Getting Started](/getting-started/#alternate-method-to-run-experiments-without-thonny) section.
+
 
 ```python
 print("\nBluetooth Scan")

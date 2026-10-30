@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+  
+
+  
+
+  
+    <script src="/assets/js/vendor/lunr.min.js" defer></script>
+  
+
+  <script src="/es/fr/assets/js/just-the-docs.js" defer></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Begin Jekyll SEO tag v2.9.1 -->
+<title>Potenciómetro y servomotor | Inventor Pi</title>
+<meta name="generator" content="Jekyll v4.4.1">
+<meta property="og:title" content="Potenciómetro y servomotor">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Talleres prácticos de electrónica para escuelas">
+<meta name="twitter:description" property="og:description" content="Talleres prácticos de electrónica para escuelas">
+<meta property="og:url" content="https://inventorpi.com/experiments/15-potentiometer-and-servo.html">
+<meta property="og:site_name" content="Inventor Pi">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Potenciómetro y servomotor">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","dateModified":"2026-10-21T18:23:57+00:00","description":"Talleres prácticos de electrónica para escuelas","headline":"Potenciómetro y servomotor","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://inventorpi.com/assets/images/inventor-pi-logo.webp"}},"url":"https://inventorpi.com/experiments/15-potentiometer-and-servo.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+    
+    <link rel="canonical" href="https://inventorpi.com/experiments/15-potentiometer-and-servo.html">
+  
+  <meta name="author" content="Utshaho Gupta">
+<meta property="og:title" content="Potenciómetro y servomotor">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00FD6QB7EM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-00FD6QB7EM');
+</script>
+<script>
+  const BRAND_COLOR = "#F31660";
+  const i18nText = {"Active":"Actif","Base":"Base","Planned":"Prévu","Here":"Ici","Summary":"Résumé","Note":"Note","Important":"Important"};
+  const i18n = (text) => i18nText[text] || text;
+</script>
+<link rel="preload" href="/es/fr/assets/js/search-data.json" as="fetch" crossorigin="anonymous">
+<script src="/assets/js/main.js" defer></script>
+<link rel="preload" href="/assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</noscript>
+<style>
+  html {
+    font-size: 1rem !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  :root {
+    font-size: 1rem !important;
+  }
+</style>
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Saltar al contenido principal</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewbox="0 0 24 24">
+  <title>Enlace</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewbox="0 0 24 24">
+  <title>Menú</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewbox="0 0 24 24">
+  <title>Développeririr</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(enlace externo)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewbox="0 0 24 24">
+  <title>Documentoo</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewbox="0 0 24 24">
+  <title>Buscar</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewbox="0 0 16 16">
+  <title>Copiar</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewbox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewbox="0 0 16 16">
+  <title>Copiado</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewbox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"></path>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"></path>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <header class="side-bar">
+  <div class="site-header">
+    <a href="/fr/es/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Inventor Pi"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Menú" aria-expanded="false">
+      <svg viewbox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list">
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="Empezando submenu" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/fr/es/getting-started/" class="nav-list-link">Empezando</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/fr/es/getting-started/install-thonny-app.html" class="nav-list-link">Instala la aplicación Thonny</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/invention-kit-contents.html" class="nav-list-link">Contenido del kit de invención</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/additional-sensors-kit.html" class="nav-list-link">Kit de sensores adicionales</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/breadboard-basics.html" class="nav-list-link">Conceptos básicos de la placa de prototipos</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/breadboard-wiring.html" class="nav-list-link">Cableado de la placa de pruebas</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/pico-2w-gpio-pinout.html" class="nav-list-link">Diagrama de pines de Pico 2 W</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/important-dos-and-donts.html" class="nav-list-link">Qué hacer y qué no hacer</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/connect-pico-to-computer.html" class="nav-list-link">Conectar Pico</a></li>
+<li class="nav-list-item"><a href="/fr/es/getting-started/guide-to-reading-code.html" class="nav-list-link">Guía para leer código</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<button class="nav-list-expander btn-reset" aria-label="Experimentos submenu" aria-expanded="false">
+        <svg viewbox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/fr/es/experiments/" class="nav-list-link">Experimentos</a><ul class="nav-list">
+<li class="nav-list-item"><a href="/fr/es/experiments/1-blink.html" class="nav-list-link">Parpadear</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/2-humidity-temp-sensor.html" class="nav-list-link">Sensor de humedad y temperatura</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/3-melody.html" class="nav-list-link">Melodía</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/4-touch-game.html" class="nav-list-link">Juego táctil</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/5-distance-sensor.html" class="nav-list-link">Sensor de distancia</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/6-piano.html" class="nav-list-link">Piano</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/7-joystick-and-servos.html" class="nav-list-link">Joystick y servos</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/8-microphone-sensor.html" class="nav-list-link">Sensor de micrófono</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/9-accelerometer.html" class="nav-list-link">Acelerómetro</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/10-crash-sensor.html" class="nav-list-link">Sensor de colisión</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/11-knock-sensor.html" class="nav-list-link">Sensor de detonación</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/12-motion-sensor.html" class="nav-list-link">Sensor de movimiento</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/13-photo-interrupter.html" class="nav-list-link">Fotointerruptor</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/14-photoresistor.html" class="nav-list-link">Fotorresistencia</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/15-potentiometer-and-servo.html" class="nav-list-link">Potenciómetro y servomotor</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/16-bluetooth-advertise.html" class="nav-list-link">Publicidad Bluetooth</a></li>
+<li class="nav-list-item"><a href="/fr/es/experiments/17-mix-and-match.html" class="nav-list-link">Mezcla y combina</a></li>
+</ul>
+</li>
+<li class="nav-list-item"><a href="/fr/es/lesson-plan-for-teachers.html" class="nav-list-link">Plan de lección para maestros</a></li>
+<li class="nav-list-item"><a href="/fr/es/about.html" class="nav-list-link">Acerca de</a></li>
+<li class="nav-list-item"><a href="/fr/es/contact.html" class="nav-list-link">Contactoo</a></li>
+</ul>
+  <ul class="nav-list"><li class="nav-list-item external">
+          <a href="https://github.com/goatoush/inventor-pi" class="nav-list-link external" target="_blank" rel="noopener noreferrer">
+            Inventor Pi en GitHub
+            <svg viewbox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>
+          </a>
+        </li></ul>
+</nav>
+
+
+<div class="d-md-block d-none site-footer">
+  
+  
+    Hacer que la invención práctica sea más accesible para profesores y alumnos <br>
+© 2026 Inventor Pi, Inc. <br>
+Inventor Pi, Inc. es una organización registrada 501(c)(3)
+  
+  </div>
+</header>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Buscar Inventor Pi" autocomplete="off">
+    <label for="search-input" class="search-label">
+      <span class="sr-only">Buscar Inventor Pi</span>
+      <svg viewbox="0 0 24 24" class="search-icon" aria-hidden="true"><use xlink:href="#svg-search"></use></svg>
+    </label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+    <nav aria-label="Auxiliary" class="aux-nav">
+    <ul class="aux-nav-list">
+        <li class="aux-nav-list-item">
+            <button class="site-button lang btn-reset">
+                🇺🇸
+            </button>
+        </li>
+        
+        <li class="aux-nav-list-item">
+            <a href="/fr/es/getting-started/" class="site-button">
+                Comience
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+<div class="select-lang">
+    <ul>
+        
+        <li class="lang en">
+            <a class="lang" href="/experiments/15-potentiometer-and-servo.html">English
+                <span>🇺🇸</span></a>
+        </li>
+        
+        <li class="lang fr">
+            <a class="lang" href="/fr/experiments/15-potentiometer-and-servo.html">Français
+                <span>🇫🇷</span></a>
+        </li>
+        
+        <li class="lang es">
+            <a class="lang" href="/es/experiments/15-potentiometer-and-servo.html">Español
+                <span>🇪🇸</span></a>
+        </li>
+        
+        <li class="lang de">
+            <a class="lang" href="/de/experiments/15-potentiometer-and-servo.html">Deutsch
+                <span>🇩🇪</span></a>
+        </li>
+        
+        <li class="lang zh">
+            <a class="lang" href="/zh/experiments/15-potentiometer-and-servo.html">中国人
+                <span>🇨🇳</span></a>
+        </li>
+        
+    </ul>
+</div>
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/fr/es/experiments/">Experimentos</a></li>
+    <li class="breadcrumb-nav-list-item"><span>Potenciómetro y servomotor</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 id="potentiometer-and-servo">
+  
+  
+    <a href="#potentiometer-and-servo" class="anchor-heading" aria-labelledby="potentiometer-and-servo"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Potenciómetro y servomotor
+  
+  
+</h1>
+    
+
+<p><img src="/assets/images/circuits/Potentiometer%20and%20Servo%20Circuit.webp" alt="Potenciómetro y servomotor" width="1280" height="720" fetchpriority="high"></p>
+<h3 id="summary">
+  
+  
+    <a href="#summary" class="anchor-heading" aria-labelledby="summary"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Un ejemplo de código MicroPython funcionando en un Raspberry Pi Microcontrolador Pico 2 W conectado a un micro servomotor, un módulo de potenciómetro (sensor de rotación) y un módulo de pantalla OLED (SSD1306) en una placa de prototipos controlar el ángulo del servo girando el potenciómetro y visualizarlo en la pantalla
+  
+  
+</h3>
+    
+
+<p>Los potenciómetros son los diales que giramos para controlar cosas como la temperatura o el volumen. Funcionan variando la resistencia eléctrica, lo que interpretamos como una variación de voltaje en el pin de entrada de un microcontrolador. En este script, usamos esta entrada para controlar el ángulo de un servomotor.</p>
+
+<p>Un servomotor es un motor en el que podemos controlar el ángulo de rotación cambiando la señal PWM que le enviamos. A diferencia de los motores eléctricos estándar que giran continuamente, un servomotor se mueve a un ángulo o posición exactos y lo mantiene firmemente.</p>
+
+<p>Crea un nuevo archivo en Thonny con el nombre potentiometer_and_servo.py. Copia y pega el código que aparece a continuación en el archivo que creaste.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><div class="table-wrapper"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+</pre></td>
+<td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Potenciómetro y servomotor</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># DESCRIPTION
+</span>
+<span class="c1"># Los potenciómetros son los diales que giramos para controlar cosas como la temperatura o el volumen.
+# Ely work by varying the electrical resistance, which we read as varying voltage at a
+# microcontroller's input pin. En este script, usamos esta entrada para controlar el ángulo de un servomotor.
+</span>
+<span class="c1"># A servo is a motor where we can control the rotation angle by changing the PWM 
+# signal we send to it. Unlike standard electric motors that spin continuously, 
+# a servo motor moves to an exact angle or position and holds it firmly.
+</span>
+<span class="c1"># CONNECTIONS REQUIRED
+</span>
+<span class="c1"># Connect Potenciómetro module (labeled 'Rotation Sensor')
+#   Pins: GND =&gt; GND, VCC =&gt; VCC, S =&gt; GP28
+# Connect Servo
+#   Pins: Brown: GND, Red: VCC, Yellow: GP9
+</span>
+<span class="kn">from</span> <span class="n">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+<span class="kn">from</span> <span class="n">machine</span> <span class="kn">import</span> <span class="n">Pin</span><span class="p">,</span> <span class="n">ADC</span>
+<span class="kn">from</span> <span class="n">oled</span> <span class="kn">import</span> <span class="n">OLED</span>
+<span class="kn">from</span> <span class="n">rgbled</span> <span class="kn">import</span> <span class="n">RGBLED</span>
+<span class="kn">from</span> <span class="n">value_filter</span> <span class="kn">import</span> <span class="n">ValueFilter</span>
+<span class="kn">from</span> <span class="n">servo</span> <span class="kn">import</span> <span class="n">Servo</span>
+<span class="kn">from</span> <span class="n">helper</span> <span class="kn">import</span> <span class="n">interpolate</span>
+
+<span class="n">potentiometer</span> <span class="o">=</span> <span class="nc">ADC</span><span class="p">(</span><span class="nc">Pin</span><span class="p">(</span><span class="mi">28</span><span class="p">))</span>
+<span class="n">oled</span> <span class="o">=</span> <span class="nc">OLED</span><span class="p">(</span><span class="n">scl_pin</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">sda_pin</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<span class="n">rgbled</span> <span class="o">=</span> <span class="nc">RGBLED</span><span class="p">(</span><span class="n">red_pin</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">green_pin</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">blue_pin</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">value_filter</span> <span class="o">=</span> <span class="nc">ValueFilter</span><span class="p">(</span><span class="n">filters</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">Median</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">EMA</span><span class="sh">"</span><span class="p">],</span> <span class="n">window_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">servo</span> <span class="o">=</span> <span class="nc">Servo</span><span class="p">(</span><span class="n">servo_pin</span><span class="o">=</span><span class="mi">9</span><span class="p">)</span>
+
+<span class="n">sensor_max</span> <span class="o">=</span> <span class="mi">65535</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="c1"># Use Median filter to reduce noise
+</span>        <span class="c1"># Use Exponential Moving Average filter to smooth out reading
+</span>        <span class="c1"># giving priority to recent readings over older ones
+</span>        <span class="n">value</span> <span class="o">=</span> <span class="n">value_filter</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">potentiometer</span><span class="p">.</span><span class="nf">read_u16</span><span class="p">())</span>
+     
+        <span class="c1"># Interpolate LED from purple to pink: red from 64 to 191 and blue from 191 to 64
+</span>        <span class="n">r</span> <span class="o">=</span> <span class="nf">interpolate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">sensor_max</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">191</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="nf">interpolate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">sensor_max</span><span class="p">,</span> <span class="mi">191</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+        <span class="n">angle</span> <span class="o">=</span> <span class="nf">interpolate</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">sensor_max</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># inverted out_min and out_max to match potentiometer rotation direction
+</span>
+        <span class="n">rgbled</span><span class="p">.</span><span class="nf">set_color</span><span class="p">(</span><span class="n">r</span><span class="o">=</span><span class="n">r</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="n">b</span><span class="p">)</span>
+        <span class="n">servo</span><span class="p">.</span><span class="nf">set_angle</span><span class="p">(</span><span class="n">angle</span><span class="p">)</span>
+
+        <span class="n">oled</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Raw: </span><span class="si">{</span><span class="n">value</span><span class="si">:</span><span class="mf">0.0</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">,</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Angle: </span><span class="si">{</span><span class="n">angle</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+        <span class="nf">sleep</span><span class="p">(</span><span class="mf">0.005</span><span class="p">)</span>
+
+<span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="se">\n</span><span class="s">Interrupted by user!</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">oled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+    <span class="n">rgbled</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+    <span class="n">servo</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></div></code></pre></div></div>
+
+          
+
+          
+            
+          
+        </main>
+        
+<hr>
+<footer>
+  
+    <p><a href="#top" id="back-to-top">Volver arriba</a></p>
+  
+
+  <script>
+    document.querySelectorAll("h3#summary").forEach(summary => {
+        summary.innerHTML = summary.innerHTML
+            .replace(/&nbsp;/, " <ul><li>")
+            .replace(/&nbsp;/g, " <li>");
+    });
+    let sheet = document.querySelector('head style').sheet;
+    sheet.insertRule(`p.note::before, blockquote.note::before { content: '${i18n("Note")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`p.important::before, blockquote.important::before { content: '${i18n("Important")}' !important; }`, sheet.cssRules.length);
+    sheet.insertRule(`.main-content h3#summary::before { content: '${i18n("Summary")}' !important; }`, sheet.cssRules.length);
+    let langCode = window.location.pathname.split("/").at(1);
+    if (!(langCode && langCode.length == 2 || (langCode.length == 5 && langCode[2] == "-"))) {
+        langCode = "en";
+    }
+    Array.from(document.querySelectorAll(".select-lang li")).map(el => {
+        const isActive = el.classList.contains(langCode);
+        el.classList.toggle("active", isActive);
+        if (isActive) document.querySelector(".site-button.lang").textContent = el.querySelector("span").textContent;
+    });
+    document.querySelector(".site-button.lang").addEventListener('click', () => {
+        document.querySelector(".select-lang").classList.toggle('open');
+    });
+</script>
+<style>
+    .main-content h3#summary {
+        font-size: 0.75rem !important;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        position: relative;
+        margin-top: 1em;
+        line-height: 1.65;
+        border: 1px solid #a8a8a8;
+        border-left: 4px solid #6d6d6d;
+        padding: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 1em;
+    }
+
+    .main-content h3#summary::before {
+        content: 'Resumen';
+        font-style: normal;
+        color: #444;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: .35rem;
+    }
+
+    .main-content h3#summary ul {
+        margin-bottom: 0;
+    }
+</style>
+
+
+<div class="nav-pagination" style="display: flex; justify-content: space-between; margin-top: 1rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+  <div><a href="/fr/es/experiments/14-photoresistor.html" class="btn btn-outline" style="text-align: left;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">← Anterior</span>
+      <strong>Fotorresistencia</strong>
+    </a></div>
+  <div><a href="/fr/es/experiments/16-bluetooth-advertise.html" class="btn btn-outline" style="text-align: right;">
+      <span style="display: block; font-size: 0.75rem; color: var(--text-color-light);">Próximo →</span>
+      <strong>Publicidad Bluetooth</strong>
+    </a></div>
+  </div>
+
+  <div class="d-md-none mt-4 fs-2">
+    
+    
+      Hacer que la invención práctica sea más accesible para profesores y alumnos <br>
+© 2026 Inventor Pi, Inc. <br>
+Inventor Pi, Inc. es una organización registrada 501(c)(3)
+    
+  </div>
+</footer>
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+    
+
+  
+</body>
+</html>

@@ -13,6 +13,8 @@ colors = {
 
 const fetchJson = async (url) => await (await fetch(url)).json();
 
+const i18nAscii = text => i18n(text).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\x00-\x7F]/g, "");
+
 function getDistance(lat1, lon1, lat2, lon2, unit = 'km') {
     const R = 6371; // Earth's mean radius in kilometers
 
@@ -158,7 +160,7 @@ const countryColor = (polygon) => {
         globe
             .pointsData(cities)
             .pointRadius(0.5)
-            .pointLabel((city) => city.type !== "Suggested" && `<b>${city.name}</b><br><small>${city.type}</small>` || '')
+            .pointLabel((city) => city.type !== "Suggested" && `<b>${city.name}</b><br><small>${city.type.split(", ").map(type => i18nAscii(type)).join(", ")}</small>` || '')
             .pointColor((city) => colors[city.type])
             .pointAltitude(0.15)
             .pointsTransitionDuration(2000);
@@ -201,7 +203,7 @@ const countryColor = (polygon) => {
 
     const addInteractiveSuggestedLocations = () => {
         const suggestLocation = (lat, lng, name) => {
-            if (name === "Here?") {
+            if (name.endsWith("?")) {
                 const clickedPoint = [lng, lat]; // Note: d3-geo expects [lon, lat]
                 const clickedPolygon = countries.features.find(feature =>
                     d3.geoContains(feature, clickedPoint)
@@ -221,7 +223,7 @@ const countryColor = (polygon) => {
                 globe.pointsData(globe.pointsData().filter((city) => city !== location));
             }, location.flightTime * 2);
         };
-        globe.onGlobeClick(({ lat, lng }) => suggestLocation(lat, lng, "Here?"));
+        globe.onGlobeClick(({ lat, lng }) => suggestLocation(lat, lng, i18nAscii("Here") + "?"));
         globe.onHexPolygonClick((polygon, event, { lat, lng }) => {
             suggestLocation(lat, lng, countryName(polygon) + "?");
         });

@@ -1,0 +1,39 @@
+<nav aria-label="Auxiliary" class="aux-nav">
+    <ul class="aux-nav-list">
+        <li class="aux-nav-list-item">
+            <button class="site-button lang btn-reset" type="button" aria-label="Select Language"
+                title="Select Language">
+                🇺🇸
+            </button>
+        </li>
+        {% for link in site.aux_links %}
+        <li class="aux-nav-list-item">
+            <a href="{{ link.last }}" class="site-button" {% if site.aux_links_new_tab %} target="_blank"
+                rel="noopener noreferrer" {% endif %}>
+                {{ link.first }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="select-lang-container">
+        <div class="select-lang-backdrop"></div>
+        <section class="select-lang">
+            <ul>
+                {% for lang in site.languages %}
+                <li class="lang {{ lang.code }}">
+                    <a class="lang" href="{% if lang.code != 'en' %}/{{ lang.code }}{% endif %}{{ page.url }}">
+                        <div>
+                            <div class="select-lang-text">{{ lang.label
+                                }}</div>
+                            <div class="sub">{{ lang.label_en
+                                }}</div>
+                        </div>
+                        <div class="flag">{{
+                            lang.flag }}</div>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+</nav>

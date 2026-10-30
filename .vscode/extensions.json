@@ -5,7 +5,10 @@
 	"recommendations": [
 		"streetsidesoftware.code-spell-checker",
 		"github.vscode-github-actions",
-		"Shopify.theme-check-vscode"
+		"Shopify.theme-check-vscode",
+		"dbaeumer.vscode-eslint",
+		"shopify.ruby-lsp",
+		"misteregis.spinel-theme"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": []

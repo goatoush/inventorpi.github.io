@@ -2,11 +2,94 @@ remote_theme: just-the-docs/just-the-docs
 title: Inventor Pi
 description: Hands-on electronics workshops for schools
 url: "https://inventorpi.com"
-logo: "/assets/images/inventor-pi-logo.svg"
-favicon_ico: "/assets/images/favicon.ico"
+lang: "en"
+locale: "en"
+logo: "/assets/images/inventor-pi-logo.webp"
+favicon_ico: "/favicon.ico"
 brand_color: "#F31660"
 plugins:
   - jekyll-remote-theme
+exclude:
+  - _data
+  - firebase.json
+  - README.md
+  - functions
+pdfs:
+  - "assets/Inventor Pi - Introduction to Electronics.pdf"
+preserve_text:
+  - Inventor Pi(, Inc.?)?
+languages:
+  - code: en
+    label: English
+    label_en: English
+    flag: 🇺🇸 🇬🇧
+  - code: fr
+    label: Français
+    label_en: French
+    flag: 🇫🇷 🇬🇳
+  - code: es
+    label: Español
+    label_en: Spanish
+    flag: 🇪🇸 🇲🇽
+  - code: de
+    label: Deutsch
+    label_en: German
+    flag: 🇩🇪 🇦🇹
+  - code: zh
+    label: 简体字
+    label_en: Chinese (Simplified)
+    flag: 🇨🇳 🇸🇬
+  - code: zh-TW
+    label: 正体字
+    label_en: Chinese (Traditional)
+    flag: 🇹🇼 🇭🇰
+  - code: hi
+    label: हिंदी
+    label_en: Hindi
+    flag: 🇮🇳 🇳🇵
+  - code: bn
+    label: বাংলা
+    label_en: Bangla
+    flag: 🇧🇩 🇮🇳
+  - code: ar
+    rtl: true
+    label: عربي
+    label_en: Arabic
+    flag: 🇸🇦 🇪🇬
+  - code: fa
+    rtl: true
+    label: فارسی
+    label_en: Persian
+    flag: 🇮🇷 🇦🇫
+  - code: ur
+    rtl: true
+    label: اردو
+    label_en: Urdu
+    flag: 🇵🇰 🇮🇳
+  - code: pt
+    label: Português
+    label_en: Portuguese
+    flag: 🇵🇹 🇧🇷
+  - code: ja
+    label: 日本語
+    label_en: Japanese
+    flag: 🇯🇵 🇵🇼
+  - code: it
+    label: Italiana
+    label_en: Italian
+    flag: 🇮🇹 🇸🇲
+  - code: nl
+    label: Nederlands
+    label_en: Dutch
+    flag: 🇳🇱 🇸🇷
+  - code: da
+    label: Dansk
+    label_en: Danish
+    flag: 🇩🇰 🇪🇺
+  - code: ru
+    label: Русский
+    label_en: Russian
+    flag: 🇷🇺 🇰🇿
 back_to_top: true
 back_to_top_text: "Back to top"
 mermaid:
@@ -16,7 +99,7 @@ nav_external_links:
   - title: Inventor Pi on GitHub
     url: https://github.com/goatoush/inventor-pi
 aux_links:
-  Get Started ▶:
+  Get Started:
     - /getting-started/
 callouts:
   highlight:
@@ -44,3 +127,11 @@ sass:
   quiet_deps: true
   silence_deprecations: ["import"]
   style: compressed
+i18n_text:
+  Active:
+  Base:
+  Planned:
+  Here:
+  Summary:
+  Note:
+  Important:

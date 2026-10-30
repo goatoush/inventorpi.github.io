@@ -7,9 +7,9 @@ nav_order: 11
 ![Knock Sensor](/assets/images/circuits/Knock%20Sensor%20Circuit.webp)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard to change the LED color and show the status on the display when a sudden shake is detected
+### A MicroPython code example&nbsp;running on a Raspberry Pi Pico 2 W microcontroller&nbsp;connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard&nbsp;to change the LED color and show the status on the display when a sudden shake is detected
 
-A knock sensor detects vibrations. This particular module uses a spring-based vibration switch. When the module is still, the spring does not touch the center pin, but when bumped or shaken, the spring sways and hits the center pin closing the circuit momentarily. For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion. While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm. To test, run the script, then hold the entire breadboard along with the knock sensor in hand, and give it a big skake bringing it to a sudden stop.
+A knock sensor detects vibrations. This particular module uses a spring-based vibration switch. When the module is still, the spring does not touch the center pin, but when bumped or shaken, the spring sways and hits the center pin closing the circuit momentarily. For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion. While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm. To test, run the script, then hold the entire breadboard along with the knock sensor in hand, and give it a big shake,bringing it to a sudden stop.
 
 Create a new file in Thonny, with file name knock_sensor.py. Copy and paste the code below into the file you created.
 
@@ -24,7 +24,7 @@ print("\nKnock Sensor")
 # a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion.
 # While a crash sensor would need to be placed at the point of impact, a knock sensor could detect 
 # vibrations across an entire arm. To test, run the script, then hold the entire breadboard along with 
-# the knock sensor in hand, and give it a big skake bringing it to a sudden stop.
+# the knock sensor in hand, and give it a big shake bringing it to a sudden stop.
 
 # CONNECTIONS REQUIRED
 

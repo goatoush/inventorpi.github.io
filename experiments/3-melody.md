@@ -7,7 +7,7 @@ nav_order: 3
 ![Melody](/assets/images/circuits/Melody%20Circuit.webp)
 
 {: #summary }
-### A MicroPython code example running on a Raspberry Pi Pico 2 W microcontroller connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard to play a melody of musical notes on the buzzer with matching text displayed on the display
+### A MicroPython code example&nbsp;running on a Raspberry Pi Pico 2 W microcontroller&nbsp;connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard&nbsp;to play a melody of musical notes on the buzzer with matching text displayed on the display
 
 A piezo buzzer works by using the piezoelectric effect to turn electrical signals into fast mechanical vibrations that create sound waves. In this script, we send different frequencies to a piezo buzzer to play different musical notes.
 
@@ -24,7 +24,7 @@ while True:
     sleep(3) # wait 3 seconds, then repeat
 ```
 
-To add a function, we use 'def'. The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times. 
+To add a function, we use `def`. The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times. 
 
 ```python
 def twinkle(seconds):

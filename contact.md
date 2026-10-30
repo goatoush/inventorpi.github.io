@@ -1,6 +1,79 @@
 ---
 title: Contact
 has_toc: false
-nav_order: 5
+nav_order: 6
 ---
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScj9dcFSqYr-M1vrYf-6hc2Q6ecB_ANmY-3T7tCd_VYAHfxDQ/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+# Contact Form
+
+<form id="contact-message-form">
+  <p>Please fill out the form below to get in touch</p>
+
+  <label for="name">Name</label>
+  <input id="name" autocomplete="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" autocomplete="email" required>
+
+  <label for="role">Role</label>
+  <input id="role" required>
+
+  <label for="school-name">School Name</label>
+  <input id="school-name" required>
+
+  <label for="school-address">School Address</label>
+  <input id="school-address" required>
+
+  <label for="message">Question / Feedback / Interest / Message</label>
+  <textarea id="message" rows="6" maxlength="250" required></textarea>
+
+  <button type="submit" id="submit-btn" class="btn btn-green">
+    Send Message
+  </button>
+</form>
+
+<div id="form-submitted" style="display: none; font-size: 1.25rem; color: green">Thank you! Your message has been sent successfully.</div>
+<div id="form-error" style="display: none; color: red; font-size: 1.25rem">Something went wrong. Please try again later.</div>
+<script>
+  document.getElementById('contact-message-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const contactForm = document.getElementById('contact-message-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const formSubmittedDiv = document.getElementById('form-submitted');
+    const formSubmitErrorDiv = document.getElementById('form-error');
+    
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      role: document.getElementById('role').value,
+      schoolName: document.getElementById('school-name').value,
+      schoolAddress: document.getElementById('school-address').value,
+      message: document.getElementById('message').value
+    };
+    
+    submitBtn.disabled = true;
+    formSubmitErrorDiv.style.display = 'none';
+
+    try {
+      const response = await fetch('https://us-central1-inventorpi.cloudfunctions.net/sendContactEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      if (response.ok) {
+        formSubmittedDiv.style.display = 'block';
+        contactForm.style.display = 'none';
+        contactForm.reset();
+      } else {
+        throw new Error('Server returned an error status.');
+      }
+    } catch (error) {
+      formSubmitErrorDiv.style.display = 'block';
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+</script>

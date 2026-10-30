@@ -1,0 +1,1052 @@
+Skip to main content: Ga direct naar de hoofdinhoud
+Menu: Menu
+Getting Started: Aan de slag
+Install Thonny App: Installeer de Thonny-app
+Invention Kit Contents: Inhoud van de uitvinderskit
+Additional Sensors Kit: Extra sensorkit
+Breadboard Basics: Basisprincipes van een breadboard
+Breadboard Wiring: Breadboard bedrading
+Pico 2 W Pinout: Pico 2 W Pinout
+Do's and Don'ts: Wat wel en niet mag
+Connect Pico: Verbind Pico
+Guide to Reading Code: Handleiding voor het lezen van code
+Experiments: Experimenten
+Blink: Knipperen
+Humidity Temp Sensor: Vochtigheids- en temperatuursensor
+Melody: Melodie
+Touch Game: Touch Game
+Distance Sensor: Afstandssensor
+Piano: Piano
+Joystick and Servos: Joystick en servo&#39;s
+Microphone Sensor: Microfoonsensor
+Accelerometer: Versnellingsmeter
+Crash Sensor: Botsingssensor
+Knock Sensor: Klopsensor
+Motion Sensor: Bewegingssensor
+Photo Interrupter: Foto-onderbreker
+Photoresistor: Fotoweerstand
+Potentiometer and Servo: Potentiometer en servo
+Bluetooth Advertise: Bluetooth-advertentie
+Mix and Match: Combineer naar hartenlust
+Lesson Plan for Teachers: Lesplan voor docenten
+About: Over
+Contact: Contact
+Making hands-on invention more accessible for teachers and students: Praktisch uitvinden
+  toegankelijker maken voor leerkrachten en leerlingen
+Get Started: Aan de slag
+Page not found: Pagina niet gevonden
+The page you requested could not be found: De pagina die u hebt opgevraagd, kon niet
+  worden gevonden
+Try using the navigation or search to find what you're looking for or go to the: Probeer
+  de navigatie of de zoekfunctie te gebruiken om te vinden wat je zoekt, of ga naar
+  de
+home page: startpagina
+Back to top: Terug naar boven
+Active: Actief
+Base: Baseren
+Planned: Gepland
+Here: Hier
+Summary: Samenvatting
+Note: Opmerking
+Important: Belangrijk
+Utshaho Gupta: Utshaho Gupta
+FOUNDER: OPRICHTER
+? Utshaho is a high school senior who has spent over 3 years designing affordable
+  AI-powered smart glasses for the visually impaired and has won multiple grants to
+  fund his innovation
+: Utshaho is een scholier in het laatste jaar van de middelbare school die al meer
+  dan drie jaar betaalbare, door AI aangedreven slimme brillen ontwerpt voor mensen
+  met een visuele beperking en meerdere subsidies heeft ontvangen om zijn innovatie
+  te financieren
+Utshaho revels in the intersection of math and science with language and international relations: Utshaho
+  geniet van de kruising tussen wiskunde en wetenschap met taal en internationale
+  betrekkingen
+? He is the captain of the IHOT robotics team and math club, and has also co-founded
+  the school newspaper and the French MUN program
+: Hij is de aanvoerder van het IHOT-roboticateam en de wiskundeclub, en heeft ook
+  de schoolkrant en het Franse MUN-programma mede opgericht
+He loves traveling, band, track and photography and he is a 3rd degree black belt in Karate: Hij
+  houdt van reizen, muziek, atletiek en fotografie, en hij heeft een derde dan zwarte
+  band in karate
+Inspiration Behind the Initiative: Inspiratie achter het initiatief
+? It won the 2025 Congressional App Challenge in Georgia’s 6th Congressional District,
+  and was recognized by Congresswoman Lucy McBath and Senator Jon Ossoff
+: De app won de Congressional App Challenge van 2025 in het 6e congresdistrict van
+  Georgia en werd erkend door congreslid Lucy McBath en senator Jon Ossoff
+? It was also featured in Raspberry Pi Foundation’s Worldwide Coolest Projects Online
+  Showcase and won the Judges’ Pick award in Georgia
+: Het project werd ook gepresenteerd in de online showcase van de &#39;Worldwide Coolest
+  Projects&#39; van de Raspberry Pi Foundation en won de &#39;Judges&#39; Pick&#39;-prijs
+  in Georgië
+Won the 2025 Congressional App Challenge in Georgia’s 6th District: Won de Congressional
+  App Challenge 2025 in het 6e district van Georgia
+Featured in Raspberry Pi Foundation’s Worldwide Coolest Projects: Uitgelicht in de
+  lijst van &#39;s werelds coolste projecten van de Raspberry Pi Foundation
+Affordable Smart Glasses for the Blind and Visually Impaired on YouTube: Betaalbare
+  slimme brillen voor blinden en slechtzienden op YouTube
+? Affordable Smart Glasses for the Blind and Visually Impaired won the 2025 Congressional
+  App Challenge in Georgia’s 6th Congressional District
+: Betaalbare slimme brillen voor blinden en slechtzienden hebben de Congressional
+  App Challenge 2025 gewonnen in het 6e congresdistrict van Georgia
+? Affordable Smart Glasses for the Blind and Visually Impaired featured in Raspberry
+  Pi Foundation's Worldwide Coolest Projects Online Showcase
+: Betaalbare slimme brillen voor blinden en slechtzienden te zien in de online showcase
+  van de coolste projecten ter wereld van de Raspberry Pi Foundation
+A MicroPython code example: Een voorbeeld van MicroPython-code
+running on a Raspberry Pi Pico 2 W microcontroller: draait op een Raspberry Pi Pico
+  2W microcontroller
+to blink an onboard LED repeatedly: een ingebouwde LED herhaaldelijk laten knipperen
+Let’s start with a simple micropython script to control the onboard LED on the Pico microcontroller: Laten
+  we beginnen met een eenvoudig MicroPython-script om de ingebouwde LED op de Pico-microcontroller
+  aan te sturen
+We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: We
+  hebben toegang tot de GPIO-pinnen (General Purpose Input Output) door gebruik te
+  maken van het Pin-object uit de machinebibliotheek
+The onboard LED can be accessed at GP25, or the name “LED” as Pin(“LED”) or Pin(25): De
+  ingebouwde LED is toegankelijk via GP25, of via de naam “LED” als Pin(“LED”) of
+  Pin(25)
+We use Pin.OUT to set it as an output pin: We gebruiken Pin.OUT om het als uitvoerpin
+  in te stellen
+We will use input pins later with sensors: We zullen de ingangspinnen later gebruiken
+  met sensoren
+Create a new file in Thonny, with file name blink.py: Maak een nieuw bestand aan in
+  Thonny met de bestandsnaam blink.py
+Copy and paste the code below into the file you created: Kopieer en plak de onderstaande
+  code in het bestand dat je hebt gemaakt
+Now let’s add the main loop: Laten we nu de hoofdloop toevoegen
+We add a 1 second delay with the sleep(1) statement: We voegen een vertraging van
+  1 seconde toe met de sleep(1)-instructie
+Copy and paste the code below to the end of the blink.py file: Kopieer en plak de
+  onderstaande code aan het einde van het bestand blink.py
+If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly: Als
+  alles naar behoren werkt, zou je een LED op de Raspberry Pi Pico herhaaldelijk moeten
+  zien knipperen
+Congratulations, you have written and run your first MicroPython script: Gefeliciteerd,
+  je hebt je eerste MicroPython-script geschreven en uitgevoerd
+Previous: Vorig
+Next: Volgende
+connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een botsingssensormodule met een eindschakelaar, een RGB-ledmodule en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to change the LED color and show the status on the display when crash is detected: om
+  de LED-kleur te veranderen en de status op het display weer te geven wanneer een
+  botsing wordt gedetecteerd
+A crash sensor uses a limit switch: Een botsingssensor maakt gebruik van een eindschakelaar
+? This can be used with a hard stop to detect when a mechanism, such as a robotic
+  arm, reaches the limit of its motion and trigger a limit switch
+: Dit kan worden gebruikt in combinatie met een harde stop om te detecteren wanneer
+  een mechanisme, zoals een robotarm, de limiet van zijn beweging bereikt en een eindschakelaar
+  te activeren
+It is also used in oven and refrigerator doors to turn on the internal light when the door is opened: Het
+  wordt ook gebruikt in oven- en koelkastdeuren om de binnenverlichting aan te zetten
+  wanneer de deur wordt geopend
+Create a new file in Thonny, with file name crash_sensor.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam crash_sensor.py
+connected to a knock sensor module with a coiled spring, an RGB LED module and an OLED display module (SSD1306) on a breadboard: verbonden
+  met een klopsensormodule met een spiraalveer, een RGB-ledmodule en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to change the LED color and show the status on the display when a sudden shake is detected: om
+  de LED-kleur te veranderen en de status op het display weer te geven wanneer een
+  plotselinge schok wordt gedetecteerd
+A knock sensor detects vibrations: Een klopsensor detecteert trillingen
+This particular module uses a spring-based vibration switch: Deze specifieke module
+  maakt gebruik van een trillingsschakelaar met veermechanisme
+? When the module is still, the spring does not touch the center pin, but when bumped
+  or shaken, the spring sways and hits the center pin closing the circuit momentarily
+: Wanneer de module stilstaat, raakt de veer de middelste pin niet aan, maar bij een
+  stoot of schudbeweging beweegt de veer en raakt de middelste pin, waardoor het circuit
+  even wordt gesloten
+For a ladder climbing robot, a knock sensor could detect when an extending arm hits a ladder rung, and then initiate next motion: Bij
+  een robot die ladders beklimt, kan een klopsensor detecteren wanneer een uitschuifbare
+  arm een ​​sport van de ladder raakt, waarna de volgende beweging kan worden ingezet
+While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: Een
+  botsingssensor moet op de plaats van de impact worden geplaatst, terwijl een klopsensor
+  trillingen over de gehele arm kan detecteren
+Create a new file in Thonny, with file name knock_sensor.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam knock_sensor.py
+connected to a PIR motion sensor module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een breadboard met een PIR-bewegingssensor, een RGB-ledmodule en een OLED-displaymodule
+  (SSD1306)
+to change the LED color and show the status on the display when motion is detected: om
+  de LED-kleur te veranderen en de status op het display weer te geven wanneer beweging
+  wordt gedetecteerd
+A PIR motion sensor detects movement by measuring changes in infrared (heat) radiation emitted by surrounding objects: Een
+  PIR-bewegingssensor detecteert beweging door veranderingen in de infraroodstraling
+  (warmte) te meten die door omringende objecten wordt uitgezonden
+? When a warm body (like a human or animal) moves across the field, it intercepts
+  one half of the sensor first and then the other, creating a differential voltage
+  pulse that signals motion
+: Wanneer een warm lichaam (zoals een mens of een dier) zich over het veld beweegt,
+  onderschept het eerst de ene helft van de sensor en vervolgens de andere, waardoor
+  een differentieel spanningssignaal ontstaat dat beweging signaleert
+It is used in security alarms and smart home automation: Het wordt gebruikt in alarmsystemen
+  en slimme huisautomatisering
+Then remove the book and wait for the sensor to detect motion: Verwijder vervolgens
+  het boek en wacht tot de sensor beweging detecteert
+Create a new file in Thonny, with file name motion_sensor.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam motion_sensor.py
+connected to a photo interrupter module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een fotodetectormodule, een RGB-ledmodule en een OLED-displaymodule (SSD1306)
+  op een breadboard
+to increment the count on the display each time the photo interrupter light beam is interrupted: De
+  teller op het display wordt verhoogd telkens wanneer de lichtstraal van de fotocel
+  wordt onderbroken
+? A photo interrupter module sends infrared light beam from an emitter to a receiver
+  (the two black blocks on the module), and detects when this beam is blocked
+: Een fotodetector stuurt een infrarood lichtstraal van een zender naar een ontvanger
+  (de twee zwarte blokken op de module) en detecteert wanneer deze straal wordt geblokkeerd
+It is used to detect end-of-travel in 3D printers, CNC machines and robots: Het wordt
+  gebruikt om het einde van de beweging te detecteren in 3D-printers, CNC-machines
+  en robots
+It is also used to count the pulses of a slotted disc rotating to calculate motor or wheel speed in robotics and smart cars: Het
+  wordt ook gebruikt om de pulsen van een roterende schijf met gleuven te tellen,
+  om zo de motor- of wielsnelheid te berekenen in robotica en slimme auto&#39;s
+In a printer, it detects when a paper is present: Een printer detecteert wanneer er
+  papier aanwezig is
+Create a new file in Thonny, with file name photo_interrupter.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam photo_interrupter.py
+connected to a photoresister module, an RGB LED module and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een fotoweerstandmodule, een RGB-ledmodule en een OLED-displaymodule (SSD1306)
+  op een breadboard
+to dim or brighten the LED to match the change in ambient light measured by the photoresister: om
+  de LED te dimmen of feller te maken, afhankelijk van de verandering in omgevingslicht
+  die door de fotoweerstand wordt gemeten
+? A photoresister allows more electricity to flow when more light hits its surface,
+  and less electricity to flow when less light hits its surface
+: Een fotogevoelige laag laat meer elektriciteit door als er meer licht op het oppervlak
+  valt, en minder elektriciteit door als er minder licht op het oppervlak valt
+It is used to dim a phone screen in low light, and brighten it when outdoors under bright sunlight: Het
+  wordt gebruikt om het scherm van een telefoon te dimmen bij weinig licht en het
+  helderder te maken wanneer je buiten bent in fel zonlicht
+Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: Sommige
+  tv&#39;s gebruiken het om de schermhelderheid aan te passen aan het omgevingslicht
+  in de kamer, waardoor het lijkt alsof er een kunstwerk aan de muur is geprint
+Line tracking robots use it to distinguish between a dark line and a light surface: Lijnvolgrobots
+  gebruiken het om onderscheid te maken tussen een donkere lijn en een licht oppervlak
+Create a new file in Thonny, with file name photoresistor.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam photoresistor.py
+connected to a micro servo motor, a potentiometer (rotation sensor) module and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een microservomotor, een potentiometer (rotatiesensor) module en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to control the angle of the servo by rotating the potentiometer knob and display it on the display: De
+  hoek van de servo regelen door aan de potentiometerknop te draaien en deze op het
+  display weergeven
+Potentiometers are the dials we turn to control things like temperature or volume: Potentiometers
+  zijn de draaiknoppen waarmee we dingen regelen zoals temperatuur of volume
+They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: Ze
+  werken door de elektrische weerstand te variëren, wat we aflezen als een variërende
+  spanning op de ingangspin van een microcontroller
+In this script, we use this input to control a servo angle: In dit script gebruiken
+  we deze invoer om een ​​servohoek te regelen
+A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: Een
+  servomotor is een motor waarvan we de draaihoek kunnen regelen door het PWM-signaal
+  dat we ernaar sturen te wijzigen
+Unlike standard electric motors that spin continuously, a servo motor moves to an exact angle or position and holds it firmly: In
+  tegenstelling tot standaard elektromotoren die continu draaien, beweegt een servomotor
+  naar een exacte hoek of positie en houdt deze vast
+Create a new file in Thonny, with file name potentiometer_and_servo.py: Maak in Thonny
+  een nieuw bestand aan met de naam potentiometer_and_servo.py
+Bluetooth Advertise and Bluetooth Scan: Bluetooth-adverteren en Bluetooth-scannen
+connected to a rotary encoder module, an RGB LED and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een draai-encoder-module, een RGB-led en een OLED-displaymodule (SSD1306) op
+  een breadboard
+to individually control the red, green and blue channels of the LED to create any color,: om
+  de rode, groene en blauwe kanalen van de LED afzonderlijk aan te sturen en zo elke
+  gewenste kleur te creëren
+display the hex value and R, G, B values on the display,: De hexadecimale waarde en
+  de R-, G- en B-waarden worden op het display weergegeven
+broadcast it over bluetooth by embedding it in the service UUID of the BLE advertising data,: Verstuur
+  het via Bluetooth door het in te bedden in de service-UUID van de BLE-advertentiegegevens
+use bluetooth scanning to read the color on nearby Raspberry Pi Pico devices,: Gebruik
+  Bluetooth-scanning om de kleur van nabijgelegen Raspberry Pi Pico-apparaten uit
+  te lezen
+and show the received color on LEDs, creating a cluster of synced Pico devices: en
+  de ontvangen kleur op LED&#39;s weergeven, waardoor een cluster van gesynchroniseerde
+  Pico-apparaten ontstaat
+? We use a rotary encoder to change red, green and blue color of the LED, then broadcast
+  that color to nearby devices, which set their LEDs to the same color
+: We gebruiken een draaiknop om de rode, groene en blauwe kleur van de LED te veranderen
+  en zenden die kleur vervolgens door naar apparaten in de buurt, die hun LED&#39;s
+  op dezelfde kleur instellen
+? When one device runs bluetooth_advertise.py and multiple nearby devices run bluetooth_scan.py,
+  we can create a network of synced devices
+: Wanneer één apparaat bluetooth_advertise.py uitvoert en meerdere apparaten in de
+  buurt bluetooth_scan.py uitvoeren, kunnen we een netwerk van gesynchroniseerde apparaten
+  creëren
+This is how a cluster of robots can communicate and work together: Zo kunnen een groep
+  robots met elkaar communiceren en samenwerken
+Create a new file in Thonny, with file name bluetooth_advertise.py: Maak in Thonny
+  een nieuw bestand aan met de naam bluetooth_advertise.py
+? To test with bluetooth_scan.py running on a different device, on the second device’s
+  computer, create a new file in Thonny, with file name bluetooth_scan.py
+: Om bluetooth_scan.py te testen op een ander apparaat, maak je op de computer van
+  dat tweede apparaat een nieuw bestand aan in Thonny met de naam bluetooth_scan.py
+Mix and Match Inputs and Outputs: Combineer ingangen en uitgangen
+connected to a micro servo motor, an RGB LED, a passive piezo buzzer, an OLED display module (SSD1306): aangesloten
+  op een microservomotor, een RGB-led, een passieve piëzo-zoemer en een OLED-displaymodule
+  (SSD1306)
+? and one of several input components - an accelerometer, push button, motion sensor,
+  photoresistor, joystick, microphone, rotary encoder, or another sensor - on a breadboard
+: en een van de verschillende invoercomponenten - een accelerometer, drukknop, bewegingssensor,
+  fotoweerstand, joystick, microfoon, draaiknop of een andere sensor - op een breadboard
+? to read the input data from the selected component and interpolate it to a buzzer
+  frequency, an LED color and a servo angle, and display the values on the display
+: De invoergegevens van het geselecteerde component uitlezen, deze interpoleren naar
+  een zoemerfrequentie, een LED-kleur en een servohoek, en de waarden op het display
+  weergeven
+This is the kitchen sink catch-all script that lets you mix and match different inputs and outputs: Dit
+  is een allesomvattend script waarmee je verschillende in- en uitgangen kunt combineren
+The sensor readings are converted to LED color, servo angle, buzzer frequency and text on the OLED screen: De
+  sensorwaarden worden omgezet in LED-kleur, servohoek, zoemerfrequentie en tekst
+  op het OLED-scherm
+Refer to the relevant circuit diagrams above based on the input you choose: Raadpleeg
+  de relevante schakelschema&#39;s hierboven op basis van de door u gekozen invoer
+Create a new file in Thonny, with file name mix_and_match.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam mix_and_match.py
+connected to a humidity and temperature sensor module (DHT11) and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een vochtigheids- en temperatuursensormodule (DHT11) en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to measure and display the relative humidity and ambient temperature in both celsius and fahrenheit: om
+  de relatieve luchtvochtigheid en de omgevingstemperatuur te meten en weer te geven
+  in zowel Celsius als Fahrenheit
+A humidity and temperature sensor measures the ambient temperature and air humidity: Een
+  vochtigheids- en temperatuursensor meet de omgevingstemperatuur en de luchtvochtigheid
+In robotics, temperature sensors are built into most electronic components: In de
+  robotica zijn temperatuursensoren ingebouwd in de meeste elektronische componenten
+They can be used for thermal protection, such as to automatically shutdown a robot when temperatures exceed safe limits: Ze
+  kunnen worden gebruikt voor thermische beveiliging, bijvoorbeeld om een ​​robot
+  automatisch uit te schakelen wanneer de temperatuur de veilige limieten overschrijdt
+? Did you know that a smartphone has about 8 different temperature sensors in it,
+  measuring screen temperature, back temperature, battery temperature, CPU temperature,
+  etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+: Wist je dat een smartphone zo&#39;n 8 verschillende temperatuursensoren bevat, die
+  onder andere de temperatuur van het scherm, de achterkant, de batterij en de processor
+  meten? Vochtigheidssensoren controleren de condensatie in een smartphone of smartwatch
+This is a DHT11 sensor: Dit is een DHT11-sensor
+'We import the dht library and setup the GP28 pin as shown below:': 'We importeren
+  de dht-bibliotheek en configureren de GP28-pin zoals hieronder weergegeven:'
+Then in the main loop, we use the measure function to get the temperature and humidity: Vervolgens
+  gebruiken we in de hoofdloop de meetfunctie om de temperatuur en luchtvochtigheid
+  te verkrijgen
+We can use simple math formula to convert from celsius to fahrenheit: We kunnen een
+  eenvoudige wiskundige formule gebruiken om Celsius naar Fahrenheit om te rekenen
+To run the full script, create a new file in Thonny, with file name humidity_temp_sensor.py: Om
+  het volledige script uit te voeren, maak je een nieuw bestand aan in Thonny met
+  de bestandsnaam humidity_temp_sensor.py
+Humidity Temp Sensor Circuit: Circuit van de vochtigheids- en temperatuursensor
+connected to a passive piezo buzzer, an RGB LED module and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een passieve piëzo-zoemer, een RGB-ledmodule en een OLED-displaymodule (SSD1306)
+  op een breadboard
+to play a melody of musical notes on the buzzer with matching text displayed on the display: Een
+  melodie van muzieknoten afspelen via de zoemer, met bijbehorende tekst op het display
+? A piezo buzzer works by using the piezoelectric effect to turn electrical signals
+  into fast mechanical vibrations that create sound waves
+: Een piëzo-zoemer werkt door gebruik te maken van het piëzo-elektrische effect om
+  elektrische signalen om te zetten in snelle mechanische trillingen die geluidsgolven
+  creëren
+In this script, we send different frequencies to a piezo buzzer to play different musical notes: In
+  dit script sturen we verschillende frequenties naar een piëzo-zoemer om verschillende
+  muzieknoten te laten spelen
+'To play a note at an interval, we run:': 'Om een ​​noot met een bepaald interval
+  te spelen, gebruiken we de volgende code:'
+The function below adds a twinkle effect by turning the LED to dim white then off, repeating multiple times: De
+  onderstaande functie voegt een twinkeleffect toe door de LED eerst gedimd wit te
+  laten branden en vervolgens uit te schakelen, en dit meerdere keren te herhalen
+To play an entire melody, create a new file in Thonny, with file name melody.py: Om
+  een ​​complete melodie af te spelen, maak je een nieuw bestand aan in Thonny met
+  de bestandsnaam melody.py
+connected to a capacitive touch sensor module, a passive piezo buzzer, and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een capacitieve aanraaksensormodule, een passieve piëzo-zoemer en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to create a reaction time testing game,: om een ​​spel te maken dat de reactietijd
+  test
+and to learn to draw shapes on the OLED display: en leren om vormen te tekenen op
+  het OLED-scherm
+A capacitive touch sensor detects a touch by measuring changes in electrical charge when a human finger comes close: Een
+  capacitieve aanraaksensor detecteert een aanraking door veranderingen in de elektrische
+  lading te meten wanneer een vinger in de buurt komt
+Humans are full of water and salt, making the body a natural conductor of electricity: Het
+  menselijk lichaam bestaat voor een groot deel uit water en zout, waardoor het van
+  nature een elektrische geleider is
+It is used in smartphones for multi-touch navigation and gesture detection: Het wordt
+  in smartphones gebruikt voor multitouch-navigatie en gebarenherkenning
+In this script, we create a short game to test your reaction time, while also learning how to draw shapes on the OLED screen: In
+  dit script maken we een kort spelletje om je reactiesnelheid te testen, terwijl
+  je tegelijkertijd leert hoe je vormen op het OLED-scherm tekent
+'To read the sensor, we run:': 'Om de sensor uit te lezen, voeren we het volgende
+  commando uit:'
+The function below draws happy or sad face based on the parameters passed to it: De
+  onderstaande functie tekent een blij of verdrietig gezichtje op basis van de parameters
+  die eraan worden doorgegeven
+The main loop of our game is easy to follow because it calls easy to understand function names: De
+  hoofdloop van ons spel is gemakkelijk te volgen omdat deze functies aanroept met
+  eenvoudig te begrijpen namen
+Create a new file in Thonny, with file name touch_game.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam touch_game.py
+? connected to an ultrasonic distance sensor module (HC-SR04), a micro servo motor,
+  a passive piezo buzzer, an RGB LED module, and an OLED display module (SSD1306)
+  on a breadboard
+: aangesloten op een breadboard met een ultrasone afstandssensormodule (HC-SR04),
+  een microservomotor, een passieve piëzo-zoemer, een RGB-ledmodule en een OLED-displaymodule
+  (SSD1306)
+? to create a gesture based sound instrument that converts the distance measured to
+  different buzzer sound frequencies, servo angles and LED colors, and displays the
+  distance measured on the OLED display
+: Het doel is een op gebaren gebaseerd geluidsinstrument te creëren dat de gemeten
+  afstand omzet in verschillende zoemfrequenties, servohoeken en LED-kleuren, en de
+  gemeten afstand weergeeft op het OLED-scherm
+A distance sensor measures the distance to any nearby obstruction: Een afstandssensor
+  meet de afstand tot eventuele obstakels in de buurt
+Robots and cars use such sensors to stop before hitting any obstruction: Robots en
+  auto&#39;s gebruiken dergelijke sensoren om te stoppen voordat ze tegen een obstakel
+  aanrijden
+The sensor used here is an ultrasonic distance sensor: De sensor die hier gebruikt
+  wordt, is een ultrasone afstandssensor
+? We convert the distance to different RGB colors and buzzer frequencies to create
+  a fun musical instrument that you can play with hand gestures
+: We zetten de afstand om in verschillende RGB-kleuren en zoemfrequenties om een ​​leuk
+  muziekinstrument te creëren dat je met handgebaren kunt bespelen
+We also change the angle of a servo motor based on the distance detected: We passen
+  ook de hoek van een servomotor aan op basis van de gedetecteerde afstand
+Create a new file in Thonny, with file name distance_sensor.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam distance_sensor.py
+connected to a passive piezo buzzer, an OLED display module (SSD1306) and 6 push buttons on a breadboard: aangesloten
+  op een passieve piëzo-zoemer, een OLED-displaymodule (SSD1306) en 6 drukknoppen
+  op een breadboard
+to play different musical notes on the buzzer,: om verschillende muzieknoten op de
+  zoemer te laten klinken,
+draw the notes and musical staff lines on the display,: Teken de noten en de lijnen
+  van de muzieknotatie op het scherm
+and replay as a recording after a pause: en na een pauze opnieuw afspelen als opname
+We use the buttons to play different musical notes: We gebruiken de knoppen om verschillende
+  muzieknoten te spelen
+We also learn how to draw shapes on the OLED screen to draw the notes on musical staff lines: We
+  leren ook hoe we vormen op het OLED-scherm kunnen tekenen om de noten op de notenbalk
+  weer te geven
+And when user input pauses, we replay the notes to create a fun musical instrument: En
+  wanneer de gebruiker stopt met invoeren, spelen we de noten opnieuw af om een ​​leuk
+  muziekinstrument te creëren
+We read 6 different inputs for the 6 buttons: We lezen 6 verschillende invoerwaarden
+  voor de 6 knoppen
+For this, we add some more helper functions below: Hiervoor voegen we hieronder nog
+  een aantal hulpfuncties toe
+With all these functions, our main loop is still easy to follow: Ondanks al deze functies
+  blijft onze hoofdloop gemakkelijk te volgen
+To put it all together, and test, create a new file in Thonny, with file name piano.py: Om
+  alles samen te voegen en te testen, maak je een nieuw bestand aan in Thonny met
+  de bestandsnaam piano.py
+connected to an analog 2-axis thumb joystick module, 2 micro servo motors and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een analoge 2-assige joystickmodule, 2 microservomotoren en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to control the angles of both servos using the joystick and display the angles on the OLED display: om
+  de hoeken van beide servo&#39;s te regelen met de joystick en de hoeken weer te
+  geven op het OLED-display
+A joystick is often used for navigation in robots, drones, cruise ships and planes: Een
+  joystick wordt vaak gebruikt voor navigatie in robots, drones, cruiseschepen en
+  vliegtuigen
+In FRC robotics, we use 2 gaming controllers, with 2 joysticks per controller: Bij
+  FRC-robotica gebruiken we 2 gamecontrollers, met 2 joysticks per controller
+Each joystick includes independent X and Y axis control: Elke joystick beschikt over
+  onafhankelijke bediening van de X- en Y-as
+Which  gives us a total of 8 independent axes to control the robot: Dit geeft ons
+  in totaal 8 onafhankelijke assen om de robot te besturen
+In this script, we control the angle of two servos using different axes of the joystick: In
+  dit script besturen we de hoek van twee servo&#39;s met behulp van verschillende
+  assen van de joystick
+By pressing the joystick button, we toggle the mode to Sync Angle Mode: Door op de
+  joystickknop te drukken, schakelen we over naar de synchronisatiehoekmodus
+Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: Nu
+  gebruiken we trigonometrie om de hoek te berekenen die de joystickhendel maakt,
+  en stellen we de servo&#39;s zo af dat ze overeenkomen met deze hoek
+In robotics, we often use advanced mathematics to control various motions: In de robotica
+  gebruiken we vaak geavanceerde wiskunde om verschillende bewegingen aan te sturen
+Create a new file in Thonny, with file name joystick_and_servos.py: Maak een nieuw
+  bestand aan in Thonny met de bestandsnaam joystick_and_servos.py
+Microphone Sensor and Melody: Microfoonsensor en melodie
+connected to a microphone sound sensor module, a passive piezo buzzer and an OLED display module (SSD1306) on a breadboard: aangesloten
+  op een microfoongeluidssensormodule, een passieve piëzo-zoemer en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to replay the sound frequencies measured by the microphone on the buzzer and display them on the display: om
+  de door de microfoon gemeten geluidsfrequenties via de zoemer af te spelen en op
+  het display weer te geven
+? A microphone sound sensor converts environmental sound waves into electrical signals
+  using a built-in microphone and an onboard processing circuit
+: Een microfoonsensor zet omgevingsgeluidsgolven om in elektrische signalen met behulp
+  van een ingebouwde microfoon en een geïntegreerde verwerkingsschakeling
+Sound waves move through the air and hit a tiny flexible diaphragm inside the module’s microphone: Geluidsgolven
+  bewegen zich door de lucht en raken een klein, flexibel membraan in de microfoon
+  van de module
+The fluctuations in the diaphragm create electrical signals that match the sound frequency and volume: De
+  trillingen in het membraan genereren elektrische signalen die overeenkomen met de
+  geluidsfrequentie en het volume
+Run this script, and simultaneously run melody.py on a different device: Voer dit
+  script uit en voer tegelijkertijd melody.py uit op een ander apparaat
+Bring the devices close to each other and place the microphone directly on top of the buzzer of the device playing the melody: Plaats
+  de apparaten dicht bij elkaar en zet de microfoon direct boven de zoemer van het
+  apparaat dat de melodie afspeelt
+If the room is not very noisy, it should pick up at least some of the notes: Als de
+  ruimte niet al te lawaaierig is, zou het in ieder geval een deel van de tonen moeten
+  opvangen
+Create a new file in Thonny, with file name microphone_sensor.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam microphone_sensor.py
+connected to a 3-axis digital accelerometer module (ADXL345) and an OLED display module (SSD1306) on a breadboard: verbonden
+  met een 3-assige digitale accelerometermodule (ADXL345) en een OLED-displaymodule
+  (SSD1306) op een breadboard
+to draw and rotate a 3D shape on the OLED display by rotating the accelerometer about its X and Y axes: Een
+  3D-vorm tekenen en roteren op het OLED-scherm door de accelerometer om zijn X- en
+  Y-assen te draaien
+An accelerometer measures acceleration around the x, y and z axis: Een accelerometer
+  meet de versnelling rond de x-, y- en z-as
+In robotics, it is essential in determining the robot position and movement: In de
+  robotica is het essentieel voor het bepalen van de positie en beweging van de robot
+In this script, we draw a 3D shape, and control its rotation using the accelerometer: In
+  dit script tekenen we een 3D-vorm en besturen we de rotatie ervan met behulp van
+  de accelerometer
+Create a new file in Thonny, with file name accelerometer.py: Maak een nieuw bestand
+  aan in Thonny met de bestandsnaam accelerometer.py
+Write your first script “blink.py” by following the instructions below: Schrijf je
+  eerste script &quot;blink.py&quot; door de onderstaande instructies te volgen
+Once you get it to work on your Pico, try connecting the humidity and temperature sensor in the next experiment: Als
+  het eenmaal werkt op je Pico, probeer dan in het volgende experiment de vochtigheids-
+  en temperatuursensor aan te sluiten
+After that, try random experiments from the list below: Probeer daarna willekeurige
+  experimenten uit de onderstaande lijst
+Some experiments need additional sensors from the common additional sensors kit to be shared by all teams: Voor
+  sommige experimenten zijn extra sensoren nodig uit de algemene set met extra sensoren,
+  die door alle teams gedeeld moet worden
+The complete code for all the experiments is also available on: De volledige code
+  voor alle experimenten is ook beschikbaar op
+GitHub: GitHub
+Table of contents: Inhoudsopgave
+Additional Sensors for Sharing Amongst Teams: Extra sensoren voor het delen tussen
+  teams
+Motion sensor: Bewegingssensor
+Knock sensor: Klopsensor
+Potentiometer: Potentiometer
+Microphone sensor: Microfoonsensor
+Photo interrupter: Foto-onderbreker
+Crash sensor: Botsingssensor
+Rotation Encoder: Rotatie-encoder
+Additional Sensors: Extra sensoren
+Breadboard Basics Explained in 60 Seconds: De basisprincipes van een breadboard uitgelegd
+  in 60 seconden
+? There is now a resettable fuse on the breadboard (not included in the image above,
+  see below) which disconnects the circuit in case a student accidentally creates
+  a short circuit on the breadboard
+: Er is nu een resetbare zekering op het breadboard (niet weergegeven in de afbeelding
+  hierboven, zie hieronder) die het circuit onderbreekt als een leerling per ongeluk
+  kortsluiting veroorzaakt op het breadboard
+? You still need to verify all connections before powering on the circuit, because
+  incorrect connections to the sensors can cause permanent damage to their sensitive
+  electronics, rendering them useless
+: Controleer nog steeds alle aansluitingen voordat u het circuit inschakelt, want
+  onjuiste aansluitingen op de sensoren kunnen permanente schade aan de gevoelige
+  elektronica veroorzaken, waardoor ze onbruikbaar worden
+Do’s and Don’ts: Wat wel en niet mag
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard
+: Een resetbare zekering (PPTC-zekering of polyfuse) is het kleine oranje-gele component
+  dat de Pico 3.3V Out-pin met het breadboard verbindt
+rail: spoor
+When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Bij
+  kortsluiting, bijvoorbeeld doordat een jumperdraad per ongeluk VCC (breadboard)
+  verbindt, kan dit problemen veroorzaken
+rail) to GND  (breadboard: rail) naar GND (breadboard)
+rail), it trips, preventing damage to the electronics: rail), schakelt het uit, waardoor
+  schade aan de elektronica wordt voorkomen
+A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Enkele
+  seconden nadat het circuit is gerepareerd of de stroom is uitgeschakeld, koelt het
+  af en reset het zichzelf
+The students should verify all the connections and resume the experiment: De studenten
+  moeten alle verbindingen controleren en het experiment hervatten
+Resettable Fuse: Herstelbare zekering
+Connect Pico to Computer: Sluit Pico aan op de computer
+You can use the USB-C to USB-A adapter from the battery pack if your computer does not have any USB-C ports: Als
+  uw computer geen USB-C-poorten heeft, kunt u de USB-C naar USB-A-adapter uit de
+  accu gebruiken
+? Every time you connect the Pico, wait a few seconds, then expand the menu ☰ icon
+  at the bottom right of the Thonny window, and select MicroPython (Raspberry Pi Pico)
+  from the menu
+: Elke keer dat je de Pico aansluit, wacht je een paar seconden, vouw je vervolgens
+  het menu-icoon ☰ rechtsonder in het Thonny-venster uit en selecteer je MicroPython
+  (Raspberry Pi Pico) in het menu
+Micro USB Port on Pico: Micro-USB-poort op Pico
+Start by reading the description: Begin met het lezen van de beschrijving
+Connect any components: Sluit alle componenten aan
+Read the main loop: Lees de hoofdloop
+Read other comments: Lees andere reacties
+Read rest of the code: Lees de rest van de code
+Important Do’s and Don’ts: Belangrijke do&#39;s en don&#39;ts
+Do …: Doen …
+Disconnect Pico before changing connectors: Koppel Pico los voordat u de connectoren
+  verwisselt
+Verify all connections, especially VCC and GND: Controleer alle aansluitingen, met
+  name VCC en GND
+Establish team roles like coding, wiring, verifying circuit, capturing notes and recording: Stel
+  teamrollen vast, zoals coderen, bedraden, circuit controleren, notities maken en
+  vastleggen
+Read experiment description and code: Lees de experimentbeschrijving en de code
+Don’t …: Niet doen…
+Don’t power on before verifying all connections: Schakel het apparaat niet in voordat
+  u alle aansluitingen hebt gecontroleerd
+Incorrect VCC and GND can destroy sensitive electronics: Onjuiste VCC- en GND-waarden
+  kunnen gevoelige elektronica beschadigen
+Don’t rely on numbers printed on the breadboard: Vertrouw niet op de getallen die
+  op het breadboard staan ​​afgedrukt
+Count point distance from other connectors on the board to verify: Tel de afstand
+  van het punt tot andere connectoren op de printplaat om dit te controleren
+Don’t leave before putting everything back in the kit box: Ga niet weg voordat je
+  alles weer in de gereedschapskist hebt gedaan
+Important Do's and Don'ts: Belangrijke do&#39;s en don&#39;ts
+This is a companion guide to the class experiments kit shown below: Dit is een handleiding
+  ter aanvulling op de experimentenkit voor in de klas, zoals hieronder weergegeven
+You will use this guide along with the kit to learn to build simple electronic circuits with a Raspberry Pi Pico microcontroller: Met
+  behulp van deze handleiding en de kit leer je eenvoudige elektronische schakelingen
+  bouwen met een Raspberry Pi Pico-microcontroller
+This is a fun hands-on way to get introduced to electronics, programming and engineering: Dit
+  is een leuke, praktische manier om kennis te maken met elektronica, programmeren
+  en techniek
+Check your class experiments kit: Controleer de experimentenkit van je klas
+It includes 5 identical invention kits and one additional sensors kit: Het pakket
+  bevat 5 identieke uitvindingskits en één extra sensorkit
+Before we can start the experiments, we need a way to write and deploy the code to Pico: Voordat
+  we met de experimenten kunnen beginnen, hebben we een manier nodig om de code te
+  schrijven en te implementeren op Pico
+To do this, we will install the Thonny app, preferably on all computers, so every student can learn to use it: Om
+  dit te bereiken, installeren we de Thonny-app, bij voorkeur op alle computers, zodat
+  elke leerling kan leren hoe deze te gebruiken
+If that is not feasible, we install it on at least one computer per team: Als dat
+  niet haalbaar is, installeren we het op minstens één computer per team
+If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: Als
+  Thonny helemaal niet geïnstalleerd kan worden, kunnen we de onderstaande alternatieve
+  methode gebruiken om de experimenten uit te voeren
+You can streamline the process by installing Thonny app on all computers before the workshop: Je
+  kunt het proces stroomlijnen door de Thonny-app op alle computers te installeren
+  vóór de workshop
+How to Run Experiments with Thonny: Hoe voer je experimenten uit met Thonny?
+Launch Thonny App on your computer, if it is not already running: Start de Thonny-app
+  op je computer, als deze nog niet actief is
+Read the guide and the code for the experiment on this website and create a new file as described: Lees
+  de handleiding en de code voor het experiment op deze website en maak een nieuw
+  bestand aan zoals beschreven
+Connect the components as described before connecting Pico to power supply: Sluit
+  de componenten aan zoals beschreven voordat u Pico op de voeding aansluit
+Verify all the connections are to the correct Pins, especially the VCC and GND connections: Controleer
+  of alle verbindingen correct zijn aangesloten op de juiste pinnen, met name de VCC-
+  en GND-aansluitingen
+Connect the Raspberry Pi Pico to the computer with the provided USB cable: Sluit de
+  Raspberry Pi Pico met de meegeleverde USB-kabel aan op de computer
+Expand the menu at the bottom right of the Thonny window, and select Raspberry Pi Pico: Klap
+  het menu rechtsonder in het Thonny-venster uit en selecteer Raspberry Pi Pico
+To end the experiment, disconnect the USB cable from Pico: Om het experiment te beëindigen,
+  koppelt u de USB-kabel los van Pico
+To select another experiment, repeat the steps above: Om een ​​ander experiment te
+  selecteren, herhaal je de bovenstaande stappen
+Alternate Method to Run Experiments without Thonny: Alternatieve methode om experimenten
+  uit te voeren zonder Thonny
+Read the guide and the code for the experiment on this website but skip creating a file: Lees
+  de handleiding en de code voor het experiment op deze website, maar sla het aanmaken
+  van een bestand over
+Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: Sluit
+  de Raspberry Pi Pico met de meegeleverde USB-kabel aan op het accupakket
+Toggle the switch on the battery pack to ON (Insert 3 included AA batteries first, if empty): Zet
+  de schakelaar op het batterijpakket op AAN (plaats eerst de 3 meegeleverde AA-batterijen,
+  indien deze leeg zijn)
+"On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "Druk
+  op het breadboard één keer op de blauwe knop \U0001F535 om het menu op het OLED-scherm
+  te openen"
+"Use the yellow button \U0001F7E1 to move forward to the next experiment and green \U0001F7E2 to move back": "Gebruik
+  de gele knop \U0001F7E1 om door te gaan naar het volgende experiment en de groene
+  \U0001F7E2 om terug te gaan"
+"Once you reach the experiment you are trying to run, press the blue button \U0001F535 to launch it": "Zodra
+  je bij het experiment bent dat je wilt uitvoeren, druk je op de blauwe knop \U0001F535
+  om het te starten"
+Installation Steps: Installatiestappen
+Download and Install Thonny (with Python) from: Download en installeer Thonny (met
+  Python) via
+thonny.org: thonny.org
+? Choose the Installer with Python for your Operating System and Processor (the best
+  option should already be highlighted as recommended for you)
+: Kies het installatieprogramma met Python voor uw besturingssysteem en processor
+  (de beste optie zou al als aanbevolen gemarkeerd moeten zijn)
+If you are using MacOS, and it blocks the installer, go to System Settings &gt; Privacy &amp; Security and click Open Anyway: Als
+  je macOS gebruikt en het de installatie blokkeert, ga dan naar Systeeminstellingen
+  &gt; Privacy en beveiliging en klik op Toch openen
+? To setup Thonny for first use, launch Thonny app, choose Tools &gt; Options from
+  the menu, select the Interpreter tab, select MicroPython (Raspberry Pi Pico) from
+  the drop down and click OK
+: Om Thonny voor het eerste gebruik in te stellen, start u de Thonny-app, kiest u
+  Tools &gt; Opties in het menu, selecteert u het tabblad Interpreter, kiest u MicroPython
+  (Raspberry Pi Pico) in het下拉菜单 en klikt u op OK
+Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: Experimenteerbord
+  met OLED, LED, zoemer, Raspberry Pi Pico 2W, 6 knoppen
+2 Micro servo motors: 2 microservomotoren
+Joystick module: Joystickmodule
+Distance sensor: Afstandssensor
+Humidity + temperature sensor: Vochtigheids- en temperatuursensor
+Touch sensor: Aanraaksensor
+20 jumper wires: 20 verbindingsdraden
+Battery pack: Batterijpakket
+Micro USB cable: Micro-USB-kabel
+Raspberry Pi Pico 2 W GPIO Pinout: Raspberry Pi Pico 2 W GPIO-pinconfiguratie
+You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: Je
+  kunt de volledige pinout van de Raspberry Pi Pico 2W bekijken op de pagina die hieronder
+  is gelinkt
+Full Raspberry Pi Pico 2 W Pinout: Volledige pinout van de Raspberry Pi Pico 2W
+Remembering this will make verifying the pin positions easier: Als je dit onthoudt,
+  wordt het controleren van de pinposities gemakkelijker
+The ground pins also have a square copper shape around the pin on the Pico board to make them easier to recognize: De
+  aardingspinnen hebben op de Pico-printplaat ook een vierkante koperen rand om ze
+  gemakkelijker te herkennen
+Reaching Teachers and Students Worldwide: Het bereiken van docenten en studenten wereldwijd
+Showing cities with active workshops/outreach, as well as planned cities: Steden met
+  actieve workshops/voorlichtingsprogramma&#39;s, evenals steden met een goede stadsplanning,
+  worden getoond
+It was truly great to have Utshaho in class: Het was echt geweldig om Utshaho in de
+  klas te hebben
+He was fantastic with the kids, coming prepared with all the necessary materials: Hij
+  was fantastisch met de kinderen en kwam goed voorbereid met al het benodigde materiaal
+He provided clear instructions and offered support to the students throughout their activities: Hij
+  gaf duidelijke instructies en bood de studenten ondersteuning tijdens hun activiteiten
+The students were engaged and enjoyed what they were doing: De leerlingen waren betrokken
+  en genoten van wat ze deden
+They were really interested in building different sensors: Ze waren erg geïnteresseerd
+  in het bouwen van verschillende sensoren
+MYP Science Teacher: MYP-wetenschapsdocent
+Atlanta International School: Atlanta Internationale School
+Introduction to Electronics Workshop at Atlanta International School: Inleiding tot
+  de elektronicaworkshop op de Atlanta International School
+I liked how many different things we could do, there was lot’s of variety: Ik vond
+  het leuk dat we zoveel verschillende dingen konden doen, er was veel variatie
+Grade 7 Student: Leerling van groep 7
+loved this lesson: Ik vond deze les geweldig
+Hands-on electronics workshops for schools: Praktische elektronica-workshops voor
+  scholen
+The goal is to help students move from simply learning about technology to actually building technology that solve real problems: Het
+  doel is om studenten te helpen de stap te zetten van louter leren over technologie
+  naar het daadwerkelijk bouwen van technologie die echte problemen oplost
+Introduction to Electronics Workshop: Inleiding tot de elektronica-workshop
+It is targeted towards middle school and primary school teachers and students who want to introduce and learn hands-on STEM: Het
+  is bedoeld voor leerkrachten en leerlingen van het middelbaar en basisonderwijs
+  die STEM-vakken op een praktische manier willen introduceren en leren
+? With the right guidance, everyone can learn electronics, AI, and computer vision
+  through projects that connect to real-world impact
+: Met de juiste begeleiding kan iedereen elektronica, AI en computervisie leren via
+  projecten die aansluiten op de praktijk
+? Students learn basic electronic skills about using a breadboard, connecting sensors,
+  motors and controllers, and programming on Raspberry Pi
+: Leerlingen leren basisvaardigheden op het gebied van elektronica, zoals het gebruik
+  van een breadboard, het aansluiten van sensoren, motoren en controllers, en programmeren
+  op een Raspberry Pi
+? With an early start, this can unlock their creativity and set them on their path
+  to prototype new ideas, identify real world problems, and continue learning new
+  skills, experimenting and inventing
+: Door hier vroeg mee te beginnen, kan hun creativiteit worden gestimuleerd en kunnen
+  ze nieuwe ideeën ontwikkelen, problemen uit de praktijk identificeren en voortdurend
+  nieuwe vaardigheden leren, experimenteren en uitvinden
+Reference Slides for the Workshop: Referentieslides voor de workshop
+Class Experiments Kit: Experimentenpakket voor in de klas
+Breadboard Connections and Safety: Breadboard-aansluitingen en veiligheid
+Lesson Plan Outline: Lesplanoverzicht
+Some Additional Notes: Enkele aanvullende opmerkingen
+Class Experiments Kit Contents: Inhoud van de experimentenkit voor in de klas
+Teachers can run a one hour workshop with middle school students interested in STEM: Docenten
+  kunnen een workshop van een uur geven aan middelbare scholieren die geïnteresseerd
+  zijn in STEM
+Each class experiments kit includes 5 identical invention kits and one Additional Sensors Kit: Elke
+  experimentenkit voor de klas bevat 5 identieke uitvindingskits en één extra sensorkit
+? There is also a “Get started with MicroPython on Raspberry Pi Pico” book included,
+  which is not essential to running the workshop
+: Er is ook een boekje bijgevoegd met de titel &quot;Aan de slag met MicroPython op
+  Raspberry Pi Pico&quot;, maar dit is niet essentieel voor het volgen van de workshop
+It is available for optional extra reading, if desired: Het is beschikbaar als extra
+  leesmateriaal, indien gewenst
+Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: De
+  experimentenkit voor in de klas bevat 5 identieke uitvindingskits en een extra sensorkit
+Reference slides from our first workshop are included below, which you can use as-is, or incorporate within your presentation: Hieronder
+  vindt u referentiedia&#39;s van onze eerste workshop, die u direct kunt gebruiken
+  of in uw presentatie kunt verwerken
+Download Slides: Dia&#39;s downloaden
+Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: Maak
+  uzelf vertrouwd met de inhoud van de uitvindingskit en de kit met extra sensoren
+? The Additional Sensors Kit includes reward stickers that you can distribute for
+  the best creative ideas, active participation, etc
+: De extra sensorkit bevat beloningsstickers die je kunt uitdelen voor de beste creatieve
+  ideeën, actieve deelname, enzovoort
+? There are also some tiny NFC nail stickers that light up when brought near a smartphone
+  with NFC (often at the back near the top center)
+: Er zijn ook kleine NFC-nagelstickers die oplichten wanneer ze in de buurt van een
+  smartphone met NFC worden gehouden (vaak aan de achterkant, bovenaan in het midden)
+The first step is installing the Thonny app: De eerste stap is het installeren van
+  de Thonny-app
+It is important for the students to learn how breadboard connections work and to be safe: Het
+  is belangrijk dat de leerlingen leren hoe breadboard-verbindingen werken en hoe
+  ze veilig te werk gaan
+The Additional Sensors Kit includes a breadboard with no backing to show how it works: De
+  extra sensorkit bevat een breadboard zonder achterkant om te laten zien hoe het
+  werkt
+? There is a resettable fuse on the breadboard which disconnects the circuit in case
+  a student accidentally creates a short circuit on the breadboard
+: Op het breadboard zit een resetbare zekering die het circuit onderbreekt als een
+  leerling per ongeluk kortsluiting veroorzaakt
+? The students still need to verify all connections before powering on the circuit,
+  because incorrect connections to the sensors can cause permanent damage to their
+  sensitive electronics, rendering them useless
+: De studenten moeten nog steeds alle aansluitingen controleren voordat ze het circuit
+  inschakelen, omdat onjuiste aansluitingen op de sensoren permanente schade aan de
+  gevoelige elektronica kunnen veroorzaken, waardoor ze onbruikbaar worden
+? When setting up the connectors, students should disconnect the USB cable from Pico,
+  and have multiple students verify the connections before connecting the USB cable
+: Bij het aansluiten van de connectoren moeten de leerlingen de USB-kabel loskoppelen
+  van Pico en moeten meerdere leerlingen de verbindingen controleren voordat de USB-kabel
+  weer wordt aangesloten
+It is useful to count the pin distance from other used pins on the board: Het is handig
+  om de afstand van de pinnen tot andere gebruikte pinnen op het bord te meten
+Safety Procedure: Veiligheidsprocedure
+Power Off: Stroom uitschakelen
+Connect Components: Verbind componenten
+Verify Each Connection: Controleer elke verbinding
+Power On: Inschakelen
+Introduction - Learn about electronics, breadboards, safety (10-20 min): Inleiding
+  - Leer meer over elektronica, breadboards en veiligheid (10-20 min)
+Divide class into 5 teams (one per invention kit) (3-5 min): Verdeel de klas in 5
+  teams (één team per uitvindingspakket) (3-5 min)
+Students familiarize themselves with the invention kit components (3-5 min): Leerlingen
+  maken zich vertrouwd met de onderdelen van de uitvindingskit (3-5 min)
+Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): Voer
+  de eerste experimenten uit en leer de basisprincipes (knipperlicht, daarna vochtigheids-
+  en temperatuursensor) (5-10 min)
+Run random experiments from the list, and present to other teams (20-30 min): Voer
+  willekeurige experimenten uit de lijst uit en presenteer de resultaten aan de andere
+  teams (20-30 min)
+Clean up and pack the kits (5-7 min): Opruimen en de kits inpakken (5-7 min)
+? To facilitate running additional workshops in future, students should pack the contents
+  back into the boxes the way they found them
+: Om het organiseren van toekomstige workshops te vergemakkelijken, moeten studenten
+  de inhoud van de dozen weer inpakken zoals ze die aantroffen
+If teams have more than 3 students, they can take turns reading about an experiment and running an experiment: Als
+  teams uit meer dan 3 studenten bestaan, kunnen ze om de beurt lezen over een experiment
+  en een experiment uitvoeren
+? When students borrow sensors from the Additional Sensors Kit, they should return
+  the sensors after their experiment so other teams can borrow them
+: Wanneer leerlingen sensoren lenen uit de set met extra sensoren, moeten ze de sensoren
+  na afloop van hun experiment terugbrengen, zodat andere teams ze kunnen lenen
+? Some experiments work in pairs, requiring 2 teams to collaborate using two Picos
+  at the same time (Microphone sensor and melody, and bluetooth advertise and scan)
+: Sommige experimenten werken in duo&#39;s, waarbij 2 teams moeten samenwerken met
+  twee Pico&#39;s tegelijk (microfoonsensor en melodie, en Bluetooth-advertentie en
+  -scan)
+? Bluetooth advertise and scan should be a fun experiment for the entire class, where
+  all the devices synchronize their LED colors to match one advertising device
+: Bluetooth-adverteren en -scannen zou een leuk experiment moeten zijn voor de hele
+  klas, waarbij alle apparaten hun LED-kleuren synchroniseren om overeen te komen
+  met één adverterend apparaat
+You could direct one team to work on Bluetooth advertise and others to setup Bluetooth scan before time runs out: Je
+  zou één team de opdracht kunnen geven om Bluetooth-advertenties te maken en andere
+  teams om Bluetooth-scans in te stellen voordat de tijd om is
+Category: Categorie
+Item Description: Artikelomschrijving
+Quantity per Box: Aantal per doos
+Total Quantity: Totale hoeveelheid
+Invention Kit (5x): Uitvindersset (5x)
+? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
+  module, RGB LED Module, resettable PPTC fuse, preset connectors
+: Breadboard met Raspberry Pi Pico 2W, 6 drukknoppen, piëzo-zoemer, OLED-schermmodule,
+  RGB-LED-module, resetbare PPTC-zekering, voorgeprogrammeerde connectoren
+Empty Battery Pack with USB-C to USB-A Adapter: Lege accupack met USB-C naar USB-A-adapter
+AA Alkaline Batteries, packed in a plastic bag with bubble wrap for shipping: AA alkalinebatterijen,
+  verpakt in een plastic zak met bubbeltjesplastic voor verzending
+Micro USB to USB-C Cable: Micro-USB naar USB-C-kabel
+Micro Servo Motor: Micro-servomotor
+Capacitive Touch Sensor: Capacitieve aanraaksensor
+Temp &amp; Humidity Sensor: Temperatuur- en vochtigheidssensor
+Ultrasonic Distance Sensor: Ultrasone afstandssensor
+Joystick Module: Joystickmodule
+10cm Jumper Wires: 10 cm verbindingsdraden
+PIR Motion Sensor Module: PIR-bewegingssensormodule
+Knock Sensor Module: Klopsensormodule
+Potentiometer Module: Potentiometermodule
+Accelerometer Module: Versnellingsmetermodule
+Photo Interrupter Module: Foto-onderbrekermodule
+Crash Sensor Module: Botsingssensormodule
+Photoresistor Module: Fotoweerstandmodule
+Rotation Encoder Module: Rotatie-encodermodule
+NFC Nail Reward Stickers: NFC-nagelstickers als beloning
+Assorted Reward Stickers: Diverse beloningsstickers
+Breadboard without Backing: Breadboard zonder achterplaat
+Book: Boek
+Get started with MicroPython on Raspberry Pi Pico Book: Aan de slag met MicroPython
+  op de Raspberry Pi Pico Book
+Workshops: Workshops
+<span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
+<span translate="no">Inventor Pi</span> on GitHub: <span translate="no">Inventor Pi</span>
+  op GitHub
+2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
+  Pi, Inc.</span>
+<span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
+  translate="no">Inventor Pi, Inc.</span> is een geregistreerde 501(c)(3)-organisatie
+Search <span translate="no">Inventor Pi</span>: Zoek <span translate="no">Inventor
+  Pi</span>
+Main: Voornaamst
+Getting Started submenu: Submenu Aan de slag
+Experiments submenu: Submenu Experimenten
+Auxiliary: Extra
+YouTube video player: YouTube-videospeler
+? In the code below, <span translate="no"><code class="language-plaintext highlighter-rouge">led.toggle()</code></span>
+  function toggles the LED on and off
+: In de onderstaande code schakelt de functie <span translate="no"><code class="language-plaintext
+  highlighter-rouge">led.toggle()</code></span> ` de LED aan en uit
+? Both lines repeat indefinitely inside a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> code block
+: Beide regels worden oneindig herhaald binnen een ` <span translate="no"><code class="language-plaintext
+  highlighter-rouge">while True:</code></span> ` codeblok
+Breadcrumb: Paneermeel
+? To test, run the script, then hold the entire breadboard along with the knock sensor
+  in hand, and give it a big shake,bringing it to a sudden stop
+: Om te testen, voer je het script uit, houd je vervolgens het hele breadboard met
+  de klopsensor in je hand en schud je het flink, waardoor het abrupt tot stilstand
+  komt
+? When running this script in a classroom, cover the sensor completely with a book
+  or folded sheets of paper, then wait for sensor to reset and display <span translate="no"><code
+  class="language-plaintext highlighter-rouge">No motion</code></span>
+: Wanneer je dit script in een klaslokaal uitvoert, bedek de sensor dan volledig met
+  een boek of opgevouwen vellen papier en wacht tot de sensor gereset is en <span
+  translate="no"><code class="language-plaintext highlighter-rouge">No motion</code></span>
+  weergeeft
+Hint: Hint
+To add a function, we use <span translate="no"><code class="language-plaintext highlighter-rouge">def</code></span>: Om
+  een ​​functie toe te voegen, gebruiken we <span translate="no"><code class="language-plaintext
+  highlighter-rouge">def</code></span>
+? For this game, we learn to draw on the OLED screen, using <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  to draw a circle, and <span translate="no"><code class="language-plaintext highlighter-rouge">oled.display.fill_rect</code></span>
+  to draw a rectangle
+: In dit spel leren we tekenen op het OLED-scherm, waarbij we <span translate="no"><code
+  class="language-plaintext highlighter-rouge">oled.display.ellipse</code></span>
+  gebruiken om een ​​cirkel te tekenen en <span translate="no"><code class="language-plaintext
+  highlighter-rouge">oled.display.fill_rect</code></span> om een ​​rechthoek te tekenen
+? Finally, we save the notes in a <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> along with their duration played
+: Tot slot slaan we de noten op in een <span translate="no"><code class="language-plaintext
+  highlighter-rouge">list</code></span> , samen met de speelduur ervan
+'For this, we use a <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span> as shown below:': 'Hiervoor
+  gebruiken we een <span translate="no"><code class="language-plaintext highlighter-rouge">list</code></span>
+  zoals hieronder weergegeven:'
+? To further learn drawing shapes on the OLED screen, we draw the shape of the notes
+  as they are played, by creating a function <span translate="no"><code class="language-plaintext
+  highlighter-rouge">draw_notes_on_screen()</code></span>
+: Om het tekenen van vormen op het OLED-scherm verder te leren, tekenen we de vorm
+  van de noten terwijl ze worden gespeeld, door een functie <span translate="no"><code
+  class="language-plaintext highlighter-rouge">draw_notes_on_screen()</code></span>
+  te maken
+? When connected successfully, the shell window at the bottom ends with the <span
+  translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+  prompt
+: Als de verbinding succesvol tot stand is gebracht, eindigt het shellvenster onderaan
+  met de prompt <span translate="no"><code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;</code></span>
+? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
+  on making hands-on invention more accessible for teachers and students
+: <span translate="no">Inventor Pi</span> is een door studenten geleid STEM-initiatief
+  dat zich richt op het toegankelijker maken van praktische uitvindingen voor docenten
+  en studenten
+? <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
+  point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
+  kits, lesson plan that teachers can use to create virtual and in-person workshops
+: <span translate="no">Inventor Pi</span> biedt docenten en leerlingen een duidelijk
+  uitgangspunt om hun vaardigheden te ontwikkelen met beginnersvriendelijke Raspberry
+  Pi Pico- en elektronicakits, en lesplannen die docenten kunnen gebruiken om virtuele
+  en fysieke workshops te creëren
+Ms. Irem Nekay: Mevrouw Irem Nekay
+Introduction to Electronics Slides: Inleiding tot elektronica (dia&#39;s)
+? Utshaho’s work on creating the “Affordable Smart Glasses for the Blind and Visually
+  Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
+: Het werk van Utshaho aan de ontwikkeling van &quot;betaalbare slimme brillen voor
+  blinden en slechtzienden&quot; inspireerde hem tot het creëren <span translate="no">Inventor
+  Pi</span>
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp" alt="Micro
+  USB Port on Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  and any USB-C or USB-A port on the computer
+: Sluit de Pico aan op de computer door de USB-kabel aan te sluiten op de Micro USB-poort
+  van de Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp"
+  alt="Micro-USB-poort op Pico" class="inline-img" width="202" height="205" fetchpriority="high"></span>
+  en elke USB-C- of USB-A-poort op de computer
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp"
+  alt="Run current script" class="inline-img" width="24" height="24" fetchpriority="high"></span>
+  <span translate="no"><code class="language-plaintext highlighter-rouge">Run current
+  script</code></span> button
+: Sla het bestand op en voer het script uit met behulp van de groene knop. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp" alt="Voer het huidige script uit" class="inline-img"
+  width="24" height="24" fetchpriority="high"></span> Knop &#39; <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+Run current script: Voer het huidige script uit
+English: Engels
+French: Frans
+Spanish: Spaans
+German: Duits
+Chinese (Simplified): Chinees (vereenvoudigd)
+Chinese (Traditional): Chinees (traditioneel)
+Hindi: Hindi
+Bangla: Bangla
+Arabic: Arabisch
+Persian: Perzisch
+Urdu: Urdu
+Portuguese: Portugees
+Japanese: Japanse
+Italian: Italiaans
+Dutch: Nederlands
+Danish: Deens
+Russian: Russisch
+Contact Form: Contactformulier
+Please fill out the form below to get in touch: Vul onderstaand formulier in om contact
+  met ons op te nemen
+Name: Naam
+Email: E-mail
+Role: Rol
+School Name: Naam van de school
+School Address: Schooladres
+Question / Feedback / Interest / Message: Vraag / Feedback / Interesse / Bericht
+Send Message: Bericht verzenden
+Thank you! Your message has been sent successfully: Dankjewel! Je bericht is succesvol
+  verzonden
+Something went wrong: Er is iets misgegaan
+Please try again later: Probeer het later opnieuw
+? To quickly run bluetooth_scan.py on one or more devices, without uploading new code,
+  use the alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: Om bluetooth_scan.py snel op een of meer apparaten uit te voeren zonder nieuwe code
+  te uploaden, kunt u de alternatieve methode gebruiken die wordt beschreven in het
+  gedeelte &#39; <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Aan
+  de slag&#39;.</a>
+? To quickly run melody.py on another device, without uploading new code, use the
+  alternate method described in the <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Getting
+  Started</a> section
+: Om melody.py snel op een ander apparaat uit te voeren zonder nieuwe code te uploaden,
+  kunt u de alternatieve methode gebruiken die wordt beschreven in het gedeelte &#39;
+  <a href="/getting-started/#alternate-method-to-run-experiments-without-thonny">Aan
+  de slag&#39;.</a>
+? To test with melody.py running on a different device, run the melody.py file from
+  the <a href="/experiments/3-melody.html">Melody</a> experiment above on a computer
+  connected to the second device
+: Om te testen of melody.py op een ander apparaat draait, voer je het bestand melody.py
+  uit het bovenstaande <a href="/experiments/3-melody.html">Melody-</a> experiment
+  uit op een computer die is aangesloten op het tweede apparaat
+? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
+  section covers important points to keep in mind
+: In het onderdeel &#39; <a href="/getting-started/important-dos-and-donts.html">Wat
+  wel en niet te doen&#39;</a> worden belangrijke punten behandeld om rekening mee
+  te houden
+Notice that: Merk op dat
+Ground: Grond
+"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": De
+  (GND)-pinnen worden na elke 4 pinnen herhaald en beginnen na 2 pinnen aan elk uiteinde
+? You should use the <a href="/getting-started/">Getting Started</a> section of this
+  website to try out the different experiments yourself before the class
+: Je kunt de sectie &#39; <a href="/getting-started/">Aan de slag&#39;</a> op deze
+  website gebruiken om de verschillende experimenten zelf uit te proberen voordat
+  de les begint
+? Please share these <a href="/getting-started/install-thonny-app.html">instructions</a>
+  with the students ahead of time, so they can install the app on their laptops before
+  the class
+: Deel deze <a href="/getting-started/install-thonny-app.html">instructies</a> van
+  tevoren met de leerlingen, zodat ze de app vóór de les op hun laptops kunnen installeren

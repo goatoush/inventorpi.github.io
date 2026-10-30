@@ -1,0 +1,13 @@
+---
+layout: default
+title: 404
+sitemap: false
+nav_exclude: true
+search_exclude: true
+noindex: true
+---
+
+<h1>Page not found</h1>
+
+<p>The page you requested could not be found. Try using the navigation {% if site.search_enabled != false %}or search {%
+    endif %}to find what you're looking for or go to the <a href="{{ '/' | relative_url }}">home page</a>.</p>

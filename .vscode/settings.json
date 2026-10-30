@@ -11,6 +11,7 @@
         "IHOT",
         "microcontroller",
         "MicroPython",
+        "notranslate",
         "OLED",
         "Ossoff",
         "photoresister",
@@ -29,5 +30,45 @@
     },
     "cSpell.enabledFileTypes": {
         "*": false
+    },
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "rubyLsp.formatter": "syntax_tree",
+    "editor.semanticHighlighting.enabled": true,
+    "[liquid]": {
+        "editor.defaultFormatter": "Shopify.theme-check-vscode",
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.formatOnSave": true
+    },
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "eslint.workingDirectories": [
+        "./functions"
+    ],
+    "eslint.run": "onSave",
+    // This explicitly isolates the code action to the functions folder
+    "files.associations": {
+        "**/assets/css/**/*.scss": "liquid",
+        "*.html": "liquid",
+        "functions/**/*": "javascript"
+    },
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
     }
 }
