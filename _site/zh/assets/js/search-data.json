@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pico 2 W 引脚图",
     "title": "树莓派 Pico 2W GPIO 引脚图",
-    "content": ". 您可以在下方链接的页面查看完整的 Raspberry Pi Pico 2 W 引脚图。. 树莓派 Pico 2W 完整引脚图 → . 请注意 地面 （GND）引脚每隔 4 个引脚重复出现一次，并且在每端都从第 2 个引脚之后开始。. 记住这一点将使验证引脚位置更容易。. Pico板上的接地引脚周围也带有方形铜圈，以便于识别。. ",
+    "content": ". 您可以在下方链接的页面查看完整的 Raspberry Pi Pico 2 W 引脚图。. 树莓派 Pico 2W 完整引脚图 → . 请注意，接地 (GND) 引脚每隔 4 个引脚重复出现一次，并且在每端都从第 2 个引脚之后开始。. 记住这一点将使验证引脚位置更容易。. Pico板上的接地引脚周围也带有方形铜圈，以便于识别。. ",
     "url": "/zh/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/zh/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

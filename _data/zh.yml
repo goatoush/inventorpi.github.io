@@ -670,10 +670,6 @@ Please try again later: 请稍后再试。
 ? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
   section covers important points to keep in mind
 : <a href="/getting-started/important-dos-and-donts.html">“注意事项”</a>部分涵盖了需要牢记的重要事项。
-Notice that: 请注意
-Ground: 地面
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "（GND）引脚每隔
-  4 个引脚重复出现一次，并且在每端都从第 2 个引脚之后开始。"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : 在上课之前，你应该先利用本网站的<a href="/getting-started/">“入门指南</a>”部分自行尝试不同的实验。
@@ -721,3 +717,5 @@ Ground Rail: 地面轨道
 : 当出现短路时，例如跳线意外连接到 VCC（面包板）。 <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="正轨" class="inline-img"></span>铁路）到 GND（ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="地面轨道" class="inline-img"></span>轨道），它跳闸，防止电子设备损坏。
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: 请注意，接地
+  (GND) 引脚每隔 4 个引脚重复出现一次，并且在每端都从第 2 个引脚之后开始。

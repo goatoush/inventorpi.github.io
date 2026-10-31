@@ -976,11 +976,6 @@ Please try again later: অনুগ্রহ করে পরে আবার �
   section covers important points to keep in mind
 : <a href="/getting-started/important-dos-and-donts.html">করণীয় ও বর্জনীয়</a> অংশে
   মনে রাখার মতো গুরুত্বপূর্ণ বিষয়গুলো তুলে ধরা হয়েছে।
-Notice that: লক্ষ্য করুন যে
-Ground: ভূমি
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)
-  পিনগুলো প্রতি ৪টি পিন পর পর পুনরাবৃত্তি হয় এবং প্রতিটি প্রান্তে ২টি পিনের পর থেকে
-  শুরু হয়।"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : ক্লাসের আগে বিভিন্ন পরীক্ষাগুলো নিজে করে দেখার জন্য আপনার এই ওয়েবসাইটের &#39; <a
@@ -1042,3 +1037,6 @@ Ground Rail: গ্রাউন্ড রেল
   alt="পজিটিভ রেল" class="inline-img"></span> রেল) থেকে জিএনডি ( <span translate="no"><img
   src="/assets/images/minus-rail.webp?v=osszao" alt="গ্রাউন্ড রেল" class="inline-img"></span>
   রেল), এটি ট্রিপ করে, ইলেকট্রনিক্সের ক্ষতি প্রতিরোধ করে।
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: লক্ষ্য
+  করুন যে গ্রাউন্ড (GND) পিনগুলো প্রতি ৪টি পিন পর পর পুনরাবৃত্ত হয় এবং প্রতিটি প্রান্তে
+  ২টি পিনের পর থেকে শুরু হয়।

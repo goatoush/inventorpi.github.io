@@ -978,10 +978,6 @@ Please try again later: Por favor, tente novamente mais tarde
   section covers important points to keep in mind
 : A seção <a href="/getting-started/important-dos-and-donts.html">&quot;O que fazer
   e o que não fazer&quot;</a> aborda pontos importantes a serem considerados
-Notice that: Observe que
-Ground: Chão
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": Os
-  pinos (GND) se repetem a cada 4 pinos e começam após 2 pinos em cada extremidade
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : Você deve usar a seção <a href="/getting-started/">&quot;Primeiros Passos</a> &quot;
@@ -1044,3 +1040,6 @@ Ground Rail: Trilho de solo
   alt="Trilho positivo" class="inline-img"></span> trilho) para GND ( <span translate="no"><img
   src="/assets/images/minus-rail.webp?v=osszao" alt="Trilho de solo" class="inline-img"></span>
   trilho), ele dispara, evitando danos aos componentes eletrônicos
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Observe
+  que os pinos de aterramento (GND) se repetem a cada 4 pinos e começam após 2 pinos
+  em cada extremidade

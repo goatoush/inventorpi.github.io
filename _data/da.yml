@@ -946,10 +946,6 @@ Please try again later: Prøv igen senere
   section covers important points to keep in mind
 : Afsnittet <a href="/getting-started/important-dos-and-donts.html">&quot;Gør og ikke
   gør&quot;</a> dækker vigtige punkter, du skal huske på
-Notice that: Bemærk at
-Ground: Jord
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)-benene
-  gentages efter hver 4. ben, og starter efter 2 ben i hver ende"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : Du bør bruge afsnittet <a href="/getting-started/">&quot;Kom godt i gang&quot;</a>
@@ -1010,3 +1006,5 @@ Ground Rail: Jordskinne
   alt="Positiv skinne" class="inline-img"></span> skinne) til GND ( <span translate="no"><img
   src="/assets/images/minus-rail.webp?v=osszao" alt="Jordskinne" class="inline-img"></span>
   (skinne), udløses den, hvilket forhindrer beskadigelse af elektronikken
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Bemærk
+  at jordbenene (GND) gentages efter hver 4. ben, og starter efter 2 ben i hver ende

@@ -77,7 +77,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
       )
       .reject do |file_path|
         target_languages.any? do |lang|
-          file_path.start_with?(File.join(destination_dir, lang))
+          file_path.start_with?(File.join(destination_dir, lang) + "/")
         end
       end
   files_to_be_updated.each do |file_path|

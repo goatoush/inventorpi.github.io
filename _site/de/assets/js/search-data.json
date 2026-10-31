@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pico 2 W Pinbelegung",
     "title": "Raspberry Pi Pico 2 W GPIO-Pinbelegung",
-    "content": ". Die vollständige Pinbelegung des Raspberry Pi Pico 2 W finden Sie auf der unten verlinkten Seite. Vollständige Pinbelegung für Raspberry Pi Pico 2 W → . Beachten Sie, dass Boden Die (GND)-Pins werden nach jeweils 4 Pins wiederholt und beginnen an jedem Ende nach 2 Pins. Wenn Sie sich das merken, wird die Überprüfung der Pin-Positionen einfacher. Die Erdungsanschlüsse sind zudem auf der Pico-Platine mit einer quadratischen Kupferform umrandet, um sie leichter erkennbar zu machen. ",
+    "content": ". Die vollständige Pinbelegung des Raspberry Pi Pico 2 W finden Sie auf der unten verlinkten Seite. Vollständige Pinbelegung für Raspberry Pi Pico 2 W → . Beachten Sie, dass die Masseanschlüsse (GND) alle vier Pins wiederholt werden und an jedem Ende nach jeweils zwei Pins beginnen. Wenn Sie sich das merken, wird die Überprüfung der Pin-Positionen einfacher. Die Erdungsanschlüsse sind zudem auf der Pico-Platine mit einer quadratischen Kupferform umrandet, um sie leichter erkennbar zu machen. ",
     "url": "/de/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/de/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

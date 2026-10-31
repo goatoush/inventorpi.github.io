@@ -962,11 +962,6 @@ Please try again later: براہ کرم بعد میں دوبارہ کوشش کر
   section covers important points to keep in mind
 : <a href="/getting-started/important-dos-and-donts.html">کیا کریں اور کیا نہ کریں</a>
   سیکشن ذہن میں رکھنے کے لیے اہم نکات کا احاطہ کرتا ہے۔
-Notice that: اس پر توجہ دیں۔
-Ground: گراؤنڈ
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)
-  پنوں کو ہر 4 پنوں کے بعد دہرایا جاتا ہے، اور ہر سرے میں 2 پنوں کے بعد شروع ہوتا
-  ہے۔"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : آپ کو کلاس سے پہلے مختلف تجربات کو خود آزمانے کے لیے اس ویب سائٹ کے <a href="/getting-started/">شروع
@@ -1025,3 +1020,6 @@ Ground Rail: گراؤنڈ ریل
   class="inline-img"></span> ریل) سے جی این ڈی ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="گراؤنڈ ریل" class="inline-img"></span> ریل)، یہ سفر کرتی ہے، الیکٹرانکس کو
   پہنچنے والے نقصان کو روکتی ہے۔
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: غور
+  کریں کہ گراؤنڈ (GND) پن ہر 4 پنوں کے بعد دہرائے جاتے ہیں، اور ہر سرے میں 2 پنوں
+  کے بعد شروع کریں

@@ -1009,10 +1009,6 @@ Please try again later: Probeer het later opnieuw
 : In het onderdeel &#39; <a href="/getting-started/important-dos-and-donts.html">Wat
   wel en niet te doen&#39;</a> worden belangrijke punten behandeld om rekening mee
   te houden
-Notice that: Merk op dat
-Ground: Grond
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": De
-  (GND)-pinnen worden na elke 4 pinnen herhaald en beginnen na 2 pinnen aan elk uiteinde
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : Je kunt de sectie &#39; <a href="/getting-started/">Aan de slag&#39;</a> op deze
@@ -1074,3 +1070,6 @@ Ground Rail: Grondrail
   alt="Positief spoor" class="inline-img"></span> rail) naar GND ( <span translate="no"><img
   src="/assets/images/minus-rail.webp?v=osszao" alt="Grondrail" class="inline-img"></span>
   rail), schakelt het uit, waardoor schade aan de elektronica wordt voorkomen
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Merk
+  op dat de massapinnen (GND) na elke 4 pinnen herhaald worden en aan elk uiteinde
+  na 2 pinnen beginnen

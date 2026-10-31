@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pico 2 Wのピン配置",
     "title": "Raspberry Pi Pico 2W GPIOピン配置",
-    "content": ". Raspberry Pi Pico 2 Wのピン配置の詳細は、下記のリンク先のページで確認できます。. Raspberry Pi Pico 2Wの完全なピン配置 → . 注目してください 地面 （GND）ピンは4ピンごとに繰り返され、両端で2ピンごとに始まります。. これを覚えておけば、ピンの位置の確認が容易になります。. Picoボード上のグランドピンは、識別しやすくするために、ピンの周囲に四角い銅製の縁取りが施されています。. ",
+    "content": ". Raspberry Pi Pico 2 Wのピン配置の詳細は、下記のリンク先のページで確認できます。. Raspberry Pi Pico 2Wの完全なピン配置 → . グランド（GND）ピンは4ピンごとに繰り返され、両端で2ピンごとに始まることに注意してください。. これを覚えておけば、ピンの位置の確認が容易になります。. Picoボード上のグランドピンは、識別しやすくするために、ピンの周囲に四角い銅製の縁取りが施されています。. ",
     "url": "/ja/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/ja/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

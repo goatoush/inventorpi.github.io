@@ -670,10 +670,6 @@ Please try again later: 請稍後再試。
 ? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
   section covers important points to keep in mind
 : <a href="/getting-started/important-dos-and-donts.html">「注意事項」</a>部分涵蓋了需要牢記的重要事項。
-Notice that: 請注意
-Ground: 地面
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "（GND）引腳每隔
-  4 個引腳重複出現一次，並且在每端都從第 2 個引腳之後開始。"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : 在上課之前，你應該先利用本網站的<a href="/getting-started/">「入門指南</a>」部分自行嘗試不同的實驗。
@@ -721,3 +717,5 @@ Ground Rail: 地面軌道
 : 當出現短路時，例如跳線意外連接到 VCC（麵包板）。 <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="正軌" class="inline-img"></span>鐵路）到 GND（ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="地面軌道" class="inline-img"></span>軌道），它跳閘，防止電子設備損壞。
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: 請注意，接地
+  (GND) 引腳每隔 4 個引腳重複出現一次，並且在每端都從第 2 個引腳之後開始。

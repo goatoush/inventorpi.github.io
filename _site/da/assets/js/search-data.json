@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pico 2 W pinout",
     "title": "Raspberry Pi Pico 2 W GPIO Pinout",
-    "content": ". Du kan se den fulde Raspberry Pi Pico 2 W pinout på siden linket nedenfor. Fuld Raspberry Pi Pico 2 W pinout → . Bemærk at Jord (GND)-benene gentages efter hver 4. ben, og starter efter 2 ben i hver ende. Hvis du husker dette, bliver det nemmere at verificere stifternes positioner. Jordstifterne har også en firkantet kobberform omkring stiften på Pico-kortet for at gøre dem lettere at genkende. ",
+    "content": ". Du kan se den fulde Raspberry Pi Pico 2 W pinout på siden linket nedenfor. Fuld Raspberry Pi Pico 2 W pinout → . Bemærk at jordbenene (GND) gentages efter hver 4. ben, og starter efter 2 ben i hver ende. Hvis du husker dette, bliver det nemmere at verificere stifternes positioner. Jordstifterne har også en firkantet kobberform omkring stiften på Pico-kortet for at gøre dem lettere at genkende. ",
     "url": "/da/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/da/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

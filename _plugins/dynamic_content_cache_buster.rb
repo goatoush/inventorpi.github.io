@@ -33,7 +33,7 @@ Jekyll::Hooks.register :site, :post_write, priority: :high do |site|
     .glob([File.join(site.dest, "**/*.html")])
     .reject do |file_path|
       languages.any? do |lang|
-        file_path.start_with?(File.join(destination_dir, lang))
+        file_path.start_with?(File.join(site.dest, lang["code"]) + "/")
       end
     end
     .each do |file_path|

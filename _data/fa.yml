@@ -948,10 +948,6 @@ Please try again later: لطفا بعدا دوباره امتحان کنید
   section covers important points to keep in mind
 : بخش <a href="/getting-started/important-dos-and-donts.html">«بایدها و نبایدها»</a>
   نکات مهمی را که باید در نظر داشته باشید، پوشش می‌دهد
-Notice that: توجه کنید که
-Ground: زمین
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": پین‌های
-  (GND) بعد از هر ۴ پین تکرار می‌شوند و در هر انتها بعد از ۲ پین شروع می‌شوند
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : شما باید از بخش <a href="/getting-started/">شروع به کار</a> این وب‌سایت استفاده
@@ -1010,3 +1006,6 @@ Ground Rail: راه آهن زمینی
   مثبت" class="inline-img"></span> راه آهن) به GND ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="راه آهن زمینی" class="inline-img"></span> راه آهن)، آن را می لغزاند، و از آسیب
   به قطعات الکترونیکی جلوگیری می کند
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: توجه
+  داشته باشید که پین‌های زمین (GND) بعد از هر ۴ پین تکرار می‌شوند و در هر انتها بعد
+  از ۲ پین شروع می‌شوند

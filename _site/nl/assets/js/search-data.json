@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pico 2 W Pinout",
     "title": "Raspberry Pi Pico 2 W GPIO-pinconfiguratie",
-    "content": ". Je kunt de volledige pinout van de Raspberry Pi Pico 2W bekijken op de pagina die hieronder is gelinkt. Volledige pinout van de Raspberry Pi Pico 2W → . Merk op dat Grond De (GND)-pinnen worden na elke 4 pinnen herhaald en beginnen na 2 pinnen aan elk uiteinde. Als je dit onthoudt, wordt het controleren van de pinposities gemakkelijker. De aardingspinnen hebben op de Pico-printplaat ook een vierkante koperen rand om ze gemakkelijker te herkennen. ",
+    "content": ". Je kunt de volledige pinout van de Raspberry Pi Pico 2W bekijken op de pagina die hieronder is gelinkt. Volledige pinout van de Raspberry Pi Pico 2W → . Merk op dat de massapinnen (GND) na elke 4 pinnen herhaald worden en aan elk uiteinde na 2 pinnen beginnen. Als je dit onthoudt, wordt het controleren van de pinposities gemakkelijker. De aardingspinnen hebben op de Pico-printplaat ook een vierkante koperen rand om ze gemakkelijker te herkennen. ",
     "url": "/nl/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/nl/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

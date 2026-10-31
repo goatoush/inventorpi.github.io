@@ -1009,11 +1009,6 @@ Please try again later: Bitte versuchen Sie es später noch einmal
   section covers important points to keep in mind
 : Der Abschnitt <a href="/getting-started/important-dos-and-donts.html">„Was man tun
   und lassen sollte“</a> enthält wichtige Punkte, die man beachten sollte
-Notice that: Beachten Sie, dass
-Ground: Boden
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": Die
-  (GND)-Pins werden nach jeweils 4 Pins wiederholt und beginnen an jedem Ende nach
-  2 Pins
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : Sie sollten den Abschnitt <a href="/getting-started/">„Erste Schritte“</a> auf dieser
@@ -1075,3 +1070,6 @@ Ground Rail: Bodenschiene
   alt="Positive Rail" class="inline-img"></span> Schiene) zu GND ( <span translate="no"><img
   src="/assets/images/minus-rail.webp?v=osszao" alt="Bodenschiene" class="inline-img"></span>
   (Schiene), löst es aus und verhindert so Schäden an der Elektronik
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Beachten
+  Sie, dass die Masseanschlüsse (GND) alle vier Pins wiederholt werden und an jedem
+  Ende nach jeweils zwei Pins beginnen

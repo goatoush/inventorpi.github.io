@@ -1,5 +1,3 @@
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)
-  pins are repeated after every 4 pins, and start after 2 pins in each end"
 10cm Jumper Wires: 10cm Jumper Wires
 2 Micro servo motors: 2 Micro servo motors
 20 jumper wires: 20 jumper wires
@@ -289,7 +287,6 @@ Getting Started: Getting Started
 Getting Started submenu: Getting Started submenu
 GitHub: GitHub
 Grade 7 Student: Grade 7 Student
-Ground: Ground
 Ground Rail: Ground Rail
 Guide to Reading Code: Guide to Reading Code
 Hands-on electronics workshops for schools: Hands-on electronics workshops for schools
@@ -450,7 +447,9 @@ NFC Nail Reward Stickers: NFC Nail Reward Stickers
 Name: Name
 Next: Next
 Note: Note
-Notice that: Notice that
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Notice
+  that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in
+  each end
 Now let’s add the main loop: Now let’s add the main loop
 Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: Now
   we use trigonometry to calculate the angle the joystick lever makes, and set the

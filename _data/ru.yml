@@ -991,11 +991,6 @@ Please try again later: Пожалуйста, попробуйте позже
   section covers important points to keep in mind
 : В разделе « <a href="/getting-started/important-dos-and-donts.html">Что можно и
   чего нельзя делать»</a> рассматриваются важные моменты, которые следует учитывать
-Notice that: Обратите внимание, что
-Ground: Земля
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": Контакты
-  (GND) повторяются через каждые 4 контакта и начинаются после 2 контактов на каждом
-  конце
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : Перед началом занятия вам следует воспользоваться разделом <a href="/getting-started/">«Начало
@@ -1059,3 +1054,6 @@ Ground Rail: Наземная рельса
   translate="no"><img src="/assets/images/minus-rail.webp?v=osszao" alt="Наземная
   рельса" class="inline-img"></span> рельс), он срабатывает, предотвращая повреждение
   электроники
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Обратите
+  внимание, что контакты заземления (GND) повторяются через каждые 4 контакта и начинаются
+  после 2 контактов на каждом конце

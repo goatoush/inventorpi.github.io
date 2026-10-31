@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Diagrama de pines de Pico 2 W",
     "title": "Diagrama de pines GPIO de Raspberry Pi Pi Pi 2 W",
-    "content": ". Puedes consultar el diagrama completo de pines de la Raspberry Pi Pi Pi 2 W en la página que aparece a continuación. Diagrama de pines completo de Raspberry Pi Pi Pi 2 W → . Observa que Suelo Los pines (GND) se repiten después de cada 4 pines y comienzan después de 2 pines en cada extremo. Recordar esto facilitará la verificación de las posiciones de los pines. Los pines de tierra también tienen una forma cuadrada de cobre alrededor del pin en la placa Pico para que sean más fáciles de reconocer. ",
+    "content": ". Puedes consultar el diagrama completo de pines de la Raspberry Pi Pi Pi 2 W en la página que aparece a continuación. Diagrama de pines completo de Raspberry Pi Pi Pi 2 W → . Observe que los pines de tierra (GND) se repiten después de cada 4 pines y comienzan después de 2 pines en cada extremo. Recordar esto facilitará la verificación de las posiciones de los pines. Los pines de tierra también tienen una forma cuadrada de cobre alrededor del pin en la placa Pico para que sean más fáciles de reconocer. ",
     "url": "/es/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/es/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

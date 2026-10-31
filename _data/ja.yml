@@ -620,9 +620,6 @@ Please try again later: 後でもう一度お試しください。
 ? The <a href="/getting-started/important-dos-and-donts.html">Do’s and Don’ts</a>
   section covers important points to keep in mind
 : <a href="/getting-started/important-dos-and-donts.html">「すべきこと」と「してはいけないこと」</a>のセクションでは、留意すべき重要な点について説明します。
-Notice that: 注目してください
-Ground: 地面
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "（GND）ピンは4ピンごとに繰り返され、両端で2ピンごとに始まります。"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : 授業前に、このウェブサイトの<a href="/getting-started/">「はじめに」</a>セクションを利用して、さまざまな実験を自分で試してみることをお勧めします。
@@ -673,3 +670,4 @@ Ground Rail: グラウンドレール
 : ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="ポジティブレール" class="inline-img"></span>レール)からGNDへ（ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="グラウンドレール" class="inline-img"></span>レール）が引っかかると、電子機器の損傷を防ぎます。
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: グランド（GND）ピンは4ピンごとに繰り返され、両端で2ピンごとに始まることに注意してください。

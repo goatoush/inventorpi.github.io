@@ -982,10 +982,6 @@ Please try again later: 'कृपया बाद में पुन: प्�
   section covers important points to keep in mind
 : <a href="/getting-started/important-dos-and-donts.html">क्या करें और क्या न करें</a>
   अनुभाग में ध्यान रखने योग्य महत्वपूर्ण बिंदुओं को शामिल किया गया है।
-Notice that: नोटिस जो
-Ground: मैदान
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": "(GND)
-  पिन हर 4 पिन के बाद दोहराए जाते हैं, और प्रत्येक छोर पर 2 पिन के बाद शुरू होते हैं।"
 ? You should use the <a href="/getting-started/">Getting Started</a> section of this
   website to try out the different experiments yourself before the class
 : कक्षा शुरू होने से पहले, इस वेबसाइट के <a href="/getting-started/">&#39;शुरुआत कैसे
@@ -1045,3 +1041,6 @@ Ground Rail: ग्राउंड रेल
   रेल" class="inline-img"></span> रेल) से जीएनडी ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="ग्राउंड रेल" class="inline-img"></span> रेल), यह ट्रिप हो जाता है, जिससे इलेक्ट्रॉनिक्स
   को नुकसान होने से बचाया जा सकता है।
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: ध्यान
+  दें कि ग्राउंड (GND) पिन हर 4 पिन के बाद दोहराई जाती हैं, और प्रत्येक छोर पर 2 पिन
+  के बाद शुरू होती हैं।

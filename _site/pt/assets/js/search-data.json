@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pinagem do Pico 2 W",
     "title": "Pinagem GPIO do Raspberry Pi Pico 2 W",
-    "content": ". Você pode conferir o diagrama completo de pinagem do Raspberry Pi Pico 2 W na página cujo link está abaixo. Diagrama completo de pinagem do Raspberry Pi Pico 2 W → . Observe que Chão Os pinos (GND) se repetem a cada 4 pinos e começam após 2 pinos em cada extremidade. Lembrar disso facilitará a verificação da posição dos pinos. Os pinos de aterramento também possuem um formato quadrado de cobre ao redor do pino na placa Pico para facilitar o reconhecimento. ",
+    "content": ". Você pode conferir o diagrama completo de pinagem do Raspberry Pi Pico 2 W na página cujo link está abaixo. Diagrama completo de pinagem do Raspberry Pi Pico 2 W → . Observe que os pinos de aterramento (GND) se repetem a cada 4 pinos e começam após 2 pinos em cada extremidade. Lembrar disso facilitará a verificação da posição dos pinos. Os pinos de aterramento também possuem um formato quadrado de cobre ao redor do pino na placa Pico para facilitar o reconhecimento. ",
     "url": "/pt/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/pt/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

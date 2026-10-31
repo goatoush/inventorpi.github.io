@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Brochage Pico 2 W",
     "title": "Brochage GPIO du Raspberry Pi Pico 2 W",
-    "content": ". Vous pouvez consulter le brochage complet du Raspberry Pi Pico 2 W sur la page dont le lien figure ci-dessous. Brochage complet du Raspberry Pi Pico 2 W → . Remarquez que Sol Les broches (GND) sont répétées tous les 4 broches et commencent après 2 broches à chaque extrémité. Se souvenir de cela facilitera la vérification de la position des broches. Les broches de masse ont également une forme carrée en cuivre autour de la broche sur la carte Pico pour faciliter leur identification. ",
+    "content": ". Vous pouvez consulter le brochage complet du Raspberry Pi Pico 2 W sur la page dont le lien figure ci-dessous. Brochage complet du Raspberry Pi Pico 2 W → . Notez que les broches de masse (GND) sont répétées tous les 4 broches et commencent après 2 broches à chaque extrémité. Se souvenir de cela facilitera la vérification de la position des broches. Les broches de masse ont également une forme carrée en cuivre autour de la broche sur la carte Pico pour faciliter leur identification. ",
     "url": "/fr/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/fr/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"

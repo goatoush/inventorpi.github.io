@@ -989,11 +989,6 @@ Breadboard Basics Explained in 60 Seconds: Principes de base du prototypage sur 
   à ne pas faire »</a> aborde les points importants à retenir
 The students should verify all the connections and resume the experiment: Les élèves
   doivent vérifier toutes les connexions et reprendre l&#39;expérience
-Notice that: Remarquez que
-Ground: Sol
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": Les
-  broches (GND) sont répétées tous les 4 broches et commencent après 2 broches à chaque
-  extrémité
 Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: Le
   kit d&#39;expériences en classe comprend 5 kits d&#39;invention identiques et un
   kit de capteurs supplémentaires
@@ -1091,3 +1086,6 @@ Ground Rail: Rail au sol
   rail) à GND ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="Rail au sol" class="inline-img"></span> (rail), il se déclenche, évitant ainsi
   d&#39;endommager les composants électroniques
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Notez
+  que les broches de masse (GND) sont répétées tous les 4 broches et commencent après
+  2 broches à chaque extrémité

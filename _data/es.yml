@@ -973,11 +973,6 @@ Breadboard Basics Explained in 60 Seconds: Conceptos básicos de la placa de pro
   hacer y qué no hacer&quot;</a> abarca puntos importantes que se deben tener en cuenta
 The students should verify all the connections and resume the experiment: Los estudiantes
   deben verificar todas las conexiones y reanudar el experimento
-Notice that: Observa que
-Ground: Suelo
-"(GND) pins are repeated after every 4 pins, and start after 2 pins in each end": Los
-  pines (GND) se repiten después de cada 4 pines y comienzan después de 2 pines en
-  cada extremo
 Class Experiments Kit includes 5 identical invention kits and one Additional Sensors Kit: El
   kit de experimentos para la clase incluye 5 kits de invención idénticos y un kit
   de sensores adicionales
@@ -1071,3 +1066,6 @@ Ground Rail: Riel terrestre
   alt="Riel positivo" class="inline-img"></span> riel) a tierra ( <span translate="no"><img
   src="/assets/images/minus-rail.webp?v=osszao" alt="Riel terrestre" class="inline-img"></span>
   riel), se dispara, evitando daños a los componentes electrónicos
+Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Observe
+  que los pines de tierra (GND) se repiten después de cada 4 pines y comienzan después
+  de 2 pines en cada extremo

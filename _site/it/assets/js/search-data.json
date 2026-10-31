@@ -358,7 +358,7 @@
   },"51": {
     "doc": "Pinout Pico 2 W",
     "title": "Pinout GPIO del Raspberry Pi Pico 2 W",
-    "content": ". È possibile consultare la piedinatura completa del Raspberry Pi Pico 2 W alla pagina indicata di seguito. Pinout completo del Raspberry Pi Pico 2 W → . Nota che Terra I pin (GND) si ripetono dopo ogni 4 pin e iniziano dopo 2 pin in ciascuna estremità. Ricordare questo renderà più facile verificare la posizione dei perni. I pin di terra presentano anche una forma quadrata in rame attorno al pin sulla scheda Pico per renderli più facilmente riconoscibili. ",
+    "content": ". È possibile consultare la piedinatura completa del Raspberry Pi Pico 2 W alla pagina indicata di seguito. Pinout completo del Raspberry Pi Pico 2 W → . Si noti che i pin di massa (GND) si ripetono dopo ogni 4 pin e iniziano dopo 2 pin a ciascuna estremità. Ricordare questo renderà più facile verificare la posizione dei perni. I pin di terra presentano anche una forma quadrata in rame attorno al pin sulla scheda Pico per renderli più facilmente riconoscibili. ",
     "url": "/it/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout",
     
     "relUrl": "/it/getting-started/pico-2w-gpio-pinout.html#raspberry-pi-pico-2-w-gpio-pinout"
