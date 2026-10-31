@@ -1,4 +1,5 @@
 @import "variables";
+@import "./support/variables";
 
 html[dir="rtl"] {
   body {
@@ -259,6 +260,51 @@ html[dir="rtl"] {
       left: auto;
       right: -1.5rem;
     }
+  }
+
+  .main-content h3#summary {
+    border-right: 4px solid #6d6d6d;
+    border-left: 1px solid #a8a8a8;
+  }
+
+  p.highlight,
+  blockquote.highlight,
+  p.highlight-title,
+  blockquote.highlight-title {
+    border-right: $border-radius solid $yellow-300;
+    border-left: 1px $yellow-000 solid;
+  }
+
+  p.important,
+  blockquote.important,
+  p.important-title,
+  blockquote.important-title {
+    border-right: $border-radius solid $blue-300;
+    border-left: 1px $blue-000 solid;
+  }
+
+  p.new,
+  blockquote.new,
+  p.new-title,
+  blockquote.new-title {
+    border-right: $border-radius solid $green-300;
+    border-left: 1px $green-000 solid;
+  }
+
+  p.note,
+  blockquote.note,
+  p.note-title,
+  blockquote.note-title {
+    border-right: $border-radius solid $purple-300;
+    border-left: 1px $purple-000 solid;
+  }
+
+  p.warning,
+  blockquote.warning,
+  p.warning-title,
+  blockquote.warning-title {
+    border-right: $border-radius solid $red-300;
+    border-left: 1px $red-000 solid;
   }
 
   // 5. Breadcrumbs
