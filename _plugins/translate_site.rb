@@ -232,7 +232,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
       if languages.find { |l| l["code"] == lang }["rtl"]
         content.sub!(/<html([^>]*?>)/, "<html dir=\"rtl\"\\1")
         content.sub!(
-          %r{<link rel="lazy-stylesheet" href="/assets/css/rtl.css},
+          %r{<link rel="alternate-stylesheet" href="/assets/css/rtl.css},
           "<link rel=\"stylesheet\" href=\"\/assets\/css\/rtl.css"
         )
       end

@@ -28,9 +28,14 @@ Jekyll::Hooks.register :site, :post_write, priority: :high do |site|
     '<link rel=["\'](alternate-)?stylesheet["\'] href=["\']\/assets\/css\/.+?["\']',
     '<img\s.*?src=["\']\/assets\/.+?["\']'
   ]
-
+  languages = site.config["languages"] || []
   Dir
     .glob([File.join(site.dest, "**/*.html")])
+    .reject do |file_path|
+      languages.any? do |lang|
+        file_path.start_with?(File.join(destination_dir, lang))
+      end
+    end
     .each do |file_path|
       content = File.read(file_path)
       bust_cache_patters.each do |pattern|
