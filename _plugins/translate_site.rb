@@ -187,9 +187,10 @@ Jekyll::Hooks.register :site, :post_write do |site|
 
       # Translate PDFs
       pdfs.each do |pdf|
+        cached_pdf_file_path = File.join(source_dir, "_data", "pdfs", lang, pdf)
         pdf_file_path = File.join(source_dir, pdf)
         lang_pdf_file_path = File.join(destination_dir, lang, pdf)
-        unless File.exist?(lang_pdf_file_path)
+        unless File.exist?(cached_pdf_file_path)
           source_doc = HexaPDF::Document.open(pdf_file_path)
           target_doc = HexaPDF::Document.new
           (0...15).each do |i|
@@ -200,6 +201,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
           io = StringIO.new
           target_doc.write(io)
           file_bytes = io.string
+          puts "Lang = #{lang}, PDF = #{pdf}"
           response =
             client.translate_document(
               target_language_code: lang,
@@ -211,9 +213,11 @@ Jekyll::Hooks.register :site, :post_write do |site|
             )
           translated_bytes =
             response.document_translation.byte_stream_outputs.first
-          FileUtils.mkdir_p(File.dirname(lang_pdf_file_path))
-          File.binwrite(lang_pdf_file_path, translated_bytes)
+          FileUtils.mkdir_p(File.dirname(cached_pdf_file_path))
+          File.binwrite(cached_pdf_file_path, translated_bytes)
         end
+        FileUtils.mkdir_p(File.dirname(lang_pdf_file_path))
+        FileUtils.cp(cached_pdf_file_path, lang_pdf_file_path)
       end
     end
 

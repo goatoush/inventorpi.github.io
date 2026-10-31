@@ -2,6 +2,7 @@
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+_site/
 
 # Bundler dependencies and local gems
 .bundle/
