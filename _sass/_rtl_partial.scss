@@ -14,6 +14,10 @@ html[dir="rtl"] {
     unicode-bidi: plaintext;
   }
 
+  .youtube-embed * {
+    unicode-bidi: normal !important;
+  }
+
   // 1. Sidebar adjustments
 
   .side-bar {
@@ -311,6 +315,14 @@ html[dir="rtl"] {
   blockquote.warning-title {
     border-right: $border-radius solid $red-300;
     border-left: 1px $red-000 solid;
+  }
+
+  p.highlight.quote,
+  blockquote.highlight.quote,
+  p.highlight-title.quote,
+  blockquote.highlight-title.quote {
+    border-right: 4px solid $brand-color;
+    border-left: 1px $brand-color-lighter solid;
   }
 
   // 5. Breadcrumbs
