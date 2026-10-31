@@ -97,7 +97,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
           "[notranslatecode]\\1[/notranslatecode]"
         )
         .gsub(
-          /<(img.+?class="inline-img".+?)>/,
+          /<(img.+?class="inline-img".*?)>/,
           "[notranslateimg]\\1[/notranslateimg]"
         )
         .gsub(%r{<code>.+?<\/code>}m, "")
@@ -228,12 +228,12 @@ Jekyll::Hooks.register :site, :post_write do |site|
       # Add lang to html tag
       content.gsub!(/<html[^>]*?>/, "<html lang=\"#{lang}\">")
 
-      # Add rtl
+      # Enable rtl css
       if languages.find { |l| l["code"] == lang }["rtl"]
         content.sub!(/<html([^>]*?>)/, "<html dir=\"rtl\"\\1")
         content.sub!(
-          %r{</head>},
-          "<link rel=\"stylesheet\" href=\"\/assets\/css\/rtl.css\">\n</head>"
+          %r{<link rel="lazy-stylesheet" href="/assets/css/rtl.css},
+          "<link rel=\"stylesheet\" href=\"\/assets\/css\/rtl.css"
         )
       end
 

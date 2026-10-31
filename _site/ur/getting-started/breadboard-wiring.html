@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -221,7 +221,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"فعال","Base":"بیس","Planned":"منصوبہ بندی کی","Here":"یہاں","Summary":"خلاصہ","Note":"نوٹ","Important":"اہم"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"انگریزی"},{c:"fr",l:"فرانسیسی"},{c:"es",l:"ہسپانوی"},{c:"de",l:"جرمن"},{c:"zh",l:"چینی (آسان)"},{c:"zh-TW",l:"چینی (روایتی)"},{c:"hi",l:"ہندی"},{c:"bn",l:"بنگلہ"},{c:"ar",l:"عربی"},{c:"fa",l:"فارسی"},{c:"ur",l:"اردو"},{c:"pt",l:"پرتگالی"},{c:"ja",l:"جاپانی"},{c:"it",l:"اطالوی"},{c:"nl",l:"ڈچ"},{c:"da",l:"ڈینش"},{c:"ru",l:"روسی"},];
 </script>
@@ -235,6 +235,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -250,7 +251,6 @@
 </style>
 
 
-<link rel="stylesheet" href="/assets/css/rtl.css?v=wohekn">
 </head>
 
 <body>
@@ -606,7 +606,7 @@ Inventor Pi, Inc. ایک رجسٹرڈ 501(c)(3) تنظیم ہے۔
 <p>اب بریڈ بورڈ پر ایک ری سیٹ ایبل فیوز ہے (اوپر کی تصویر میں شامل نہیں، نیچے دیکھیں) جو بریڈ بورڈ پر غلطی سے شارٹ سرکٹ بننے کی صورت میں سرکٹ کو منقطع کر دیتا ہے۔. آپ کو ابھی بھی سرکٹ پر پاور چلانے سے پہلے تمام کنکشنز کی تصدیق کرنے کی ضرورت ہے، کیونکہ سینسرز کے غلط کنکشنز ان کے حساس الیکٹرانکس کو مستقل نقصان پہنچا سکتے ہیں اور انہیں بیکار بنا سکتے ہیں۔. <a href="/ur/getting-started/important-dos-and-donts.html">کیا کریں اور کیا نہ کریں</a> سیکشن ذہن میں رکھنے کے لیے اہم نکات کا احاطہ کرتا ہے۔.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="ری سیٹ ایبل فیوز" />
-<em>ری سیٹ ایبل فیوز (PPTC فیوز یا پولی فیوز) ایک چھوٹا نارنجی پیلا جز ہے جو Pico 3.3V آؤٹ پن کو بریڈ بورڈ سے جوڑتا ہے۔ <strong class="text-red-000">+</strong> ریل. جب کوئی شارٹ سرکٹ ہو، جیسے کہ جمپر وائر غلطی سے VCC کو جوڑتا ہے (روٹی بورڈ <strong class="text-red-000">+</strong> ریل) سے GND (روٹی بورڈ <strong class="text-blue-000">-</strong> ریل)، یہ سفر کرتی ہے، الیکٹرانکس کو پہنچنے والے نقصان کو روکتی ہے۔. سرکٹ کے ٹھیک ہونے یا بجلی بند ہونے کے چند سیکنڈ بعد، یہ ٹھنڈا ہو جاتا ہے اور خود کو دوبارہ سیٹ کر دیتا ہے۔. طلباء کو تمام رابطوں کی تصدیق کرنی چاہئے اور تجربہ دوبارہ شروع کرنا چاہئے۔.</em></p>
+<em>ری سیٹ ایبل فیوز (PPTC فیوز یا پولی فیوز) ایک چھوٹا نارنجی پیلا جز ہے جو Pico 3.3V آؤٹ پن کو بریڈ بورڈ سے جوڑتا ہے۔ <img src="/assets/images/plus-rail.webp?v=krbx88" alt="مثبت ریل" class="inline-img" />ریل. جب کوئی شارٹ سرکٹ ہو، جیسے کہ جمپر وائر غلطی سے VCC کو جوڑتا ہے (روٹی بورڈ <img src="/assets/images/plus-rail.webp?v=krbx88" alt="مثبت ریل" class="inline-img" />ریل) سے جی این ڈی ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="گراؤنڈ ریل" class="inline-img" /> ریل)، یہ سفر کرتی ہے، الیکٹرانکس کو پہنچنے والے نقصان کو روکتی ہے۔. سرکٹ کے ٹھیک ہونے یا بجلی بند ہونے کے چند سیکنڈ بعد، یہ ٹھنڈا ہو جاتا ہے اور خود کو دوبارہ سیٹ کر دیتا ہے۔. طلباء کو تمام رابطوں کی تصدیق کرنی چاہئے اور تجربہ دوبارہ شروع کرنا چاہئے۔.</em></p>
 
           
 

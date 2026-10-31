@@ -55,9 +55,17 @@ A knock sensor detects vibrations: A knock sensor detects vibrations
 : A piezo buzzer works by using the piezoelectric effect to turn electrical signals
   into fast mechanical vibrations that create sound waves
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
 : A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
 A servo is a motor where we can control the rotation angle by changing the PWM signal we send to it: A
   servo is a motor where we can control the rotation angle by changing the PWM signal
   we send to it
@@ -282,6 +290,7 @@ Getting Started submenu: Getting Started submenu
 GitHub: GitHub
 Grade 7 Student: Grade 7 Student
 Ground: Ground
+Ground Rail: Ground Rail
 Guide to Reading Code: Guide to Reading Code
 Hands-on electronics workshops for schools: Hands-on electronics workshops for schools
 ? He is the captain of the IHOT robotics team and math club, and has also co-founded
@@ -479,6 +488,7 @@ Please fill out the form below to get in touch: Please fill out the form below t
   the class
 Please try again later: Please try again later
 Portuguese: Portuguese
+Positive Rail: Positive Rail
 Potentiometer: Potentiometer
 Potentiometer Module: Potentiometer Module
 Potentiometer and Servo: Potentiometer and Servo
@@ -817,8 +827,26 @@ We will use input pins later with sensors: We will use input pins later with sen
   or shaken, the spring sways and hits the center pin closing the circuit momentarily
 : When the module is still, the spring does not touch the center pin, but when bumped
   or shaken, the spring sways and hits the center pin closing the circuit momentarily
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: When
-  there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
 Which  gives us a total of 8 independent axes to control the robot: Which  gives us
   a total of 8 independent axes to control the robot
 While a crash sensor would need to be placed at the point of impact, a knock sensor could detect vibrations across an entire arm: While
@@ -934,10 +962,6 @@ draw the notes and musical staff lines on the display,: draw the notes and music
   staff lines on the display,
 home page: home page
 loved this lesson: loved this lesson
-rail: rail
-rail) to GND  (breadboard: rail) to GND  (breadboard
-rail), it trips, preventing damage to the electronics: rail), it trips, preventing
-  damage to the electronics
 running on a Raspberry Pi Pico 2 W microcontroller: running on a Raspberry Pi Pico
   2 W microcontroller
 thonny.org: thonny.org

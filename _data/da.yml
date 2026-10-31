@@ -505,17 +505,6 @@ Breadboard Basics Explained in 60 Seconds: Grundlæggende om breadboards forklar
   forbindelser til sensorerne kan forårsage permanent skade på deres følsomme elektronik
   og gøre dem ubrugelige
 Do’s and Don’ts: Gode ​​råd og urimelige forsigtighedsregler
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: En nulstillelig sikring (PPTC-sikring eller polyfuse) er den lille orange-gule komponent,
-  der forbinder Pico 3.3V-udgangspinden til breadboardet
-rail: jernbane
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Når
-  der er en kortslutning, f.eks. en jumperledning, der ved et uheld forbinder VCC
-  (breadboard)
-rail) to GND  (breadboard: skinne) til GND (brødbræt)
-rail), it trips, preventing damage to the electronics: "(skinne), udløses den, hvilket
-  forhindrer beskadigelse af elektronikken"
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Få
   sekunder efter at kredsløbet er repareret, eller strømmen er slukket, køler den
   ned og nulstiller sig selv
@@ -985,3 +974,39 @@ Ground: Jord
   på Pico&#39;en. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB-port på Pico" class="inline-img" /></span> og enhver USB-C- eller
   USB-A-port på computeren
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: En nulstillelig sikring (PPTC-sikring eller polyfuse) er den lille orange-gule komponent,
+  der forbinder Pico 3.3V-udgangspinden til breadboardet. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Positiv skinne" class="inline-img"
+  /></span> jernbane
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Når der er en kortslutning, f.eks. en jumperledning, der ved et uheld forbinder
+  VCC (breadboard) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positiv skinne" class="inline-img" /></span> skinne) til GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Jordskinne" class="inline-img"
+  /></span> (skinne), udløses den, hvilket forhindrer beskadigelse af elektronikken
+Positive Rail: Positiv skinne
+Ground Rail: Jordskinne
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: En nulstillelig sikring (PPTC-sikring eller polyfuse) er den lille orange-gule komponent,
+  der forbinder Pico 3.3V-udgangspinden til breadboardet. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Positiv skinne" class="inline-img"></span>
+  jernbane
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Når der er en kortslutning, f.eks. en jumperledning, der ved et uheld forbinder
+  VCC (breadboard) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positiv skinne" class="inline-img"></span> skinne) til GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Jordskinne" class="inline-img"></span>
+  (skinne), udløses den, hvilket forhindrer beskadigelse af elektronikken

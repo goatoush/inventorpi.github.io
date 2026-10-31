@@ -293,13 +293,6 @@ Breadboard Basics Explained in 60 Seconds: ブレッドボードの基本を60�
   electronics, rendering them useless
 : 回路に電源を入れる前に、すべての接続を確認する必要があります。センサーへの接続が間違っていると、センサーの繊細な電子部品に永久的な損傷を与え、センサーが使用不能になる可能性があるからです。
 Do’s and Don’ts: やっていいこととやってはいけないこと
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。
-rail: レール
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合
-rail) to GND  (breadboard: レール)からGND（ブレッドボード）へ
-rail), it trips, preventing damage to the electronics: レール）が引っかかると、電子機器の損傷を防ぎます。
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。
 The students should verify all the connections and resume the experiment: 学生はすべての接続を確認し、実験を再開する必要があります。
 Resettable Fuse: リセット可能なヒューズ
@@ -649,3 +642,34 @@ Ground: 地面
   port on the computer
 : Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="PicoのマイクロUSBポート" class="inline-img" /></span>コンピューター上のUSB-CまたはUSB-Aポート
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。 <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="ポジティブレール"
+  class="inline-img" /></span>レール
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="ポジティブレール" class="inline-img" /></span>レール)からGNDへ（ <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="グラウンドレール" class="inline-img"
+  /></span>レール）が引っかかると、電子機器の損傷を防ぎます。
+Positive Rail: ポジティブレール
+Ground Rail: グラウンドレール
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。 <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="ポジティブレール"
+  class="inline-img"></span>レール
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="ポジティブレール" class="inline-img"></span>レール)からGNDへ（ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="グラウンドレール" class="inline-img"></span>レール）が引っかかると、電子機器の損傷を防ぎます。

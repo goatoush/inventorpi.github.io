@@ -535,17 +535,6 @@ Breadboard Basics Explained in 60 Seconds: Nozioni di base sulla breadboard spie
   poiché collegamenti errati ai sensori possono causare danni permanenti alla loro
   delicata elettronica, rendendoli inutilizzabili
 Do’s and Don’ts: Cose da fare e da non fare
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: Un fusibile ripristinabile (fusibile PPTC o polyfuse) è il piccolo componente giallo-arancione
-  che collega il pin di uscita Pico 3.3V alla breadboard
-rail: sbarra
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Quando
-  si verifica un cortocircuito, ad esempio un filo di collegamento accidentale che
-  collega VCC (breadboard)
-rail) to GND  (breadboard: binario) a GND (breadboard)
-rail), it trips, preventing damage to the electronics: binario), si incastra, impedendo
-  danni all&#39;elettronica
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Pochi
   secondi dopo la riparazione del circuito o lo spegnimento dell&#39;alimentazione,
   il sistema si raffredda e si ripristina
@@ -1059,3 +1048,38 @@ Ground: Terra
   <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Porta
   Micro USB su Pico" class="inline-img" /></span> e qualsiasi porta USB-C o USB-A
   del computer
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: Un fusibile ripristinabile (fusibile PPTC o polyfuse) è il piccolo componente giallo-arancione
+  che collega il pin di uscita Pico 3.3V alla breadboard. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Ferrovia positiva" class="inline-img"
+  /></span> sbarra
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Quando si verifica un cortocircuito, ad esempio un filo di collegamento accidentale
+  che collega VCC (breadboard) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Ferrovia positiva" class="inline-img" /></span> binario) a GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Binario di terra" class="inline-img"
+  /></span> binario), si incastra, impedendo danni all&#39;elettronica
+Positive Rail: Ferrovia positiva
+Ground Rail: Binario di terra
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: Un fusibile ripristinabile (fusibile PPTC o polyfuse) è il piccolo componente giallo-arancione
+  che collega il pin di uscita Pico 3.3V alla breadboard. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Ferrovia positiva" class="inline-img"></span>sbarra
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Quando si verifica un cortocircuito, ad esempio un filo di collegamento accidentale
+  che collega VCC (breadboard) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Ferrovia positiva" class="inline-img"></span>binario) a GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Binario di terra" class="inline-img"></span>binario),
+  si incastra, impedendo danni all&#39;elettronica

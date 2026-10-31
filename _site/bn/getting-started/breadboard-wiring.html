@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -221,7 +221,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"সক্রিয়","Base":"ভিত্তি","Planned":"পরিকল্পিত","Here":"এখানে","Summary":"সারসংক্ষেপ","Note":"দ্রষ্টব্য","Important":"গুরুত্বপূর্ণ"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"ইংরেজি"},{c:"fr",l:"ফরাসি"},{c:"es",l:"স্প্যানিশ"},{c:"de",l:"জার্মান"},{c:"zh",l:"চীনা (সরলীকৃত)"},{c:"zh-TW",l:"চীনা (ঐতিহ্যবাহী)"},{c:"hi",l:"হিন্দি"},{c:"bn",l:"বাংলা"},{c:"ar",l:"আরবি"},{c:"fa",l:"ফার্সি"},{c:"ur",l:"উর্দু"},{c:"pt",l:"পর্তুগিজ"},{c:"ja",l:"জাপানি"},{c:"it",l:"ইতালীয়"},{c:"nl",l:"ডাচ"},{c:"da",l:"ড্যানিশ"},{c:"ru",l:"রাশিয়ান"},];
 </script>
@@ -235,6 +235,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -605,7 +606,7 @@ Inventor Pi, Inc. একটি নিবন্ধিত 501(c)(3) সংস্�
 <p>এখন ব্রেডবোর্ডে একটি রিসেটেবল ফিউজ আছে (উপরের ছবিতে অন্তর্ভুক্ত নয়, নিচে দেখুন) যা কোনো শিক্ষার্থী ভুলবশত ব্রেডবোর্ডে শর্ট সার্কিট তৈরি করলে সার্কিটটি বিচ্ছিন্ন করে দেয়।. সার্কিটটি চালু করার আগে আপনাকে এখনও সমস্ত সংযোগ যাচাই করে নিতে হবে, কারণ সেন্সরগুলিতে ভুল সংযোগ তাদের সংবেদনশীল ইলেকট্রনিক্সের স্থায়ী ক্ষতি করতে পারে, যার ফলে সেগুলি অকেজো হয়ে পড়বে।. <a href="/bn/getting-started/important-dos-and-donts.html">করণীয় ও বর্জনীয়</a> অংশে মনে রাখার মতো গুরুত্বপূর্ণ বিষয়গুলো তুলে ধরা হয়েছে।.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="রিসেটযোগ্য ফিউজ" />
-<em>একটি রিসেটেবল ফিউজ (পিপিটিসি ফিউজ বা পলিফিউজ) হলো একটি ছোট কমলা-হলুদ রঙের যন্ত্রাংশ যা পিকো ৩.৩ভি আউট পিনকে ব্রেডবোর্ডের সাথে সংযুক্ত করে। <strong class="text-red-000">+</strong> রেল. যখন শর্ট সার্কিট হয়, যেমন একটি জাম্পার তার ভুলবশত VCC (ব্রেডবোর্ড) এর সাথে সংযুক্ত হয়ে যায় <strong class="text-red-000">+</strong> রেল) থেকে GND (ব্রেডবোর্ড) <strong class="text-blue-000">-</strong> রেল), এটি ট্রিপ করে, ইলেকট্রনিক্সের ক্ষতি প্রতিরোধ করে।. সার্কিটটি ঠিক করার বা বিদ্যুৎ বন্ধ করার কয়েক সেকেন্ড পরে, এটি ঠান্ডা হয়ে যায় এবং নিজে থেকেই রিসেট হয়ে যায়।. শিক্ষার্থীদের সমস্ত সংযোগ যাচাই করে পরীক্ষাটি পুনরায় শুরু করা উচিত।.</em></p>
+<em>রিসেটেবল ফিউজ (পিপিটিসি ফিউজ বা পলিফিউজ) হলো একটি ছোট কমলা-হলুদ রঙের যন্ত্রাংশ, যা পিকো ৩.৩ভি আউট পিনকে ব্রেডবোর্ডের সাথে সংযুক্ত করে। <img src="/assets/images/plus-rail.webp?v=krbx88" alt="পজিটিভ রেল" class="inline-img" /> রেল. যখন শর্ট সার্কিট হয়, যেমন একটি জাম্পার তার ভুলবশত VCC (ব্রেডবোর্ড) এর সাথে সংযুক্ত হয়ে যায় <img src="/assets/images/plus-rail.webp?v=krbx88" alt="পজিটিভ রেল" class="inline-img" /> রেল) থেকে জিএনডি ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="গ্রাউন্ড রেল" class="inline-img" /> রেল), এটি ট্রিপ করে, ইলেকট্রনিক্সের ক্ষতি প্রতিরোধ করে।. সার্কিটটি ঠিক করার বা বিদ্যুৎ বন্ধ করার কয়েক সেকেন্ড পরে, এটি ঠান্ডা হয়ে যায় এবং নিজে থেকেই রিসেট হয়ে যায়।. শিক্ষার্থীদের সমস্ত সংযোগ যাচাই করে পরীক্ষাটি পুনরায় শুরু করা উচিত।.</em></p>
 
           
 

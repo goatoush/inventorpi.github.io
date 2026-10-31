@@ -528,17 +528,6 @@ Breadboard Basics Explained in 60 Seconds: Grundlagen des Steckbretts in 60 Seku
   da fehlerhafte Verbindungen an den Sensoren deren empfindliche Elektronik dauerhaft
   beschädigen und sie somit unbrauchbar machen können
 Do’s and Don’ts: Gebote und Verbote
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: Eine rücksetzbare Sicherung (PPTC-Sicherung oder Polyfuse) ist das kleine orange-gelbe
-  Bauteil, das den 3,3-V-Ausgangspin des Pico mit dem Steckbrett verbindet
-rail: Schiene
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Bei
-  einem Kurzschluss, beispielsweise wenn ein Jumperkabel versehentlich VCC (Steckbrett)
-  verbindet,
-rail) to GND  (breadboard: Schiene) zu GND (Steckbrett)
-rail), it trips, preventing damage to the electronics: "(Schiene), löst es aus und
-  verhindert so Schäden an der Elektronik"
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Wenige
   Sekunden nachdem der Stromkreis repariert oder die Stromzufuhr unterbrochen wurde,
   kühlt er ab und setzt sich selbst zurück
@@ -1050,3 +1039,39 @@ Ground: Boden
   des Pico anschließen. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro-USB-Anschluss am Pico" class="inline-img" /></span> und jeder USB-C-
   oder USB-A-Anschluss am Computer
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: Eine rücksetzbare Sicherung (PPTC-Sicherung oder Polyfuse) ist das kleine orange-gelbe
+  Bauteil, das den 3,3-V-Ausgangspin des Pico mit dem Steckbrett verbindet. <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="Positive Rail"
+  class="inline-img" /></span> Schiene
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Bei einem Kurzschluss, beispielsweise wenn ein Jumperkabel versehentlich VCC (Steckbrett)
+  verbindet, <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> Schiene) zu GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Bodenschiene" class="inline-img"
+  /></span> (Schiene), löst es aus und verhindert so Schäden an der Elektronik
+Positive Rail: Positive Rail
+Ground Rail: Bodenschiene
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: Eine rücksetzbare Sicherung (PPTC-Sicherung oder Polyfuse) ist das kleine orange-gelbe
+  Bauteil, das den 3,3-V-Ausgangspin des Pico mit dem Steckbrett verbindet. <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="Positive Rail"
+  class="inline-img"></span> Schiene
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Bei einem Kurzschluss, beispielsweise wenn ein Jumperkabel versehentlich VCC (Steckbrett)
+  verbindet, <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> Schiene) zu GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Bodenschiene" class="inline-img"></span>
+  (Schiene), löst es aus und verhindert so Schäden an der Elektronik

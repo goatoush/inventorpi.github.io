@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -221,7 +221,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"Actif","Base":"Base","Planned":"Prévu","Here":"Ici","Summary":"Résumé","Note":"Note","Important":"Important"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"Anglais"},{c:"fr",l:"Français"},{c:"es",l:"Espagnol"},{c:"de",l:"Allemand"},{c:"zh",l:"Chinois (simplifié)"},{c:"zh-TW",l:"Chinois (traditionnel)"},{c:"hi",l:"hindi"},{c:"bn",l:"Bangla"},{c:"ar",l:"arabe"},{c:"fa",l:"persan"},{c:"ur",l:"ourdou"},{c:"pt",l:"portugais"},{c:"ja",l:"japonais"},{c:"it",l:"italien"},{c:"nl",l:"Néerlandais"},{c:"da",l:"danois"},{c:"ru",l:"russe"},];
 </script>
@@ -235,6 +235,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -605,7 +606,7 @@ Inventor Pi, Inc. est une organisation enregistrée en vertu de l&#39;article 50
 <p>Un fusible réarmable est désormais présent sur la plaque d&#39;essai (non visible sur l&#39;image ci-dessus, voir ci-dessous) qui coupe le circuit si un étudiant provoque accidentellement un court-circuit. Il est toujours nécessaire de vérifier toutes les connexions avant de mettre le circuit sous tension, car des connexions incorrectes aux capteurs peuvent endommager de façon permanente leurs composants électroniques sensibles, les rendant inutilisables. La section <a href="/fr/getting-started/important-dos-and-donts.html">« À faire et à ne pas faire »</a> aborde les points importants à retenir.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="fusible réarmable" />
-<em>Un fusible réarmable (fusible PPTC ou polyfusible) est le petit composant orange-jaune reliant la broche de sortie 3,3 V du Pico à la plaque d&#39;essai <strong class="text-red-000">+</strong> rail. En cas de court-circuit, par exemple si un fil de pontage connecte accidentellement VCC (plaque d&#39;essai), un court-circuit se produit <strong class="text-red-000">+</strong> rail) à GND (plaque d&#39;essai) <strong class="text-blue-000">-</strong> (rail), il se déclenche, évitant ainsi d&#39;endommager les composants électroniques. Quelques secondes après la réparation du circuit ou la coupure de courant, il refroidit et se réinitialise automatiquement. Les élèves doivent vérifier toutes les connexions et reprendre l&#39;expérience.</em></p>
+<em>Un fusible réarmable (fusible PPTC ou polyfusible) est le petit composant orange-jaune reliant la broche de sortie 3,3 V du Pico à la plaque d&#39;essai. <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Rail positif" class="inline-img" /> rail. En cas de court-circuit, par exemple si un fil de pontage connecte accidentellement VCC (plaque d&#39;essai), un court-circuit se produit. <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Rail positif" class="inline-img" /> rail) à GND ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="Rail au sol" class="inline-img" /> (rail), il se déclenche, évitant ainsi d&#39;endommager les composants électroniques. Quelques secondes après la réparation du circuit ou la coupure de courant, il refroidit et se réinitialise automatiquement. Les élèves doivent vérifier toutes les connexions et reprendre l&#39;expérience.</em></p>
 
           
 

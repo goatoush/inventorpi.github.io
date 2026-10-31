@@ -183,7 +183,7 @@
   },"26": {
     "doc": "ブレッドボード配線",
     "title": "ブレッドボード配線",
-    "content": ". ブレッドボードにはリセット可能なヒューズが取り付けられています（上の画像には含まれていません。下記参照）。これにより、学生が誤ってブレッドボード上でショート回路を作ってしまった場合に回路が遮断されます。. 回路に電源を入れる前に、すべての接続を確認する必要があります。センサーへの接続が間違っていると、センサーの繊細な電子部品に永久的な損傷を与え、センサーが使用不能になる可能性があるからです。. The やっていいこととやってはいけないこと section covers important points to keep in mind. リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。 + レール. ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合 + レール) to GND (breadboard - レール）が引っかかると、電子機器の損傷を防ぎます。. 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。. 学生はすべての接続を確認し、実験を再開する必要があります。. ",
+    "content": ". ブレッドボードにはリセット可能なヒューズが取り付けられています（上の画像には含まれていません。下記参照）。これにより、学生が誤ってブレッドボード上でショート回路を作ってしまった場合に回路が遮断されます。. 回路に電源を入れる前に、すべての接続を確認する必要があります。センサーへの接続が間違っていると、センサーの繊細な電子部品に永久的な損傷を与え、センサーが使用不能になる可能性があるからです。. The やっていいこととやってはいけないこと section covers important points to keep in mind. A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard rail) to GND ( rail), it trips, preventing damage to the electronics. 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。. 学生はすべての接続を確認し、実験を再開する必要があります。. ",
     "url": "/ja/getting-started/breadboard-wiring.html",
     
     "relUrl": "/ja/getting-started/breadboard-wiring.html"
@@ -330,7 +330,7 @@
   },"47": {
     "doc": "教師向け授業計画",
     "title": "ブレッドボードの接続と安全性",
-    "content": "生徒たちがブレッドボードの接続方法と安全について学ぶことは重要です. 追加センサーキットには、動作原理を示すための裏板のないブレッドボードが含まれています。. ブレッドボードにはリセット可能なヒューズが付いており、学生が誤ってブレッドボード上でショート回路を起こした場合に回路を遮断します。. センサーへの接続が間違っていると、繊細な電子機器に永久的な損傷を与え、使用不能にしてしまう可能性があるため、生徒たちは回路に電源を入れる前にすべての接続を確認する必要があります。. The やっていいこととやってはいけないこと section covers important points to keep in mind. リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。 + レール. ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合 + レール) to GND (breadboard - レール）が引っかかると、電子機器の損傷を防ぎます。. 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。. 学生はすべての接続を確認し、実験を再開する必要があります。. コネクタをセットアップする際は、生徒はPicoからUSBケーブルを外し、USBケーブルを接続する前に複数の生徒が接続を確認するようにしてください。. 基板上の他の使用済みピンからのピンの距離を数えることは有用です. 安全手順 . 電源オフ ➔ 接続コンポーネント ➔ 各接続を確認する ➔ 電源オン . ページトップへ戻る . ",
+    "content": "生徒たちがブレッドボードの接続方法と安全について学ぶことは重要です. 追加センサーキットには、動作原理を示すための裏板のないブレッドボードが含まれています。. ブレッドボードにはリセット可能なヒューズが付いており、学生が誤ってブレッドボード上でショート回路を起こした場合に回路を遮断します。. センサーへの接続が間違っていると、繊細な電子機器に永久的な損傷を与え、使用不能にしてしまう可能性があるため、生徒たちは回路に電源を入れる前にすべての接続を確認する必要があります。. The やっていいこととやってはいけないこと section covers important points to keep in mind. A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard rail) to GND ( rail), it trips, preventing damage to the electronics. 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。. 学生はすべての接続を確認し、実験を再開する必要があります。. コネクタをセットアップする際は、生徒はPicoからUSBケーブルを外し、USBケーブルを接続する前に複数の生徒が接続を確認するようにしてください。. 基板上の他の使用済みピンからのピンの距離を数えることは有用です. 安全手順 . 電源オフ ➔ 接続コンポーネント ➔ 各接続を確認する ➔ 電源オン . ページトップへ戻る . ",
     "url": "/ja/lesson-plan-for-teachers.html#breadboard-connections-and-safety",
     
     "relUrl": "/ja/lesson-plan-for-teachers.html#breadboard-connections-and-safety"

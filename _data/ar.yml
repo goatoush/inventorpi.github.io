@@ -544,16 +544,6 @@ Breadboard Basics Explained in 60 Seconds: شرح أساسيات لوحة الت
   الصحيحة لأجهزة الاستشعار يمكن أن تتسبب في تلف دائم للإلكترونيات الحساسة الخاصة بها،
   مما يجعلها عديمة الفائدة
 Do’s and Don’ts: ما يجب فعله وما لا يجب فعله
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: الفيوز القابل لإعادة الضبط (فيوز PPTC أو فيوز متعدد) هو المكون الصغير ذو اللون البرتقالي
-  المصفر الذي يربط طرف الإخراج 3.3 فولت الخاص بجهاز Pico بلوحة التجارب
-rail: السكة الحديدية
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: عند
-  حدوث ماس كهربائي، مثل توصيل سلك توصيل عن طريق الخطأ بـ VCC (لوحة التجارب)
-rail) to GND  (breadboard: السكة الحديدية) إلى الأرض (لوحة التجارب)
-rail), it trips, preventing damage to the electronics: "(السكك الحديدية)، فإنه يتعثر،
-  مما يمنع تلف الأجهزة الإلكترونية"
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: بعد
   بضع ثوانٍ من إصلاح الدائرة أو إيقاف تشغيل الطاقة، يبرد الجهاز ويعيد ضبط نفسه
 The students should verify all the connections and resume the experiment: ينبغي على
@@ -953,3 +943,39 @@ Ground: أرضي
   جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="منفذ Micro USB على جهاز Pico" class="inline-img" /></span> وأي منفذ USB-C أو
   USB-A على الكمبيوتر
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: الفيوز القابل لإعادة الضبط (فيوز PPTC أو فيوز متعدد) هو المكون الصغير ذو اللون البرتقالي
+  المصفر الذي يربط طرف الإخراج 3.3 فولت الخاص بجهاز Pico بلوحة التجارب <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="السكة الإيجابية" class="inline-img"
+  /></span> السكة الحديدية
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: عند حدوث ماس كهربائي، مثل توصيل سلك توصيل عن طريق الخطأ بـ VCC (لوحة التجارب). <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="السكة الإيجابية"
+  class="inline-img" /></span> السكة الحديدية) إلى الأرض (GND) <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="سكة أرضية" class="inline-img"
+  /></span> (السكك الحديدية)، فإنه يتعثر، مما يمنع تلف الأجهزة الإلكترونية
+Positive Rail: السكة الإيجابية
+Ground Rail: سكة أرضية
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: الفيوز القابل لإعادة الضبط (فيوز PPTC أو فيوز متعدد) هو المكون الصغير ذو اللون البرتقالي
+  المصفر الذي يربط طرف الإخراج 3.3 فولت الخاص بجهاز Pico بلوحة التجارب <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="السكة الإيجابية" class="inline-img"></span>
+  السكة الحديدية
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: عند حدوث ماس كهربائي، مثل توصيل سلك توصيل عن طريق الخطأ بـ VCC (لوحة التجارب). <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="السكة الإيجابية"
+  class="inline-img"></span> السكة الحديدية) إلى الأرض (GND) <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="سكة أرضية" class="inline-img"></span>
+  (السكك الحديدية)، فإنه يتعثر، مما يمنع تلف الأجهزة الإلكترونية

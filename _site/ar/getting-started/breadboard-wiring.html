@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -221,7 +221,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"نشيط","Base":"قاعدة","Planned":"مخطط له","Here":"هنا","Summary":"ملخص","Note":"ملحوظة","Important":"مهم"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"إنجليزي"},{c:"fr",l:"فرنسي"},{c:"es",l:"الأسبانية"},{c:"de",l:"الألمانية"},{c:"zh",l:"الصينية (المبسطة)"},{c:"zh-TW",l:"الصينية (التقليدية)"},{c:"hi",l:"الهندية"},{c:"bn",l:"البنغالية"},{c:"ar",l:"عربي"},{c:"fa",l:"الفارسية"},{c:"ur",l:"الأردية"},{c:"pt",l:"البرتغالية"},{c:"ja",l:"اليابانية"},{c:"it",l:"إيطالي"},{c:"nl",l:"هولندي"},{c:"da",l:"دانماركي"},{c:"ru",l:"الروسية"},];
 </script>
@@ -235,6 +235,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -250,7 +251,6 @@
 </style>
 
 
-<link rel="stylesheet" href="/assets/css/rtl.css?v=wohekn">
 </head>
 
 <body>
@@ -606,7 +606,7 @@ Inventor Pi, Inc. هي منظمة مسجلة بموجب المادة 501(c)(3)
 <p>يوجد الآن فيوز قابل لإعادة الضبط على لوحة التجارب (غير موضح في الصورة أعلاه، انظر أدناه) يفصل الدائرة في حال تسبب الطالب عن طريق الخطأ في حدوث ماس كهربائي على لوحة التجارب. لا يزال يتعين عليك التحقق من جميع التوصيلات قبل تشغيل الدائرة، لأن التوصيلات غير الصحيحة لأجهزة الاستشعار يمكن أن تتسبب في تلف دائم للإلكترونيات الحساسة الخاصة بها، مما يجعلها عديمة الفائدة. يتضمن قسم &quot; <a href="/ar/getting-started/important-dos-and-donts.html">ما يجب فعله وما لا يجب فعله&quot;</a> نقاطًا مهمة يجب مراعاتها.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="فيوز قابل لإعادة الضبط" />
-<em>الفيوز القابل لإعادة الضبط (فيوز PPTC أو فيوز متعدد) هو المكون الصغير ذو اللون البرتقالي المصفر الذي يربط طرف الإخراج 3.3 فولت الخاص بجهاز Pico بلوحة التجارب <strong class="text-red-000">+</strong> السكة الحديدية. عند حدوث ماس كهربائي، مثل توصيل سلك توصيل عن طريق الخطأ بـ VCC (لوحة التجارب) <strong class="text-red-000">+</strong> السكة الحديدية) إلى الأرض (لوحة التجارب) <strong class="text-blue-000">-</strong> (السكك الحديدية)، فإنه يتعثر، مما يمنع تلف الأجهزة الإلكترونية. بعد بضع ثوانٍ من إصلاح الدائرة أو إيقاف تشغيل الطاقة، يبرد الجهاز ويعيد ضبط نفسه. ينبغي على الطلاب التحقق من جميع التوصيلات واستئناف التجربة.</em></p>
+<em>الفيوز القابل لإعادة الضبط (فيوز PPTC أو فيوز متعدد) هو المكون الصغير ذو اللون البرتقالي المصفر الذي يربط طرف الإخراج 3.3 فولت الخاص بجهاز Pico بلوحة التجارب <img src="/assets/images/plus-rail.webp?v=krbx88" alt="السكة الإيجابية" class="inline-img" /> السكة الحديدية. عند حدوث ماس كهربائي، مثل توصيل سلك توصيل عن طريق الخطأ بـ VCC (لوحة التجارب). <img src="/assets/images/plus-rail.webp?v=krbx88" alt="السكة الإيجابية" class="inline-img" /> السكة الحديدية) إلى الأرض (GND) <img src="/assets/images/minus-rail.webp?v=osszao" alt="سكة أرضية" class="inline-img" /> (السكك الحديدية)، فإنه يتعثر، مما يمنع تلف الأجهزة الإلكترونية. بعد بضع ثوانٍ من إصلاح الدائرة أو إيقاف تشغيل الطاقة، يبرد الجهاز ويعيد ضبط نفسه. ينبغي على الطلاب التحقق من جميع التوصيلات واستئناف التجربة.</em></p>
 
           
 

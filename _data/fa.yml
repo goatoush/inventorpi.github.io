@@ -571,16 +571,6 @@ Breadboard Basics Explained in 60 Seconds: اصول اولیه بردبورد د
   نادرست به سنسورها می‌تواند باعث آسیب دائمی به قطعات الکترونیکی حساس آنها شود و آنها
   را بی‌فایده کند
 Do’s and Don’ts: بایدها و نبایدها
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: فیوز قابل تنظیم مجدد (فیوز PPTC یا پلی فیوز) قطعه کوچک نارنجی-زرد رنگی است که پین
-  ​​خروجی Pico 3.3V را به برد بورد متصل می‌کند
-rail: ریل
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: وقتی
-  اتصال کوتاهی وجود دارد، مثلاً یک سیم رابط به طور تصادفی VCC (برد بورد) را متصل می‌کند
-rail) to GND  (breadboard: ریل) به GND (تخته نان)
-rail), it trips, preventing damage to the electronics: راه آهن)، آن را می لغزاند،
-  و از آسیب به قطعات الکترونیکی جلوگیری می کند
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: چند
   ثانیه پس از رفع مشکل مدار یا قطع برق، خنک شده و خود به خود ریست می‌شود
 The students should verify all the connections and resume the experiment: دانش‌آموزان
@@ -986,3 +976,37 @@ Ground: زمین
 : با اتصال کابل USB به پورت Micro USB روی Pico، Pico را به کامپیوتر وصل کنید. <span
   translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="پورت
   میکرو USB روی پیکو" class="inline-img" /></span> و هر پورت USB-C یا USB-A روی کامپیوتر
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: فیوز قابل تنظیم مجدد (فیوز PPTC یا پلی فیوز) قطعه کوچک نارنجی-زرد رنگی است که پین
+  ​​خروجی Pico 3.3V را به برد بورد متصل می‌کند. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="ریل مثبت" class="inline-img" /></span>ریل
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: وقتی اتصال کوتاهی وجود دارد، مثلاً یک سیم رابط به طور تصادفی VCC (برد بورد) را متصل
+  می‌کند. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="ریل
+  مثبت" class="inline-img" /></span>راه آهن) به GND ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="راه آهن زمینی" class="inline-img" /></span> راه آهن)، آن را می لغزاند، و از
+  آسیب به قطعات الکترونیکی جلوگیری می کند
+Positive Rail: ریل مثبت
+Ground Rail: راه آهن زمینی
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: فیوز قابل تنظیم مجدد (فیوز PPTC یا پلی فیوز) قطعه کوچک نارنجی-زرد رنگی است که پین
+  ​​خروجی Pico 3.3V را به برد بورد متصل می‌کند. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="ریل مثبت" class="inline-img"></span> ریل
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: وقتی اتصال کوتاهی وجود دارد، مثلاً یک سیم رابط به طور تصادفی VCC (برد بورد) را متصل
+  می‌کند. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="ریل
+  مثبت" class="inline-img"></span> راه آهن) به GND ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="راه آهن زمینی" class="inline-img"></span> راه آهن)، آن را می لغزاند، و از آسیب
+  به قطعات الکترونیکی جلوگیری می کند

@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -221,7 +221,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"Ativo","Base":"Base","Planned":"Planejado","Here":"Aqui","Summary":"Resumo","Note":"Observação","Important":"Importante"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"Inglês"},{c:"fr",l:"Francês"},{c:"es",l:"Espanhol"},{c:"de",l:"Alemão"},{c:"zh",l:"Chinês (Simplificado)"},{c:"zh-TW",l:"Chinês (Tradicional)"},{c:"hi",l:"hindi"},{c:"bn",l:"Bangla"},{c:"ar",l:"árabe"},{c:"fa",l:"persa"},{c:"ur",l:"urdu"},{c:"pt",l:"Português"},{c:"ja",l:"japonês"},{c:"it",l:"italiano"},{c:"nl",l:"Holandês"},{c:"da",l:"dinamarquês"},{c:"ru",l:"russo"},];
 </script>
@@ -235,6 +235,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -605,7 +606,7 @@ Inventor Pi, Inc. é uma organização registrada sob o código 501(c)(3)
 <p>Agora existe um fusível rearmável na placa de ensaio (não incluído na imagem acima, veja abaixo) que desconecta o circuito caso um aluno acidentalmente provoque um curto-circuito na placa. Você ainda precisa verificar todas as conexões antes de ligar o circuito, pois conexões incorretas aos sensores podem causar danos permanentes aos seus componentes eletrônicos sensíveis, tornando-os inúteis. A seção <a href="/pt/getting-started/important-dos-and-donts.html">&quot;O que fazer e o que não fazer&quot;</a> aborda pontos importantes a serem considerados.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="Fusível rearmável" />
-<em>Um fusível rearmável (fusível PPTC ou polifusível) é o pequeno componente amarelo-alaranjado que conecta o pino de saída de 3,3 V do Pico à placa de ensaio <strong class="text-red-000">+</strong> trilho. Quando ocorre um curto-circuito, como por exemplo, um fio jumper conectando acidentalmente o VCC (placa de ensaio) <strong class="text-red-000">+</strong> trilho) para GND (placa de ensaio) <strong class="text-blue-000">-</strong> trilho), ele dispara, evitando danos aos componentes eletrônicos. Alguns segundos após o circuito ser consertado ou a energia ser desligada, ele esfria e reinicializa automaticamente. Os alunos devem verificar todas as conexões e retomar o experimento.</em></p>
+<em>Um fusível rearmável (fusível PPTC ou polifusível) é o pequeno componente amarelo-alaranjado que conecta o pino de saída de 3,3 V do Pico à placa de ensaio. <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Trilho positivo" class="inline-img" />trilho. Quando ocorre um curto-circuito, como por exemplo, um fio jumper conectando acidentalmente o VCC (placa de ensaio) <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Trilho positivo" class="inline-img" />trilho) para GND ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="Trilho de solo" class="inline-img" />trilho), ele dispara, evitando danos aos componentes eletrônicos. Alguns segundos após o circuito ser consertado ou a energia ser desligada, ele esfria e reinicializa automaticamente. Os alunos devem verificar todas as conexões e retomar o experimento.</em></p>
 
           
 

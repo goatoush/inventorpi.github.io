@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -152,7 +152,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"सक्रिय","Base":"आधार","Planned":"की योजना बनाई","Here":"यहाँ","Summary":"सारांश","Note":"टिप्पणी","Important":"महत्वपूर्ण"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"अंग्रेज़ी"},{c:"fr",l:"फ्रेंच"},{c:"es",l:"स्पैनिश"},{c:"de",l:"जर्मन"},{c:"zh",l:"सरलीकृत चीनी)"},{c:"zh-TW",l:"चीनी पारंपरिक)"},{c:"hi",l:"हिंदी"},{c:"bn",l:"बांग्ला"},{c:"ar",l:"अरबी"},{c:"fa",l:"फ़ारसी"},{c:"ur",l:"उर्दू"},{c:"pt",l:"पुर्तगाली"},{c:"ja",l:"जापानी"},{c:"it",l:"इतालवी"},{c:"nl",l:"डच"},{c:"da",l:"डेनिश"},{c:"ru",l:"रूसी"},];
 </script>
@@ -161,6 +161,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -616,7 +617,7 @@ Inventor Pi, Inc. एक पंजीकृत 501(सी)(3) संगठन �
 <p>छात्रों के लिए यह सीखना महत्वपूर्ण है कि ब्रेडबोर्ड कनेक्शन कैसे काम करते हैं और सुरक्षित तरीके से काम करते हैं।. एडिशनल सेंसर्स किट में एक ब्रेडबोर्ड शामिल है जिसमें इसके काम करने का तरीका दिखाने के लिए कोई सपोर्ट नहीं दिया गया है।. ब्रेडबोर्ड पर एक रीसेट करने योग्य फ्यूज लगा होता है जो किसी छात्र द्वारा गलती से ब्रेडबोर्ड पर शॉर्ट सर्किट होने की स्थिति में सर्किट को डिस्कनेक्ट कर देता है।. सर्किट को चालू करने से पहले छात्रों को सभी कनेक्शनों की जांच करनी होगी, क्योंकि सेंसरों के गलत कनेक्शन से उनके संवेदनशील इलेक्ट्रॉनिक उपकरणों को स्थायी नुकसान हो सकता है, जिससे वे बेकार हो जाएंगे।. <a href="/hi/getting-started/important-dos-and-donts.html">क्या करें और क्या न करें</a> अनुभाग में ध्यान रखने योग्य महत्वपूर्ण बिंदुओं को शामिल किया गया है।.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="रीसेट करने योग्य फ़्यूज़">
-<em>एक रीसेट करने योग्य फ्यूज (पीपीटीसी फ्यूज या पॉलीफ्यूज) वह छोटा नारंगी-पीला घटक है जो पिको 3.3V आउट पिन को ब्रेडबोर्ड से जोड़ता है। <strong class="text-red-000">+</strong> रेल. जब शॉर्ट सर्किट होता है, जैसे कि गलती से जम्पर वायर का VCC (ब्रेडबोर्ड) से जुड़ जाना <strong class="text-red-000">+</strong> रेल) से जीएनडी (ब्रेडबोर्ड) <strong class="text-blue-000">-</strong> रेल), यह ट्रिप हो जाता है, जिससे इलेक्ट्रॉनिक्स को नुकसान होने से बचाया जा सकता है।. सर्किट ठीक होने या बिजली बंद होने के कुछ सेकंड बाद, यह ठंडा हो जाता है और खुद को रीसेट कर लेता है।. छात्रों को सभी कनेक्शनों की जांच करनी चाहिए और प्रयोग को पुनः शुरू करना चाहिए।.</em></p>
+<em>एक रीसेट करने योग्य फ्यूज (पीपीटीसी फ्यूज या पॉलीफ्यूज) वह छोटा नारंगी-पीला घटक है जो पिको 3.3V आउट पिन को ब्रेडबोर्ड से जोड़ता है। <img src="/assets/images/plus-rail.webp?v=krbx88" alt="सकारात्मक रेल" class="inline-img"> रेल. जब शॉर्ट सर्किट होता है, जैसे कि जम्पर वायर गलती से VCC (ब्रेडबोर्ड) से जुड़ जाता है <img src="/assets/images/plus-rail.webp?v=krbx88" alt="सकारात्मक रेल" class="inline-img"> रेल) से जीएनडी ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="ग्राउंड रेल" class="inline-img"> रेल), यह ट्रिप हो जाता है, जिससे इलेक्ट्रॉनिक्स को नुकसान होने से बचाया जा सकता है।. सर्किट ठीक होने या बिजली बंद होने के कुछ सेकंड बाद, यह ठंडा हो जाता है और खुद को रीसेट कर लेता है।. छात्रों को सभी कनेक्शनों की जांच करनी चाहिए और प्रयोग को पुनः शुरू करना चाहिए।.</em></p>
 
 <p>कनेक्टर लगाते समय, छात्रों को पिको से यूएसबी केबल को डिस्कनेक्ट करना चाहिए और यूएसबी केबल को कनेक्ट करने से पहले कई छात्रों से कनेक्शन की जांच करवानी चाहिए।. बोर्ड पर उपयोग में आने वाले अन्य पिनों से पिन की दूरी गिनना उपयोगी होता है।.</p>
 

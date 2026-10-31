@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -152,7 +152,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"アクティブ","Base":"ベース","Planned":"計画","Here":"ここ","Summary":"まとめ","Note":"注記","Important":"重要"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"英語"},{c:"fr",l:"フランス語"},{c:"es",l:"スペイン語"},{c:"de",l:"ドイツ語"},{c:"zh",l:"中国語（簡体字）"},{c:"zh-TW",l:"中国語（繁体字）"},{c:"hi",l:"ヒンディー語"},{c:"bn",l:"バングラ語"},{c:"ar",l:"アラビア語"},{c:"fa",l:"ペルシャ語"},{c:"ur",l:"ウルドゥー語"},{c:"pt",l:"ポルトガル語"},{c:"ja",l:"日本語"},{c:"it",l:"イタリア語"},{c:"nl",l:"オランダ語"},{c:"da",l:"デンマーク語"},{c:"ru",l:"ロシア"},];
 </script>
@@ -161,6 +161,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -616,7 +617,7 @@ Inventor Pi, Inc.は、501(c)(3)に登録された非営利団体です。
 <p>生徒たちがブレッドボードの接続方法と安全について学ぶことは重要です. 追加センサーキットには、動作原理を示すための裏板のないブレッドボードが含まれています。. ブレッドボードにはリセット可能なヒューズが付いており、学生が誤ってブレッドボード上でショート回路を起こした場合に回路を遮断します。. センサーへの接続が間違っていると、繊細な電子機器に永久的な損傷を与え、使用不能にしてしまう可能性があるため、生徒たちは回路に電源を入れる前にすべての接続を確認する必要があります。. <a href="/ja/getting-started/important-dos-and-donts.html">「すべきこと」と「してはいけないこと」</a>のセクションでは、留意すべき重要な点について説明します。.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="リセット可能なヒューズ">
-<em>リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。 <strong class="text-red-000">+</strong> レール. ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合 <strong class="text-red-000">+</strong> レール)からGND（ブレッドボード）へ <strong class="text-blue-000">-</strong> レール）が引っかかると、電子機器の損傷を防ぎます。. 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。. 学生はすべての接続を確認し、実験を再開する必要があります。.</em></p>
+<em>リセット可能なヒューズ（PPTCヒューズまたはポリヒューズ）は、Pico 3.3V出力ピンとブレッドボードを接続する、オレンジがかった黄色の小さな部品です。 <img src="/assets/images/plus-rail.webp?v=krbx88" alt="ポジティブレール" class="inline-img">レール. ジャンパー線が誤ってVCC（ブレッドボード）に接続された場合など、短絡が発生した場合<img src="/assets/images/plus-rail.webp?v=krbx88" alt="ポジティブレール" class="inline-img">レール)からGNDへ（ <img src="/assets/images/minus-rail.webp?v=osszao" alt="グラウンドレール" class="inline-img">レール）が引っかかると、電子機器の損傷を防ぎます。. 回路が修復されるか電源が切れてから数秒後には、冷却されてリセットされます。. 学生はすべての接続を確認し、実験を再開する必要があります。.</em></p>
 
 <p>コネクタをセットアップする際は、生徒はPicoからUSBケーブルを外し、USBケーブルを接続する前に複数の生徒が接続を確認するようにしてください。. 基板上の他の使用済みピンからのピンの距離を数えることは有用です.</p>
 

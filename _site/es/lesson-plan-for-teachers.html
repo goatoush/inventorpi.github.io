@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -152,7 +152,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"Activo","Base":"Base","Planned":"Planificado","Here":"Aquí","Summary":"Resumen","Note":"Nota","Important":"Importante"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"Inglés"},{c:"fr",l:"Francés"},{c:"es",l:"Español"},{c:"de",l:"Alemán"},{c:"zh",l:"Chino (simplificado)"},{c:"zh-TW",l:"Chino (tradicional)"},{c:"hi",l:"hindi"},{c:"bn",l:"Bangla"},{c:"ar",l:"árabe"},{c:"fa",l:"persa"},{c:"ur",l:"Urdu"},{c:"pt",l:"portugués"},{c:"ja",l:"japonés"},{c:"it",l:"italiano"},{c:"nl",l:"Holandés"},{c:"da",l:"danés"},{c:"ru",l:"ruso"},];
 </script>
@@ -161,6 +161,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -616,7 +617,7 @@ Descargar diapositivas ↓</a></p>
 <p>Es importante que los estudiantes aprendan cómo funcionan las conexiones de la placa de prototipos y que estén seguros. El kit de sensores adicionales incluye una placa de pruebas sin soporte para mostrar cómo funciona. En la placa de pruebas hay un fusible rearmable que desconecta el circuito en caso de que un estudiante cree accidentalmente un cortocircuito en la placa de pruebas. Los estudiantes aún deben verificar todas las conexiones antes de encender el circuito, ya que las conexiones incorrectas a los sensores pueden causar daños permanentes a sus componentes electrónicos sensibles, dejándolos inservibles. La sección de <a href="/es/getting-started/important-dos-and-donts.html">&quot;Qué hacer y qué no hacer&quot;</a> abarca puntos importantes que se deben tener en cuenta.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="Fusible rearmable">
-<em>Un fusible rearmable (fusible PPTC o fusible múltiple) es el pequeño componente de color naranja-amarillo que conecta el pin de salida de 3,3 V del Pico a la placa de pruebas <strong class="text-red-000">+</strong> carril. Cuando hay un cortocircuito, como por ejemplo un cable puente que conecta accidentalmente VCC (placa de pruebas) <strong class="text-red-000">+</strong> riel) a GND (placa de pruebas) <strong class="text-blue-000">-</strong> riel), se dispara, evitando daños a los componentes electrónicos. Unos segundos después de que se repare el circuito o se apague la alimentación, se enfría y se reinicia. Los estudiantes deben verificar todas las conexiones y reanudar el experimento.</em></p>
+<em>Un fusible rearmable (fusible PPTC o fusible múltiple) es el pequeño componente de color naranja-amarillo que conecta el pin de salida de 3,3 V del Pico a la placa de pruebas. <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Riel positivo" class="inline-img"> carril. Cuando hay un cortocircuito, como por ejemplo un cable puente que conecta accidentalmente VCC (placa de pruebas) <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Riel positivo" class="inline-img"> riel) a tierra ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="Riel terrestre" class="inline-img"> riel), se dispara, evitando daños a los componentes electrónicos. Unos segundos después de que se repare el circuito o se apague la alimentación, se enfría y se reinicia. Los estudiantes deben verificar todas las conexiones y reanudar el experimento.</em></p>
 
 <p>Al configurar los conectores, los estudiantes deben desconectar el cable USB de Pico y hacer que varios estudiantes verifiquen las conexiones antes de conectar el cable USB. Resulta útil contar la distancia entre los pines utilizados en la placa.</p>
 

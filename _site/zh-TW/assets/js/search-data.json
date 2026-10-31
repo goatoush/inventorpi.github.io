@@ -183,7 +183,7 @@
   },"26": {
     "doc": "麵包板接線",
     "title": "麵包板接線",
-    "content": ". 麵包板上現在有一個可重設保險絲（上圖未顯示，見下圖），用於在學生不小心在麵包板上造成短路時斷開電路。. 在接通電路電源之前，您仍然需要檢查所有連接，因為感測器連接錯誤可能會對其精密電子元件造成永久性損壞，使其無法使用。. The 注意事項 section covers important points to keep in mind. 可重設保險絲（PPTC 保險絲或自恢復保險絲）是連接 Pico 3.3V 輸出引腳和麵包板的小型橙黃色元件。 + 軌. 當出現短路時，例如跳線意外連接到 VCC（麵包板）。 + 軌) to GND (breadboard - 軌道），它跳閘，防止電子設備損壞。. 電路修復或斷電幾秒鐘後，它會冷卻下來並自動重設。. 學生應檢查所有連接並繼續實驗。. ",
+    "content": ". 麵包板上現在有一個可重設保險絲（上圖未顯示，見下圖），用於在學生不小心在麵包板上造成短路時斷開電路。. 在接通電路電源之前，您仍然需要檢查所有連接，因為感測器連接錯誤可能會對其精密電子元件造成永久性損壞，使其無法使用。. The 注意事項 section covers important points to keep in mind. A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard rail) to GND ( rail), it trips, preventing damage to the electronics. 電路修復或斷電幾秒鐘後，它會冷卻下來並自動重設。. 學生應檢查所有連接並繼續實驗。. ",
     "url": "/zh-TW/getting-started/breadboard-wiring.html",
     
     "relUrl": "/zh-TW/getting-started/breadboard-wiring.html"
@@ -330,7 +330,7 @@
   },"47": {
     "doc": "教師教案",
     "title": "麵包板連接和安全",
-    "content": "學生學習麵包板連接的工作原理以及安全操作至關重要。. 附加感測器套件包含一塊沒有背板的麵包板，用於展示其工作原理。. 麵包板上有可重設保險絲，如果學生不小心在麵包板上造成短路，保險絲會自動斷開電路。. 學生在接通電路電源前仍需檢查所有連接，因為感測器連接錯誤可能會對其精密電子元件造成永久性損壞，使其無法使用。. The 注意事項 section covers important points to keep in mind. 可重設保險絲（PPTC 保險絲或自恢復保險絲）是連接 Pico 3.3V 輸出引腳和麵包板的小型橙黃色元件。 + 軌. 當出現短路時，例如跳線意外連接到 VCC（麵包板）。 + 軌) to GND (breadboard - 軌道），它跳閘，防止電子設備損壞。. 電路修復或斷電幾秒鐘後，它會冷卻下來並自動重設。. 學生應檢查所有連接並繼續實驗。. 安裝連接器時，學生應先斷開 Pico 上的 USB 連接線，並由多名學生驗證連接是否正確，然後再連接 USB 連接線。. 計算引腳與其他已使用引腳之間的距離很有用。. 安全規程 . 關閉電源 ➔ 連接組件 ➔ 驗證每個連接 ➔ 開機 . 回到頂部 . ",
+    "content": "學生學習麵包板連接的工作原理以及安全操作至關重要。. 附加感測器套件包含一塊沒有背板的麵包板，用於展示其工作原理。. 麵包板上有可重設保險絲，如果學生不小心在麵包板上造成短路，保險絲會自動斷開電路。. 學生在接通電路電源前仍需檢查所有連接，因為感測器連接錯誤可能會對其精密電子元件造成永久性損壞，使其無法使用。. The 注意事項 section covers important points to keep in mind. A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting the Pico 3.3V Out Pin to the breadboard rail. When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard rail) to GND ( rail), it trips, preventing damage to the electronics. 電路修復或斷電幾秒鐘後，它會冷卻下來並自動重設。. 學生應檢查所有連接並繼續實驗。. 安裝連接器時，學生應先斷開 Pico 上的 USB 連接線，並由多名學生驗證連接是否正確，然後再連接 USB 連接線。. 計算引腳與其他已使用引腳之間的距離很有用。. 安全規程 . 關閉電源 ➔ 連接組件 ➔ 驗證每個連接 ➔ 開機 . 回到頂部 . ",
     "url": "/zh-TW/lesson-plan-for-teachers.html#breadboard-connections-and-safety",
     
     "relUrl": "/zh-TW/lesson-plan-for-teachers.html#breadboard-connections-and-safety"

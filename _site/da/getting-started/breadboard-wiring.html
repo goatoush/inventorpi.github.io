@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=471t3x">
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?v=1shyp04">
 
   <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css?v=e3tqj7" id="jtd-head-nav-stylesheet">
 
@@ -221,7 +221,7 @@
   const BRAND_COLOR = '#F31660';
   const i18nText = {"Active":"Aktiv","Base":"Grundlag","Planned":"Planlagt","Here":"Her","Summary":"Oversigt","Note":"Note","Important":"Vigtig"};
   const i18n = (text) => i18nText[text] || text;
-  const searchDataPath = '/assets/js/search-data.json?v=1gljuav';
+  const searchDataPath = '/assets/js/search-data.json?v=1qyz3ks';
   const citiesDataPath = '/assets/data/cities.json?v=q6usjo';
   const languages = [{c:"en",l:"Engelsk"},{c:"fr",l:"Fransk"},{c:"es",l:"Spansk"},{c:"de",l:"Tysk"},{c:"zh",l:"Kinesisk (forenklet)"},{c:"zh-TW",l:"Kinesisk (traditionel)"},{c:"hi",l:"Hindi"},{c:"bn",l:"Bengalsk"},{c:"ar",l:"Arabisk"},{c:"fa",l:"Persisk"},{c:"ur",l:"Urdu"},{c:"pt",l:"Portugisisk"},{c:"ja",l:"Japansk"},{c:"it",l:"Italiensk"},{c:"nl",l:"Hollandsk"},{c:"da",l:"Dansk"},{c:"ru",l:"Russisk"},];
 </script>
@@ -235,6 +235,7 @@
 <noscript>
   <link rel="stylesheet" href="/assets/css/styles.css?v=18cdqv8">
 </noscript>
+<link rel="alternate-stylesheet" href="/assets/css/rtl.css?v=1thnvzx">
 <style>
   html {
     font-size: 1rem !important;
@@ -605,7 +606,7 @@ Inventor Pi, Inc. er en registreret 501(c)(3) organisation
 <p>Der er nu en nulstillelig sikring på breadboardet (ikke med på billedet ovenfor, se nedenfor), som afbryder kredsløbet, hvis en elev ved et uheld skaber en kortslutning på breadboardet. Du skal stadig verificere alle forbindelser, før du tænder for kredsløbet, da forkerte forbindelser til sensorerne kan forårsage permanent skade på deres følsomme elektronik og gøre dem ubrugelige. Afsnittet <a href="/da/getting-started/important-dos-and-donts.html">&quot;Gør og ikke gør&quot;</a> dækker vigtige punkter, du skal huske på.</p>
 
 <p class="caption"><img src="/assets/images/resettable-fuse.webp?v=vdyko7" alt="Nulstillelig sikring" />
-<em>En nulstillelig sikring (PPTC-sikring eller polyfuse) er den lille orange-gule komponent, der forbinder Pico 3.3V-udgangspinden til breadboardet <strong class="text-red-000">+</strong> jernbane. Når der er en kortslutning, f.eks. en jumperledning, der ved et uheld forbinder VCC (breadboard) <strong class="text-red-000">+</strong> skinne) til GND (brødbræt) <strong class="text-blue-000">-</strong> (skinne), udløses den, hvilket forhindrer beskadigelse af elektronikken. Få sekunder efter at kredsløbet er repareret, eller strømmen er slukket, køler den ned og nulstiller sig selv. Eleverne skal verificere alle forbindelserne og genoptage eksperimentet.</em></p>
+<em>En nulstillelig sikring (PPTC-sikring eller polyfuse) er den lille orange-gule komponent, der forbinder Pico 3.3V-udgangspinden til breadboardet. <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Positiv skinne" class="inline-img" /> jernbane. Når der er en kortslutning, f.eks. en jumperledning, der ved et uheld forbinder VCC (breadboard) <img src="/assets/images/plus-rail.webp?v=krbx88" alt="Positiv skinne" class="inline-img" /> skinne) til GND ( <img src="/assets/images/minus-rail.webp?v=osszao" alt="Jordskinne" class="inline-img" /> (skinne), udløses den, hvilket forhindrer beskadigelse af elektronikken. Få sekunder efter at kredsløbet er repareret, eller strømmen er slukket, køler den ned og nulstiller sig selv. Eleverne skal verificere alle forbindelserne og genoptage eksperimentet.</em></p>
 
           
 

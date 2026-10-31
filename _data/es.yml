@@ -770,9 +770,6 @@ The complete code for all the experiments is also available on: El código compl
 : Aún así, es necesario verificar todas las conexiones antes de encender el circuito,
   ya que las conexiones incorrectas a los sensores pueden causar daños permanentes
   a sus componentes electrónicos sensibles, dejándolos inservibles
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Cuando
-  hay un cortocircuito, como por ejemplo un cable puente que conecta accidentalmente
-  VCC (placa de pruebas)
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Unos
   segundos después de que se repare el circuito o se apague la alimentación, se enfría
   y se reinicia
@@ -974,15 +971,6 @@ Breadboard Basics Explained in 60 Seconds: Conceptos básicos de la placa de pro
   section covers important points to keep in mind
 : La sección de <a href="/getting-started/important-dos-and-donts.html">&quot;Qué
   hacer y qué no hacer&quot;</a> abarca puntos importantes que se deben tener en cuenta
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: Un fusible rearmable (fusible PPTC o fusible múltiple) es el pequeño componente
-  de color naranja-amarillo que conecta el pin de salida de 3,3 V del Pico a la placa
-  de pruebas
-rail: carril
-rail) to GND  (breadboard: riel) a GND (placa de pruebas)
-rail), it trips, preventing damage to the electronics: riel), se dispara, evitando
-  daños a los componentes electrónicos
 The students should verify all the connections and resume the experiment: Los estudiantes
   deben verificar todas las conexiones y reanudar el experimento
 Notice that: Observa que
@@ -1047,3 +1035,39 @@ Search <span translate="no">Inventor Pi</span>: Buscar <span translate="no">Inve
   <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Puerto
   Micro USB en Pico" class="inline-img" /></span> y cualquier puerto USB-C o USB-A
   del ordenador
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: Un fusible rearmable (fusible PPTC o fusible múltiple) es el pequeño componente
+  de color naranja-amarillo que conecta el pin de salida de 3,3 V del Pico a la placa
+  de pruebas. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Riel positivo" class="inline-img" /></span> carril
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Cuando hay un cortocircuito, como por ejemplo un cable puente que conecta accidentalmente
+  VCC (placa de pruebas) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Riel positivo" class="inline-img" /></span> riel) a tierra ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Riel terrestre" class="inline-img"
+  /></span>riel), se dispara, evitando daños a los componentes electrónicos
+Positive Rail: Riel positivo
+Ground Rail: Riel terrestre
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: Un fusible rearmable (fusible PPTC o fusible múltiple) es el pequeño componente
+  de color naranja-amarillo que conecta el pin de salida de 3,3 V del Pico a la placa
+  de pruebas. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Riel positivo" class="inline-img"></span> carril
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Cuando hay un cortocircuito, como por ejemplo un cable puente que conecta accidentalmente
+  VCC (placa de pruebas) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Riel positivo" class="inline-img"></span> riel) a tierra ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Riel terrestre" class="inline-img"></span>
+  riel), se dispara, evitando daños a los componentes electrónicos

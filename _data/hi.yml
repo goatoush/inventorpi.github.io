@@ -517,16 +517,6 @@ Breadboard Basics Explained in 60 Seconds: ब्रेडबोर्ड की
   सेंसरों के गलत कनेक्शन से उनके संवेदनशील इलेक्ट्रॉनिक्स को स्थायी नुकसान हो सकता
   है, जिससे वे बेकार हो जाएंगे।
 Do’s and Don’ts: करो और ना करो
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: एक रीसेट करने योग्य फ्यूज (पीपीटीसी फ्यूज या पॉलीफ्यूज) वह छोटा नारंगी-पीला घटक
-  है जो पिको 3.3V आउट पिन को ब्रेडबोर्ड से जोड़ता है।
-rail: रेल
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: जब
-  शॉर्ट सर्किट होता है, जैसे कि गलती से जम्पर वायर का VCC (ब्रेडबोर्ड) से जुड़ जाना
-rail) to GND  (breadboard: रेल) से जीएनडी (ब्रेडबोर्ड)
-rail), it trips, preventing damage to the electronics: रेल), यह ट्रिप हो जाता है,
-  जिससे इलेक्ट्रॉनिक्स को नुकसान होने से बचाया जा सकता है।
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: सर्किट
   ठीक होने या बिजली बंद होने के कुछ सेकंड बाद, यह ठंडा हो जाता है और खुद को रीसेट
   कर लेता है।
@@ -1021,3 +1011,37 @@ Ground: मैदान
   करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="पिको पर माइक्रो यूएसबी पोर्ट" class="inline-img" /></span> और कंप्यूटर पर मौजूद
   किसी भी USB-C या USB-A पोर्ट पर।
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: एक रीसेट करने योग्य फ्यूज (पीपीटीसी फ्यूज या पॉलीफ्यूज) वह छोटा नारंगी-पीला घटक
+  है जो पिको 3.3V आउट पिन को ब्रेडबोर्ड से जोड़ता है। <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="सकारात्मक रेल" class="inline-img" /></span> रेल
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: जब शॉर्ट सर्किट होता है, जैसे कि जम्पर वायर गलती से VCC (ब्रेडबोर्ड) से जुड़ जाता
+  है <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="सकारात्मक
+  रेल" class="inline-img" /></span> रेल) से जीएनडी ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="ग्राउंड रेल" class="inline-img" /></span> रेल), यह ट्रिप हो जाता है, जिससे
+  इलेक्ट्रॉनिक्स को नुकसान होने से बचाया जा सकता है।
+Positive Rail: सकारात्मक रेल
+Ground Rail: ग्राउंड रेल
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: एक रीसेट करने योग्य फ्यूज (पीपीटीसी फ्यूज या पॉलीफ्यूज) वह छोटा नारंगी-पीला घटक
+  है जो पिको 3.3V आउट पिन को ब्रेडबोर्ड से जोड़ता है। <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="सकारात्मक रेल" class="inline-img"></span> रेल
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: जब शॉर्ट सर्किट होता है, जैसे कि जम्पर वायर गलती से VCC (ब्रेडबोर्ड) से जुड़ जाता
+  है <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="सकारात्मक
+  रेल" class="inline-img"></span> रेल) से जीएनडी ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="ग्राउंड रेल" class="inline-img"></span> रेल), यह ट्रिप हो जाता है, जिससे इलेक्ट्रॉनिक्स
+  को नुकसान होने से बचाया जा सकता है।

@@ -518,18 +518,6 @@ Breadboard Basics Explained in 60 Seconds: 'Основы работы с мак�
   подключение датчиков может привести к необратимому повреждению их чувствительной
   электроники и сделать их непригодными для использования
 Do’s and Don’ts: Что можно и чего нельзя делать
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: Многоразовый предохранитель (PPTC-предохранитель или полимерный предохранитель)
-  — это небольшой оранжево-желтый компонент, соединяющий вывод Pico 3.3V Out с макетной
-  платой
-rail: железная дорога
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Когда
-  происходит короткое замыкание, например, из-за случайного соединения перемычки с
-  напряжением VCC (макетная плата)
-rail) to GND  (breadboard: рельс) к GND (макетная плата)
-rail), it trips, preventing damage to the electronics: рельс), он срабатывает, предотвращая
-  повреждение электроники
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Через
   несколько секунд после устранения неисправности в цепи или отключения питания устройство
   остывает и перезагружается
@@ -1033,3 +1021,41 @@ Ground: Земля
   translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Порт
   Micro USB на Pico" class="inline-img" /></span> и любой порт USB-C или USB-A на
   компьютере
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: Многоразовый предохранитель (PPTC-предохранитель или полимерный предохранитель)
+  — это небольшой оранжево-желтый компонент, соединяющий вывод Pico 3.3V Out с макетной
+  платой. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="Положительный
+  рельс" class="inline-img" /></span> железная дорога
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Когда происходит короткое замыкание, например, из-за случайного соединения перемычки
+  с напряжением VCC (макетная плата) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Положительный рельс" class="inline-img" /></span> железная дорога) до GND (
+  <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao" alt="Наземная
+  рельса" class="inline-img" /></span> рельс), он срабатывает, предотвращая повреждение
+  электроники
+Positive Rail: Положительный рельс
+Ground Rail: Наземная рельса
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: Многоразовый предохранитель (PPTC-предохранитель или полимерный предохранитель)
+  — это небольшой оранжево-желтый компонент, соединяющий вывод Pico 3.3V Out с макетной
+  платой. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="Положительный
+  рельс" class="inline-img"></span> железная дорога
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Когда происходит короткое замыкание, например, из-за случайного соединения перемычки
+  с напряжением VCC (макетная плата) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Положительный рельс" class="inline-img"></span> железная дорога) до GND ( <span
+  translate="no"><img src="/assets/images/minus-rail.webp?v=osszao" alt="Наземная
+  рельса" class="inline-img"></span> рельс), он срабатывает, предотвращая повреждение
+  электроники

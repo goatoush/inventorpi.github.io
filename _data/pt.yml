@@ -511,17 +511,6 @@ Breadboard Basics Explained in 60 Seconds: Conceitos básicos de protoboard expl
   incorretas aos sensores podem causar danos permanentes aos seus componentes eletrônicos
   sensíveis, tornando-os inúteis
 Do’s and Don’ts: O que fazer e o que não fazer
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: Um fusível rearmável (fusível PPTC ou polifusível) é o pequeno componente amarelo-alaranjado
-  que conecta o pino de saída de 3,3 V do Pico à placa de ensaio
-rail: trilho
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Quando
-  ocorre um curto-circuito, como por exemplo, um fio jumper conectando acidentalmente
-  o VCC (placa de ensaio)
-rail) to GND  (breadboard: trilho) para GND (placa de ensaio)
-rail), it trips, preventing damage to the electronics: trilho), ele dispara, evitando
-  danos aos componentes eletrônicos
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Alguns
   segundos após o circuito ser consertado ou a energia ser desligada, ele esfria e
   reinicializa automaticamente
@@ -1019,3 +1008,39 @@ Ground: Chão
   translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Porta
   Micro USB no Pico" class="inline-img" /></span> e qualquer porta USB-C ou USB-A
   do computador
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: Um fusível rearmável (fusível PPTC ou polifusível) é o pequeno componente amarelo-alaranjado
+  que conecta o pino de saída de 3,3 V do Pico à placa de ensaio. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Trilho positivo" class="inline-img"
+  /></span>trilho
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Quando ocorre um curto-circuito, como por exemplo, um fio jumper conectando acidentalmente
+  o VCC (placa de ensaio) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Trilho positivo" class="inline-img" /></span>trilho) para GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Trilho de solo" class="inline-img"
+  /></span>trilho), ele dispara, evitando danos aos componentes eletrônicos
+Positive Rail: Trilho positivo
+Ground Rail: Trilho de solo
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: Um fusível rearmável (fusível PPTC ou polifusível) é o pequeno componente amarelo-alaranjado
+  que conecta o pino de saída de 3,3 V do Pico à placa de ensaio. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Trilho positivo" class="inline-img"></span>
+  trilho
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Quando ocorre um curto-circuito, como por exemplo, um fio jumper conectando acidentalmente
+  o VCC (placa de ensaio) <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Trilho positivo" class="inline-img"></span> trilho) para GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Trilho de solo" class="inline-img"></span>
+  trilho), ele dispara, evitando danos aos componentes eletrônicos

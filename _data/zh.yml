@@ -328,14 +328,6 @@ Breadboard Basics Explained in 60 Seconds: 60秒带你了解面包板基础知�
   electronics, rendering them useless
 : 在接通电路电源之前，您仍然需要检查所有连接，因为传感器连接错误可能会对其精密电子元件造成永久性损坏，使其无法使用。
 Do’s and Don’ts: 注意事项
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: 可复位保险丝（PPTC 保险丝或自恢复保险丝）是连接 Pico 3.3V 输出引脚和面包板的小型橙黄色元件。
-rail: 轨
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: 当出现短路时，例如跳线意外连接到
-  VCC（面包板）。
-rail) to GND  (breadboard: 导轨）到 GND（面包板）
-rail), it trips, preventing damage to the electronics: 轨道），它跳闸，防止电子设备损坏。
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: 电路修复或断电几秒钟后，它会冷却下来并自动复位。
 The students should verify all the connections and resume the experiment: 学生应检查所有连接并继续实验。
 Resettable Fuse: 可复位保险丝
@@ -701,3 +693,31 @@ Ground: 地面
   port on the computer
 : 将 USB 数据线连接到 Pico 上的 Micro USB 端口，即可将 Pico 连接到计算机。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Pico 上的 Micro USB 端口" class="inline-img" /></span>以及电脑上的任何 USB-C 或 USB-A 端口
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: 可复位保险丝（PPTC 保险丝或自恢复保险丝）是连接 Pico 3.3V 输出引脚和面包板的小型橙黄色元件。 <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="正轨" class="inline-img" /></span>轨
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: 当出现短路时，例如跳线意外连接到 VCC（面包板）。 <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="正轨" class="inline-img" /></span>铁路）到 GND（ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="地面轨道" class="inline-img" /></span>轨道），它跳闸，防止电子设备损坏。
+Positive Rail: 正轨
+Ground Rail: 地面轨道
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: 可复位保险丝（PPTC 保险丝或自恢复保险丝）是连接 Pico 3.3V 输出引脚和面包板的小型橙黄色元件。 <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="正轨" class="inline-img"></span>轨
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: 当出现短路时，例如跳线意外连接到 VCC（面包板）。 <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="正轨" class="inline-img"></span>铁路）到 GND（ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="地面轨道" class="inline-img"></span>轨道），它跳闸，防止电子设备损坏。

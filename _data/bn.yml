@@ -510,17 +510,6 @@ Breadboard Basics Explained in 60 Seconds: ৬০ সেকেন্ডে ব�
   ভুল সংযোগ তাদের সংবেদনশীল ইলেকট্রনিক্সের স্থায়ী ক্ষতি করতে পারে, যার ফলে সেগুলি
   অকেজো হয়ে পড়বে।
 Do’s and Don’ts: করণীয় ও বর্জনীয়
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: একটি রিসেটেবল ফিউজ (পিপিটিসি ফিউজ বা পলিফিউজ) হলো একটি ছোট কমলা-হলুদ রঙের যন্ত্রাংশ
-  যা পিকো ৩.৩ভি আউট পিনকে ব্রেডবোর্ডের সাথে সংযুক্ত করে।
-rail: রেল
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: যখন
-  শর্ট সার্কিট হয়, যেমন একটি জাম্পার তার ভুলবশত VCC (ব্রেডবোর্ড) এর সাথে সংযুক্ত
-  হয়ে যায়
-rail) to GND  (breadboard: রেল) থেকে GND (ব্রেডবোর্ড)
-rail), it trips, preventing damage to the electronics: রেল), এটি ট্রিপ করে, ইলেকট্রনিক্সের
-  ক্ষতি প্রতিরোধ করে।
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: সার্কিটটি
   ঠিক করার বা বিদ্যুৎ বন্ধ করার কয়েক সেকেন্ড পরে, এটি ঠান্ডা হয়ে যায় এবং নিজে থেকেই
   রিসেট হয়ে যায়।
@@ -1017,3 +1006,39 @@ Ground: ভূমি
   করুন। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="পিকো-তে মাইক্রো ইউএসবি পোর্ট" class="inline-img" /></span> এবং কম্পিউটারের
   যেকোনো USB-C বা USB-A পোর্ট
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: রিসেটেবল ফিউজ (পিপিটিসি ফিউজ বা পলিফিউজ) হলো একটি ছোট কমলা-হলুদ রঙের যন্ত্রাংশ,
+  যা পিকো ৩.৩ভি আউট পিনকে ব্রেডবোর্ডের সাথে সংযুক্ত করে। <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="পজিটিভ রেল" class="inline-img"
+  /></span> রেল
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: যখন শর্ট সার্কিট হয়, যেমন একটি জাম্পার তার ভুলবশত VCC (ব্রেডবোর্ড) এর সাথে সংযুক্ত
+  হয়ে যায় <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="পজিটিভ রেল" class="inline-img" /></span> রেল) থেকে জিএনডি ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="গ্রাউন্ড রেল" class="inline-img"
+  /></span> রেল), এটি ট্রিপ করে, ইলেকট্রনিক্সের ক্ষতি প্রতিরোধ করে।
+Positive Rail: পজিটিভ রেল
+Ground Rail: গ্রাউন্ড রেল
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: রিসেটেবল ফিউজ (পিপিটিসি ফিউজ বা পলিফিউজ) হলো একটি ছোট কমলা-হলুদ রঙের যন্ত্রাংশ,
+  যা পিকো ৩.৩ভি আউট পিনকে ব্রেডবোর্ডের সাথে সংযুক্ত করে। <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="পজিটিভ রেল" class="inline-img"></span>
+  রেল
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: যখন শর্ট সার্কিট হয়, যেমন একটি জাম্পার তার ভুলবশত VCC (ব্রেডবোর্ড) এর সাথে সংযুক্ত
+  হয়ে যায় <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="পজিটিভ রেল" class="inline-img"></span> রেল) থেকে জিএনডি ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="গ্রাউন্ড রেল" class="inline-img"></span>
+  রেল), এটি ট্রিপ করে, ইলেকট্রনিক্সের ক্ষতি প্রতিরোধ করে।

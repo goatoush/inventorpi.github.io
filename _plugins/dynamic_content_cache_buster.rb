@@ -25,7 +25,7 @@ Jekyll::Hooks.register :site, :post_write, priority: :high do |site|
   bust_cache_patters = [
     '<script src=["\']\/assets\/js\/.+?["\']',
     'const \w+ = ["\']/assets/.+?["\']',
-    '<link rel=["\']stylesheet["\'] href=["\']\/assets\/css\/.+?["\']',
+    '<link rel=["\'](alternate-)?stylesheet["\'] href=["\']\/assets\/css\/.+?["\']',
     '<img\s.*?src=["\']\/assets\/.+?["\']'
   ]
 

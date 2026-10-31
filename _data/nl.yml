@@ -543,17 +543,6 @@ Breadboard Basics Explained in 60 Seconds: De basisprincipes van een breadboard 
   onjuiste aansluitingen op de sensoren kunnen permanente schade aan de gevoelige
   elektronica veroorzaken, waardoor ze onbruikbaar worden
 Do’s and Don’ts: Wat wel en niet mag
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: Een resetbare zekering (PPTC-zekering of polyfuse) is het kleine oranje-gele component
-  dat de Pico 3.3V Out-pin met het breadboard verbindt
-rail: spoor
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: Bij
-  kortsluiting, bijvoorbeeld doordat een jumperdraad per ongeluk VCC (breadboard)
-  verbindt, kan dit problemen veroorzaken
-rail) to GND  (breadboard: rail) naar GND (breadboard)
-rail), it trips, preventing damage to the electronics: rail), schakelt het uit, waardoor
-  schade aan de elektronica wordt voorkomen
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: Enkele
   seconden nadat het circuit is gerepareerd of de stroom is uitgeschakeld, koelt het
   af en reset het zichzelf
@@ -1049,3 +1038,39 @@ Ground: Grond
   van de Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro-USB-poort op Pico" class="inline-img" /></span> en elke USB-C- of USB-A-poort
   op de computer
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: Een resetbare zekering (PPTC-zekering of polyfuse) is het kleine oranje-gele component
+  dat de Pico 3.3V Out-pin met het breadboard verbindt. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Positief spoor" class="inline-img"
+  /></span> spoor
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: Bij kortsluiting, bijvoorbeeld doordat een jumperdraad per ongeluk VCC (breadboard)
+  verbindt, kan dit problemen veroorzaken. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positief spoor" class="inline-img" /></span> rail) naar GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Grondrail" class="inline-img"
+  /></span> rail), schakelt het uit, waardoor schade aan de elektronica wordt voorkomen
+Positive Rail: Positief spoor
+Ground Rail: Grondrail
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: Een resetbare zekering (PPTC-zekering of polyfuse) is het kleine oranje-gele component
+  dat de Pico 3.3V Out-pin met het breadboard verbindt. <span translate="no"><img
+  src="/assets/images/plus-rail.webp?v=krbx88" alt="Positief spoor" class="inline-img"></span>
+  spoor
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: Bij kortsluiting, bijvoorbeeld doordat een jumperdraad per ongeluk VCC (breadboard)
+  verbindt, kan dit problemen veroorzaken. <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positief spoor" class="inline-img"></span> rail) naar GND ( <span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Grondrail" class="inline-img"></span>
+  rail), schakelt het uit, waardoor schade aan de elektronica wordt voorkomen

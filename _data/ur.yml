@@ -580,16 +580,6 @@ Breadboard Basics Explained in 60 Seconds: بریڈ بورڈ کی بنیادی �
   کیونکہ سینسرز کے غلط کنکشنز ان کے حساس الیکٹرانکس کو مستقل نقصان پہنچا سکتے ہیں
   اور انہیں بیکار بنا سکتے ہیں۔
 Do’s and Don’ts: کیا کریں اور نہ کریں۔
-? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
-  the Pico 3.3V Out Pin to the breadboard
-: ری سیٹ ایبل فیوز (PPTC فیوز یا پولی فیوز) ایک چھوٹا نارنجی پیلا جز ہے جو Pico 3.3V
-  آؤٹ پن کو بریڈ بورڈ سے جوڑتا ہے۔
-rail: ریل
-When there is a short circuit, such as a jumper wire accidentally connecting VCC (breadboard: جب
-  کوئی شارٹ سرکٹ ہو، جیسے کہ جمپر وائر غلطی سے VCC کو جوڑتا ہے (روٹی بورڈ
-rail) to GND  (breadboard: ریل) سے GND (روٹی بورڈ
-rail), it trips, preventing damage to the electronics: ریل)، یہ سفر کرتی ہے، الیکٹرانکس
-  کو پہنچنے والے نقصان کو روکتی ہے۔
 A few seconds after the circuit is fixed or the power is turned off, it cools down and resets itself: سرکٹ
   کے ٹھیک ہونے یا بجلی بند ہونے کے چند سیکنڈ بعد، یہ ٹھنڈا ہو جاتا ہے اور خود کو دوبارہ
   سیٹ کر دیتا ہے۔
@@ -1001,3 +991,37 @@ Ground: گراؤنڈ
 : پیکو پر USB کیبل کو مائیکرو USB پورٹ سے جوڑ کر پیکو کو کمپیوٹر سے جوڑیں۔ <span translate="no"><img
   src="/assets/images/micro-usb-port.webp?v=urm18c" alt="پیکو پر مائیکرو USB پورٹ"
   class="inline-img" /></span> اور کمپیوٹر پر کوئی بھی USB-C یا USB-A پورٹ
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail
+: ری سیٹ ایبل فیوز (PPTC فیوز یا پولی فیوز) ایک چھوٹا نارنجی پیلا جز ہے جو Pico 3.3V
+  آؤٹ پن کو بریڈ بورڈ سے جوڑتا ہے۔ <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="مثبت ریل" class="inline-img" /></span>ریل
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"
+  /></span> rail), it trips, preventing damage to the electronics
+: جب کوئی شارٹ سرکٹ ہو، جیسے کہ جمپر وائر غلطی سے VCC کو جوڑتا ہے (روٹی بورڈ <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="مثبت ریل"
+  class="inline-img" /></span>ریل) سے جی این ڈی ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="گراؤنڈ ریل" class="inline-img" /></span> ریل)، یہ سفر کرتی ہے، الیکٹرانکس کو
+  پہنچنے والے نقصان کو روکتی ہے۔
+Positive Rail: مثبت ریل
+Ground Rail: گراؤنڈ ریل
+? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
+  the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail
+: ری سیٹ ایبل فیوز (PPTC فیوز یا پولی فیوز) ایک چھوٹا نارنجی پیلا جز ہے جو Pico 3.3V
+  آؤٹ پن کو بریڈ بورڈ سے جوڑتا ہے۔ <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="مثبت ریل" class="inline-img"></span> ریل
+? When there is a short circuit, such as a jumper wire accidentally connecting VCC
+  (breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img"></span> rail) to GND  (<span translate="no"><img
+  src="/assets/images/minus-rail.webp?v=osszao" alt="Ground Rail" class="inline-img"></span>
+  rail), it trips, preventing damage to the electronics
+: جب کوئی شارٹ سرکٹ ہو، جیسے کہ جمپر وائر غلطی سے VCC کو جوڑتا ہے (روٹی بورڈ <span
+  translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88" alt="مثبت ریل"
+  class="inline-img"></span> ریل) سے جی این ڈی ( <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="گراؤنڈ ریل" class="inline-img"></span> ریل)، یہ سفر کرتی ہے، الیکٹرانکس کو
+  پہنچنے والے نقصان کو روکتی ہے۔
