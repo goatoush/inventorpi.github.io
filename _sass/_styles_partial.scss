@@ -143,6 +143,10 @@ div.mermaid {
     print-color-adjust: exact;
   }
 
+  body {
+    min-height: auto;
+  }
+
   .highlight .table-wrapper .rouge-code pre {
     white-space: pre-wrap;
     font-size: .6rem !important;

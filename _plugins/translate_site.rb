@@ -284,6 +284,12 @@ Jekyll::Hooks.register :site, :post_write do |site|
         content.gsub!(%r{("url": "|"relUrl": ")(/[^"']*["'])}, "\\1/#{lang}\\2")
       end
 
+      # Change search-data path
+      content.sub!(
+        %r{const searchDataPath = '/assets/js/search-data.json}m,
+        "const searchDataPath = '/#{lang}/assets/js/search-data.json"
+      )
+
       # Write translated i18n keys used by javascript i18n()
       content.sub!(
         /i18nText = JSON\.parse\(`\{.+?\}`\);/m,
