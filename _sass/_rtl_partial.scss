@@ -5,6 +5,7 @@ html[dir="rtl"] {
     direction: rtl;
     text-align: right;
     overflow-x: hidden;
+    contain: paint;
   }
 
   * {
@@ -106,24 +107,18 @@ html[dir="rtl"] {
   .nav-pagination-prev {
     text-align: right !important;
 
-    span::after {
-      content: " →"
-    }
-
     span::before {
-      display: none;
+      content: "→";
+      margin-inline-end: 0.5em;
     }
   }
 
   .nav-pagination-next {
     text-align: left !important;
 
-    span::before {
-      content: "← "
-    }
-
     span::after {
-      display: none;
+      content: "←";
+      margin-inline-start: 0.5em;
     }
   }
 
@@ -210,9 +205,10 @@ html[dir="rtl"] {
 
   .main-content ul>li::after {
     position: absolute;
-    margin-left: 0.9em;
     color: #959396;
     content: "•";
+    inset-inline-start: 0;
+    margin-inline-start: 0.9em;
   }
 
   .main-content ul>li::before {
