@@ -3,6 +3,11 @@
 20 jumper wires: 20 jumper wires
 2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
   Pi, Inc.</span>
+6 Buttons: 6 Buttons
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
 <span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
   translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization
 <span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
@@ -103,6 +108,8 @@ Back to top: Back to top
 Bangla: Bangla
 Base: Base
 Battery pack: Battery pack
+Be gentle as the metal contacts are loose and might fall out of the breadboard: Be
+  gentle as the metal contacts are loose and might fall out of the breadboard
 Before we can start the experiments, we need a way to write and deploy the code to Pico: Before
   we can start the experiments, we need a way to write and deploy the code to Pico
 Blink: Blink
@@ -121,6 +128,10 @@ Breadboard Basics: Breadboard Basics
 Breadboard Basics Explained in 60 Seconds: Breadboard Basics Explained in 60 Seconds
 Breadboard Connections and Safety: Breadboard Connections and Safety
 Breadboard Wiring: Breadboard Wiring
+Breadboard connections: Breadboard connections
+Breadboard is a solderless way to connect electronic components for prototyping: Breadboard
+  is a solderless way to connect electronic components for prototyping
+Breadboard wiring quick reference: Breadboard wiring quick reference
 Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: Breadboard with
   OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons
 ? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
@@ -151,23 +162,39 @@ Clean up and pack the kits (5-7 min): Clean up and pack the kits (5-7 min)
 Congratulations, you have written and run your first MicroPython script: Congratulations,
   you have written and run your first MicroPython script
 Connect Components: Connect Components
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
 Connect Pico: Connect Pico
 Connect Pico to Computer: Connect Pico to Computer
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
 Connect any components: Connect any components
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
 : Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
 Connect the Raspberry Pi Pico to the battery pack with the provided USB cable: Connect
   the Raspberry Pi Pico to the battery pack with the provided USB cable
 Connect the Raspberry Pi Pico to the computer with the provided USB cable: Connect
   the Raspberry Pi Pico to the computer with the provided USB cable
 Connect the components as described before connecting Pico to power supply: Connect
   the components as described before connecting Pico to power supply
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
 Contact: Contact
 Contact Form: Contact Form
 Copy and paste the code below into the file you created: Copy and paste the code below
@@ -279,6 +306,8 @@ For this, we add some more helper functions below: For this, we add some more he
   as shown below:'
 French: French
 Full Raspberry Pi Pico 2 W Pinout: Full Raspberry Pi Pico 2 W Pinout
+GP28: GP28
+GP9: GP9
 German: German
 Get Started: Get Started
 Get started with MicroPython on Raspberry Pi Pico Book: Get started with MicroPython
@@ -305,6 +334,13 @@ He was fantastic with the kids, coming prepared with all the necessary materials
 Here: Here
 Hindi: Hindi
 Hint: Hint
+Horizontal holes are linked together: Horizontal holes are linked together
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
 How to Run Experiments with Thonny: How to Run Experiments with Thonny
 Humans are full of water and salt, making the body a natural conductor of electricity: Humans
   are full of water and salt, making the body a natural conductor of electricity
@@ -454,6 +490,10 @@ Now let’s add the main loop: Now let’s add the main loop
 Now we use trigonometry to calculate the angle the joystick lever makes, and set the servos to match this angle: Now
   we use trigonometry to calculate the angle the joystick lever makes, and set the
   servos to match this angle
+OLED Display: OLED Display
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED
+  Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
+  Display" class="inline-img" /></span>
 "On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "On
   the breadboard, press the blue button \U0001F535 once to launch the menu on the
   OLED screen"
@@ -473,6 +513,11 @@ Photoresistor: Photoresistor
 Photoresistor Module: Photoresistor Module
 Piano: Piano
 Pico 2 W Pinout: Pico 2 W Pinout
+Piezo Buzzer: Piezo Buzzer
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
 Planned: Planned
 Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: Please
   familiarize yourself with the contents of the invention kit and the Additional Sensors
@@ -499,6 +544,11 @@ Previous: Previous
 Quantity per Box: Quantity per Box
 Question / Feedback / Interest / Message: Question / Feedback / Interest / Message
 Raspberry Pi Pico 2 W GPIO Pinout: Raspberry Pi Pico 2 W GPIO Pinout
+Raspberry Pi Pico 2W: Raspberry Pi Pico 2W
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 Reaching Teachers and Students Worldwide: Reaching Teachers and Students Worldwide
 Read experiment description and code: Read experiment description and code
 Read other comments: Read other comments
@@ -570,6 +620,9 @@ Students familiarize themselves with the invention kit components (3-5 min): Stu
   motors and controllers, and programming on Raspberry Pi
 : Students learn basic electronic skills about using a breadboard, connecting sensors,
   motors and controllers, and programming on Raspberry Pi
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: Study
+  the breadboard included in the additional sensors kit, where the adhesive backing
+  has been removed
 Summary: Summary
 Table of contents: Table of contents
 Teachers can run a one hour workshop with middle school students interested in STEM: Teachers
@@ -764,6 +817,13 @@ Verify all connections, especially VCC and GND: Verify all connections, especial
   VCC and GND
 Verify all the connections are to the correct Pins, especially the VCC and GND connections: Verify
   all the connections are to the correct Pins, especially the VCC and GND connections
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+Vertical bus strips are linked together: Vertical bus strips are linked together
 We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: We
   access the GPIO (General Purpose Input Output) pins by using the Pin object from
   the machine library
@@ -870,6 +930,9 @@ Write your first script “blink.py” by following the instructions below: Writ
   first script “blink.py” by following the instructions below
 You can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below: You
   can check out the full Raspberry Pi Pico 2 W Pinout at the page linked below
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: You
+  can see exactly which holes are connected to each other if you look behind a breadboard
+  without the adhesive backing
 You can streamline the process by installing Thonny app on all computers before the workshop: You
   can streamline the process by installing Thonny app on all computers before the
   workshop

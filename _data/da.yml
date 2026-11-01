@@ -955,14 +955,6 @@ Please try again later: Prøv igen senere
 : Del venligst disse <a href="/getting-started/install-thonny-app.html">instruktioner</a>
   med eleverne på forhånd, så de kan installere appen på deres bærbare computere inden
   undervisningen
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: Tilslut Pico&#39;en til computeren ved at tilslutte USB-kablet til Micro USB-porten
-  på Pico&#39;en. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB-port på Pico" class="inline-img" /></span> og enhver USB-C- eller
-  USB-A-port på computeren
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -1008,3 +1000,74 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   alt="Ikon for kørsel af script" class="inline-img" /></span> Knap <span translate="no"><code
   class="language-plaintext highlighter-rouge">Run current script</code></span>
 Run script icon: Ikon for kørsel af script
+Breadboard is a solderless way to connect electronic components for prototyping: Breadboard
+  er en loddefri måde at forbinde elektroniske komponenter til prototypefremstilling
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: Vandrette huller er forbundet sammen, men ikke på tværs af den midterste skillevæg
+  <span translate="no"><img src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en"
+  alt="Horisontale huller er forbundet sammen" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: Lodrette busstriber er kontinuerlige ned langs siden af ​​​​brættet, men krydser
+  ikke den midterste skillevæg <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Lodrette busstrimler er forbundet sammen" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: Du
+  kan se præcis hvilke huller der er forbundet med hinanden, hvis du kigger bag et
+  breadboard uden den klæbende bagside
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: Undersøg
+  breadboardet, der er inkluderet i det ekstra sensorsæt, hvor den klæbende bagside
+  er fjernet
+Be gentle as the metal contacts are loose and might fall out of the breadboard: Vær
+  forsigtig, da metalkontakterne er løse og kan falde ud af breadboardet
+Horizontal holes are linked together: Horisontale huller er forbundet sammen
+Vertical bus strips are linked together: Lodrette busstrimler er forbundet sammen
+Breadboard connections: Breadboard-forbindelser
+Breadboard wiring quick reference: Hurtig reference til ledningsføring af brødplader
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: Tilslut VCC til <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positiv skinne" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: Tilslut GND til <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Jordskinne" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 knapper forbundet til GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 knapper" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Opret forbindelse til GP9 her <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Opret forbindelse til GP28 her <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: Piezo-summer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo-summer" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED-skærm
+  <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED-skærm"
+  class="inline-img" /></span>
+6 Buttons: 6 knapper
+GP9: GP9
+GP28: GP28
+Raspberry Pi Pico 2W: Raspberry Pi Pico 2W
+Piezo Buzzer: Piezo-summer
+OLED Display: OLED-skærm
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: Tilslut Pico&#39;en til computeren ved at tilslutte USB-kablet til Micro USB-porten
+  på Pico&#39;en. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB-port på Pico" class="inline-img large" /></span> og enhver USB-C-
+  eller USB-A-port på computeren

@@ -924,14 +924,6 @@ Please try again later: يرجى المحاولة مرة أخرى لاحقاً
 : يرجى مشاركة هذه <a href="/getting-started/install-thonny-app.html">التعليمات</a>
   مع الطلاب مسبقًا، حتى يتمكنوا من تثبيت التطبيق على أجهزة الكمبيوتر المحمولة الخاصة
   بهم قبل بدء الحصة
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: قم بتوصيل جهاز Pico بالكمبيوتر عن طريق توصيل كابل USB بمنفذ Micro USB الموجود على
-  جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="منفذ Micro USB على جهاز Pico" class="inline-img" /></span> وأي منفذ USB-C أو
-  USB-A على الكمبيوتر
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -977,3 +969,74 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   alt="أيقونة تشغيل البرنامج النصي" class="inline-img" /></span> زر <span translate="no"><code
   class="language-plaintext highlighter-rouge">Run current script</code></span>
 Run script icon: أيقونة تشغيل البرنامج النصي
+Breadboard is a solderless way to connect electronic components for prototyping: لوحة
+  التجارب هي طريقة لتوصيل المكونات الإلكترونية لأغراض النماذج الأولية دون الحاجة إلى
+  اللحام
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: تتصل الثقوب الأفقية ببعضها البعض، ولكن ليس عبر الفاصل الأوسط <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="يتم ربط الثقوب
+  الأفقية معًا" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: تمتد شرائط التوصيل العمودية بشكل متواصل على طول جانب اللوحة، لكنها لا تعبر الفاصل
+  الأوسط. <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="يتم ربط شرائط الحافلات العمودية معًا" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: يمكنك
+  أن ترى بوضوح أي الثقوب متصلة ببعضها البعض إذا نظرت خلف لوحة التجارب بدون الغطاء
+  اللاصق
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: ادرس
+  لوحة التجارب المضمنة في مجموعة المستشعرات الإضافية، حيث تمت إزالة الغطاء اللاصق
+Be gentle as the metal contacts are loose and might fall out of the breadboard: كن
+  حذرًا لأن الموصلات المعدنية غير مثبتة بإحكام وقد تسقط من لوحة التجارب
+Horizontal holes are linked together: يتم ربط الثقوب الأفقية معًا
+Vertical bus strips are linked together: يتم ربط شرائط الحافلات العمودية معًا
+Breadboard connections: توصيلات لوحة التجارب
+Breadboard wiring quick reference: دليل سريع لتوصيلات لوحة التجارب
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: قم بتوصيل VCC بـ <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="السكة الإيجابية" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: قم بتوصيل GND بـ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="سكة أرضية" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 أزرار متصلة بـ GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 أزرار" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: اتصل بـ GP9 من هنا <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: اتصل بـ GP28 من هنا <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: راسبيري باي بيكو 2 واط <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="راسبيري باي بيكو 2 واط" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: جرس بيزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="جرس بيزو" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: شاشة
+  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="شاشة
+  OLED" class="inline-img" /></span>
+6 Buttons: 6 أزرار
+GP9: GP9
+GP28: GP28
+Raspberry Pi Pico 2W: راسبيري باي بيكو 2 واط
+Piezo Buzzer: جرس بيزو
+OLED Display: شاشة OLED
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: قم بتوصيل جهاز Pico بالكمبيوتر عن طريق توصيل كابل USB بمنفذ Micro USB الموجود على
+  جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="منفذ Micro USB على جهاز Pico" class="inline-img large" /></span> وأي منفذ USB-C
+  أو USB-A على الكمبيوتر

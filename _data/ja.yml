@@ -626,12 +626,6 @@ Please try again later: 後でもう一度お試しください。
   with the students ahead of time, so they can install the app on their laptops before
   the class
 : 授業前に生徒にこれらの<a href="/getting-started/install-thonny-app.html">手順を</a>共有し、生徒が授業前に各自のノートパソコンにアプリをインストールできるようにしてください。
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="PicoのマイクロUSBポート" class="inline-img" /></span>コンピューター上のUSB-CまたはUSB-Aポート
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -671,3 +665,64 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   alt="スクリプト実行アイコン" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span>ボタン
 Run script icon: スクリプト実行アイコン
+Breadboard is a solderless way to connect electronic components for prototyping: ブレッドボードは、プロトタイプ作成のために電子部品を接続するための、はんだ付け不要の方法です。
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: 水平方向の穴は互いに連結しているが、中央の仕切りを横切っては連結していない。 <span translate="no"><img src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en"
+  alt="水平方向の穴が連結されている" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: 垂直方向のバスストリップはボードの側面に沿って連続していますが、中央の仕切り線を横切ることはありません。 <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="垂直バス路線は連結されている" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: 粘着テープを剥がしたブレッドボードの裏側を見ると、どの穴が互いに接続されているかが正確にわかります。
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: 追加センサーキットに付属のブレッドボードを調べてください。粘着テープは剥がしてあります。
+Be gentle as the metal contacts are loose and might fall out of the breadboard: 金属接点は緩んでいるため、ブレッドボードから外れてしまう可能性がありますので、優しく扱ってください。
+Horizontal holes are linked together: 水平方向の穴が連結されている
+Vertical bus strips are linked together: 垂直バス路線は連結されている
+Breadboard connections: ブレッドボード接続
+Breadboard wiring quick reference: ブレッドボード配線クイックリファレンス
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: VCC を接続して<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="ポジティブレール" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: GND を<span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao" alt="グラウンドレール"
+  class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: GP0～GP5に接続された6つのボタン<span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6つのボタン" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: こちらからGP9に接続してください。 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: こちらからGP28に接続してください。 <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: ラズベリーパイ ピコ 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="ラズベリーパイ ピコ 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: ピエゾブザー<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="ピエゾブザー" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLEDディスプレイ<span
+  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLEDディスプレイ" class="inline-img"
+  /></span>
+6 Buttons: 6つのボタン
+GP9: GP9
+GP28: GP28
+Raspberry Pi Pico 2W: ラズベリーパイ ピコ 2W
+Piezo Buzzer: ピエゾブザー
+OLED Display: OLEDディスプレイ
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="PicoのマイクロUSBポート" class="inline-img large" /></span>コンピューター上のUSB-CまたはUSB-Aポート

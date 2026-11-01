@@ -1018,14 +1018,6 @@ Please try again later: Probeer het later opnieuw
   the class
 : Deel deze <a href="/getting-started/install-thonny-app.html">instructies</a> van
   tevoren met de leerlingen, zodat ze de app vóór de les op hun laptops kunnen installeren
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: Sluit de Pico aan op de computer door de USB-kabel aan te sluiten op de Micro USB-poort
-  van de Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro-USB-poort op Pico" class="inline-img" /></span> en elke USB-C- of USB-A-poort
-  op de computer
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -1073,3 +1065,75 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   class="inline-img" /></span> Knop &#39; <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span>
 Run script icon: Script uitvoeren-pictogram
+Breadboard is a solderless way to connect electronic components for prototyping: Een
+  breadboard is een soldeerloze manier om elektronische componenten aan te sluiten
+  voor prototyping
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: De horizontale gaten zijn met elkaar verbonden, maar niet dwars door de middelste
+  scheidingswand. <span translate="no"><img src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en"
+  alt="Horizontale gaten zijn met elkaar verbonden." class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: De verticale busstrips lopen door langs de zijkant van de printplaat, maar kruisen
+  de middenscheiding niet. <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="De verticale busstrips zijn met elkaar verbonden." class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: Je
+  kunt precies zien welke gaten met elkaar verbonden zijn als je achter een breadboard
+  kijkt zonder de plaklaag
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: Bestudeer
+  het breadboard dat bij de extra sensorkit is meegeleverd, waarvan de zelfklevende
+  achterkant is verwijderd
+Be gentle as the metal contacts are loose and might fall out of the breadboard: Wees
+  voorzichtig, want de metalen contacten zitten los en kunnen uit het breadboard vallen
+Horizontal holes are linked together: Horizontale gaten zijn met elkaar verbonden
+Vertical bus strips are linked together: De verticale busstrips zijn met elkaar verbonden
+Breadboard connections: Breadboard-aansluitingen
+Breadboard wiring quick reference: Snel naslagwerk voor het bedraden van een breadboard
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: Verbind VCC met <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positief spoor" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: Sluit GND aan op <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Grondrail" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 knoppen verbonden met GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 knoppen" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Maak hier verbinding met GP9 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Maak hier verbinding met GP28 <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: Piëzo-zoemer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piëzo-zoemer" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED-display
+  <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED-display"
+  class="inline-img" /></span>
+6 Buttons: 6 knoppen
+GP9: GP9
+GP28: GP28
+Raspberry Pi Pico 2W: Raspberry Pi Pico 2W
+Piezo Buzzer: Piëzo-zoemer
+OLED Display: OLED-display
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: Sluit de Pico aan op de computer door de USB-kabel aan te sluiten op de Micro USB-poort
+  van de Pico. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro-USB-poort op Pico" class="inline-img large" /></span> en elke USB-C-
+  of USB-A-poort op de computer

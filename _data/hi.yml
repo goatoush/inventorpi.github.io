@@ -991,14 +991,6 @@ Please try again later: 'कृपया बाद में पुन: प्�
 : कृपया इन <a href="/getting-started/install-thonny-app.html">निर्देशों को</a> विद्यार्थियों
   के साथ पहले से साझा कर दें, ताकि वे कक्षा शुरू होने से पहले अपने लैपटॉप पर ऐप इंस्टॉल
   कर सकें।
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: पिको को कंप्यूटर से जोड़ने के लिए, USB केबल को पिको के माइक्रो USB पोर्ट से कनेक्ट
-  करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="पिको पर माइक्रो यूएसबी पोर्ट" class="inline-img" /></span> और कंप्यूटर पर मौजूद
-  किसी भी USB-C या USB-A पोर्ट पर।
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -1044,3 +1036,74 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   class="inline-img" /></span> <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span> बटन
 Run script icon: स्क्रिप्ट आइकन चलाएँ
+Breadboard is a solderless way to connect electronic components for prototyping: ब्रेडबोर्ड
+  प्रोटोटाइपिंग के लिए इलेक्ट्रॉनिक घटकों को जोड़ने का एक सोल्डर-रहित तरीका है।
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: क्षैतिज छेद आपस में जुड़े हुए हैं, लेकिन मध्य विभाजक के पार नहीं। <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="क्षैतिज छेद
+  आपस में जुड़े हुए हैं" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: बोर्ड के किनारे पर ऊर्ध्वाधर बस स्ट्रिप्स निरंतर होती हैं, लेकिन वे मध्य विभाजक
+  को पार नहीं करती हैं। <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="वर्टिकल बस स्ट्रिप्स आपस में जुड़ी हुई हैं" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: अगर
+  आप एडहेसिव बैकिंग के बिना ब्रेडबोर्ड के पीछे देखें तो आपको ठीक-ठीक पता चल जाएगा
+  कि कौन से छेद एक दूसरे से जुड़े हुए हैं।
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: अतिरिक्त
+  सेंसर किट में शामिल ब्रेडबोर्ड का अध्ययन करें, जहां से चिपकने वाली परत हटा दी गई
+  है।
+Be gentle as the metal contacts are loose and might fall out of the breadboard: धातु
+  के संपर्क ढीले हैं और ब्रेडबोर्ड से गिर सकते हैं, इसलिए सावधानी बरतें।
+Horizontal holes are linked together: क्षैतिज छेद आपस में जुड़े हुए हैं
+Vertical bus strips are linked together: वर्टिकल बस स्ट्रिप्स आपस में जुड़ी हुई हैं
+Breadboard connections: ब्रेडबोर्ड कनेक्शन
+Breadboard wiring quick reference: ब्रेडबोर्ड वायरिंग का त्वरित संदर्भ
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: VCC को कनेक्ट करें <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="सकारात्मक रेल" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: GND को कनेक्ट करें <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="ग्राउंड रेल" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: GP0…GP5 से जुड़े 6 बटन <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 बटन" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: यहां GP9 से कनेक्ट करें <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="जीपी9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: यहां GP28 से कनेक्ट करें <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="जीपी28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: पीज़ो बजर <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="पीज़ो बजर" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED
+  डिस्प्ले <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
+  डिस्प्ले" class="inline-img" /></span>
+6 Buttons: 6 बटन
+GP9: जीपी9
+GP28: जीपी28
+Raspberry Pi Pico 2W: Raspberry Pi Pico 2W
+Piezo Buzzer: पीज़ो बजर
+OLED Display: OLED डिस्प्ले
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: पिको को कंप्यूटर से जोड़ने के लिए, USB केबल को पिको के माइक्रो USB पोर्ट से कनेक्ट
+  करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="पिको पर माइक्रो यूएसबी पोर्ट" class="inline-img large" /></span> और कंप्यूटर
+  पर मौजूद किसी भी USB-C या USB-A पोर्ट पर।

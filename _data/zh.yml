@@ -676,12 +676,6 @@ Please try again later: 请稍后再试。
   with the students ahead of time, so they can install the app on their laptops before
   the class
 : 请提前将这些<a href="/getting-started/install-thonny-app.html">说明</a>分享给学生，以便他们在课前能在笔记本电脑上安装该应用程序。
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: 将 USB 数据线连接到 Pico 上的 Micro USB 端口，即可将 Pico 连接到计算机。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Pico 上的 Micro USB 端口" class="inline-img" /></span>以及电脑上的任何 USB-C 或 USB-A 端口
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -719,3 +713,65 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   alt="运行脚本图标" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span>按钮
 Run script icon: 运行脚本图标
+Breadboard is a solderless way to connect electronic components for prototyping: 面包板是一种无需焊接即可连接电子元件以进行原型制作的方法。
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: 水平方向的孔洞彼此相连，但中间的隔板并不相连。 <span translate="no"><img src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en"
+  alt="水平孔相互连通" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: 垂直母线沿电路板侧边连续延伸，但不跨越中间分隔线。 <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="垂直母线相互连接" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: 如果查看没有背胶的面包板背面，就可以清楚地看到哪些孔是相互连接的。
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: 仔细观察附加传感器套件中包含的面包板，其背面的粘合剂已被移除。
+Be gentle as the metal contacts are loose and might fall out of the breadboard: 操作时请轻柔，因为金属触点松动，可能会从面包板上脱落。
+Horizontal holes are linked together: 水平孔相互连通
+Vertical bus strips are linked together: 垂直母线相互连接
+Breadboard connections: 面包板连接
+Breadboard wiring quick reference: 面包板接线快速参考
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: 将 VCC 连接到<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="正轨" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: 将 GND 连接到<span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="地面轨道" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 个按钮连接到 GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 个按钮" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: 在此处连接到 GP9 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: 在此处连接到 GP28 <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: 树莓派 Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="树莓派 Pico 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: 压电蜂鸣器<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="压电蜂鸣器" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED显示屏<span
+  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED显示屏" class="inline-img"
+  /></span>
+6 Buttons: 6 个按钮
+GP9: GP9
+GP28: GP28
+Raspberry Pi Pico 2W: 树莓派 Pico 2W
+Piezo Buzzer: 压电蜂鸣器
+OLED Display: OLED显示屏
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: 将 USB 数据线连接到 Pico 上的 Micro USB 端口，即可将 Pico 连接到计算机。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Pico 上的 Micro USB 端口" class="inline-img large" /></span>以及电脑上的任何 USB-C 或 USB-A
+  端口

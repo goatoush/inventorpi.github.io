@@ -1000,14 +1000,6 @@ Please try again later: Пожалуйста, попробуйте позже
 : Пожалуйста, заранее поделитесь этими <a href="/getting-started/install-thonny-app.html">инструкциями</a>
   со студентами, чтобы они могли установить приложение на свои ноутбуки до начала
   занятия
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: Подключите Pico к компьютеру, соединив USB-кабель с портом Micro USB на Pico. <span
-  translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Порт
-  Micro USB на Pico" class="inline-img" /></span> и любой порт USB-C или USB-A на
-  компьютере
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -1057,3 +1049,77 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   class="inline-img" /></span> Кнопка <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span>
 Run script icon: Значок запуска скрипта
+Breadboard is a solderless way to connect electronic components for prototyping: Макетная
+  плата — это беспаечный способ соединения электронных компонентов для прототипирования
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: Горизонтальные отверстия соединены между собой, но не пересекают центральную перегородку.
+  <span translate="no"><img src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en"
+  alt="Горизонтальные отверстия соединены между собой" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: Вертикальные шинные полосы проходят непрерывно вдоль боковой стороны платы, но не
+  пересекают центральную разделительную перегородку. <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Вертикальные шинные полосы соединены между собой" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: Если
+  заглянуть за макетную плату без клейкой основы, можно точно увидеть, какие отверстия
+  соединены друг с другом
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: Внимательно
+  изучите макетную плату, входящую в комплект дополнительных датчиков, где удалена
+  клейкая основа
+Be gentle as the metal contacts are loose and might fall out of the breadboard: Будьте
+  осторожны, так как металлические контакты неплотно прилегают и могут выпасть из
+  макетной платы
+Horizontal holes are linked together: Горизонтальные отверстия соединены между собой
+Vertical bus strips are linked together: Вертикальные шинные полосы соединены между
+  собой
+Breadboard connections: Соединения макетной платы
+Breadboard wiring quick reference: Краткое руководство по монтажу проводки на макетной
+  плате
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: Подключите VCC к <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Положительный рельс" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: Подключите GND к <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Наземная рельса" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 кнопок, подключенных к GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 кнопок" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Подключиться к GP9 можно здесь. <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="ГП9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Подключиться к GP28 можно здесь. <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="ГП28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: Пьезоэлектрический зуммер <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Пьезоэлектрический зуммер" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED-дисплей
+  <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED-дисплей"
+  class="inline-img" /></span>
+6 Buttons: 6 кнопок
+GP9: ГП9
+GP28: ГП28
+Raspberry Pi Pico 2W: Raspberry Pi Pico 2W
+Piezo Buzzer: Пьезоэлектрический зуммер
+OLED Display: OLED-дисплей
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: Подключите Pico к компьютеру, соединив USB-кабель с портом Micro USB на Pico. <span
+  translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Порт
+  Micro USB на Pico" class="inline-img large" /></span> и любой порт USB-C или USB-A
+  на компьютере

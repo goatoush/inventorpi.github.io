@@ -957,13 +957,6 @@ Please try again later: لطفا بعدا دوباره امتحان کنید
 : لطفاً این <a href="/getting-started/install-thonny-app.html">دستورالعمل‌ها را</a>
   از قبل با دانش‌آموزان به اشتراک بگذارید تا بتوانند قبل از کلاس، برنامه را روی لپ‌تاپ
   خود نصب کنند
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: با اتصال کابل USB به پورت Micro USB روی Pico، Pico را به کامپیوتر وصل کنید. <span
-  translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="پورت
-  میکرو USB روی پیکو" class="inline-img" /></span> و هر پورت USB-C یا USB-A روی کامپیوتر
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -1009,3 +1002,73 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   class="inline-img" /></span> دکمه <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span>
 Run script icon: آیکون اجرای اسکریپت
+Breadboard is a solderless way to connect electronic components for prototyping: بردبورد
+  روشی بدون لحیم‌کاری برای اتصال قطعات الکترونیکی جهت نمونه‌سازی اولیه است
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: سوراخ‌های افقی به هم متصل هستند، اما نه در امتداد جداکننده میانی <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="سوراخ‌های افقی
+  به هم متصل هستند" class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: نوارهای عمودی اتوبوس در کنار تخته به طور مداوم قرار دارند، اما از جداکننده میانی
+  عبور نمی‌کنند. <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="خطوط اتوبوس عمودی به هم متصل می‌شوند" class="inline-img" /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: اگر
+  پشت یک برد بورد بدون چسب را نگاه کنید، می‌توانید دقیقاً ببینید کدام سوراخ‌ها به
+  یکدیگر متصل هستند
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: بردبورد
+  موجود در کیت سنسورهای اضافی را که پشت چسب آن جدا شده است، بررسی کنید
+Be gentle as the metal contacts are loose and might fall out of the breadboard: مراقب
+  باشید زیرا اتصالات فلزی شل هستند و ممکن است از برد بورد بیفتند
+Horizontal holes are linked together: سوراخ‌های افقی به هم متصل هستند
+Vertical bus strips are linked together: خطوط اتوبوس عمودی به هم متصل می‌شوند
+Breadboard connections: اتصالات برد بورد
+Breadboard wiring quick reference: مرجع سریع سیم‌کشی بردبورد
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: VCC را وصل کنید <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="ریل مثبت" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: اتصال GND به <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="راه آهن زمینی" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: ۶ دکمه متصل به GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="۶ دکمه" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: از اینجا به GP9 متصل شوید <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="جی‌پی۹" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: از اینجا به GP28 متصل شوید <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="جی پی ۲۸" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: برد رسپبری پای پیکو 2 وات <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="برد رسپبری پای پیکو 2 وات" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: زنگ پیزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="زنگ پیزو" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: نمایشگر
+  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="نمایشگر
+  OLED" class="inline-img" /></span>
+6 Buttons: ۶ دکمه
+GP9: جی‌پی۹
+GP28: جی پی ۲۸
+Raspberry Pi Pico 2W: برد رسپبری پای پیکو 2 وات
+Piezo Buzzer: زنگ پیزو
+OLED Display: نمایشگر OLED
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: با اتصال کابل USB به پورت Micro USB روی Pico، Pico را به کامپیوتر وصل کنید. <span
+  translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="پورت
+  میکرو USB روی پیکو" class="inline-img large" /></span> و هر پورت USB-C یا USB-A
+  روی کامپیوتر

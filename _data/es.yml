@@ -1014,14 +1014,6 @@ Search <span translate="no">Inventor Pi</span>: Buscar <span translate="no">Inve
   partida claro para desarrollar sus habilidades con kits de electrónica y Raspberry
   Pi Pico fáciles de usar para principiantes, además de un plan de lecciones que los
   profesores pueden utilizar para crear talleres virtuales y presenciales
-? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
-  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
-  alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
-  port on the computer
-: Conecte el Pico al ordenador conectando el cable USB al puerto Micro USB del Pico.
-  <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Puerto
-  Micro USB en Pico" class="inline-img" /></span> y cualquier puerto USB-C o USB-A
-  del ordenador
 ? A resettable fuse (PPTC fuse or polyfuse) is the small orange-yellow component connecting
   the Pico 3.3V Out Pin to the breadboard <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> rail
@@ -1069,3 +1061,80 @@ Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2
   class="inline-img" /></span> Botón <span translate="no"><code class="language-plaintext
   highlighter-rouge">Run current script</code></span>
 Run script icon: Icono de ejecutar script
+Breadboard is a solderless way to connect electronic components for prototyping: La
+  placa de pruebas es una forma de conectar componentes electrónicos sin soldadura
+  para la creación de prototipos
+? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
+  src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
+  are linked together" class="inline-img" /></span>
+: Los agujeros horizontales están unidos entre sí, pero no a través del divisor central.
+  <span translate="no"><img src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en"
+  alt="Los agujeros horizontales están conectados entre sí." class="inline-img" /></span>
+? Vertical bus strips are continuous down the side of the board, but don’t cross the
+  middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Vertical bus strips are linked together" class="inline-img" /></span>
+: Las franjas verticales de los autobuses son continuas a lo largo del lateral del
+  tablero, pero no cruzan el divisor central. <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
+  alt="Las franjas verticales de autobuses están conectadas entre sí." class="inline-img"
+  /></span>
+You can see exactly which holes are connected to each other if you look behind a breadboard without the adhesive backing: Puedes
+  ver exactamente qué agujeros están conectados entre sí si miras detrás de una placa
+  de prototipos sin el adhesivo
+Study the breadboard included in the additional sensors kit, where the adhesive backing has been removed: Examine
+  la placa de prototipos incluida en el kit de sensores adicionales, donde se ha retirado
+  el soporte adhesivo
+Be gentle as the metal contacts are loose and might fall out of the breadboard: Tenga
+  cuidado, ya que los contactos metálicos están sueltos y podrían caerse de la placa
+  de pruebas
+Horizontal holes are linked together: Los agujeros horizontales están conectados entre
+  sí
+Vertical bus strips are linked together: Las franjas verticales de autobuses están
+  conectadas entre sí
+Breadboard connections: Conexiones de la placa de pruebas
+Breadboard wiring quick reference: Guía de referencia rápida para el cableado de la
+  placa de prototipos
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span>
+: Conectar VCC a <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Riel positivo" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span>
+: Conecte GND a <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Riel terrestre" class="inline-img" /></span>
+? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 botones conectados a GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 botones" class="inline-img" /></span>
+? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Conéctate a GP9 aquí <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Conéctese a GP28 aquí. <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+: Raspberry Pi Pi Pi 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pi Pi 2W" class="inline-img" /></span>
+? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: Zumbador piezoeléctrico <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Zumbador piezoeléctrico" class="inline-img" /></span>
+OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: Pantalla
+  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="Pantalla
+  OLED" class="inline-img" /></span>
+6 Buttons: 6 botones
+GP9: GP9
+GP28: GP28
+Raspberry Pi Pico 2W: Raspberry Pi Pi Pi 2W
+Piezo Buzzer: Zumbador piezoeléctrico
+OLED Display: Pantalla OLED
+? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
+  on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
+  alt="Micro USB Port on Pico" class="inline-img large" /></span> and any USB-C or
+  USB-A port on the computer
+: Conecte el Pico al ordenador conectando el cable USB al puerto Micro USB del Pico.
+  <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Puerto
+  Micro USB en Pico" class="inline-img large" /></span> y cualquier puerto USB-C o
+  USB-A del ordenador

@@ -225,6 +225,12 @@ html[dir="rtl"] {
     margin-inline-start: 0.9em;
   }
 
+  @media (min-width: 50rem) {
+    .main-content ul>li::after {
+      margin-inline-start: 1.9em;
+    }
+  }
+
   .main-content ul>li::before {
     display: none;
   }
