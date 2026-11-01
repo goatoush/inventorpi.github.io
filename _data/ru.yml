@@ -1074,28 +1074,6 @@ Horizontal holes are linked together: Горизонтальные отверс�
 Vertical bus strips are linked together: Вертикальные шинные полосы соединены между
   собой
 Breadboard connections: Соединения макетной платы
-Breadboard wiring quick reference: Краткое руководство по монтажу проводки на макетной
-  плате
-? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Positive Rail" class="inline-img" /></span>
-: Подключите VCC к <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Положительный рельс" class="inline-img" /></span>
-? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Ground Rail" class="inline-img" /></span>
-: Подключите GND к <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Наземная рельса" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-: Подключиться к GP9 можно здесь. <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="ГП9" class="inline-img" /></span>
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-: Подключиться к GP28 можно здесь. <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="ГП28" class="inline-img" /></span>
-? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 6 Buttons: 6 кнопок
 GP9: ГП9
 GP28: ГП28
@@ -1110,16 +1088,50 @@ OLED Display: OLED-дисплей
   translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Порт
   Micro USB на Pico" class="inline-img large" /></span> и любой порт USB-C или USB-A
   на компьютере
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 кнопок подключены к GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 кнопок" class="inline-img" /></span>
 ? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 : Пьезоэлектрический зуммер <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Пьезоэлектрический зуммер" class="inline-img" /></span>
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED-дисплей
-  <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED-дисплей"
-  class="inline-img" /></span>
 I liked how many different things we could do, there was lots of variety: Мне понравилось,
   сколько разных занятий мы могли делать, было очень много вариантов
+Breadboard components: Компоненты макетной платы
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: OLED-дисплей <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED-дисплей" class="inline-img large" /></span>
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img large" /></span>
+: 6 кнопок подключены к GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 кнопок" class="inline-img large" /></span>
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: RGB
+  светодиод <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB
+  светодиод" class="inline-img large" /></span>
+Breadboard connection points examples: Примеры точек подключения на макетной плате
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Positive Rail" class="inline-img" /></span>
+: Подключите VCC к <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Положительный рельс" class="inline-img" /></span> <span translate="no"><img
+  src="/assets/images/positive-rail.webp?v=1x4c6ag" alt="Положительный рельс" class="inline-img"
+  /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Ground Rail" class="inline-img" /></span>
+: Подключите GND к <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Наземная рельса" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Наземная рельса" class="inline-img" /></span>
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Подключитесь к контакту GP9 здесь. <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="ГП9" class="inline-img" /></span>
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Подключитесь к контакту GP28 здесь. <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="ГП28" class="inline-img" /></span>
+RGB LED: RGB светодиод
+Running experiments on Raspberry Pi Pico with Thonny: Проведение экспериментов на
+  Raspberry Pi Pico с помощью Тонни

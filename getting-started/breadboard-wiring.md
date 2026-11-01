@@ -7,16 +7,18 @@ nav_order: 5
 ![Breadboard Wiring](/assets/images/slides/5_Breadboard_Wiring.webp)
 {: .mt-6 }
 
-## Breadboard wiring quick reference
-- Connect VCC to ![Positive Rail](/assets/images/plus-rail.webp){: .inline-img }
-- Connect GND to ![Ground Rail](/assets/images/minus-rail.webp){: .inline-img }
-- 6 buttons connected to GP0…GP5 ![6 Buttons](/assets/images/breadboard-buttons.webp){: .inline-img }
-- Connect to GP9 here ![GP9](/assets/images/gp9-connection-holes.webp){: .inline-img }
-- Connect to GP28 here ![GP28](/assets/images/gp28-connection-holes.webp){: .inline-img }
-- Raspberry Pi Pico 2W ![Raspberry Pi Pico 2W](/assets/images/raspberry-pi-pico-2w.webp){: .inline-img }
+## Breadboard components
+- Raspberry Pi Pico 2W ![Raspberry Pi Pico 2W](/assets/images/raspberry-pi-pico-2w.webp){: .inline-img.large }
+- OLED display ![OLED Display](/assets/images/oled.webp){: .inline-img.large }
+- 6 buttons connected to GP0…GP5 ![6 Buttons](/assets/images/breadboard-buttons.webp){: .inline-img.large }
+- RGB LED ![RGB LED](/assets/images/rgb-led.webp){: .inline-img.large }
 - Piezo buzzer ![Piezo Buzzer](/assets/images/piezo-buzzer.webp){: .inline-img }
-- OLED display ![OLED Display](/assets/images/oled.webp){: .inline-img }
 
+## Breadboard connection points examples
+- Connect VCC to ![Positive Rail](/assets/images/plus-rail.webp){: .inline-img } ![Positive Rail](/assets/images/positive-rail.webp){: .inline-img }
+- Connect GND to ![Ground Rail](/assets/images/minus-rail.webp){: .inline-img } ![Ground Rail](/assets/images/ground-rail.webp){: .inline-img }
+- Connect to GP9 pin here ![GP9](/assets/images/gp9-connection-holes.webp){: .inline-img }
+- Connect to GP28 pin here ![GP28](/assets/images/gp28-connection-holes.webp){: .inline-img }
 
 There is now a resettable fuse on the breadboard (not included in the image above, see below) which disconnects the circuit in case a student accidentally creates a short circuit on the breadboard. You still need to verify all connections before powering on the circuit, because incorrect connections to the sensors can cause permanent damage to their sensitive electronics, rendering them useless. The [Do's and Don'ts](/getting-started/important-dos-and-donts.html) section covers important points to keep in mind.
 

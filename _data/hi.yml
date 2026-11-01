@@ -1059,27 +1059,6 @@ Be gentle as the metal contacts are loose and might fall out of the breadboard: 
 Horizontal holes are linked together: क्षैतिज छेद आपस में जुड़े हुए हैं
 Vertical bus strips are linked together: वर्टिकल बस स्ट्रिप्स आपस में जुड़ी हुई हैं
 Breadboard connections: ब्रेडबोर्ड कनेक्शन
-Breadboard wiring quick reference: ब्रेडबोर्ड वायरिंग का त्वरित संदर्भ
-? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Positive Rail" class="inline-img" /></span>
-: VCC को कनेक्ट करें <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="सकारात्मक रेल" class="inline-img" /></span>
-? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Ground Rail" class="inline-img" /></span>
-: GND को कनेक्ट करें <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="ग्राउंड रेल" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-: यहां GP9 से कनेक्ट करें <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="जीपी9" class="inline-img" /></span>
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-: यहां GP28 से कनेक्ट करें <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="जीपी28" class="inline-img" /></span>
-? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 6 Buttons: 6 बटन
 GP9: जीपी9
 GP28: जीपी28
@@ -1094,16 +1073,49 @@ OLED Display: OLED डिस्प्ले
   करें। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="पिको पर माइक्रो यूएसबी पोर्ट" class="inline-img large" /></span> और कंप्यूटर
   पर मौजूद किसी भी USB-C या USB-A पोर्ट पर।
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: GP0…GP5 से जुड़े 6 बटन <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 बटन" class="inline-img" /></span>
 ? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 : पीज़ो बजर <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="पीज़ो बजर" class="inline-img" /></span>
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: ओएलईडी
-  डिस्प्ले <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
-  डिस्प्ले" class="inline-img" /></span>
 I liked how many different things we could do, there was lots of variety: मुझे यह
   बात पसंद आई कि हम कितनी अलग-अलग चीजें कर सकते थे, इसमें बहुत विविधता थी।
+Breadboard components: ब्रेडबोर्ड के घटक
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+: Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: ओएलईडी डिस्प्ले <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED डिस्प्ले" class="inline-img large" /></span>
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img large" /></span>
+: GP0…GP5 से जुड़े 6 बटन <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 बटन" class="inline-img large" /></span>
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: आरजीबी
+  एलईडी <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="आरजीबी
+  एलईडी" class="inline-img large" /></span>
+Breadboard connection points examples: ब्रेडबोर्ड कनेक्शन बिंदुओं के उदाहरण
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Positive Rail" class="inline-img" /></span>
+: VCC को कनेक्ट करें <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="सकारात्मक रेल" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="सकारात्मक रेल" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Ground Rail" class="inline-img" /></span>
+: GND को कनेक्ट करें <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="ग्राउंड रेल" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="ग्राउंड रेल" class="inline-img" /></span>
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: यहां GP9 पिन से कनेक्ट करें <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="जीपी9" class="inline-img" /></span>
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: यहां GP28 पिन से कनेक्ट करें <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="जीपी28" class="inline-img" /></span>
+RGB LED: आरजीबी एलईडी
+Running experiments on Raspberry Pi Pico with Thonny: थॉनी का उपयोग करके रास्पबेरी
+  पाई पिको पर प्रयोग चलाए जा रहे हैं।

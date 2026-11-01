@@ -729,27 +729,6 @@ Be gentle as the metal contacts are loose and might fall out of the breadboard: 
 Horizontal holes are linked together: 水平孔相互连通
 Vertical bus strips are linked together: 垂直母线相互连接
 Breadboard connections: 面包板连接
-Breadboard wiring quick reference: 面包板接线快速参考
-? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Positive Rail" class="inline-img" /></span>
-: 将 VCC 连接到<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="正轨" class="inline-img" /></span>
-? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Ground Rail" class="inline-img" /></span>
-: 将 GND 连接到<span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="地面轨道" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-: 在此处连接到 GP9 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-: 在此处连接到 GP28 <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-: 树莓派 Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="树莓派 Pico 2W" class="inline-img" /></span>
 6 Buttons: 6 个按钮
 GP9: GP9
 GP28: GP28
@@ -763,15 +742,48 @@ OLED Display: OLED显示屏
 : 将 USB 数据线连接到 Pico 上的 Micro USB 端口，即可将 Pico 连接到计算机。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Pico 上的 Micro USB 端口" class="inline-img large" /></span>以及电脑上的任何 USB-C 或 USB-A
   端口
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 个按钮连接到 GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 个按钮" class="inline-img" /></span>
 ? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 : 压电蜂鸣器<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="压电蜂鸣器" class="inline-img" /></span>
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED显示屏<span
-  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED显示屏" class="inline-img"
-  /></span>
 I liked how many different things we could do, there was lots of variety: 我喜欢我们可以做的事情种类繁多，非常丰富。
+Breadboard components: 面包板组件
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+: 树莓派 Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="树莓派 Pico 2W" class="inline-img large" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: OLED显示屏<span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED显示屏"
+  class="inline-img large" /></span>
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img large" /></span>
+: 6 个按钮连接到 GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 个按钮" class="inline-img large" /></span>
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: RGB
+  LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB
+  LED" class="inline-img large" /></span>
+Breadboard connection points examples: 面包板连接点示例
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Positive Rail" class="inline-img" /></span>
+: 将 VCC 连接到<span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="正轨" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="正轨" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Ground Rail" class="inline-img" /></span>
+: 将 GND 连接到<span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="地面轨道" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="地面轨道" class="inline-img" /></span>
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: 在此处连接到 GP9 引脚。 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: 在此处连接到 GP28 引脚。 <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+RGB LED: RGB LED
+Running experiments on Raspberry Pi Pico with Thonny: 使用 Thonny 在 Raspberry Pi Pico
+  上运行实验

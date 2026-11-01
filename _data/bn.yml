@@ -1056,27 +1056,6 @@ Horizontal holes are linked together: অনুভূমিক ছিদ্র�
 Vertical bus strips are linked together: উল্লম্ব বাস স্ট্রিপগুলি একসাথে সংযুক্ত করা
   হয়
 Breadboard connections: ব্রেডবোর্ড সংযোগ
-Breadboard wiring quick reference: ব্রেডবোর্ড ওয়্যারিংয়ের দ্রুত নির্দেশিকা
-? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Positive Rail" class="inline-img" /></span>
-: VCC সংযোগ করুন <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="পজিটিভ রেল" class="inline-img" /></span>
-? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Ground Rail" class="inline-img" /></span>
-: GND সংযোগ করুন <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="গ্রাউন্ড রেল" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-: এখানে GP9 এর সাথে সংযোগ করুন <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="জিপি৯" class="inline-img" /></span>
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-: এখানে GP28-এর সাথে সংযোগ করুন <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="জিপি২৮" class="inline-img" /></span>
-? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-: রাস্পবেরি পাই পিকো 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="রাস্পবেরি পাই পিকো 2W" class="inline-img" /></span>
 6 Buttons: ৬টি বোতাম
 GP9: জিপি৯
 GP28: জিপি২৮
@@ -1091,16 +1070,49 @@ OLED Display: OLED ডিসপ্লে
   করুন। <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="পিকো-তে মাইক্রো ইউএসবি পোর্ট" class="inline-img large" /></span> এবং কম্পিউটারের
   যেকোনো USB-C বা USB-A পোর্ট
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: GP0…GP5 এর সাথে সংযুক্ত ৬টি বাটন <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="৬টি বোতাম" class="inline-img" /></span>
 ? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 : পিজো বাজার <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="পিজো বাজার" class="inline-img" /></span>
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED
-  ডিসপ্লে <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
-  ডিসপ্লে" class="inline-img" /></span>
 I liked how many different things we could do, there was lots of variety: আমার ভালো
   লেগেছে যে আমরা কত রকমের কাজ করতে পারতাম, সেখানে অনেক বৈচিত্র্য ছিল।
+Breadboard components: ব্রেডবোর্ড উপাদান
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+: রাস্পবেরি পাই পিকো 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="রাস্পবেরি পাই পিকো 2W" class="inline-img large" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: OLED ডিসপ্লে <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED ডিসপ্লে" class="inline-img large" /></span>
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img large" /></span>
+: GP0…GP5 এর সাথে সংযুক্ত ৬টি বাটন <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="৬টি বোতাম" class="inline-img large" /></span>
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: আরজিবি
+  এলইডি <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="আরজিবি
+  এলইডি" class="inline-img large" /></span>
+Breadboard connection points examples: ব্রেডবোর্ড সংযোগ বিন্দুর উদাহরণ
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Positive Rail" class="inline-img" /></span>
+: VCC সংযোগ করুন <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="পজিটিভ রেল" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="পজিটিভ রেল" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Ground Rail" class="inline-img" /></span>
+: GND সংযোগ করুন <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="গ্রাউন্ড রেল" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="গ্রাউন্ড রেল" class="inline-img" /></span>
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: এখানে GP9 পিনের সাথে সংযোগ করুন <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="জিপি৯" class="inline-img" /></span>
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: এখানে GP28 পিনের সাথে সংযোগ করুন <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="জিপি২৮" class="inline-img" /></span>
+RGB LED: আরজিবি এলইডি
+Running experiments on Raspberry Pi Pico with Thonny: থনির সাহায্যে রাস্পবেরি পাই
+  পিকো-তে পরীক্ষা চালানো হচ্ছে

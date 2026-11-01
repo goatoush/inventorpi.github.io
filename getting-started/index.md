@@ -10,6 +10,10 @@ Check your class experiments kit. It includes 5 identical invention kits and one
 {: .note }
 You can streamline the process by installing Thonny app on all computers before the workshop.
 
+![Running experiments on Raspberry Pi Pico with Thonny](/assets/images/running-experiments.webp)
+*Running experiments on Raspberry Pi Pico with Thonny*
+{: .caption.mt-6 }
+
 ## How to Run Experiments with Thonny
 
 1. Launch Thonny App on your computer, if it is not already running

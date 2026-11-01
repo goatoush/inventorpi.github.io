@@ -5,9 +5,9 @@
   Pi, Inc.</span>
 6 Buttons: 6 Buttons
 ? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
+  alt="6 Buttons" class="inline-img large" /></span>
 : 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
+  alt="6 Buttons" class="inline-img large" /></span>
 <span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
   translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization
 <span translate="no">Inventor Pi</span>: <span translate="no">Inventor Pi</span>
@@ -128,10 +128,11 @@ Breadboard Basics: Breadboard Basics
 Breadboard Basics Explained in 60 Seconds: Breadboard Basics Explained in 60 Seconds
 Breadboard Connections and Safety: Breadboard Connections and Safety
 Breadboard Wiring: Breadboard Wiring
+Breadboard components: Breadboard components
+Breadboard connection points examples: Breadboard connection points examples
 Breadboard connections: Breadboard connections
 Breadboard is a solderless way to connect electronic components for prototyping: Breadboard
   is a solderless way to connect electronic components for prototyping
-Breadboard wiring quick reference: Breadboard wiring quick reference
 Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons: Breadboard with
   OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons
 ? Breadboard with Raspberry Pi Pico 2W, 6 push buttons, piezo buzzer, OLED screen
@@ -163,14 +164,18 @@ Congratulations, you have written and run your first MicroPython script: Congrat
   you have written and run your first MicroPython script
 Connect Components: Connect Components
 ? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
   alt="Ground Rail" class="inline-img" /></span>
 : Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
   alt="Ground Rail" class="inline-img" /></span>
 Connect Pico: Connect Pico
 Connect Pico to Computer: Connect Pico to Computer
 ? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
   alt="Positive Rail" class="inline-img" /></span>
 : Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
   alt="Positive Rail" class="inline-img" /></span>
 Connect any components: Connect any components
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
@@ -187,13 +192,13 @@ Connect the Raspberry Pi Pico to the computer with the provided USB cable: Conne
   the Raspberry Pi Pico to the computer with the provided USB cable
 Connect the components as described before connecting Pico to power supply: Connect
   the components as described before connecting Pico to power supply
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
   alt="GP28" class="inline-img" /></span>
-: Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+: Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
   alt="GP28" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
-: Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+: Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
 Contact: Contact
 Contact Form: Contact Form
@@ -491,9 +496,10 @@ Now we use trigonometry to calculate the angle the joystick lever makes, and set
   we use trigonometry to calculate the angle the joystick lever makes, and set the
   servos to match this angle
 OLED Display: OLED Display
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED
-  display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
-  Display" class="inline-img" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
 "On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "On
   the breadboard, press the blue button \U0001F535 once to launch the menu on the
   OLED screen"
@@ -543,12 +549,16 @@ Power On: Power On
 Previous: Previous
 Quantity per Box: Quantity per Box
 Question / Feedback / Interest / Message: Question / Feedback / Interest / Message
+RGB LED: RGB LED
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: RGB
+  LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB
+  LED" class="inline-img large" /></span>
 Raspberry Pi Pico 2 W GPIO Pinout: Raspberry Pi Pico 2 W GPIO Pinout
 Raspberry Pi Pico 2W: Raspberry Pi Pico 2W
 ? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
 : Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
 Reaching Teachers and Students Worldwide: Reaching Teachers and Students Worldwide
 Read experiment description and code: Read experiment description and code
 Read other comments: Read other comments
@@ -581,6 +591,8 @@ Run random experiments from the list, and present to other teams (20-30 min): Ru
 Run script icon: Run script icon
 Run this script, and simultaneously run melody.py on a different device: Run this
   script, and simultaneously run melody.py on a different device
+Running experiments on Raspberry Pi Pico with Thonny: Running experiments on Raspberry
+  Pi Pico with Thonny
 Russian: Russian
 Safety Procedure: Safety Procedure
 ? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"

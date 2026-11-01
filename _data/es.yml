@@ -1089,28 +1089,6 @@ Horizontal holes are linked together: Los agujeros horizontales están conectado
 Vertical bus strips are linked together: Las franjas verticales de autobuses están
   conectadas entre sí
 Breadboard connections: Conexiones de la placa de pruebas
-Breadboard wiring quick reference: Guía de referencia rápida para el cableado de la
-  placa de prototipos
-? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Positive Rail" class="inline-img" /></span>
-: Conectar VCC a <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Riel positivo" class="inline-img" /></span>
-? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Ground Rail" class="inline-img" /></span>
-: Conecte GND a <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Riel terrestre" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-: Conéctate a GP9 aquí <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-: Conéctese a GP28 aquí. <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-: Raspberry Pi Pi Pi 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pi Pi 2W" class="inline-img" /></span>
 6 Buttons: 6 botones
 GP9: GP9
 GP28: GP28
@@ -1125,16 +1103,50 @@ OLED Display: Pantalla OLED
   <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="Puerto
   Micro USB en Pico" class="inline-img large" /></span> y cualquier puerto USB-C o
   USB-A del ordenador
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 botones conectados a GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 botones" class="inline-img" /></span>
 ? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 : Zumbador piezoeléctrico <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Zumbador piezoeléctrico" class="inline-img" /></span>
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: Pantalla
-  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="Pantalla
-  OLED" class="inline-img" /></span>
 I liked how many different things we could do, there was lots of variety: Me gustó
   la cantidad de cosas diferentes que podíamos hacer, había mucha variedad
+Breadboard components: Componentes de la placa de pruebas
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+: Raspberry Pi Pi Pi 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pi Pi 2W" class="inline-img large" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: Pantalla OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="Pantalla OLED" class="inline-img large" /></span>
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img large" /></span>
+: 6 botones conectados a GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 botones" class="inline-img large" /></span>
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: LED
+  RGB <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="LED
+  RGB" class="inline-img large" /></span>
+Breadboard connection points examples: Ejemplos de puntos de conexión en la placa
+  de pruebas
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Positive Rail" class="inline-img" /></span>
+: Conectar VCC a <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Riel positivo" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Riel positivo" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Ground Rail" class="inline-img" /></span>
+: Conecte GND a <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Riel terrestre" class="inline-img" /></span><span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Riel terrestre" class="inline-img" /></span>
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: Conéctalo al pin GP9 aquí. <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: Conéctalo al pin GP28 aquí. <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+RGB LED: LED RGB
+Running experiments on Raspberry Pi Pico with Thonny: Realizando experimentos en Raspberry
+  Pi Pico con Thonny

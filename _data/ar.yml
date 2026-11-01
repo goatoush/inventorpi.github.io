@@ -992,27 +992,6 @@ Be gentle as the metal contacts are loose and might fall out of the breadboard: 
 Horizontal holes are linked together: يتم ربط الثقوب الأفقية معًا
 Vertical bus strips are linked together: يتم ربط شرائط الحافلات العمودية معًا
 Breadboard connections: توصيلات لوحة التجارب
-Breadboard wiring quick reference: دليل سريع لتوصيلات لوحة التجارب
-? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="Positive Rail" class="inline-img" /></span>
-: قم بتوصيل VCC بـ <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
-  alt="السكة الإيجابية" class="inline-img" /></span>
-? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="Ground Rail" class="inline-img" /></span>
-: قم بتوصيل GND بـ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
-  alt="سكة أرضية" class="inline-img" /></span>
-? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-: اتصل بـ GP9 من هنا <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
-  alt="GP9" class="inline-img" /></span>
-? Connect to GP28 here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-: اتصل بـ GP28 من هنا <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
-  alt="GP28" class="inline-img" /></span>
-? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-: راسبيري باي بيكو 2 واط <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
-  alt="راسبيري باي بيكو 2 واط" class="inline-img" /></span>
 6 Buttons: 6 أزرار
 GP9: GP9
 GP28: GP28
@@ -1027,16 +1006,49 @@ OLED Display: شاشة OLED
   جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="منفذ Micro USB على جهاز Pico" class="inline-img large" /></span> وأي منفذ USB-C
   أو USB-A على الكمبيوتر
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 أزرار متصلة بـ GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 أزرار" class="inline-img" /></span>
 ? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 : جرس بيزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="جرس بيزو" class="inline-img" /></span>
-OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: شاشة
-  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="شاشة
-  OLED" class="inline-img" /></span>
 I liked how many different things we could do, there was lots of variety: أعجبني تنوع
   الأنشطة التي كان بإمكاننا القيام بها، فقد كان هناك الكثير من الخيارات
+Breadboard components: مكونات لوحة التجارب
+? Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
+: راسبيري باي بيكو 2 واط <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
+  alt="راسبيري باي بيكو 2 واط" class="inline-img large" /></span>
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
+  alt="OLED Display" class="inline-img large" /></span>
+: شاشة OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="شاشة
+  OLED" class="inline-img large" /></span>
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img large" /></span>
+: 6 أزرار متصلة بـ GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 أزرار" class="inline-img large" /></span>
+RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: إضاءة
+  LED RGB <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="إضاءة
+  LED RGB" class="inline-img large" /></span>
+Breadboard connection points examples: أمثلة على نقاط توصيل لوحة التجارب
+? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="Positive Rail" class="inline-img" /></span>
+: قم بتوصيل VCC بـ <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
+  alt="السكة الإيجابية" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
+  alt="السكة الإيجابية" class="inline-img" /></span>
+? Connect GND to <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="Ground Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="Ground Rail" class="inline-img" /></span>
+: قم بتوصيل GND بـ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
+  alt="سكة أرضية" class="inline-img" /></span> <span translate="no"><img src="/assets/images/ground-rail.webp?v=o5oxhw"
+  alt="سكة أرضية" class="inline-img" /></span>
+? Connect to GP9 pin here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+: قم بالتوصيل بدبوس GP9 هنا <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
+  alt="GP9" class="inline-img" /></span>
+? Connect to GP28 pin here <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+: قم بالتوصيل بدبوس GP28 هنا <span translate="no"><img src="/assets/images/gp28-connection-holes.webp?v=1wsycjf"
+  alt="GP28" class="inline-img" /></span>
+RGB LED: إضاءة LED RGB
+Running experiments on Raspberry Pi Pico with Thonny: إجراء تجارب على جهاز Raspberry
+  Pi Pico مع ثوني
