@@ -758,8 +758,6 @@ MYP Science Teacher: معلم علوم MYP
 Atlanta International School: مدرسه بین‌المللی آتلانتا
 Introduction to Electronics Workshop at Atlanta International School: کارگاه آموزشی
   آشنایی با الکترونیک در مدرسه بین‌المللی آتلانتا
-I liked how many different things we could do, there was lot’s of variety: من از اینکه
-  چقدر کارهای مختلفی می‌توانستیم انجام دهیم خوشم آمد، تنوع زیادی وجود داشت
 Grade 7 Student: دانش‌آموز کلاس هفتم
 loved this lesson: عاشق این درس بودم
 Reference Slides for the Workshop: اسلایدهای مرجع برای کارگاه
@@ -1035,10 +1033,6 @@ Breadboard wiring quick reference: مرجع سریع سیم‌کشی بردبو�
   alt="Ground Rail" class="inline-img" /></span>
 : اتصال GND به <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="راه آهن زمینی" class="inline-img" /></span>
-? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: ۶ دکمه متصل به GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="۶ دکمه" class="inline-img" /></span>
 ? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
 : از اینجا به GP9 متصل شوید <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
@@ -1051,13 +1045,6 @@ Breadboard wiring quick reference: مرجع سریع سیم‌کشی بردبو�
   alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 : برد رسپبری پای پیکو 2 وات <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="برد رسپبری پای پیکو 2 وات" class="inline-img" /></span>
-? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="Piezo Buzzer" class="inline-img" /></span>
-: زنگ پیزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="زنگ پیزو" class="inline-img" /></span>
-OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: نمایشگر
-  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="نمایشگر
-  OLED" class="inline-img" /></span>
 6 Buttons: ۶ دکمه
 GP9: جی‌پی۹
 GP28: جی پی ۲۸
@@ -1072,3 +1059,16 @@ OLED Display: نمایشگر OLED
   translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c" alt="پورت
   میکرو USB روی پیکو" class="inline-img large" /></span> و هر پورت USB-C یا USB-A
   روی کامپیوتر
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: ۶ دکمه متصل به GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="۶ دکمه" class="inline-img" /></span>
+? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: زنگ پیزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="زنگ پیزو" class="inline-img" /></span>
+OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: نمایشگر
+  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="نمایشگر
+  OLED" class="inline-img" /></span>
+I liked how many different things we could do, there was lots of variety: من از اینکه
+  چقدر کارهای مختلفی می‌توانستیم انجام دهیم خوشم آمد، تنوع زیادی وجود داشت

@@ -368,7 +368,6 @@ They were really interested in building different sensors: 彼らはさまざま
 MYP Science Teacher: MYP理科教師
 Atlanta International School: アトランタ・インターナショナル・スクール
 Introduction to Electronics Workshop at Atlanta International School: アトランタ・インターナショナル・スクールでの電子工学入門ワークショップ
-I liked how many different things we could do, there was lot’s of variety: いろいろなことができて、バリエーションが豊富だったのが良かったです。
 Grade 7 Student: 7年生
 loved this lesson: このレッスンがとても気に入りました
 Hands-on electronics workshops for schools: 学校向けの体験型電子工作ワークショップ
@@ -691,10 +690,6 @@ Breadboard wiring quick reference: ブレッドボード配線クイックリフ
   alt="Ground Rail" class="inline-img" /></span>
 : GND を<span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao" alt="グラウンドレール"
   class="inline-img" /></span>
-? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: GP0～GP5に接続された6つのボタン<span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6つのボタン" class="inline-img" /></span>
 ? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
 : こちらからGP9に接続してください。 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
@@ -707,13 +702,6 @@ Breadboard wiring quick reference: ブレッドボード配線クイックリフ
   alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 : ラズベリーパイ ピコ 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="ラズベリーパイ ピコ 2W" class="inline-img" /></span>
-? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="Piezo Buzzer" class="inline-img" /></span>
-: ピエゾブザー<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="ピエゾブザー" class="inline-img" /></span>
-OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLEDディスプレイ<span
-  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLEDディスプレイ" class="inline-img"
-  /></span>
 6 Buttons: 6つのボタン
 GP9: GP9
 GP28: GP28
@@ -726,3 +714,15 @@ OLED Display: OLEDディスプレイ
   USB-A port on the computer
 : Picoをコンピュータに接続するには、USBケーブルをPicoのマイクロUSBポートに接続します。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="PicoのマイクロUSBポート" class="inline-img large" /></span>コンピューター上のUSB-CまたはUSB-Aポート
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: GP0～GP5に接続された6つのボタン<span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6つのボタン" class="inline-img" /></span>
+? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: ピエゾブザー<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="ピエゾブザー" class="inline-img" /></span>
+OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLEDディスプレイ<span
+  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLEDディスプレイ" class="inline-img"
+  /></span>
+I liked how many different things we could do, there was lots of variety: いろいろなことができて、バリエーションが豊富だったのが良かったです。

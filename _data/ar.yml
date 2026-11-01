@@ -728,8 +728,6 @@ MYP Science Teacher: معلم علوم برنامج السنوات المتوس�
 Atlanta International School: مدرسة أتلانتا الدولية
 Introduction to Electronics Workshop at Atlanta International School: ورشة عمل تمهيدية
   في الإلكترونيات في مدرسة أتلانتا الدولية
-I liked how many different things we could do, there was lot’s of variety: أعجبني
-  تنوع الأنشطة التي كان بإمكاننا القيام بها، فقد كان هناك الكثير من الخيارات
 Grade 7 Student: طالب في الصف السابع
 loved this lesson: أحببت هذا الدرس
 Reference Slides for the Workshop: شرائح مرجعية لورشة العمل
@@ -1003,10 +1001,6 @@ Breadboard wiring quick reference: دليل سريع لتوصيلات لوحة �
   alt="Ground Rail" class="inline-img" /></span>
 : قم بتوصيل GND بـ <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="سكة أرضية" class="inline-img" /></span>
-? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 أزرار متصلة بـ GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 أزرار" class="inline-img" /></span>
 ? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
 : اتصل بـ GP9 من هنا <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
@@ -1019,13 +1013,6 @@ Breadboard wiring quick reference: دليل سريع لتوصيلات لوحة �
   alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 : راسبيري باي بيكو 2 واط <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="راسبيري باي بيكو 2 واط" class="inline-img" /></span>
-? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="Piezo Buzzer" class="inline-img" /></span>
-: جرس بيزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="جرس بيزو" class="inline-img" /></span>
-OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: شاشة
-  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="شاشة
-  OLED" class="inline-img" /></span>
 6 Buttons: 6 أزرار
 GP9: GP9
 GP28: GP28
@@ -1040,3 +1027,16 @@ OLED Display: شاشة OLED
   جهاز Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="منفذ Micro USB على جهاز Pico" class="inline-img large" /></span> وأي منفذ USB-C
   أو USB-A على الكمبيوتر
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 أزرار متصلة بـ GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 أزرار" class="inline-img" /></span>
+? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: جرس بيزو <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="جرس بيزو" class="inline-img" /></span>
+OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: شاشة
+  OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="شاشة
+  OLED" class="inline-img" /></span>
+I liked how many different things we could do, there was lots of variety: أعجبني تنوع
+  الأنشطة التي كان بإمكاننا القيام بها، فقد كان هناك الكثير من الخيارات

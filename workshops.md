@@ -25,7 +25,7 @@ noindex: true
 {: .caption.mt-6 }
 
 {: .highlight.quote.mt-6 }
->I liked how many different things we could do, there was lot's of variety.
+>I liked how many different things we could do, there was lots of variety.
 >
 >Grade 7 Student
 

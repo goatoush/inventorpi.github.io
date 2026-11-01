@@ -411,7 +411,6 @@ They were really interested in building different sensors: 他們對製造各種
 MYP Science Teacher: MYP科學教師
 Atlanta International School: 亞特蘭大國際學校
 Introduction to Electronics Workshop at Atlanta International School: 亞特蘭大國際學校電子學入門研討會
-I liked how many different things we could do, there was lot’s of variety: 我喜歡我們可以做的事情種類繁多，選擇非常豐富。
 Grade 7 Student: 七年級學生
 loved this lesson: 很喜歡這堂課
 Hands-on electronics workshops for schools: 學校的電子技術實踐工作坊
@@ -739,10 +738,6 @@ Breadboard wiring quick reference: 麵包板接線快速參考
   alt="Ground Rail" class="inline-img" /></span>
 : 將 GND 連接到<span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="地面軌道" class="inline-img" /></span>
-? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 個按鈕連接到 GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 個按鈕" class="inline-img" /></span>
 ? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
 : 在此連接到 GP9 <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
@@ -755,13 +750,6 @@ Breadboard wiring quick reference: 麵包板接線快速參考
   alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 : 樹莓派 Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="樹莓派 Pico 2W" class="inline-img" /></span>
-? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="Piezo Buzzer" class="inline-img" /></span>
-: 壓電蜂鳴器<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="壓電蜂鳴器" class="inline-img" /></span>
-OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED顯示器<span
-  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED顯示器" class="inline-img"
-  /></span>
 6 Buttons: 6 個按鈕
 GP9: GP9
 GP28: GP28
@@ -775,3 +763,15 @@ OLED Display: OLED顯示器
 : 將 USB 連接線連接到 Pico 上的 Micro USB 端口，即可將 Pico 連接到電腦。 <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Pico 上的 Micro USB 端口" class="inline-img large" /></span>以及電腦上的任何 USB-C 或 USB-A
   端口
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 個按鈕連接到 GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 個按鈕" class="inline-img" /></span>
+? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: 壓電蜂鳴器<span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="壓電蜂鳴器" class="inline-img" /></span>
+OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED顯示器<span
+  translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED顯示器" class="inline-img"
+  /></span>
+I liked how many different things we could do, there was lots of variety: 我喜歡我們可以做的事情種類繁多，非常豐富。

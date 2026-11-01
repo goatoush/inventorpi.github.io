@@ -659,8 +659,6 @@ MYP Science Teacher: MYP-Wissenschaftslehrer
 Atlanta International School: Internationale Schule Atlanta
 Introduction to Electronics Workshop at Atlanta International School: Einführungsworkshop
   in Elektronik an der Atlanta International School
-I liked how many different things we could do, there was lot’s of variety: Mir gefiel
-  die Vielfalt der Möglichkeiten; es gab sehr viel Abwechslung
 Grade 7 Student: Schüler der 7. Klasse
 loved this lesson: Ich fand diese Lektion toll
 Hands-on electronics workshops for schools: Praxisorientierte Elektronik-Workshops
@@ -1101,10 +1099,6 @@ Breadboard wiring quick reference: Kurzanleitung zur Steckbrettverdrahtung
   alt="Ground Rail" class="inline-img" /></span>
 : Verbinden Sie GND mit <span translate="no"><img src="/assets/images/minus-rail.webp?v=osszao"
   alt="Bodenschiene" class="inline-img" /></span>
-? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img" /></span>
-: 6 Tasten sind mit GP0…GP5 verbunden. <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Tasten" class="inline-img" /></span>
 ? Connect to GP9 here <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
   alt="GP9" class="inline-img" /></span>
 : Hier können Sie sich mit GP9 verbinden. <span translate="no"><img src="/assets/images/gp9-connection-holes.webp?v=1tr6p1k"
@@ -1117,13 +1111,6 @@ Breadboard wiring quick reference: Kurzanleitung zur Steckbrettverdrahtung
   alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
 : Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="Raspberry Pi Pico 2W" class="inline-img" /></span>
-? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="Piezo Buzzer" class="inline-img" /></span>
-: Piezo-Summer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
-  alt="Piezo-Summer" class="inline-img" /></span>
-OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED-Display
-  <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED-Display"
-  class="inline-img" /></span>
 6 Buttons: 6 Tasten
 GP9: GP9
 GP28: GP28
@@ -1138,3 +1125,16 @@ OLED Display: OLED-Display
   des Pico anschließen. <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro-USB-Anschluss am Pico" class="inline-img large" /></span> und jeder USB-C-
   oder USB-A-Anschluss am Computer
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 Tasten sind mit GP0…GP5 verbunden. <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Tasten" class="inline-img" /></span>
+? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo Buzzer" class="inline-img" /></span>
+: Piezo-Summer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+  alt="Piezo-Summer" class="inline-img" /></span>
+OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED-Display
+  <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED-Display"
+  class="inline-img" /></span>
+I liked how many different things we could do, there was lots of variety: Mir gefiel
+  die Vielfalt der Möglichkeiten; es gab sehr viel Abwechslung

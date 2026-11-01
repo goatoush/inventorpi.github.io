@@ -56,7 +56,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
   # Update sitemap.xml
   sitemap_file_path = File.join(destination_dir, "sitemap.xml")
   content = File.read(sitemap_file_path)
-  content.gsub!(%r{<url>.+?<loc>([^<]+)</loc>.*?</url>}m) do |url_tag|
+  content.gsub!(%r{<url>.*?<loc>([^<]+)</loc>.*?</url>}m) do |url_tag|
     match = url_tag
     target_languages.each do |lang|
       match +=

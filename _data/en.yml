@@ -4,9 +4,9 @@
 2026 <span translate="no">Inventor Pi, Inc.</span>: 2026 <span translate="no">Inventor
   Pi, Inc.</span>
 6 Buttons: 6 Buttons
-? 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
   alt="6 Buttons" class="inline-img" /></span>
-: 6 Buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+: 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
   alt="6 Buttons" class="inline-img" /></span>
 <span translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization: <span
   translate="no">Inventor Pi, Inc.</span> is a registered 501(c)(3) organization
@@ -347,8 +347,8 @@ Humans are full of water and salt, making the body a natural conductor of electr
 Humidity + temperature sensor: Humidity + temperature sensor
 Humidity Temp Sensor: Humidity Temp Sensor
 Humidity Temp Sensor Circuit: Humidity Temp Sensor Circuit
-I liked how many different things we could do, there was lot’s of variety: I liked
-  how many different things we could do, there was lot’s of variety
+I liked how many different things we could do, there was lots of variety: I liked
+  how many different things we could do, there was lots of variety
 If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: If
   Thonny cannot be installed at all, we can use the alternate method below to run
   the experiments
@@ -491,8 +491,8 @@ Now we use trigonometry to calculate the angle the joystick lever makes, and set
   we use trigonometry to calculate the angle the joystick lever makes, and set the
   servos to match this angle
 OLED Display: OLED Display
-OLED Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED
-  Display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
+OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED Display" class="inline-img" /></span>: OLED
+  display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED
   Display" class="inline-img" /></span>
 "On the breadboard, press the blue button \U0001F535 once to launch the menu on the OLED screen": "On
   the breadboard, press the blue button \U0001F535 once to launch the menu on the
@@ -514,9 +514,9 @@ Photoresistor Module: Photoresistor Module
 Piano: Piano
 Pico 2 W Pinout: Pico 2 W Pinout
 Piezo Buzzer: Piezo Buzzer
-? Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+? Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
-: Piezo Buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
+: Piezo buzzer <span translate="no"><img src="/assets/images/piezo-buzzer.webp?v=1gmsum2"
   alt="Piezo Buzzer" class="inline-img" /></span>
 Planned: Planned
 Please familiarize yourself with the contents of the invention kit and the Additional Sensors Kit: Please
