@@ -1084,18 +1084,9 @@ Breadboard components: ब्रेडबोर्ड के घटक
   alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
 : Raspberry Pi Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
-? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
-  alt="OLED Display" class="inline-img large" /></span>
-: ओएलईडी डिस्प्ले <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
-  alt="OLED डिस्प्ले" class="inline-img large" /></span>
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img large" /></span>
-: GP0…GP5 से जुड़े 6 बटन <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 बटन" class="inline-img large" /></span>
 RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: आरजीबी
   एलईडी <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="आरजीबी
   एलईडी" class="inline-img large" /></span>
-Breadboard connection points examples: ब्रेडबोर्ड कनेक्शन बिंदुओं के उदाहरण
 ? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
   alt="Positive Rail" class="inline-img" /></span>
@@ -1119,3 +1110,12 @@ Breadboard connection points examples: ब्रेडबोर्ड कने�
 RGB LED: आरजीबी एलईडी
 Running experiments on Raspberry Pi Pico with Thonny: थॉनी का उपयोग करके रास्पबेरी
   पाई पिको पर प्रयोग चलाए जा रहे हैं।
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1crpja8"
+  alt="OLED Display" class="inline-img large" /></span>
+: ओएलईडी डिस्प्ले <span translate="no"><img src="/assets/images/oled.webp?v=1crpja8"
+  alt="OLED डिस्प्ले" class="inline-img large" /></span>
+? 6 buttons on GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: GP0…GP5 पर 6 बटन <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 बटन" class="inline-img" /></span>
+Breadboard connection point examples: ब्रेडबोर्ड कनेक्शन बिंदु के उदाहरण

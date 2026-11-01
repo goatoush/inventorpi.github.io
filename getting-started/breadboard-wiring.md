@@ -10,11 +10,11 @@ nav_order: 5
 ## Breadboard components
 - Raspberry Pi Pico 2W ![Raspberry Pi Pico 2W](/assets/images/raspberry-pi-pico-2w.webp){: .inline-img.large }
 - OLED display ![OLED Display](/assets/images/oled.webp){: .inline-img.large }
-- 6 buttons connected to GP0…GP5 ![6 Buttons](/assets/images/breadboard-buttons.webp){: .inline-img.large }
+- 6 buttons on GP0…GP5 ![6 Buttons](/assets/images/breadboard-buttons.webp){: .inline-img }
 - RGB LED ![RGB LED](/assets/images/rgb-led.webp){: .inline-img.large }
 - Piezo buzzer ![Piezo Buzzer](/assets/images/piezo-buzzer.webp){: .inline-img }
 
-## Breadboard connection points examples
+## Breadboard connection point examples
 - Connect VCC to ![Positive Rail](/assets/images/plus-rail.webp){: .inline-img } ![Positive Rail](/assets/images/positive-rail.webp){: .inline-img }
 - Connect GND to ![Ground Rail](/assets/images/minus-rail.webp){: .inline-img } ![Ground Rail](/assets/images/ground-rail.webp){: .inline-img }
 - Connect to GP9 pin here ![GP9](/assets/images/gp9-connection-holes.webp){: .inline-img }

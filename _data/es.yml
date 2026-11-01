@@ -1114,19 +1114,9 @@ Breadboard components: Componentes de la placa de pruebas
   alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
 : Raspberry Pi Pi Pi 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="Raspberry Pi Pi Pi 2W" class="inline-img large" /></span>
-? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
-  alt="OLED Display" class="inline-img large" /></span>
-: Pantalla OLED <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
-  alt="Pantalla OLED" class="inline-img large" /></span>
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img large" /></span>
-: 6 botones conectados a GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 botones" class="inline-img large" /></span>
 RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: LED
   RGB <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="LED
   RGB" class="inline-img large" /></span>
-Breadboard connection points examples: Ejemplos de puntos de conexión en la placa
-  de pruebas
 ? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
   alt="Positive Rail" class="inline-img" /></span>
@@ -1150,3 +1140,13 @@ Breadboard connection points examples: Ejemplos de puntos de conexión en la pla
 RGB LED: LED RGB
 Running experiments on Raspberry Pi Pico with Thonny: Realizando experimentos en Raspberry
   Pi Pico con Thonny
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1crpja8"
+  alt="OLED Display" class="inline-img large" /></span>
+: Pantalla OLED <span translate="no"><img src="/assets/images/oled.webp?v=1crpja8"
+  alt="Pantalla OLED" class="inline-img large" /></span>
+? 6 buttons on GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: 6 botones en GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 botones" class="inline-img" /></span>
+Breadboard connection point examples: Ejemplos de puntos de conexión en la placa de
+  pruebas

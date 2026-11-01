@@ -703,18 +703,9 @@ Breadboard components: ブレッドボードの部品
   alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
 : ラズベリーパイ ピコ 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="ラズベリーパイ ピコ 2W" class="inline-img large" /></span>
-? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
-  alt="OLED Display" class="inline-img large" /></span>
-: OLEDディスプレイ<span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLEDディスプレイ"
-  class="inline-img large" /></span>
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img large" /></span>
-: GP0～GP5に接続された6つのボタン<span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6つのボタン" class="inline-img large" /></span>
 RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: RGB
   LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB
   LED" class="inline-img large" /></span>
-Breadboard connection points examples: ブレッドボード接続ポイントの例
 ? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
   alt="Positive Rail" class="inline-img" /></span>
@@ -737,3 +728,12 @@ Breadboard connection points examples: ブレッドボード接続ポイント�
   alt="GP28" class="inline-img" /></span>
 RGB LED: RGB LED
 Running experiments on Raspberry Pi Pico with Thonny: Raspberry Pi PicoでThonnyを使って実験を実行する
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1crpja8"
+  alt="OLED Display" class="inline-img large" /></span>
+: OLEDディスプレイ<span translate="no"><img src="/assets/images/oled.webp?v=1crpja8" alt="OLEDディスプレイ"
+  class="inline-img large" /></span>
+? 6 buttons on GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: GP0～GP5には6つのボタンがあります。 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6つのボタン" class="inline-img" /></span>
+Breadboard connection point examples: ブレッドボード接続ポイントの例

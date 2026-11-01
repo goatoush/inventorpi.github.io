@@ -50,9 +50,31 @@ main+hr {
   padding-bottom: .85rem;
 }
 
+@media (width < 30rem) {
+  .site-header .site-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (width < 23rem) {
+  .site-header .site-title {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+@media (width < 20rem) {
+  .site-header .site-title {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+  }
+}
+
 .aux-nav .site-button.lang {
   font-size: 1.5rem;
   position: relative;
+  cursor: pointer;
 
   .select-lang-text {
     position: absolute;
@@ -70,7 +92,7 @@ main+hr {
 }
 
 .site-button {
-  padding: 0.75em !important;
+  padding: 0.8em !important;
 }
 
 

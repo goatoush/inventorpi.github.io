@@ -29,7 +29,7 @@
   Array.from(document.querySelectorAll('.select-lang li')).map((el) => {
     const isActive = el.classList.contains(currentLang);
     el.classList.toggle('active', isActive);
-    if (isActive) document.querySelector('.site-button.lang').innerHTML = el.innerHTML;
+    if (isActive) document.querySelector('.site-button.lang').innerHTML = el.firstElementChild.innerHTML;
   });
   document.querySelector('.site-button.lang').addEventListener('click', (e) => {
     document.querySelector('.select-lang-container').classList.toggle('open');

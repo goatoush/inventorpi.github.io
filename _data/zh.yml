@@ -752,18 +752,9 @@ Breadboard components: 面包板组件
   alt="Raspberry Pi Pico 2W" class="inline-img large" /></span>
 : 树莓派 Pico 2W <span translate="no"><img src="/assets/images/raspberry-pi-pico-2w.webp?v=1yqw8e3"
   alt="树莓派 Pico 2W" class="inline-img large" /></span>
-? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr"
-  alt="OLED Display" class="inline-img large" /></span>
-: OLED显示屏<span translate="no"><img src="/assets/images/oled.webp?v=1xb4kfr" alt="OLED显示屏"
-  class="inline-img large" /></span>
-? 6 buttons connected to GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 Buttons" class="inline-img large" /></span>
-: 6 个按钮连接到 GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
-  alt="6 个按钮" class="inline-img large" /></span>
 RGB LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB LED" class="inline-img large" /></span>: RGB
   LED <span translate="no"><img src="/assets/images/rgb-led.webp?v=u8js16" alt="RGB
   LED" class="inline-img large" /></span>
-Breadboard connection points examples: 面包板连接点示例
 ? Connect VCC to <span translate="no"><img src="/assets/images/plus-rail.webp?v=krbx88"
   alt="Positive Rail" class="inline-img" /></span> <span translate="no"><img src="/assets/images/positive-rail.webp?v=1x4c6ag"
   alt="Positive Rail" class="inline-img" /></span>
@@ -787,3 +778,12 @@ Breadboard connection points examples: 面包板连接点示例
 RGB LED: RGB LED
 Running experiments on Raspberry Pi Pico with Thonny: 使用 Thonny 在 Raspberry Pi Pico
   上运行实验
+? OLED display <span translate="no"><img src="/assets/images/oled.webp?v=1crpja8"
+  alt="OLED Display" class="inline-img large" /></span>
+: OLED显示屏<span translate="no"><img src="/assets/images/oled.webp?v=1crpja8" alt="OLED显示屏"
+  class="inline-img large" /></span>
+? 6 buttons on GP0…GP5 <span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 Buttons" class="inline-img" /></span>
+: GP0…GP5 上有 6 个按钮<span translate="no"><img src="/assets/images/breadboard-buttons.webp?v=1e38s6r"
+  alt="6 个按钮" class="inline-img" /></span>
+Breadboard connection point examples: 面包板连接点示例
