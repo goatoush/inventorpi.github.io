@@ -6,8 +6,11 @@ html[dir="rtl"] {
     direction: rtl;
     text-align: right;
     overflow-x: hidden;
-    contain: paint;
-    min-height: 100vh;
+  }
+
+  .skip-to-main {
+    left: auto;
+    inset-inline-start: -999px;
   }
 
   * {

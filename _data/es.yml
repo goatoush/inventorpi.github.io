@@ -926,7 +926,6 @@ Italian: italiano
 Dutch: Holandés
 Danish: danés
 Russian: ruso
-Run current script: Ejecutar el script actual
 Contact Form: Formulario de contacto
 Please fill out the form below to get in touch: Por favor, rellene el formulario a
   continuación para ponerse en contacto con nosotros
@@ -1015,13 +1014,6 @@ Search <span translate="no">Inventor Pi</span>: Buscar <span translate="no">Inve
   partida claro para desarrollar sus habilidades con kits de electrónica y Raspberry
   Pi Pico fáciles de usar para principiantes, además de un plan de lecciones que los
   profesores pueden utilizar para crear talleres virtuales y presenciales
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: Guarda el archivo y ejecuta el script usando el botón verde. <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Ejecutar el script actual"
-  class="inline-img" /></span> Botón <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1069,3 +1061,11 @@ Ground Rail: Riel terrestre
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Observe
   que los pines de tierra (GND) se repiten después de cada 4 pines y comienzan después
   de 2 pines en cada extremo
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: Guarda el archivo y ejecuta el script usando el botón verde. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Icono de ejecutar script"
+  class="inline-img" /></span> Botón <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+Run script icon: Icono de ejecutar script

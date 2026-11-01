@@ -641,7 +641,6 @@ Italian: 義大利語
 Dutch: 荷蘭語
 Danish: 丹麥語
 Russian: 俄文
-Run current script: 運行當前腳本
 Contact Form: 聯絡表格
 Please fill out the form below to get in touch: 請填寫以下表格與我們聯絡。
 Name: 姓名
@@ -677,12 +676,6 @@ Please try again later: 請稍後再試。
   with the students ahead of time, so they can install the app on their laptops before
   the class
 : 請提前將這些<a href="/getting-started/install-thonny-app.html">說明</a>分享給學生，以便他們在課前能在筆記型電腦上安裝應用程式。
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: 儲存檔案並使用綠色按鈕運行腳本。 <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="運行當前腳本" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>按鈕
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -719,3 +712,10 @@ Ground Rail: 地面軌道
   alt="地面軌道" class="inline-img"></span>軌道），它跳閘，防止電子設備損壞。
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: 請注意，接地
   (GND) 引腳每隔 4 個引腳重複出現一次，並且在每端都從第 2 個引腳之後開始。
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: 儲存檔案並使用綠色按鈕運行腳本。 <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="運行腳本圖標" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>按鈕
+Run script icon: 運行腳本圖標

@@ -523,22 +523,22 @@ Robots and cars use such sensors to stop before hitting any obstruction: Robots 
 Role: Role
 Rotation Encoder: Rotation Encoder
 Rotation Encoder Module: Rotation Encoder Module
-Run current script: Run current script
 Run first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10 min): Run
   first experiments, learning the basics (Blink, then Humidity Temp Sensor) (5-10
   min)
 Run random experiments from the list, and present to other teams (20-30 min): Run
   random experiments from the list, and present to other teams (20-30 min)
+Run script icon: Run script icon
 Run this script, and simultaneously run melody.py on a different device: Run this
   script, and simultaneously run melody.py on a different device
 Russian: Russian
 Safety Procedure: Safety Procedure
 ? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
 : Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
 School Address: School Address
 School Name: School Name
 Search <span translate="no">Inventor Pi</span>: Search <span translate="no">Inventor

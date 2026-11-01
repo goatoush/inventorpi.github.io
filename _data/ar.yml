@@ -145,7 +145,6 @@ Congratulations, you have written and run your first MicroPython script: تها�
 Previous: سابق
 Next: التالي
 Breadcrumb: فتات الخبز
-Run current script: تشغيل البرنامج النصي الحالي
 connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: متصلة
   بوحدة استشعار التصادم المزودة بمفتاح حد، ووحدة إضاءة LED RGB، ووحدة عرض OLED (SSD1306)
   على لوحة تجارب
@@ -925,12 +924,6 @@ Please try again later: يرجى المحاولة مرة أخرى لاحقاً
 : يرجى مشاركة هذه <a href="/getting-started/install-thonny-app.html">التعليمات</a>
   مع الطلاب مسبقًا، حتى يتمكنوا من تثبيت التطبيق على أجهزة الكمبيوتر المحمولة الخاصة
   بهم قبل بدء الحصة
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: احفظ الملف وشغّل البرنامج النصي باستخدام الزر الأخضر <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="تشغيل البرنامج النصي الحالي" class="inline-img" /></span> زر <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -977,3 +970,10 @@ Ground Rail: سكة أرضية
   (السكك الحديدية)، فإنه يتعثر، مما يمنع تلف الأجهزة الإلكترونية
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: لاحظ
   أن دبابيس التأريض (GND) تتكرر بعد كل 4 دبابيس، وتبدأ بعد دبوسين في كل طرف
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: احفظ الملف وشغّل البرنامج النصي باستخدام الزر الأخضر <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="أيقونة تشغيل البرنامج النصي" class="inline-img" /></span> زر <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+Run script icon: أيقونة تشغيل البرنامج النصي

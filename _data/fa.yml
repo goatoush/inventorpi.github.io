@@ -145,7 +145,6 @@ Congratulations, you have written and run your first MicroPython script: تبر�
 Previous: قبلی
 Next: بعدی
 Breadcrumb: خرده نان
-Run current script: اجرای اسکریپت فعلی
 connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: متصل
   به یک ماژول حسگر تصادف با یک سوئیچ محدودکننده، یک ماژول LED RGB و یک ماژول نمایشگر
   OLED (SSD1306) روی یک برد بورد
@@ -958,13 +957,6 @@ Please try again later: لطفا بعدا دوباره امتحان کنید
 : لطفاً این <a href="/getting-started/install-thonny-app.html">دستورالعمل‌ها را</a>
   از قبل با دانش‌آموزان به اشتراک بگذارید تا بتوانند قبل از کلاس، برنامه را روی لپ‌تاپ
   خود نصب کنند
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: فایل را ذخیره کنید و اسکریپت را با استفاده از فلش سبز اجرا کنید. <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="اجرای اسکریپت فعلی" class="inline-img"
-  /></span> دکمه <span translate="no"><code class="language-plaintext highlighter-rouge">Run
-  current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1009,3 +1001,11 @@ Ground Rail: راه آهن زمینی
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: توجه
   داشته باشید که پین‌های زمین (GND) بعد از هر ۴ پین تکرار می‌شوند و در هر انتها بعد
   از ۲ پین شروع می‌شوند
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: فایل را ذخیره کنید و اسکریپت را با استفاده از فلش سبز اجرا کنید. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="آیکون اجرای اسکریپت"
+  class="inline-img" /></span> دکمه <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+Run script icon: آیکون اجرای اسکریپت

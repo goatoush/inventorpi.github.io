@@ -947,7 +947,6 @@ Italian: इतालवी
 Dutch: डच
 Danish: डेनिश
 Russian: रूसी
-Run current script: वर्तमान स्क्रिप्ट चलाएँ
 Contact Form: संपर्क करें प्रपत्र
 Please fill out the form below to get in touch: संपर्क करने के लिए कृपया नीचे दिया
   गया फॉर्म भरें।
@@ -992,13 +991,6 @@ Please try again later: 'कृपया बाद में पुन: प्�
 : कृपया इन <a href="/getting-started/install-thonny-app.html">निर्देशों को</a> विद्यार्थियों
   के साथ पहले से साझा कर दें, ताकि वे कक्षा शुरू होने से पहले अपने लैपटॉप पर ऐप इंस्टॉल
   कर सकें।
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: फ़ाइल को सेव करें और हरे बटन का उपयोग करके स्क्रिप्ट चलाएँ। <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="वर्तमान स्क्रिप्ट चलाएँ"
-  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span> बटन
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1044,3 +1036,11 @@ Ground Rail: ग्राउंड रेल
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: ध्यान
   दें कि ग्राउंड (GND) पिन हर 4 पिन के बाद दोहराई जाती हैं, और प्रत्येक छोर पर 2 पिन
   के बाद शुरू होती हैं।
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: फ़ाइल को सेव करें और हरे बटन का उपयोग करके स्क्रिप्ट चलाएँ। <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="स्क्रिप्ट आइकन चलाएँ"
+  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> बटन
+Run script icon: स्क्रिप्ट आइकन चलाएँ

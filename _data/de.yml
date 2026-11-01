@@ -972,7 +972,6 @@ Italian: Italienisch
 Dutch: Niederländisch
 Danish: dänisch
 Russian: Russisch
-Run current script: Führe das aktuelle Skript aus
 Contact Form: Kontaktformular
 Please fill out the form below to get in touch: Bitte füllen Sie das untenstehende
   Formular aus, um Kontakt aufzunehmen
@@ -1019,13 +1018,6 @@ Please try again later: Bitte versuchen Sie es später noch einmal
 : Bitte teilen Sie diese <a href="/getting-started/install-thonny-app.html">Anweisungen</a>
   den Schülern im Voraus mit, damit sie die App vor dem Unterricht auf ihren Laptops
   installieren können
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: Speichern Sie die Datei und führen Sie das Skript mit dem grünen Menü aus. <span
-  translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Führe
-  das aktuelle Skript aus" class="inline-img" /></span> Schaltfläche <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1073,3 +1065,11 @@ Ground Rail: Bodenschiene
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Beachten
   Sie, dass die Masseanschlüsse (GND) alle vier Pins wiederholt werden und an jedem
   Ende nach jeweils zwei Pins beginnen
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: Speichern Sie die Datei und führen Sie das Skript mit dem grünen Menü aus. <span
+  translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Symbol
+  zum Ausführen des Skripts" class="inline-img" /></span> Schaltfläche <span translate="no"><code
+  class="language-plaintext highlighter-rouge">Run current script</code></span>
+Run script icon: Symbol zum Ausführen des Skripts

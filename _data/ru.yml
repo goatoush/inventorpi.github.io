@@ -936,7 +936,6 @@ Introduction to Electronics Slides: Введение в электронику (
   Impaired” is what inspired him to create <span translate="no">Inventor Pi</span>
 : Работа Утшахо над созданием «доступных умных очков для слепых и слабовидящих» вдохновила
   его на создание <span translate="no">Inventor Pi</span>
-Run current script: Запустить текущий скрипт
 English: Английский
 French: Французский
 Spanish: испанский
@@ -1001,13 +1000,6 @@ Please try again later: Пожалуйста, попробуйте позже
 : Пожалуйста, заранее поделитесь этими <a href="/getting-started/install-thonny-app.html">инструкциями</a>
   со студентами, чтобы они могли установить приложение на свои ноутбуки до начала
   занятия
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: Сохраните файл и запустите скрипт, используя зеленую кнопку. <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Запустить текущий скрипт"
-  class="inline-img" /></span> Кнопка <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1057,3 +1049,11 @@ Ground Rail: Наземная рельса
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Обратите
   внимание, что контакты заземления (GND) повторяются через каждые 4 контакта и начинаются
   после 2 контактов на каждом конце
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: Сохраните файл и запустите скрипт, используя зеленую кнопку. <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Значок запуска скрипта"
+  class="inline-img" /></span> Кнопка <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+Run script icon: Значок запуска скрипта

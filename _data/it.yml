@@ -965,7 +965,6 @@ Introduction to Electronics Slides: Presentazione introduttiva sull&#39;elettron
 : Il lavoro di Utshaho sulla creazione degli &quot;Occhiali intelligenti a prezzi
   accessibili per non vedenti e ipovedenti&quot; è ciò che lo ha ispirato a creare
   <span translate="no">Inventor Pi</span>
-Run current script: Esegui lo script corrente
 English: Inglese
 French: francese
 Spanish: spagnolo
@@ -1029,13 +1028,6 @@ Please try again later: Si prega di riprovare più tardi
 : Vi preghiamo di condividere queste <a href="/getting-started/install-thonny-app.html">istruzioni</a>
   con gli studenti in anticipo, in modo che possano installare l&#39;app sui loro
   computer portatili prima della lezione
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: Salva il file ed esegui lo script usando il pulsante verde <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Esegui lo script corrente"
-  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1082,3 +1074,11 @@ Ground Rail: Binario di terra
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Si
   noti che i pin di massa (GND) si ripetono dopo ogni 4 pin e iniziano dopo 2 pin
   a ciascuna estremità
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: Salva il file ed esegui lo script usando il pulsante verde <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="Esegui l&#39;icona dello
+  script" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+Run script icon: Esegui l&#39;icona dello script

@@ -148,7 +148,6 @@ Congratulations, you have written and run your first MicroPython script: مبا�
 Previous: پچھلا
 Next: اگلا
 Breadcrumb: بریڈ کرمب
-Run current script: موجودہ اسکرپٹ چلائیں۔
 connected to a crash sensor module with a limit switch, an RGB LED module and an OLED display module (SSD1306) on a breadboard: بریڈ
   بورڈ پر ایک کریش سینسر ماڈیول، ایک RGB LED ماڈیول اور OLED ڈسپلے ماڈیول (SSD1306)
   کے ساتھ منسلک
@@ -972,13 +971,6 @@ Please try again later: براہ کرم بعد میں دوبارہ کوشش کر
 : براہ کرم ان <a href="/getting-started/install-thonny-app.html">ہدایات کو</a> طلباء
   کے ساتھ وقت سے پہلے شیئر کریں، تاکہ وہ کلاس سے پہلے اپنے لیپ ٹاپ پر ایپ انسٹال کر
   سکیں
-? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
-  alt="Run current script" class="inline-img" /></span> <span translate="no"><code
-  class="language-plaintext highlighter-rouge">Run current script</code></span> button
-: فائل کو محفوظ کریں اور گرین کا استعمال کرتے ہوئے اسکرپٹ کو چلائیں۔ <span translate="no"><img
-  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="موجودہ اسکرپٹ چلائیں۔"
-  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
-  highlighter-rouge">Run current script</code></span>
 ? Connect the Pico to the computer by connecting the USB cable to the Micro USB port
   on Pico <span translate="no"><img src="/assets/images/micro-usb-port.webp?v=urm18c"
   alt="Micro USB Port on Pico" class="inline-img" /></span> and any USB-C or USB-A
@@ -1023,3 +1015,11 @@ Ground Rail: گراؤنڈ ریل
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: غور
   کریں کہ گراؤنڈ (GND) پن ہر 4 پنوں کے بعد دہرائے جاتے ہیں، اور ہر سرے میں 2 پنوں
   کے بعد شروع کریں
+? Save the file and run the script using the green <span translate="no"><img src="/assets/images/thonny-run-button.webp?v=15dky6p"
+  alt="Run script icon" class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span> button
+: فائل کو محفوظ کریں اور گرین کا استعمال کرتے ہوئے اسکرپٹ کو چلائیں۔ <span translate="no"><img
+  src="/assets/images/thonny-run-button.webp?v=15dky6p" alt="اسکرپٹ آئیکن کو چلائیں۔"
+  class="inline-img" /></span> <span translate="no"><code class="language-plaintext
+  highlighter-rouge">Run current script</code></span>
+Run script icon: اسکرپٹ آئیکن کو چلائیں۔

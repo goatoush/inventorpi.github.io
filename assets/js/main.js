@@ -75,9 +75,16 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // Set titles for inline images
+    const inlineImages = document.querySelectorAll(".main-content img.inline-img");
+    inlineImages.forEach(img => {
+        if (!img.title && img.alt) {
+            img.title = img.alt;
+        }
+    });
+
     // Query all markdown content images
     const images = document.querySelectorAll(".main-content img:not(.inline-img)");
-
     images.forEach(img => {
         // Avoid double wrapping if it's already inside a link
         if (!img.parentElement.closest("a")) {

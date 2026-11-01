@@ -26,4 +26,4 @@ while True:
     sleep(1)
 ```
 
-Save the file and run the script using the green ![Run current script](/assets/images/thonny-run-button.webp){: .inline-img } `Run current script` button. If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly. Congratulations, you have written and run your first MicroPython script.
+Save the file and run the script using the green ![Run script icon](/assets/images/thonny-run-button.webp){: .inline-img } `Run current script` button. If everything worked as expected, you should see an LED on the Raspberry Pi Pico blink on and off repeatedly. Congratulations, you have written and run your first MicroPython script.
