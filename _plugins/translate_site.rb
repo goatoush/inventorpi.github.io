@@ -97,7 +97,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
           "[notranslatecode]\\1[/notranslatecode]"
         )
         .gsub(
-          /<(img.+?class="inline-img".*?)>/,
+          /<(img.+?class="inline-img.*?)>/,
           "[notranslateimg]\\1[/notranslateimg]"
         )
         .gsub(%r{<code>.+?<\/code>}m, "")

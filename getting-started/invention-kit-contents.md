@@ -4,7 +4,7 @@ nav_order: 2
 ---
 # Invention Kit Contents
 
-![Invention Kit Contents](/assets/images/slides/2_Kit_Contents.webp)
+![Invention Kit Contents](/assets/images/kit-contents.webp)
 {: .mt-6 }
 
 1. Breadboard with OLED, LED, buzzer, Raspberry Pi Pico 2 W, 6 buttons

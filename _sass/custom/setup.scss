@@ -37,8 +37,12 @@ main+hr {
 .inline-img {
   display: inline-block;
   width: auto;
-  height: 1.8em;
+  height: 1.4em;
   margin: -0.4em 0;
+
+  &.large {
+    height: 1.8em;
+  }
 }
 
 .site-header .site-title {
