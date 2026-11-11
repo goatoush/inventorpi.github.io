@@ -13,7 +13,7 @@ colors = {
 
 const fetchJson = async (url) => await (await fetch(url)).json();
 
-const i18nAscii = text => i18n(text).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\x00-\x7F]/g, "");
+const i18nAscii = text => i18n(text).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\x00-\x7F]/g, "") || text;
 
 function getDistance(lat1, lon1, lat2, lon2, unit = 'km') {
     const R = 6371; // Earth's mean radius in kilometers

@@ -21,6 +21,7 @@ def expand(text)
       %r{\[notranslate\](.+?)\[/notranslate\]},
       "<span translate=\"no\">\\1</span>"
     )
+    .gsub(/\[br\]/, "<span style=\"white-space: pre-line\"></span>")
     .gsub(
       %r{\[notranslateimg\](.+?)\[/notranslateimg\]},
       "<span translate=\"no\"><\\1></span>"
@@ -92,6 +93,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
           s.gsub(/</, "[").gsub(/>/, "]")
         end
         .gsub(%r{<symbol.+?<\/symbol>}m, "")
+        .gsub(%r{<span style="white-space: pre-line"><\/span>}, "[br]")
         .gsub(
           %r{<code class="language-plaintext highlighter-rouge">(.+?)<\/code>},
           "[notranslatecode]\\1[/notranslatecode]"

@@ -24,8 +24,19 @@ Students learn basic electronic skills about using a breadboard, connecting sens
 >MYP Science Teacher\
 >Atlanta International School
 
+{: .highlight.quote.mt-6 }
+>Just amazing! How Utshaho spoke to everyone in the room. He remembered everyone’s name. I wanted my students to learn about just giving back without expecting anything. They were so surprised. I am so grateful.
+>
+>Mr. Kevin Onabiyi\
+>Director\
+>American International School of Conakry
+
 ![Introduction to Electronics Workshop at Atlanta International School](/assets/images/inventor-pi-workshop-in-atlanta.webp)
 *Introduction to Electronics Workshop at Atlanta International School*
+{: .caption.mt-6 }
+
+![Inventor Pi introduction call with students and teachers at the American International School, Conakry, Guinea](/assets/images/inventor-pi-call-conakry.webp)
+*Inventor Pi introduction call with students and teachers at the American International School, Conakry, Guinea*
 {: .caption.mt-6 }
 
 {: .highlight.quote.mt-6 }

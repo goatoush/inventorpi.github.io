@@ -17,6 +17,10 @@
 : <span translate="no">Inventor Pi</span> gives teachers and students a clear starting
   point to develop their skills with beginner-friendly Raspberry Pi Pico and electronics
   kits, lesson plan that teachers can use to create virtual and in-person workshops
+? <span translate="no">Inventor Pi</span> introduction call with students and teachers
+  at the American International School, Conakry, Guinea
+: <span translate="no">Inventor Pi</span> introduction call with students and teachers
+  at the American International School, Conakry, Guinea
 ? <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
   on making hands-on invention more accessible for teachers and students
 : <span translate="no">Inventor Pi</span> is a student-led STEM initiative focused
@@ -96,6 +100,7 @@ After that, try random experiments from the list below: After that, try random e
   from the list below
 Alternate Method to Run Experiments without Thonny: Alternate Method to Run Experiments
   without Thonny
+American International School of Conakry: American International School of Conakry
 An accelerometer measures acceleration around the x, y and z axis: An accelerometer
   measures acceleration around the x, y and z axis
 And when user input pauses, we replay the notes to create a fun musical instrument: And
@@ -246,6 +251,7 @@ Danish: Danish
 : Did you know that a smartphone has about 8 different temperature sensors in it,
   measuring screen temperature, back temperature, battery temperature, CPU temperature,
   etc.? Humidity sensors monitor condensation inside a smartphone or smartwatch
+Director: Director
 Disconnect Pico before changing connectors: Disconnect Pico before changing connectors
 Distance Sensor: Distance Sensor
 Distance sensor: Distance sensor
@@ -334,6 +340,7 @@ He loves traveling, band, track and photography and he is a 3rd degree black bel
 He provided clear instructions and offered support to the students throughout their activities: He
   provided clear instructions and offered support to the students throughout their
   activities
+He remembered everyone’s name: He remembered everyone’s name
 He was fantastic with the kids, coming prepared with all the necessary materials: He
   was fantastic with the kids, coming prepared with all the necessary materials
 Here: Here
@@ -352,8 +359,11 @@ Humans are full of water and salt, making the body a natural conductor of electr
 Humidity + temperature sensor: Humidity + temperature sensor
 Humidity Temp Sensor: Humidity Temp Sensor
 Humidity Temp Sensor Circuit: Humidity Temp Sensor Circuit
+I am so grateful: I am so grateful
 I liked how many different things we could do, there was lots of variety: I liked
   how many different things we could do, there was lots of variety
+I wanted my students to learn about just giving back without expecting anything: I
+  wanted my students to learn about just giving back without expecting anything
 If Thonny cannot be installed at all, we can use the alternate method below to run the experiments: If
   Thonny cannot be installed at all, we can use the alternate method below to run
   the experiments
@@ -455,6 +465,8 @@ Japanese: Japanese
 Joystick Module: Joystick Module
 Joystick and Servos: Joystick and Servos
 Joystick module: Joystick module
+Just amazing! How Utshaho spoke to everyone in the room: Just amazing! How Utshaho
+  spoke to everyone in the room
 Knock Sensor: Knock Sensor
 Knock Sensor Module: Knock Sensor Module
 Knock sensor: Knock sensor
@@ -483,6 +495,7 @@ Mix and Match: Mix and Match
 Mix and Match Inputs and Outputs: Mix and Match Inputs and Outputs
 Motion Sensor: Motion Sensor
 Motion sensor: Motion sensor
+Mr. Kevin Onabiyi: Mr. Kevin Onabiyi
 Ms. Irem Nekay: Ms. Irem Nekay
 NFC Nail Reward Stickers: NFC Nail Reward Stickers
 Name: Name
@@ -606,8 +619,8 @@ School Name: School Name
 Search <span translate="no">Inventor Pi</span>: Search <span translate="no">Inventor
   Pi</span>
 Send Message: Send Message
-Showing cities with active workshops/outreach, as well as planned cities: Showing
-  cities with active workshops/outreach, as well as planned cities
+Showing cities with active workshops/outreach, as well as cities in early stages of planning: Showing
+  cities with active workshops/outreach, as well as cities in early stages of planning
 Skip to main content: Skip to main content
 Some Additional Notes: Some Additional Notes
 Some TVs use it to dim the display to match the ambient room light, to appear like printed wall art: Some
@@ -718,6 +731,7 @@ They can be used for thermal protection, such as to automatically shutdown a rob
   temperatures exceed safe limits
 They were really interested in building different sensors: They were really interested
   in building different sensors
+They were so surprised: They were so surprised
 They work by varying the electrical resistance, which we read as varying voltage at a microcontroller’s input pin: They
   work by varying the electrical resistance, which we read as varying voltage at a
   microcontroller’s input pin
