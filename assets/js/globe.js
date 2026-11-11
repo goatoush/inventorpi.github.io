@@ -203,7 +203,6 @@ const countryColor = (polygon) => {
 
     const addInteractiveSuggestedLocations = () => {
         const suggestLocation = (lat, lng, name) => {
-            globe.controls().enableZoom = true;
             if (name.endsWith("?")) {
                 const clickedPoint = [lng, lat]; // Note: d3-geo expects [lon, lat]
                 const clickedPolygon = countries.features.find(feature =>
@@ -233,10 +232,15 @@ const countryColor = (polygon) => {
     let autoRotateTimeout;
 
     const autoRotateGlobe = () => {
-        globe.controls().enableZoom = false;
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        // Disable scroll-wheel / mouse zooming on non-touch devices
+        if (!isTouchDevice) {
+            globe.controls().enableZoom = false;
+        }
         globe.controls().autoRotate = true;
         globe.controls().autoRotateSpeed = -0.5;
         globe.controls().addEventListener('start', () => {
+            globe.controls().enableZoom = true;
             globe.controls().autoRotate = false;
             clearTimeout(autoRotateTimeout);
             autoRotateTimeout = setTimeout(() => globe.controls().autoRotate = true, 5000);

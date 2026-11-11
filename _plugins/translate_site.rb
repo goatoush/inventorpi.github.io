@@ -313,6 +313,6 @@ Jekyll::Hooks.register :site, :post_write do |site|
       File.write(new_file_path, content)
     end
 
-    puts "                    done in #{sprintf("%.1f seconds", Time.now - start_time)} seconds."
+    puts "                    done in #{sprintf("%.1f", Time.now - start_time)} seconds."
   end
 end
