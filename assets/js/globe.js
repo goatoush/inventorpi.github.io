@@ -203,6 +203,7 @@ const countryColor = (polygon) => {
 
     const addInteractiveSuggestedLocations = () => {
         const suggestLocation = (lat, lng, name) => {
+            globe.controls().enableZoom = true;
             if (name.endsWith("?")) {
                 const clickedPoint = [lng, lat]; // Note: d3-geo expects [lon, lat]
                 const clickedPolygon = countries.features.find(feature =>
@@ -232,6 +233,7 @@ const countryColor = (polygon) => {
     let autoRotateTimeout;
 
     const autoRotateGlobe = () => {
+        globe.controls().enableZoom = false;
         globe.controls().autoRotate = true;
         globe.controls().autoRotateSpeed = -0.5;
         globe.controls().addEventListener('start', () => {
@@ -239,6 +241,17 @@ const countryColor = (polygon) => {
             clearTimeout(autoRotateTimeout);
             autoRotateTimeout = setTimeout(() => globe.controls().autoRotate = true, 5000);
         });
+    }
+
+    const addZoomButtons = () => {
+        const zoomStep = (factor) => {
+            globe.controls().enableZoom = true;
+            // Clamp altitude between 0.2 (closest) and 4 (farthest)
+            const newAltitude = Math.max(0.2, Math.min(4, globe.pointOfView().altitude * factor));
+            globe.pointOfView({ altitude: newAltitude }, 300);
+        };
+        document.getElementById('zoom-in').addEventListener('click', () => zoomStep(0.7));
+        document.getElementById('zoom-out').addEventListener('click', () => zoomStep(1.3));
     }
 
     // Select the DOM container
@@ -267,5 +280,5 @@ const countryColor = (polygon) => {
     addArcs();
     addInteractiveSuggestedLocations();
     autoRotateGlobe();
-
+    addZoomButtons();
 })();
