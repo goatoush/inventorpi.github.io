@@ -250,8 +250,8 @@ const countryColor = (polygon) => {
             const newAltitude = Math.max(0.2, Math.min(4, globe.pointOfView().altitude * factor));
             globe.pointOfView({ altitude: newAltitude }, 300);
         };
-        document.getElementById('zoom-in').addEventListener('click', () => zoomStep(0.7));
-        document.getElementById('zoom-out').addEventListener('click', () => zoomStep(1.3));
+        document.getElementById('zoom-in').addEventListener('click', () => zoomStep(0.8));
+        document.getElementById('zoom-out').addEventListener('click', () => zoomStep(1.25));
     }
 
     // Select the DOM container
