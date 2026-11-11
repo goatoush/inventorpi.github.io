@@ -246,12 +246,24 @@ const countryColor = (polygon) => {
     const addZoomButtons = () => {
         const zoomStep = (factor) => {
             globe.controls().enableZoom = true;
-            // Clamp altitude between 0.2 (closest) and 4 (farthest)
-            const newAltitude = Math.max(0.2, Math.min(4, globe.pointOfView().altitude * factor));
+            const currentPov = globe.pointOfView();
+            // Clamp altitude between 0.2 (closest) and 3 (farthest)
+            const newAltitude = Math.max(0.2, Math.min(3, currentPov.altitude * factor));
+            globe.pointOfView(currentPov, 0);
             globe.pointOfView({ altitude: newAltitude }, 300);
         };
-        document.getElementById('zoom-in').addEventListener('click', () => zoomStep(0.8));
-        document.getElementById('zoom-out').addEventListener('click', () => zoomStep(1.25));
+        const zoomButtonsContainer = document.createElement('div');
+        zoomButtonsContainer.style.cssText = 'position: absolute; bottom: 0px; right: 0px; display: flex; flex-direction: column; gap: 10px; z-index: 10;';
+        const zoomInButton = document.createElement('button');
+        zoomInButton.textContent = '+';
+        const zoomOutButton = document.createElement('button');
+        zoomOutButton.textContent = '−';
+        zoomInButton.style.cssText = zoomOutButton.style.cssText = 'width: 30px; height: 30px; font-size: 18px; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center; -webkit-appearance: none; appearance: none; line-height: 1; border: solid 1px #ccc; border-radius: 4px; background-color: #f8f8f8; color: #333;';
+        zoomButtonsContainer.appendChild(zoomInButton);
+        zoomButtonsContainer.appendChild(zoomOutButton);
+        element.parentElement.appendChild(zoomButtonsContainer);
+        zoomInButton.addEventListener('click', () => zoomStep(0.8));
+        zoomOutButton.addEventListener('click', () => zoomStep(1.25));
     }
 
     // Select the DOM container
