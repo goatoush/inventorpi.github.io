@@ -132,6 +132,9 @@ sass:
   quiet_deps: true
   silence_deprecations: ["import"]
   style: compressed
+search:
+  exclude:
+    tokenizer_separator: /[\s\-/]+|(?=[\u4e00-\u9fa5])|(?<=[\u4e00-\u9fa5])/
 i18n_text:
   Active:
   Base:
