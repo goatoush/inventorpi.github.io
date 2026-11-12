@@ -9,13 +9,21 @@
     summary.innerHTML = summary.innerHTML.replace(/&nbsp;/, ' <ul><li>').replace(/&nbsp;/g, ' <li>');
   });
   document.getElementById('search-input').type = 'search';
-  let sheet = document.querySelector('head style').sheet;
+  let sheet = document.querySelector('head style:last-of-type').sheet;
   sheet.insertRule(
     `p.note::before, blockquote.note::before { content: '${i18n('Note')}' !important; }`,
     sheet.cssRules.length
   );
   sheet.insertRule(
     `p.important::before, blockquote.important::before { content: '${i18n('Important')}' !important; }`,
+    sheet.cssRules.length
+  );
+  sheet.insertRule(
+    `p.new::before, blockquote.new::before { content: '${i18n('New')}' !important; }`,
+    sheet.cssRules.length
+  );
+  sheet.insertRule(
+    `p.warning::before, blockquote.warning::before { content: '${i18n('Warning')}' !important; }`,
     sheet.cssRules.length
   );
   sheet.insertRule(

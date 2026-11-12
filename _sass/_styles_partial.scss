@@ -302,4 +302,17 @@ blockquote.highlight.quote {
       transform: scale(1.1);
     }
   }
+
+  .search-result {
+    display: flex;
+    align-items: stretch;
+  }
+}
+
+.search-result-section {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

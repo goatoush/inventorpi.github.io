@@ -1,4 +1,6 @@
 ---
+title: Home Page
+nav_exclude: true
 has_toc: false
 ---
 {: .fs-7.fw-300.mt-6,.mb-6.brand-color }

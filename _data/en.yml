@@ -346,6 +346,7 @@ He was fantastic with the kids, coming prepared with all the necessary materials
 Here: Here
 Hindi: Hindi
 Hint: Hint
+Home Page: Home Page
 Horizontal holes are linked together: Horizontal holes are linked together
 ? Horizontal holes are linked together, but not across the middle divider <span translate="no"><img
   src="/assets/images/breadboard-horizontal-holes.webp?v=8bd9en" alt="Horizontal holes
@@ -499,6 +500,7 @@ Mr. Kevin Onabiyi: Mr. Kevin Onabiyi
 Ms. Irem Nekay: Ms. Irem Nekay
 NFC Nail Reward Stickers: NFC Nail Reward Stickers
 Name: Name
+New: New
 Next: Next
 Note: Note
 Notice that Ground (GND) pins are repeated after every 4 pins, and start after 2 pins in each end: Notice
@@ -850,6 +852,7 @@ Verify all the connections are to the correct Pins, especially the VCC and GND c
   middle divider <span translate="no"><img src="/assets/images/breadboard-vertical-strips.webp?v=bt35l0"
   alt="Vertical bus strips are linked together" class="inline-img" /></span>
 Vertical bus strips are linked together: Vertical bus strips are linked together
+Warning: Warning
 We access the GPIO (General Purpose Input Output) pins by using the Pin object from the machine library: We
   access the GPIO (General Purpose Input Output) pins by using the Pin object from
   the machine library

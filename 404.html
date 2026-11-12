@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: 404
 permalink: /404
 sitemap: false
@@ -7,20 +7,16 @@ nav_exclude: true
 search_exclude: true
 noindex: true
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <script>
-        const path = window.location.pathname;
-        let langCode = window.location.pathname.split("/").at(1);
-        let languages = {{ site.languages | jsonify }}.slice(1).map(x => x.code);
-        let langUrlPrefix = !langCode || !languages.includes(langCode) ? "" : "/" + langCode;
-        window.location.replace(`${langUrlPrefix}/404-page.html`);
-    </script>
-  </head>
-
-  <body>
-    <h1>Page not found</h1>
-  </body>
-</html>
+<style>
+  .aux-nav {
+    display: none;
+  }
+</style>
+<script>
+    const path = window.location.pathname;
+    let langCode = window.location.pathname.split("/").at(1);
+    let altLanguages = {{ site.languages | jsonify }}.slice(1).map(x => x.code);
+    let langUrlPrefix = !langCode || !altLanguages.includes(langCode) ? "" : "/" + langCode;
+    window.location.replace(`${langUrlPrefix}/404-page.html`);
+</script>
+<h1>Page not found</h1>
