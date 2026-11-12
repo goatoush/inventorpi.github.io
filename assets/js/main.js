@@ -31,6 +31,20 @@ const detectUserLanguage = () => {
     }
 }
 
+const replaceLunrTrimmer = () => {
+    if (typeof lunr === 'undefined') return;
+
+    // Replace lunr.trimmer in place before DOMContentLoaded builds the index
+    lunr.trimmer = function (token) {
+        return token.update(function (str) {
+            return str.replace(/^[^\p{L}\p{M}\p{N}]+|[^\p{L}\p{M}\p{N}]+$/gu, '');
+        });
+    };
+
+    // Re-register the updated function name in Lunr's pipeline registry
+    lunr.Pipeline.registerFunction(lunr.trimmer, 'trimmer');
+}
+
 document.addEventListener("DOMContentLoaded", function () {
 
     detectUserLanguage();
@@ -160,5 +174,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 1000);
     }
 
+    replaceLunrTrimmer();
 
 });
