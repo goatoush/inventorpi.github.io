@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: Inventor Pi
 nav_exclude: true
 has_toc: false
 ---
